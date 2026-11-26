@@ -1,0 +1,1476 @@
+{
+ "status": "completed",
+ "held_out": [
+  "female1",
+  "female3",
+  "female9",
+  "male3",
+  "male9"
+ ],
+ "exercises": 50,
+ "excluded_takes": [
+  "data/vocalset_full/FULL/female1/scales/slow_forte/f1_scales_f_slow_forte_a.wav",
+  "data/vocalset_full/FULL/female1/scales/slow_piano/f1_scales_f_slow_piano_a.wav",
+  "data/vocalset_full/FULL/female1/scales/slow_forte/f1_scales_f_slow_forte_e.wav",
+  "data/vocalset_full/FULL/female1/scales/slow_forte/f1_scales_f_slow_forte_o.wav",
+  "data/vocalset_full/FULL/female1/scales/slow_piano/f1_scales_f_slow_piano_o.wav",
+  "data/vocalset_full/FULL/female1/scales/slow_forte/f1_scales_f_slow_forte_u.wav",
+  "data/vocalset_full/FULL/female1/arpeggios/vocal_fry/f1_arpeggios_vocal_fry_a.wav",
+  "data/vocalset_full/FULL/female1/arpeggios/slow_forte/f1_arpeggios_f_slow_forte_a.wav",
+  "data/vocalset_full/FULL/female1/arpeggios/slow_piano/f1_arpeggios_f_slow_piano_a.wav",
+  "data/vocalset_full/FULL/female1/arpeggios/slow_forte/f1_arpeggios_f_slow_forte_e.wav",
+  "data/vocalset_full/FULL/female1/arpeggios/slow_piano/f1_arpeggios_f_slow_piano_e.wav",
+  "data/vocalset_full/FULL/female1/arpeggios/vocal_fry/f1_arpeggios_vocal_fry_o.wav",
+  "data/vocalset_full/FULL/female1/arpeggios/slow_forte/f1_arpeggios_f_slow_forte_o.wav",
+  "data/vocalset_full/FULL/female1/arpeggios/slow_piano/f1_arpeggios_f_slow_piano_o.wav",
+  "data/vocalset_full/FULL/female1/arpeggios/vocal_fry/f1_arpeggios_vocal_fry_u.wav",
+  "data/vocalset_full/FULL/female1/arpeggios/slow_forte/f1_arpeggios_f_slow_forte_u.wav",
+  "data/vocalset_full/FULL/female1/arpeggios/slow_piano/f1_arpeggios_f_slow_piano_u.wav",
+  "data/vocalset_full/FULL/female3/scales/belt/f3_scales_belt_a.wav",
+  "data/vocalset_full/FULL/female3/scales/slow_forte/f3_scales_f_slow_forte_a.wav",
+  "data/vocalset_full/FULL/female3/scales/slow_piano/f3_scales_f_slow_piano_a.wav",
+  "data/vocalset_full/FULL/female3/scales/belt/f3_scales_belt_e.wav",
+  "data/vocalset_full/FULL/female3/scales/belt/f3_scales_belt_o.wav",
+  "data/vocalset_full/FULL/female3/scales/slow_forte/f3_scales_f_slow_forte_o.wav",
+  "data/vocalset_full/FULL/female3/arpeggios/belt/f3_arpeggios_belt_a.wav",
+  "data/vocalset_full/FULL/female3/arpeggios/belt/f3_arpeggios_belt_e.wav",
+  "data/vocalset_full/FULL/female3/arpeggios/belt/f3_arpeggios_belt_i.wav",
+  "data/vocalset_full/FULL/female3/arpeggios/belt/f3_arpeggios_belt_o.wav",
+  "data/vocalset_full/FULL/female3/arpeggios/belt/f3_arpeggios_belt_u.wav",
+  "data/vocalset_full/FULL/female9/scales/slow_forte/f9_scales_f_slow_forte_a.wav",
+  "data/vocalset_full/FULL/female9/scales/slow_piano/f9_scales_f_slow_piano_a.wav",
+  "data/vocalset_full/FULL/female9/scales/slow_forte/f9_scales_f_slow_forte_e.wav",
+  "data/vocalset_full/FULL/female9/scales/slow_piano/f9_scales_f_slow_piano_e.wav",
+  "data/vocalset_full/FULL/female9/scales/slow_forte/f9_scales_f_slow_forte_i.wav",
+  "data/vocalset_full/FULL/female9/scales/slow_piano/f9_scales_f_slow_piano_i.wav",
+  "data/vocalset_full/FULL/female9/scales/slow_forte/f9_scales_c_slow_forte_o.wav",
+  "data/vocalset_full/FULL/female9/scales/slow_forte/f9_scales_f_slow_forte_o.wav",
+  "data/vocalset_full/FULL/female9/scales/slow_forte/f9_scales_c_slow_forte_u.wav",
+  "data/vocalset_full/FULL/female9/scales/slow_forte/f9_scales_f_slow_forte_u.wav",
+  "data/vocalset_full/FULL/female9/scales/slow_piano/f9_scales_f_slow_piano_u.wav",
+  "data/vocalset_full/FULL/female9/arpeggios/slow_piano/f9_arpeggios_f_slow_piano_e.wav",
+  "data/vocalset_full/FULL/female9/arpeggios/slow_piano/f9_arpeggios_f_slow_piano_i.wav",
+  "data/vocalset_full/FULL/female9/arpeggios/vocal_fry/f9_arpeggios_vocal_fry_o.wav",
+  "data/vocalset_full/FULL/female9/arpeggios/slow_forte/f9_arpeggios_f_slow_forte_o.wav",
+  "data/vocalset_full/FULL/female9/arpeggios/slow_forte/f9_arpeggios_f_slow_forte_u.wav",
+  "data/vocalset_full/FULL/female9/arpeggios/slow_piano/f9_arpeggios_f_slow_piano_u.wav",
+  "data/vocalset_full/FULL/male3/scales/slow_piano/m3_scales_f_slow_piano_e.wav",
+  "data/vocalset_full/FULL/male3/scales/slow_forte/m3_scales_f_slow_forte_o.wav",
+  "data/vocalset_full/FULL/male9/arpeggios/belt/m9_arpeggios_belt_e.wav"
+ ],
+ "rows": 6580,
+ "errors": 0,
+ "guidance_errors": [],
+ "convert_minutes": 69.93617633500004,
+ "sanity": {
+  "base_matches_exp04": true
+ },
+ "seed": 20261020,
+ "settings": {
+  "f0_condition": true,
+  "auto_f0_adjust": false,
+  "semi_tone_shift": 0,
+  "length_adjust": 1.0,
+  "diffusion_steps": 30,
+  "inference_cfg_rate": 0.7,
+  "fp16": true
+ },
+ "raw": {
+  "breathy": {
+   "real_straight": {
+    "mean": 6.821579114384711,
+    "n": 50,
+    "per_singer": {
+     "female1": 8.19424817813087,
+     "female3": 5.751478992045984,
+     "female9": 5.48759690503049,
+     "male3": 8.54401379818103,
+     "male9": 6.1305576985351875
+    }
+   },
+   "real_straight_oracleeq": {
+    "mean": 5.231577186402827,
+    "n": 50,
+    "per_singer": {
+     "female1": 5.95205108575993,
+     "female3": 4.744480766135745,
+     "female9": 4.597973672902426,
+     "male3": 5.896806785992159,
+     "male9": 4.966573621223874
+    }
+   },
+   "base": {
+    "mean": 7.963933800920914,
+    "n": 50,
+    "per_singer": {
+     "female1": 9.894022322045632,
+     "female3": 6.936173058694574,
+     "female9": 7.75984721447787,
+     "male3": 8.280859739649795,
+     "male9": 6.948766669736697
+    }
+   },
+   "static_bound": {
+    "mean": 5.873342904025305,
+    "n": 50,
+    "per_singer": {
+     "female1": 6.786505816086626,
+     "female3": 5.271901573803397,
+     "female9": 5.896100557749645,
+     "male3": 5.883524736829007,
+     "male9": 5.528681835657854
+    }
+   },
+   "adapter_a1": {
+    "mean": 7.22340557937058,
+    "n": 50,
+    "per_singer": {
+     "female1": 6.720178638679132,
+     "female3": 7.060811459626498,
+     "female9": 7.1133561362928415,
+     "male3": 7.736710387813116,
+     "male9": 7.485971274441313
+    }
+   },
+   "adapter_a0.5": {
+    "mean": 7.226927920548567,
+    "n": 50,
+    "per_singer": {
+     "female1": 7.899176509060723,
+     "female3": 6.535511345759332,
+     "female9": 7.200883376365818,
+     "male3": 7.761159600240468,
+     "male9": 6.737908771316486
+    }
+   },
+   "eqmatch": {
+    "mean": 7.510514190421259,
+    "n": 50,
+    "per_singer": {
+     "female1": 7.447902567881004,
+     "female3": 7.235198230110005,
+     "female9": 7.580966140222555,
+     "male3": 7.987319370669715,
+     "male9": 7.301184643223015
+    }
+   },
+   "oracleeq": {
+    "mean": 6.311978225151463,
+    "n": 50,
+    "per_singer": {
+     "female1": 7.375030498962646,
+     "female3": 5.531136017713276,
+     "female9": 6.439593407890537,
+     "male3": 6.580655361367443,
+     "male9": 5.633475839823413
+    }
+   },
+   "guidance": {
+    "mean": 8.536765639787372,
+    "n": 5,
+    "per_singer": {
+     "female1": 7.582904437160469,
+     "female3": 7.14757892632395,
+     "female9": 9.330494619716621,
+     "male3": 10.727309740106266,
+     "male9": 7.89554047562956
+    }
+   },
+   "carried": {
+    "mean": 7.220698004184968,
+    "n": 50,
+    "per_singer": {
+     "female1": 8.932926344358503,
+     "female3": 6.6648653682490835,
+     "female9": 7.038398196086112,
+     "male3": 7.416964300333289,
+     "male9": 6.050335811897852
+    }
+   },
+   "adapter_wrong_labels": {
+    "mean": 8.950238941767843,
+    "n": 50,
+    "per_singer": {
+     "female1": 9.777493243452469,
+     "female3": 8.206102135243743,
+     "female9": 8.37777359399412,
+     "male3": 8.917610946008077,
+     "male9": 9.472214790140802
+    }
+   }
+  },
+  "belt": {
+   "real_straight": {
+    "mean": 8.777509550923076,
+    "n": 41,
+    "per_singer": {
+     "female1": 6.00074202826146,
+     "female3": 6.290814044520472,
+     "female9": 9.287114834815938,
+     "male3": 7.671781658343403,
+     "male9": 13.077764253844133
+    }
+   },
+   "real_straight_oracleeq": {
+    "mean": 7.257044013624352,
+    "n": 41,
+    "per_singer": {
+     "female1": 5.262016685586336,
+     "female3": 5.53731371812597,
+     "female9": 6.55192992199442,
+     "male3": 6.102001730645027,
+     "male9": 11.922743748898741
+    }
+   },
+   "base": {
+    "mean": 10.49522414164447,
+    "n": 41,
+    "per_singer": {
+     "female1": 7.515247137814701,
+     "female3": 9.464039438572678,
+     "female9": 9.979448228152107,
+     "male3": 10.54866763971017,
+     "male9": 14.549164541500906
+    }
+   },
+   "static_bound": {
+    "mean": 7.108500160619435,
+    "n": 41,
+    "per_singer": {
+     "female1": 6.0550258950644515,
+     "female3": 5.878039518566475,
+     "female9": 6.334923028478363,
+     "male3": 5.7369508820852895,
+     "male9": 10.935936610220322
+    }
+   },
+   "adapter_a1": {
+    "mean": 9.324668637202354,
+    "n": 41,
+    "per_singer": {
+     "female1": 7.968143318463582,
+     "female3": 7.194447140630166,
+     "female9": 7.629569630597004,
+     "male3": 7.665909681778321,
+     "male9": 15.031810392849678
+    }
+   },
+   "adapter_a0.5": {
+    "mean": 9.483725715910332,
+    "n": 41,
+    "per_singer": {
+     "female1": 7.6271659891059045,
+     "female3": 7.388203704010511,
+     "female9": 8.180166037146126,
+     "male3": 8.679867241716071,
+     "male9": 14.353817140513506
+    }
+   },
+   "eqmatch": {
+    "mean": 9.496107689178594,
+    "n": 41,
+    "per_singer": {
+     "female1": 8.101096065156547,
+     "female3": 7.578879033813518,
+     "female9": 7.863586313749245,
+     "male3": 7.900836931481602,
+     "male9": 15.0586071205357
+    }
+   },
+   "oracleeq": {
+    "mean": 7.823197895470766,
+    "n": 41,
+    "per_singer": {
+     "female1": 6.413307409819405,
+     "female3": 6.610585194506156,
+     "female9": 6.921875740932757,
+     "male3": 6.512500436882041,
+     "male9": 12.117011938771899
+    }
+   },
+   "guidance": {
+    "mean": 11.020741195108888,
+    "n": 4,
+    "per_singer": {
+     "female1": 8.230385009563255,
+     "female9": 9.792866374743886,
+     "male3": 10.180211073458919,
+     "male9": 15.879502322669493
+    }
+   },
+   "carried": {
+    "mean": 8.495866440027172,
+    "n": 41,
+    "per_singer": {
+     "female1": 6.648774058760182,
+     "female3": 8.82749822465577,
+     "female9": 7.223080326518668,
+     "male3": 8.975208789385437,
+     "male9": 11.356099538351064
+    }
+   },
+   "adapter_wrong_labels": {
+    "mean": 10.746817926815044,
+    "n": 41,
+    "per_singer": {
+     "female1": 8.12395700438691,
+     "female3": 9.290517254456399,
+     "female9": 10.642961862922325,
+     "male3": 11.105095559115991,
+     "male9": 13.702039580694638
+    }
+   }
+  },
+  "vocal_fry": {
+   "real_straight": {
+    "mean": 11.384895409213147,
+    "n": 46,
+    "per_singer": {
+     "female1": 10.341568565100989,
+     "female3": 12.192649865749958,
+     "female9": 11.337835810796555,
+     "male3": 9.993430346940043,
+     "male9": 12.741288444402887
+    }
+   },
+   "real_straight_oracleeq": {
+    "mean": 9.946147394018885,
+    "n": 46,
+    "per_singer": {
+     "female1": 8.285631193633604,
+     "female3": 10.900224666416884,
+     "female9": 10.666041976845811,
+     "male3": 7.4865887352835045,
+     "male9": 11.966084996081744
+    }
+   },
+   "base": {
+    "mean": 12.302500427093625,
+    "n": 46,
+    "per_singer": {
+     "female1": 11.722776323797989,
+     "female3": 13.217154794531961,
+     "female9": 13.662958416334817,
+     "male3": 8.916590525816762,
+     "male9": 13.955150642922025
+    }
+   },
+   "static_bound": {
+    "mean": 9.39763714986288,
+    "n": 46,
+    "per_singer": {
+     "female1": 8.397940868490316,
+     "female3": 10.385821396427907,
+     "female9": 10.73543536927889,
+     "male3": 6.379275328151553,
+     "male9": 10.923583724495575
+    }
+   },
+   "adapter_a1": {
+    "mean": 10.826205563541999,
+    "n": 46,
+    "per_singer": {
+     "female1": 10.031105952405122,
+     "female3": 10.602043404966873,
+     "female9": 11.52605820025595,
+     "male3": 8.976089919036479,
+     "male9": 12.827185721375898
+    }
+   },
+   "adapter_a0.5": {
+    "mean": 11.86771548819679,
+    "n": 46,
+    "per_singer": {
+     "female1": 11.115987196723975,
+     "female3": 12.318120257727747,
+     "female9": 13.124952087844417,
+     "male3": 9.121770287060663,
+     "male9": 13.557952784150057
+    }
+   },
+   "eqmatch": {
+    "mean": 11.992850551889445,
+    "n": 46,
+    "per_singer": {
+     "female1": 10.23561176008231,
+     "female3": 12.636149006207326,
+     "female9": 13.028169087170676,
+     "male3": 9.718534858322146,
+     "male9": 13.922148263650746
+    }
+   },
+   "oracleeq": {
+    "mean": 10.553506258628486,
+    "n": 46,
+    "per_singer": {
+     "female1": 9.372209888394792,
+     "female3": 11.683345936245038,
+     "female9": 11.905181031809743,
+     "male3": 7.739896218926262,
+     "male9": 11.84767678401462
+    }
+   },
+   "guidance": {
+    "mean": 14.284065407135401,
+    "n": 5,
+    "per_singer": {
+     "female1": 13.242360583799007,
+     "female3": 14.228171169369284,
+     "female9": 17.107707246966086,
+     "male3": 10.40253436703323,
+     "male9": 16.439553668509404
+    }
+   },
+   "carried": {
+    "mean": 9.569866626054031,
+    "n": 46,
+    "per_singer": {
+     "female1": 8.495250576141562,
+     "female3": 10.139858444436559,
+     "female9": 9.865042950875079,
+     "male3": 8.652515321314327,
+     "male9": 10.403798655010982
+    }
+   },
+   "adapter_wrong_labels": {
+    "mean": 12.525273423140064,
+    "n": 46,
+    "per_singer": {
+     "female1": 11.439901368853153,
+     "female3": 13.602627283737704,
+     "female9": 13.38985341334725,
+     "male3": 9.815992177181299,
+     "male9": 14.138839255315585
+    }
+   }
+  },
+  "forte": {
+   "real_straight": {
+    "mean": 6.017185109671975,
+    "n": 48,
+    "per_singer": {
+     "female1": 5.805659503005662,
+     "female3": 6.509703397045085,
+     "female9": 7.7671738472708345,
+     "male3": 5.369128724934315,
+     "male9": 4.984257823623753
+    }
+   },
+   "real_straight_oracleeq": {
+    "mean": 5.348877466645386,
+    "n": 48,
+    "per_singer": {
+     "female1": 5.630127735033563,
+     "female3": 5.838871863466707,
+     "female9": 6.3001060500228245,
+     "male3": 4.5413503317487764,
+     "male9": 4.62417706963055
+    }
+   },
+   "base": {
+    "mean": 8.058826107299984,
+    "n": 48,
+    "per_singer": {
+     "female1": 7.833485453857631,
+     "female3": 7.543285005160547,
+     "female9": 9.250163393744675,
+     "male3": 8.853913460442959,
+     "male9": 7.051550680583048
+    }
+   },
+   "static_bound": {
+    "mean": 5.956533157403103,
+    "n": 48,
+    "per_singer": {
+     "female1": 6.553797595161555,
+     "female3": 6.077982882630111,
+     "female9": 6.810596857634954,
+     "male3": 5.364007157689263,
+     "male9": 5.147094033946003
+    }
+   },
+   "adapter_a1": {
+    "mean": 7.3746740204529155,
+    "n": 48,
+    "per_singer": {
+     "female1": 6.656607507695543,
+     "female3": 6.942693529820765,
+     "female9": 7.942738089355393,
+     "male3": 7.87070816069685,
+     "male9": 7.574235628476522
+    }
+   },
+   "adapter_a0.5": {
+    "mean": 7.36825646700975,
+    "n": 48,
+    "per_singer": {
+     "female1": 7.414558696784852,
+     "female3": 6.927650627003527,
+     "female9": 8.3590312023751,
+     "male3": 7.945325099402451,
+     "male9": 6.392871656555888
+    }
+   },
+   "eqmatch": {
+    "mean": 7.624652026369802,
+    "n": 48,
+    "per_singer": {
+     "female1": 7.611536541926734,
+     "female3": 7.3828342951649475,
+     "female9": 8.236814145430438,
+     "male3": 7.863945531552058,
+     "male9": 7.1505620415869515
+    }
+   },
+   "oracleeq": {
+    "mean": 6.360680311506619,
+    "n": 48,
+    "per_singer": {
+     "female1": 6.68912413315434,
+     "female3": 6.489900789512499,
+     "female9": 7.329025497026617,
+     "male3": 6.096397782880984,
+     "male9": 5.392622392062652
+    }
+   },
+   "guidance": {
+    "mean": 8.292607502953064,
+    "n": 5,
+    "per_singer": {
+     "female1": 9.345814389916363,
+     "female3": 7.70409082925197,
+     "female9": 10.195150008165388,
+     "male3": 6.954762084448913,
+     "male9": 7.26322020298268
+    }
+   },
+   "carried": {
+    "mean": 6.838613121779734,
+    "n": 48,
+    "per_singer": {
+     "female1": 6.745333873820444,
+     "female3": 6.15582948820892,
+     "female9": 6.877495638677372,
+     "male3": 8.2928542800479,
+     "male9": 6.129328831523568
+    }
+   },
+   "adapter_wrong_labels": {
+    "mean": 9.050304392458534,
+    "n": 48,
+    "per_singer": {
+     "female1": 8.290313801115419,
+     "female3": 9.128428130980483,
+     "female9": 9.752138495878931,
+     "male3": 9.448428488573787,
+     "male9": 8.772579866428122
+    }
+   }
+  },
+  "piano": {
+   "real_straight": {
+    "mean": 5.839606832173693,
+    "n": 50,
+    "per_singer": {
+     "female1": 5.168299192249567,
+     "female3": 6.13711715706465,
+     "female9": 5.495774068882932,
+     "male3": 7.218648369238899,
+     "male9": 5.178195373432418
+    }
+   },
+   "real_straight_oracleeq": {
+    "mean": 5.052813610368758,
+    "n": 50,
+    "per_singer": {
+     "female1": 4.84847319143077,
+     "female3": 5.574552680293581,
+     "female9": 5.341151845744092,
+     "male3": 5.250805645626847,
+     "male9": 4.249084688748502
+    }
+   },
+   "base": {
+    "mean": 7.5173128446924,
+    "n": 50,
+    "per_singer": {
+     "female1": 7.9032529622302246,
+     "female3": 7.129956468066686,
+     "female9": 8.116632279102546,
+     "male3": 7.644688977469937,
+     "male9": 6.792033536592602
+    }
+   },
+   "static_bound": {
+    "mean": 5.9212605930898805,
+    "n": 50,
+    "per_singer": {
+     "female1": 6.3721956485622675,
+     "female3": 5.98534847120757,
+     "female9": 6.458859512049337,
+     "male3": 5.603497202146917,
+     "male9": 5.186402131483312
+    }
+   },
+   "adapter_a1": {
+    "mean": 6.871071171296814,
+    "n": 50,
+    "per_singer": {
+     "female1": 6.309408797173214,
+     "female3": 6.936602326089111,
+     "female9": 7.185581799731875,
+     "male3": 7.6924921321133155,
+     "male9": 6.231270801376554
+    }
+   },
+   "adapter_a0.5": {
+    "mean": 6.942555762935716,
+    "n": 50,
+    "per_singer": {
+     "female1": 6.97442503291659,
+     "female3": 6.808011876162017,
+     "female9": 7.49700609049242,
+     "male3": 7.310393662548303,
+     "male9": 6.1229421525592445
+    }
+   },
+   "eqmatch": {
+    "mean": 7.060218970781147,
+    "n": 50,
+    "per_singer": {
+     "female1": 6.854637875577796,
+     "female3": 6.972917319413414,
+     "female9": 7.41320207697072,
+     "male3": 7.67742711388333,
+     "male9": 6.382910468060473
+    }
+   },
+   "oracleeq": {
+    "mean": 6.014483968349196,
+    "n": 50,
+    "per_singer": {
+     "female1": 6.074744532903441,
+     "female3": 6.169707636050335,
+     "female9": 6.578460242197667,
+     "male3": 6.050627412275523,
+     "male9": 5.198880018319012
+    }
+   },
+   "guidance": {
+    "mean": 8.01736896448591,
+    "n": 5,
+    "per_singer": {
+     "female1": 8.468089178882428,
+     "female3": 8.078081363225378,
+     "female9": 8.368488386848187,
+     "male3": 8.923584402330922,
+     "male9": 6.2486014911426295
+    }
+   },
+   "carried": {
+    "mean": 6.569061189659894,
+    "n": 50,
+    "per_singer": {
+     "female1": 6.7079275007261625,
+     "female3": 5.610220827160498,
+     "female9": 7.06773123696149,
+     "male3": 7.2270555478875576,
+     "male9": 6.232370835563764
+    }
+   },
+   "adapter_wrong_labels": {
+    "mean": 8.83688456222407,
+    "n": 50,
+    "per_singer": {
+     "female1": 8.247351240634481,
+     "female3": 8.858529530567452,
+     "female9": 8.879322323229971,
+     "male3": 8.630010724329486,
+     "male9": 9.569208992358949
+    }
+   }
+  }
+ },
+ "cmn": {
+  "breathy": {
+   "real_straight": {
+    "mean": 4.935886862290614,
+    "n": 50,
+    "per_singer": {
+     "female1": 5.468534903753865,
+     "female3": 4.521803984888157,
+     "female9": 4.283113349928657,
+     "male3": 5.5399693645269945,
+     "male9": 4.866012708355401
+    }
+   },
+   "real_straight_oracleeq": {
+    "mean": 4.770885310297595,
+    "n": 50,
+    "per_singer": {
+     "female1": 5.254097043380598,
+     "female3": 4.382904718886664,
+     "female9": 4.228494239303642,
+     "male3": 5.3474522084120295,
+     "male9": 4.641478341505047
+    }
+   },
+   "base": {
+    "mean": 5.873342904025305,
+    "n": 50,
+    "per_singer": {
+     "female1": 6.786505816086626,
+     "female3": 5.271901573803397,
+     "female9": 5.896100557749645,
+     "male3": 5.883524736829007,
+     "male9": 5.528681835657854
+    }
+   },
+   "static_bound": {
+    "mean": 5.873342904025305,
+    "n": 50,
+    "per_singer": {
+     "female1": 6.786505816086626,
+     "female3": 5.271901573803397,
+     "female9": 5.896100557749645,
+     "male3": 5.883524736829007,
+     "male9": 5.528681835657854
+    }
+   },
+   "adapter_a1": {
+    "mean": 5.270182134060316,
+    "n": 50,
+    "per_singer": {
+     "female1": 5.328402952984452,
+     "female3": 5.06719359211258,
+     "female9": 5.163946057510521,
+     "male3": 5.460691440107446,
+     "male9": 5.330676627586581
+    }
+   },
+   "adapter_a0.5": {
+    "mean": 5.464098946766862,
+    "n": 50,
+    "per_singer": {
+     "female1": 6.074797365645052,
+     "female3": 4.942132393208995,
+     "female9": 5.396194818353301,
+     "male3": 5.696655722661522,
+     "male9": 5.210714433965444
+    }
+   },
+   "eqmatch": {
+    "mean": 5.637128673110976,
+    "n": 50,
+    "per_singer": {
+     "female1": 6.11739656017594,
+     "female3": 5.090018685583511,
+     "female9": 5.586416696488647,
+     "male3": 5.852809201279706,
+     "male9": 5.5390022220270785
+    }
+   },
+   "oracleeq": {
+    "mean": 5.644436251131416,
+    "n": 50,
+    "per_singer": {
+     "female1": 6.304115821046332,
+     "female3": 5.09443052225406,
+     "female9": 5.812762387638374,
+     "male3": 5.775473331898169,
+     "male9": 5.235399192820142
+    }
+   },
+   "guidance": {
+    "mean": 5.642575275882089,
+    "n": 5,
+    "per_singer": {
+     "female1": 5.621265026156098,
+     "female3": 4.8845875738075355,
+     "female9": 6.516990969164127,
+     "male3": 5.922807085400174,
+     "male9": 5.267225724882511
+    }
+   },
+   "carried": {
+    "mean": 5.221810730715845,
+    "n": 50,
+    "per_singer": {
+     "female1": 6.201063138125123,
+     "female3": 4.825203970239507,
+     "female9": 5.494424465418342,
+     "male3": 4.860279387288662,
+     "male9": 4.728082692507594
+    }
+   },
+   "adapter_wrong_labels": {
+    "mean": 6.129252936939731,
+    "n": 50,
+    "per_singer": {
+     "female1": 6.694697174583796,
+     "female3": 5.9211726337140975,
+     "female9": 6.024091075302907,
+     "male3": 5.813998089316479,
+     "male9": 6.192305711781375
+    }
+   }
+  },
+  "belt": {
+   "real_straight": {
+    "mean": 6.444399375204339,
+    "n": 41,
+    "per_singer": {
+     "female1": 4.995840294083469,
+     "female3": 4.94410306512993,
+     "female9": 5.732457315759548,
+     "male3": 4.976907701225786,
+     "male9": 10.808901682492229
+    }
+   },
+   "real_straight_oracleeq": {
+    "mean": 6.326620755671993,
+    "n": 41,
+    "per_singer": {
+     "female1": 4.92342457460068,
+     "female3": 4.959102519111471,
+     "female9": 5.590084711126343,
+     "male3": 4.931642571863037,
+     "male9": 10.557969707603124
+    }
+   },
+   "base": {
+    "mean": 7.108500160619435,
+    "n": 41,
+    "per_singer": {
+     "female1": 6.0550258950644515,
+     "female3": 5.878039518566475,
+     "female9": 6.334923028478363,
+     "male3": 5.7369508820852895,
+     "male9": 10.935936610220322
+    }
+   },
+   "static_bound": {
+    "mean": 7.108500160619435,
+    "n": 41,
+    "per_singer": {
+     "female1": 6.0550258950644515,
+     "female3": 5.878039518566475,
+     "female9": 6.334923028478363,
+     "male3": 5.7369508820852895,
+     "male9": 10.935936610220322
+    }
+   },
+   "adapter_a1": {
+    "mean": 6.880177629623975,
+    "n": 41,
+    "per_singer": {
+     "female1": 5.978363606774618,
+     "female3": 5.569669509857037,
+     "female9": 5.930539123804538,
+     "male3": 5.326917627648999,
+     "male9": 10.954415579176366
+    }
+   },
+   "adapter_a0.5": {
+    "mean": 6.968291141614267,
+    "n": 41,
+    "per_singer": {
+     "female1": 6.037449896552989,
+     "female3": 5.517544696907784,
+     "female9": 6.081056726594052,
+     "male3": 5.449575674706201,
+     "male9": 10.998224937092992
+    }
+   },
+   "eqmatch": {
+    "mean": 7.023069102563422,
+    "n": 41,
+    "per_singer": {
+     "female1": 6.135857639646902,
+     "female3": 5.661698169439632,
+     "female9": 6.189022013355448,
+     "male3": 5.5479880483673485,
+     "male9": 10.877084428058227
+    }
+   },
+   "oracleeq": {
+    "mean": 6.863133027240908,
+    "n": 41,
+    "per_singer": {
+     "female1": 5.841352209016015,
+     "female3": 5.424323678909738,
+     "female9": 6.155426413378978,
+     "male3": 5.446177367715131,
+     "male9": 10.678916317550723
+    }
+   },
+   "guidance": {
+    "mean": 7.513454736342462,
+    "n": 4,
+    "per_singer": {
+     "female1": 5.5103411199793255,
+     "female9": 7.296055331801664,
+     "male3": 6.294850646004452,
+     "male9": 10.952571847584407
+    }
+   },
+   "carried": {
+    "mean": 5.235737496501841,
+    "n": 41,
+    "per_singer": {
+     "female1": 5.109990162157307,
+     "female3": 5.484368964164369,
+     "female9": 5.194249783371307,
+     "male3": 4.853645617945124,
+     "male9": 5.790849310389929
+    }
+   },
+   "adapter_wrong_labels": {
+    "mean": 7.116934415569434,
+    "n": 41,
+    "per_singer": {
+     "female1": 6.143473971874693,
+     "female3": 6.268426518788212,
+     "female9": 6.808175780538302,
+     "male3": 5.9287926856030095,
+     "male9": 10.050337068956711
+    }
+   }
+  },
+  "vocal_fry": {
+   "real_straight": {
+    "mean": 8.72952763585426,
+    "n": 46,
+    "per_singer": {
+     "female1": 7.3106442614320315,
+     "female3": 9.670422991199187,
+     "female9": 9.569273175729798,
+     "male3": 6.001223842916671,
+     "male9": 10.754383449654497
+    }
+   },
+   "real_straight_oracleeq": {
+    "mean": 8.431253643161543,
+    "n": 46,
+    "per_singer": {
+     "female1": 6.894864677263866,
+     "female3": 9.322936520736572,
+     "female9": 9.381479991613574,
+     "male3": 5.7402588271078,
+     "male9": 10.450834144161803
+    }
+   },
+   "base": {
+    "mean": 9.39763714986288,
+    "n": 46,
+    "per_singer": {
+     "female1": 8.397940868490316,
+     "female3": 10.385821396427907,
+     "female9": 10.73543536927889,
+     "male3": 6.379275328151553,
+     "male9": 10.923583724495575
+    }
+   },
+   "static_bound": {
+    "mean": 9.39763714986288,
+    "n": 46,
+    "per_singer": {
+     "female1": 8.397940868490316,
+     "female3": 10.385821396427907,
+     "female9": 10.73543536927889,
+     "male3": 6.379275328151553,
+     "male9": 10.923583724495575
+    }
+   },
+   "adapter_a1": {
+    "mean": 7.872611619352874,
+    "n": 46,
+    "per_singer": {
+     "female1": 7.652932594876652,
+     "female3": 8.166952315387432,
+     "female9": 8.854327466949094,
+     "male3": 5.390392791008303,
+     "male9": 9.330720805959645
+    }
+   },
+   "adapter_a0.5": {
+    "mean": 8.97757018012445,
+    "n": 46,
+    "per_singer": {
+     "female1": 8.163790711896153,
+     "female3": 9.736298253377774,
+     "female9": 10.220490688321068,
+     "male3": 6.243951607374359,
+     "male9": 10.403477850004066
+    }
+   },
+   "eqmatch": {
+    "mean": 9.022726967641374,
+    "n": 46,
+    "per_singer": {
+     "female1": 7.819990463674769,
+     "female3": 9.857296972908587,
+     "female9": 10.294890639692149,
+     "male3": 6.184550047007553,
+     "male9": 10.723302130938915
+    }
+   },
+   "oracleeq": {
+    "mean": 8.999777277792411,
+    "n": 46,
+    "per_singer": {
+     "female1": 7.63608515232564,
+     "female3": 9.854538966495406,
+     "female9": 10.43861968665129,
+     "male3": 6.203565524999802,
+     "male9": 10.600853661735778
+    }
+   },
+   "guidance": {
+    "mean": 9.959802184346888,
+    "n": 5,
+    "per_singer": {
+     "female1": 8.438228461570246,
+     "female3": 10.1703359258709,
+     "female9": 12.517781102156269,
+     "male3": 7.234433816733924,
+     "male9": 11.438231615403106
+    }
+   },
+   "carried": {
+    "mean": 6.321937053033757,
+    "n": 46,
+    "per_singer": {
+     "female1": 6.099672537806329,
+     "female3": 7.591526165369183,
+     "female9": 7.284427980934846,
+     "male3": 4.866817789135257,
+     "male9": 5.796810530145051
+    }
+   },
+   "adapter_wrong_labels": {
+    "mean": 8.939351641007113,
+    "n": 46,
+    "per_singer": {
+     "female1": 7.767494253569299,
+     "female3": 9.825627785509027,
+     "female9": 10.243975580753697,
+     "male3": 6.223736096748804,
+     "male9": 10.414829666198063
+    }
+   }
+  },
+  "forte": {
+   "real_straight": {
+    "mean": 5.057713511544089,
+    "n": 48,
+    "per_singer": {
+     "female1": 5.301185900898008,
+     "female3": 5.540914424482884,
+     "female9": 5.97464709431158,
+     "male3": 4.288930483926299,
+     "male9": 4.366276370655173
+    }
+   },
+   "real_straight_oracleeq": {
+    "mean": 5.006169679064275,
+    "n": 48,
+    "per_singer": {
+     "female1": 5.240802470779261,
+     "female3": 5.451133534633785,
+     "female9": 5.897112004962592,
+     "male3": 4.243671849964066,
+     "male9": 4.376317000161333
+    }
+   },
+   "base": {
+    "mean": 5.956533157403103,
+    "n": 48,
+    "per_singer": {
+     "female1": 6.553797595161555,
+     "female3": 6.077982882630111,
+     "female9": 6.810596857634954,
+     "male3": 5.364007157689263,
+     "male9": 5.147094033946003
+    }
+   },
+   "static_bound": {
+    "mean": 5.956533157403103,
+    "n": 48,
+    "per_singer": {
+     "female1": 6.553797595161555,
+     "female3": 6.077982882630111,
+     "female9": 6.810596857634954,
+     "male3": 5.364007157689263,
+     "male9": 5.147094033946003
+    }
+   },
+   "adapter_a1": {
+    "mean": 5.719953700938096,
+    "n": 48,
+    "per_singer": {
+     "female1": 5.588395350027716,
+     "female3": 5.731519735536688,
+     "female9": 6.401262399094516,
+     "male3": 5.301742488500044,
+     "male9": 5.713110271162804
+    }
+   },
+   "adapter_a0.5": {
+    "mean": 5.814310376814202,
+    "n": 48,
+    "per_singer": {
+     "female1": 6.271727941712521,
+     "female3": 5.907986767698172,
+     "female9": 6.666023191290886,
+     "male3": 5.19050760632235,
+     "male9": 5.2056489399424155
+    }
+   },
+   "eqmatch": {
+    "mean": 5.954771931046072,
+    "n": 48,
+    "per_singer": {
+     "female1": 6.381040221236775,
+     "female3": 6.109772012241571,
+     "female9": 6.755581719043766,
+     "male3": 5.30789458675674,
+     "male9": 5.379733073551053
+    }
+   },
+   "oracleeq": {
+    "mean": 5.773538313410531,
+    "n": 48,
+    "per_singer": {
+     "female1": 6.1433729705572535,
+     "female3": 5.981049296682377,
+     "female9": 6.776783340050613,
+     "male3": 5.195247050358673,
+     "male9": 4.971887914731752
+    }
+   },
+   "guidance": {
+    "mean": 6.385924587891505,
+    "n": 5,
+    "per_singer": {
+     "female1": 7.201982190509605,
+     "female3": 6.191764482340424,
+     "female9": 7.565991176798086,
+     "male3": 5.325650469008826,
+     "male9": 5.644234620800584
+    }
+   },
+   "carried": {
+    "mean": 4.829006033845731,
+    "n": 48,
+    "per_singer": {
+     "female1": 5.1123890201266295,
+     "female3": 4.66739954541954,
+     "female9": 5.019466285243747,
+     "male3": 4.840201317190553,
+     "male9": 4.543666051527788
+    }
+   },
+   "adapter_wrong_labels": {
+    "mean": 6.212182191597873,
+    "n": 48,
+    "per_singer": {
+     "female1": 6.2387623055882155,
+     "female3": 6.551233190865723,
+     "female9": 6.92121225267247,
+     "male3": 5.391085037619433,
+     "male9": 6.100424183458442
+    }
+   }
+  },
+  "piano": {
+   "real_straight": {
+    "mean": 4.900606785038096,
+    "n": 50,
+    "per_singer": {
+     "female1": 4.818340714423566,
+     "female3": 5.4710309272107835,
+     "female9": 5.028002112778431,
+     "male3": 4.892362562386352,
+     "male9": 4.293297608391346
+    }
+   },
+   "real_straight_oracleeq": {
+    "mean": 4.719992694980133,
+    "n": 50,
+    "per_singer": {
+     "female1": 4.629891896639625,
+     "female3": 5.283131865587862,
+     "female9": 4.929063299810274,
+     "male3": 4.729928016504227,
+     "male9": 4.027948396358682
+    }
+   },
+   "base": {
+    "mean": 5.9212605930898805,
+    "n": 50,
+    "per_singer": {
+     "female1": 6.3721956485622675,
+     "female3": 5.98534847120757,
+     "female9": 6.458859512049337,
+     "male3": 5.603497202146917,
+     "male9": 5.186402131483312
+    }
+   },
+   "static_bound": {
+    "mean": 5.9212605930898805,
+    "n": 50,
+    "per_singer": {
+     "female1": 6.3721956485622675,
+     "female3": 5.98534847120757,
+     "female9": 6.458859512049337,
+     "male3": 5.603497202146917,
+     "male9": 5.186402131483312
+    }
+   },
+   "adapter_a1": {
+    "mean": 5.426119197314042,
+    "n": 50,
+    "per_singer": {
+     "female1": 5.294994382438176,
+     "female3": 5.703556851247614,
+     "female9": 5.812409726900382,
+     "male3": 5.5394335523070675,
+     "male9": 4.780201473676966
+    }
+   },
+   "adapter_a0.5": {
+    "mean": 5.613862278511148,
+    "n": 50,
+    "per_singer": {
+     "female1": 5.810967926711386,
+     "female3": 5.7805958667607475,
+     "female9": 6.108712312218162,
+     "male3": 5.530185137341382,
+     "male9": 4.8388501495240615
+    }
+   },
+   "eqmatch": {
+    "mean": 5.619020861462607,
+    "n": 50,
+    "per_singer": {
+     "female1": 5.81484913698853,
+     "female3": 5.831205757930606,
+     "female9": 6.0131619195287564,
+     "male3": 5.5612395345699355,
+     "male9": 4.8746479582952045
+    }
+   },
+   "oracleeq": {
+    "mean": 5.556069492898334,
+    "n": 50,
+    "per_singer": {
+     "female1": 5.670812663738732,
+     "female3": 5.823775142870547,
+     "female9": 6.1096445575115705,
+     "male3": 5.403726039440772,
+     "male9": 4.772389060930044
+    }
+   },
+   "guidance": {
+    "mean": 5.850219144044021,
+    "n": 5,
+    "per_singer": {
+     "female1": 6.112966044461611,
+     "female3": 5.924879073977468,
+     "female9": 6.830930174093674,
+     "male3": 6.021556464509058,
+     "male9": 4.360763963178297
+    }
+   },
+   "carried": {
+    "mean": 4.886683639178845,
+    "n": 50,
+    "per_singer": {
+     "female1": 5.134677190788211,
+     "female3": 4.4425125210497445,
+     "female9": 5.240057073635067,
+     "male3": 4.94042467450289,
+     "male9": 4.675746735918308
+    }
+   },
+   "adapter_wrong_labels": {
+    "mean": 6.170725672830663,
+    "n": 50,
+    "per_singer": {
+     "female1": 6.236817875113423,
+     "female3": 6.502058989246786,
+     "female9": 6.4672327984487294,
+     "male3": 5.5665847046988715,
+     "male9": 6.080933996645506
+    }
+   }
+  }
+ },
+ "label_confusion": {
+  "d_raw": {
+   "mean_distance": {
+    "breathy": {
+     "breathy": 7.22340557937058,
+     "belt": 10.199451703282138,
+     "vocal_fry": 8.754184361514403,
+     "forte": 9.111257051413773,
+     "piano": 7.736062650861056
+    },
+    "belt": {
+     "breathy": 11.202299689058897,
+     "belt": 9.324668637202354,
+     "vocal_fry": 11.633834521940031,
+     "forte": 9.544687876243476,
+     "piano": 10.606449620017768
+    },
+    "vocal_fry": {
+     "breathy": 11.713716424033251,
+     "belt": 13.937963813246673,
+     "vocal_fry": 10.826205563541999,
+     "forte": 12.688227476345123,
+     "piano": 11.761185978935233
+    },
+    "forte": {
+     "breathy": 9.27639436942084,
+     "belt": 8.82245605219431,
+     "vocal_fry": 10.237519365330703,
+     "forte": 7.3746740204529155,
+     "piano": 7.864847782888276
+    },
+    "piano": {
+     "breathy": 7.888884613735557,
+     "belt": 10.151851692425224,
+     "vocal_fry": 9.093375460372322,
+     "forte": 8.213426482363172,
+     "piano": 6.871071171296814
+    }
+   },
+   "closest_label_counts": {
+    "breathy": {
+     "breathy": 36,
+     "belt": 0,
+     "vocal_fry": 0,
+     "forte": 0,
+     "piano": 14,
+     "n": 50
+    },
+    "belt": {
+     "breathy": 0,
+     "belt": 24,
+     "vocal_fry": 2,
+     "forte": 10,
+     "piano": 5,
+     "n": 41
+    },
+    "vocal_fry": {
+     "breathy": 4,
+     "belt": 0,
+     "vocal_fry": 31,
+     "forte": 1,
+     "piano": 10,
+     "n": 46
+    },
+    "forte": {
+     "breathy": 0,
+     "belt": 9,
+     "vocal_fry": 0,
+     "forte": 25,
+     "piano": 14,
+     "n": 48
+    },
+    "piano": {
+     "breathy": 5,
+     "belt": 0,
+     "vocal_fry": 1,
+     "forte": 5,
+     "piano": 39,
+     "n": 50
+    }
+   }
+  },
+  "d_cmn": {
+   "mean_distance": {
+    "breathy": {
+     "breathy": 5.270182134060316,
+     "belt": 6.081704662105674,
+     "vocal_fry": 6.609326827817328,
+     "forte": 6.083857790754373,
+     "piano": 5.742122467081549
+    },
+    "belt": {
+     "breathy": 6.803909498190565,
+     "belt": 6.880177629623975,
+     "vocal_fry": 7.38105801936016,
+     "forte": 7.139316633873564,
+     "piano": 7.143453510853452
+    },
+    "vocal_fry": {
+     "breathy": 8.356156045472385,
+     "belt": 9.25236680157317,
+     "vocal_fry": 7.872611619352874,
+     "forte": 9.13755915545374,
+     "piano": 9.011324561529163
+    },
+    "forte": {
+     "breathy": 5.913331064100461,
+     "belt": 6.120627562314698,
+     "vocal_fry": 7.1603274793292995,
+     "forte": 5.719953700938096,
+     "piano": 5.654442660647033
+    },
+    "piano": {
+     "breathy": 5.579400834028308,
+     "belt": 6.275025302660267,
+     "vocal_fry": 7.017963858004477,
+     "forte": 5.810512696629602,
+     "piano": 5.426119197314042
+    }
+   },
+   "closest_label_counts": {
+    "breathy": {
+     "breathy": 41,
+     "belt": 1,
+     "vocal_fry": 1,
+     "forte": 0,
+     "piano": 7,
+     "n": 50
+    },
+    "belt": {
+     "breathy": 9,
+     "belt": 24,
+     "vocal_fry": 8,
+     "forte": 0,
+     "piano": 0,
+     "n": 41
+    },
+    "vocal_fry": {
+     "breathy": 11,
+     "belt": 0,
+     "vocal_fry": 35,
+     "forte": 0,
+     "piano": 0,
+     "n": 46
+    },
+    "forte": {
+     "breathy": 2,
+     "belt": 12,
+     "vocal_fry": 0,
+     "forte": 14,
+     "piano": 20,
+     "n": 48
+    },
+    "piano": {
+     "breathy": 11,
+     "belt": 4,
+     "vocal_fry": 0,
+     "forte": 5,
+     "piano": 30,
+     "n": 50
+    }
+   }
+  }
+ },
+ "notes": "static_bound = D_cmn(base, truth), the smallest raw distance any fixed per-band gain on the base output could reach; compare it with the raw distance of the other conditions.",
+ "gpu_peak_allocated_gib": 2.9962854385375977
+}

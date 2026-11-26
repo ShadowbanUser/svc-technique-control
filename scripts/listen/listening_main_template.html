@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>歌声转换听感评测</title>
+<style>
+:root{color-scheme:light dark;--bg:#f6f5f2;--card:#fff;--ink:#1d1d1f;--mute:#6b6b70;--line:#dcdad4;--accent:#b4532a}
+@media (prefers-color-scheme:dark){:root{--bg:#17171a;--card:#222226;--ink:#ececee;--mute:#9a9aa2;--line:#36363c;--accent:#e08a5f}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.65 "Microsoft YaHei","PingFang SC",system-ui,sans-serif}
+main{max-width:860px;margin:0 auto;padding:28px 18px 90px}h1{font-size:25px;margin:0 0 6px}
+h2{font-size:21px;margin:44px 0 6px;padding-top:18px;border-top:3px solid var(--accent)}
+h3.g{font-size:17px;margin:30px 0 4px;padding-top:12px;border-top:2px solid var(--line)}p{margin:6px 0}.mute{color:var(--mute);font-size:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:16px 18px;margin:14px 0}
+.fixed{position:sticky;top:0;z-index:2;border-color:var(--accent)}
+.row{display:grid;grid-template-columns:70px 1fr;gap:10px;align-items:center;margin:6px 0}audio{width:100%;height:36px}
+fieldset{border:0;padding:0;margin:10px 0 0}legend{font-weight:600;padding:0;margin-bottom:2px}label{display:inline-block;margin:2px 14px 2px 0;cursor:pointer}
+input[type=radio],input[type=checkbox]{accent-color:var(--accent);margin-right:4px}
+input[type=text],textarea{width:100%;border:1px solid var(--line);border-radius:8px;padding:8px 10px;font:inherit;background:var(--card);color:var(--ink)}
+textarea{min-height:90px}
+button{font:inherit;font-weight:600;padding:10px 18px;border-radius:8px;border:0;background:var(--accent);color:#fff;cursor:pointer;margin:10px 8px 0 0}
+button:disabled{opacity:.45;cursor:not-allowed}
+#warn{color:var(--accent);font-weight:600}ol{padding-left:22px;margin:6px 0}
+#progress{position:fixed;right:14px;bottom:14px;background:var(--accent);color:#fff;border-radius:20px;padding:6px 14px;font-weight:600;font-size:14px}
+.hidden{display:none}
+</style></head><body><main>
+<h1>歌声转换听感评测</h1>
+<p>感谢参与。你将听一些几秒长的歌声片段，回答关于声音变化的选择题。约 35 分钟，可以分几次完成：页面会在本机浏览器里自动保存已选答案，关掉后用同一个浏览器重新打开本文件即可继续。</p>
+
+<div class="card" id="consent">
+<b>参与说明</b>
+<p>本评测是一项歌声转换研究的听感实验，用于学术论文。只记录你的选择题答案和下面几项基本信息（年龄段、音乐背景等），不记录姓名、联系方式或任何能识别你身份的信息。结果只以匿名、汇总的形式发表。参与完全自愿，提交前可随时退出，退出不会有任何影响。部分片段可能有失真或杂音，请把音量调到舒适即可，不要过大。</p>
+<label><input type="checkbox" id="c18">我已年满 18 周岁</label><br>
+<label><input type="checkbox" id="cok">我已阅读以上说明，自愿参与</label><br>
+<button id="start" disabled>开始</button>
+</div>
+
+<div id="body" class="hidden">
+<h2>基本信息</h2>
+<div class="card" id="demo"></div>
+
+<h2>调音量</h2>
+<div class="card">
+<p>请<b>戴耳机</b>。播放下面这段，把音量调到听得清楚又不刺耳。之后整个评测过程中<b>不要再调音量</b>。</p>
+<div class="row"><b>试音</b><audio controls preload="none" id="vol"></audio></div>
+</div>
+
+<h2>第一部分：听出是什么变化</h2>
+<ol>
+<li>每组两段：<b>原版</b>和<b>样本</b>。样本是在原版基础上做了某种改动，也可能是另一段真人演唱。</li>
+<li>凭耳朵判断样本相对原版"更像什么变化"。两段已调到相同响度，<b>请判断唱法和声线，不要管音量</b>。</li>
+<li>"像后期"指像是对音频套了一层效果（均衡、混响、失真等），而不是歌手自己的唱法变了。</li>
+</ol>
+<div id="partI"></div>
+
+<h2>第二部分：唱法变化，还是后期处理</h2>
+<ol>
+<li>每组三段：<b>原版</b>、<b>A</b>、<b>B</b>。A 和 B 是对原版的两种改动，顺序随机。</li>
+<li>有个别组的 A 和 B 完全相同，听不出区别就如实选"听不出"，不用硬找。</li>
+</ol>
+<div id="partE"></div>
+
+<h2>提交</h2>
+<p>有什么想说的都可以写（例如哪些片段最像你心目中"声线风格的变化"，哪些有破音、口糊、哑音）：</p>
+<textarea id="note"></textarea>
+<div><button id="make">生成结果</button><button id="copy">复制结果</button><span id="warn"></span></div>
+<textarea id="out" readonly placeholder="点「生成结果」后这里会出现一段文字，请复制后发给邀请你的人。"></textarea>
+</div>
+<div id="progress" class="hidden"></div>
+</main><script>
+const M = __MANIFEST__;
+const VOLUME = __VOLUME__;
+const STORE = 'svc_listening_v1';
+const DEMO = [
+ {key:'age', text:'年龄段', opts:['18–22','23–29','30–39','40 及以上']},
+ {key:'grp', text:'你更接近哪一类', opts:['计算机或相关专业学生/从业者','虚拟歌姬或歌声合成/转换内容的创作者','两者都是','其他']},
+ {key:'mus', text:'受过的音乐训练（声乐、乐器、乐理等，累计）', opts:['没有','3 年以内','3 到 10 年','10 年以上']},
+ {key:'svs', text:'对 Synthesizer V、VOCALOID、RVC 等歌声合成或转换工具的熟悉程度', opts:['没用过','用过几次','经常使用']},
+ {key:'out', text:'现在用什么听', opts:['耳机','外放音箱','笔记本或手机自带扬声器']}
+];
+const QI = [
+ {key:'1', text:'和"原版"比，差别有多明显？', opts:['听不出','仔细听才有','明显']},
+ {key:'2', text:'样本更像哪种变化？', opts:['没变化','像后期、套了一层效果','更虚、带气','更亮、更冲（像喊唱、强声）','沙哑、有颗粒（像气泡音）','更有力度、更饱满','更轻、更柔','别的唱法变化','像换了个人']},
+ {key:'3', text:'样本的音质？', opts:['干净','轻微杂音或电音','明显失真（口糊、破音、哑）']},
+ {key:'4', text:'样本和原版还像同一个歌手吗？', opts:['像','有点不像','不像']},
+ {key:'5', text:'如果这是一个调节唱法的功能，这样的效果你愿意用吗？', opts:['愿意','勉强可以','不愿意']}
+];
+const QE = [
+ {key:'1', text:'A 和 B 之间的差别？', opts:['听不出','仔细听才有','明显']},
+ {key:'2', text:'哪个更像"歌手自己换了唱法"，而不是"后期处理"？', opts:['A','B','两个都像换了唱法','两个都像后期','分不出']},
+ {key:'3', text:'如果要用，你选哪个？', opts:['A','B','都行','都不行']},
+ {key:'4', text:'A 的音质？', opts:['干净','轻微杂音或电音','明显失真']},
+ {key:'5', text:'B 的音质？', opts:['干净','轻微杂音或电音','明显失真']}
+];
+function load(){ try { return JSON.parse(localStorage.getItem(STORE)) || null; } catch(e){ return null; } }
+function save(){ try { localStorage.setItem(STORE, JSON.stringify(S)); } catch(e){} }
+function shuffle(a){ for(let i=a.length-1;i>0;i--){ const j=Math.floor(Math.random()*(i+1)); [a[i],a[j]]=[a[j],a[i]]; } return a; }
+let S = load();
+const ids = M.map(m=>m.id).join(',');
+if (!S || S.ids !== ids) {
+  S = {ids, lid: Math.random().toString(36).slice(2,8), ans:{}, note:'', consent:false,
+       orderI: shuffle(M.filter(m=>m.type==='I').map(m=>m.id)), orderE: shuffle(M.filter(m=>m.type==='E').map(m=>m.id)), swap:{}};
+  for (const m of M) if (m.type==='E') S.swap[m.id] = Math.random() < 0.5 ? 1 : 0;
+  save();
+}
+const byId = Object.fromEntries(M.map(m=>[m.id,m]));
+const row = (label, src) => `<div class="row"><b>${label}</b><audio controls preload="none" src="${src}"></audio></div>`;
+const field = (name, q) => `<fieldset><legend>${q.text}</legend>` + q.opts.map((o,i)=>`<label><input type="radio" name="${name}" value="${i+1}">${o}</label>`).join('') + `</fieldset>`;
+document.getElementById('demo').innerHTML = DEMO.map(q => field('d_'+q.key, q)).join('') +
+  `<fieldset><legend>耳机或音箱型号（选填）</legend><input type="text" id="hp" maxlength="40"></fieldset>`;
+document.getElementById('vol').src = VOLUME;
+let h = '';
+S.orderI.forEach((id, n) => { const m = byId[id];
+  h += `<h3 class="g">第一部分　第 ${n+1} / ${S.orderI.length} 组</h3><div class="card fixed">` + row('原版', m.base) + row('样本', m.S) + `</div><div class="card">` + QI.map(q => field(id+'_'+q.key, q)).join('') + `</div>`; });
+document.getElementById('partI').innerHTML = h;
+h = '';
+S.orderE.forEach((id, n) => { const m = byId[id]; const sw = S.swap[id]; const a = sw ? m.B : m.A, b = sw ? m.A : m.B;
+  h += `<h3 class="g">第二部分　第 ${n+1} / ${S.orderE.length} 组</h3><div class="card fixed">` + row('原版', m.base) + row('A', a) + row('B', b) + `</div><div class="card">` + QE.map(q => field(id+'_'+q.key, q)).join('') + `</div>`; });
+document.getElementById('partE').innerHTML = h;
+// restore saved answers
+for (const [name, v] of Object.entries(S.ans)) { const el = document.querySelector(`input[name="${name}"][value="${v}"]`); if (el) el.checked = true; }
+document.getElementById('note').value = S.note || '';
+document.getElementById('hp').value = S.hp || '';
+const total = M.length;
+function progress(){ const done = M.filter(m => (m.type==='I'?QI:QE).every(q => S.ans[m.id+'_'+q.key])).length;
+  const p = document.getElementById('progress'); p.textContent = `已完成 ${done} / ${total} 组`; }
+document.addEventListener('change', e => { const t = e.target;
+  if (t.type === 'radio') { S.ans[t.name] = t.value; save(); progress(); } });
+document.getElementById('note').addEventListener('input', e => { S.note = e.target.value; save(); });
+document.getElementById('hp').addEventListener('input', e => { S.hp = e.target.value; save(); });
+// only one audio plays at a time
+document.addEventListener('play', e => { for (const a of document.querySelectorAll('audio')) if (a !== e.target) a.pause(); }, true);
+const c18 = document.getElementById('c18'), cok = document.getElementById('cok'), start = document.getElementById('start');
+function gate(){ start.disabled = !(c18.checked && cok.checked); }
+c18.onchange = gate; cok.onchange = gate;
+function openBody(){ document.getElementById('consent').classList.add('hidden'); document.getElementById('body').classList.remove('hidden');
+  document.getElementById('progress').classList.remove('hidden'); progress(); }
+start.onclick = () => { S.consent = true; save(); openBody(); };
+if (S.consent) openBody();
+function build(){
+  let missing = 0;
+  const pick = (id, qs) => qs.map(q => S.ans[id+'_'+q.key] || (missing++, '?')).join('');
+  const demo = DEMO.map(q => q.key + (S.ans['d_'+q.key] || '?')).join('');
+  const I = S.orderI.slice().sort().map(id => id.slice(1) + '-' + pick(id, QI)).join(',');
+  const E = S.orderE.slice().sort().map(id => id.slice(1) + 'x' + S.swap[id] + '-' + pick(id, QE)).join(',');
+  const clean = s => (s || '').replace(/[|\n\r]/g, ' ').trim();
+  document.getElementById('warn').textContent = missing ? `还有 ${missing} 题没选，也可以先这样提交。` : '';
+  document.getElementById('out').value = `SVCLT1|${S.lid}|${demo}|hp:${clean(S.hp)}|I:${I}|E:${E}|note:${clean(S.note) || '无'}`;
+}
+document.getElementById('make').onclick = build;
+document.getElementById('copy').onclick = () => { build(); const t = document.getElementById('out'); t.focus(); t.select();
+  let ok = false; try { ok = document.execCommand('copy'); } catch(e) {}
+  if (!ok && navigator.clipboard) navigator.clipboard.writeText(t.value).then(() => { document.getElementById('warn').textContent += ' 已复制。'; });
+  else document.getElementById('warn').textContent += ok ? ' 已复制。' : ' 复制失败，请手动全选上面的文字。'; };
+</script></body></html>

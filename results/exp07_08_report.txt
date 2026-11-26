@@ -1,0 +1,65 @@
+=== EXP07 cross-singer (clusters = target singer) ===
+breathy   raw ad-base -1.09 [-2.27, +0.07] n=80 k=5 | dyn ad-eqmatch -0.45 [-0.72, -0.15] n=80 k=5 | dyn ad-wrong -0.87 [-1.12, -0.45] n=80 k=5 | dyn ad-base -0.82 [-1.28, -0.35] n=80 k=5 | oracle-ad raw -0.74 [-1.83, +0.11] n=80 k=5 | closest 54/80=68%
+belt      raw ad-base -1.18 [-2.97, -0.30] n=63 k=5 | dyn ad-eqmatch -0.13 [-0.30, +0.04] n=63 k=5 | dyn ad-wrong -0.23 [-0.61, +0.36] n=63 k=5 | dyn ad-base -0.20 [-0.39, -0.07] n=63 k=5 | oracle-ad raw -0.87 [-1.24, -0.18] n=63 k=5 | closest 28/63=44%
+vocal_fry raw ad-base -1.75 [-2.35, -0.94] n=72 k=5 | dyn ad-eqmatch -1.05 [-1.58, -0.49] n=72 k=5 | dyn ad-wrong -1.02 [-1.54, -0.45] n=72 k=5 | dyn ad-base -1.50 [-2.07, -0.92] n=72 k=5 | oracle-ad raw -0.56 [-2.08, +0.23] n=72 k=5 | closest 52/72=72%
+forte     raw ad-base -0.85 [-1.04, -0.59] n=76 k=5 | dyn ad-eqmatch -0.28 [-0.50, +0.08] n=76 k=5 | dyn ad-wrong -0.28 [-0.55, +0.30] n=76 k=5 | dyn ad-base -0.39 [-0.63, -0.06] n=76 k=5 | oracle-ad raw -0.77 [-1.44, -0.37] n=76 k=5 | closest 46/76=61%
+piano     raw ad-base -0.71 [-1.19, -0.06] n=80 k=5 | dyn ad-eqmatch -0.16 [-0.33, +0.10] n=80 k=5 | dyn ad-wrong -0.47 [-0.75, +0.03] n=80 k=5 | dyn ad-base -0.54 [-0.81, -0.12] n=80 k=5 | oracle-ad raw -0.97 [-1.49, -0.55] n=80 k=5 | closest 42/80=52%
+=== EXP08 lyric phrases (clusters = song) ===
+raw a1-base          +0.05 [-0.07, +0.17] n=90 k=34
+raw a0.5-base        +0.01 [-0.03, +0.06] n=90 k=34
+raw eqmatch-base     +0.05 [-0.00, +0.10] n=90 k=34
+raw oracle-base      -0.28 [-0.44, -0.12] n=90 k=34
+raw carried-base     -1.55 [-1.81, -1.33] n=90 k=34
+raw realplain-base   -0.83 [-1.06, -0.61] n=90 k=34
+dyn a1-base          -0.01 [-0.05, +0.03] n=90 k=34
+dyn a0.5-base        -0.06 [-0.08, -0.05] n=90 k=34
+dyn a1-eqmatch       -0.00 [-0.05, +0.03] n=90 k=34
+dyn carried-base     -1.70 [-1.93, -1.48] n=90 k=34
+dyn realplain-base   -0.45 [-0.55, -0.35] n=90 k=34
+cpp-truth base       +4.00 [+3.38, +4.61] n=90 k=34
+cpp-truth a1         +2.27 [+1.69, +2.88] n=90 k=34
+cpp-truth carried    +3.71 [+3.13, +4.31] n=90 k=34
+cpp-truth realplain  +3.72 [+3.17, +4.32] n=90 k=34
+hf-truth base        -1.10 [-2.19, +0.01] n=90 k=34
+hf-truth a1          -2.35 [-3.17, -1.60] n=90 k=34
+raw a1-wrong         -0.96 [-1.04, -0.88] n=90 k=34
+dyn a1-wrong         -0.39 [-0.42, -0.36] n=90 k=34
+per singer raw a1-base {'EN-Alto-1': 0.38, 'EN-Alto-2': -0.05, 'EN-Tenor-1': -0.18}
+{'ad_belt_a1|f0_mae_cents': 17.038, 'ad_belt_a1|similarity': 0.708, 'ad_breathy_a0.5|f0_mae_cents': 17.565, 'ad_breathy_a0.5|similarity': 0.798, 'ad_breathy_a1|f0_mae_cents': 17.017, 'ad_breathy_a1|similarity': 0.751, 'ad_forte_a1|f0_mae_cents': 19.077, 'ad_forte_a1|similarity': 0.706, 'ad_piano_a1|f0_mae_cents': 18.777, 'ad_piano_a1|similarity': 0.734, 'ad_vocal_fry_a1|f0_mae_cents': 24.496, 'ad_vocal_fry_a1|similarity': 0.74, 'base|f0_mae_cents': 18.178, 'base|similarity': 0.812, 'carried_breathy|similarity': 0.812}
+cond keys sample ['singer', 'sid', 'song', 'condition', 'file', 'timeline', 'method', 'label', 'cpp_db', 'hf_ratio_db', 'voiced_fraction', 'rms_dbfs', 'peak', 'f0_common_frames', 'f0_corr', 'f0_mae_cents', 'voicing_agreement', 'similarity']
+=== COSTS ===
+('adapter', 'belt', 0.5) 0.718 50
+('adapter', 'belt', 1.0) 0.701 50
+('adapter', 'breathy', 0.5) 0.703 50
+('adapter', 'breathy', 1.0) 0.679 50
+('adapter', 'forte', 0.5) 0.716 50
+('adapter', 'forte', 1.0) 0.665 50
+('adapter', 'piano', 0.5) 0.709 50
+('adapter', 'piano', 1.0) 0.661 50
+('adapter', 'vocal_fry', 0.5) 0.703 50
+('adapter', 'vocal_fry', 1.0) 0.655 50
+('base', None, None) 0.727 50
+('carried', 'belt', None) 0.648 41
+('carried', 'breathy', None) 0.716 50
+('carried', 'forte', None) 0.645 48
+('carried', 'piano', None) 0.654 50
+('carried', 'vocal_fry', None) 0.615 46
+('eqmatch', 'belt', None) 0.72 50
+('eqmatch', 'breathy', None) 0.709 50
+('eqmatch', 'forte', None) 0.719 50
+('eqmatch', 'piano', None) 0.715 50
+('eqmatch', 'vocal_fry', None) 0.701 50
+real_dev_cents 389.1 151.9 46
+out_a1_dev_cents 165.1 113.9 46
+out_a0.5_dev_cents 12.0 10.4 46
+real_voiced_share 0.9 0.9 46
+out_a1_voiced_share 0.9 0.9 46
+exp07 similarity {"('base', None)": 0.662, "('adapter', 'breathy')": 0.633, "('adapter', 'belt')": 0.64, "('adapter', 'vocal_fry')": 0.594, "('adapter', 'forte')": 0.619, "('adapter', 'piano')": 0.618}
+=== EXP08 descriptors: change of the breathy control (alpha = 1) relative to the unmodified output ===
+cpp a1-base          -1.73 [-1.88, -1.58] n=90 k=34
+hf a1-base           -1.25 [-1.98, -0.59] n=90 k=34
+cpp carried-base     -0.29 [-0.38, -0.20] n=90 k=34
+=== EXP08 per singer: breathy control (alpha = 1) minus unmodified output; HF ratio minus real breathy phrase ===
+EN-Alto-1   n=30 | cpp a1-base -1.42 | hf a1-base +0.08 | raw a1-base +0.38 | hf-truth base -2.76, a1 -2.68
+EN-Alto-2   n=30 | cpp a1-base -2.07 | hf a1-base -0.11 | raw a1-base -0.05 | hf-truth base -2.30, a1 -2.41
+EN-Tenor-1  n=30 | cpp a1-base -1.70 | hf a1-base -3.73 | raw a1-base -0.18 | hf-truth base +1.78, a1 -1.95

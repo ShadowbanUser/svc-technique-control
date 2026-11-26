@@ -1,0 +1,6235 @@
+{
+ "min_frames": 50,
+ "check_max_abs_difference_to_experiment_08": {
+  "d_raw": 0.0,
+  "d_dyn": 0.0,
+  "cpp_db": 0.0,
+  "hf_ratio_db": 0.0
+ },
+ "breathy_labels": {
+  "EN-Alto-1": {
+   "breathy_share_of_sung_frames": 0.4225719154054325,
+   "phrases_without_breathy_frames": 18,
+   "phrases": 30
+  },
+  "EN-Alto-2": {
+   "breathy_share_of_sung_frames": 0.9558027079303675,
+   "phrases_without_breathy_frames": 0,
+   "phrases": 30
+  },
+  "EN-Tenor-1": {
+   "breathy_share_of_sung_frames": 1.0,
+   "phrases_without_breathy_frames": 0,
+   "phrases": 30
+  }
+ },
+ "summary": {
+  "pooled": {
+   "breathy": {
+    "D a1-base": [
+     -0.06387827033092437,
+     -0.20083168530328782,
+     0.0894315845583583,
+     72,
+     28
+    ],
+    "D a0.5-base": [
+     -0.011682147233097276,
+     -0.07034128002691091,
+     0.04907732651157366,
+     72,
+     28
+    ],
+    "D_dyn a1-base": [
+     -0.04342252841514733,
+     -0.09147317778202811,
+     -2.125089931878838e-05,
+     72,
+     28
+    ],
+    "D_dyn a1-eqmatch": [
+     -0.03331547699198677,
+     -0.0860431135401995,
+     0.01336573976756881,
+     72,
+     28
+    ],
+    "CPP a1-base": [
+     -1.724855557641548,
+     -1.8755714722766437,
+     -1.5847905893092566,
+     72,
+     28
+    ],
+    "CPP base-real": [
+     3.622953363658567,
+     2.989257479528031,
+     4.342939345571987,
+     72,
+     28
+    ],
+    "CPP a1-real": [
+     1.8980978060170186,
+     1.326886784422041,
+     2.5362000114881895,
+     72,
+     28
+    ],
+    "HF a1-base": [
+     -1.2213205298988783,
+     -2.0627775181981582,
+     -0.44315856970582035,
+     72,
+     28
+    ],
+    "HF base-real": [
+     -0.38628439918442914,
+     -1.6677139699136654,
+     1.1173654400012616,
+     72,
+     28
+    ],
+    "HF a1-real": [
+     -1.6076049290833074,
+     -2.5741505474320228,
+     -0.5074674533679164,
+     72,
+     28
+    ]
+   },
+   "other": {
+    "D a1-base": [
+     0.23764942023587907,
+     0.06160311259020395,
+     0.388295931219617,
+     25,
+     11
+    ],
+    "D a0.5-base": [
+     0.07256506743454177,
+     0.006766057456428738,
+     0.14989289796714358,
+     25,
+     11
+    ],
+    "D_dyn a1-base": [
+     0.04475076871712148,
+     -0.033499529822984715,
+     0.12107694368025558,
+     25,
+     11
+    ],
+    "D_dyn a1-eqmatch": [
+     0.04004084297267308,
+     -0.04012889711431263,
+     0.11555418665977849,
+     25,
+     11
+    ],
+    "CPP a1-base": [
+     -1.52287771035446,
+     -1.8440015734928175,
+     -1.344096661727016,
+     25,
+     11
+    ],
+    "CPP base-real": [
+     2.227279975051759,
+     1.1160887130917667,
+     3.1144235513907796,
+     24,
+     10
+    ],
+    "CPP a1-real": [
+     0.7148991006227844,
+     -0.42318717919191196,
+     1.5522943621029783,
+     24,
+     10
+    ],
+    "HF a1-base": [
+     -0.0903729900409948,
+     -0.6156779319367258,
+     0.35107367936528,
+     25,
+     11
+    ],
+    "HF base-real": [
+     -2.352104572640138,
+     -4.276842446741133,
+     -0.6203101176281988,
+     24,
+     10
+    ],
+    "HF a1-real": [
+     -2.456070726676003,
+     -4.441529409180612,
+     -0.6089643095085264,
+     24,
+     10
+    ]
+   }
+  },
+  "per_singer": {
+   "EN-Alto-1": {
+    "breathy": {
+     "D a1-base": [
+      0.4718768496479446,
+      12
+     ],
+     "D a0.5-base": [
+      0.18229703841869638,
+      12
+     ],
+     "D_dyn a1-base": [
+      0.05211142703616156,
+      12
+     ],
+     "D_dyn a1-eqmatch": [
+      0.05380664728258444,
+      12
+     ],
+     "CPP a1-base": [
+      -1.2555628102428702,
+      12
+     ],
+     "CPP base-real": [
+      1.4838748047064696,
+      12
+     ],
+     "CPP a1-real": [
+      0.22831199446359948,
+      12
+     ],
+     "HF a1-base": [
+      0.5250039718913909,
+      12
+     ],
+     "HF base-real": [
+      -3.1861396310859735,
+      12
+     ],
+     "HF a1-real": [
+      -2.6611356591945827,
+      12
+     ]
+    },
+    "other": {
+     "D a1-base": [
+      0.2865391851270643,
+      18
+     ],
+     "D a0.5-base": [
+      0.0395375678945618,
+      18
+     ],
+     "D_dyn a1-base": [
+      0.06087738313684962,
+      18
+     ],
+     "D_dyn a1-eqmatch": [
+      0.059563017692815516,
+      18
+     ],
+     "CPP a1-base": [
+      -1.4505255660961636,
+      18
+     ],
+     "CPP base-real": [
+      2.8927366655433095,
+      18
+     ],
+     "CPP a1-real": [
+      1.442211099447146,
+      18
+     ],
+     "HF a1-base": [
+      0.10446573572401047,
+      18
+     ],
+     "HF base-real": [
+      -2.9435313164745653,
+      18
+     ],
+     "HF a1-real": [
+      -2.839065580750555,
+      18
+     ]
+    }
+   },
+   "EN-Alto-2": {
+    "breathy": {
+     "D a1-base": [
+      -0.14494558161524118,
+      30
+     ],
+     "D a0.5-base": [
+      0.0206143146449486,
+      30
+     ],
+     "D_dyn a1-base": [
+      -0.08938134751263742,
+      30
+     ],
+     "D_dyn a1-eqmatch": [
+      -0.09381323871170713,
+      30
+     ],
+     "CPP a1-base": [
+      -1.9017076013142737,
+      30
+     ],
+     "CPP base-real": [
+      3.0345429475522305,
+      30
+     ],
+     "CPP a1-real": [
+      1.132835346237957,
+      30
+     ],
+     "HF a1-base": [
+      0.19168425472095302,
+      30
+     ],
+     "HF base-real": [
+      -1.7790552074014092,
+      30
+     ],
+     "HF a1-real": [
+      -1.587370952680456,
+      30
+     ]
+    },
+    "other": {
+     "D a1-base": [
+      0.11193288194425996,
+      7
+     ],
+     "D a0.5-base": [
+      0.1574929233944903,
+      7
+     ],
+     "D_dyn a1-base": [
+      0.003282331637820514,
+      7
+     ],
+     "D_dyn a1-eqmatch": [
+      -0.010159034879121747,
+      7
+     ],
+     "CPP a1-base": [
+      -1.7089260813043654,
+      7
+     ],
+     "CPP base-real": [
+      0.23090990357710814,
+      6
+     ],
+     "CPP a1-real": [
+      -1.4670368958503002,
+      6
+     ],
+     "HF a1-base": [
+      -0.5913868562938654,
+      7
+     ],
+     "HF base-real": [
+      -0.5778243411368577,
+      6
+     ],
+     "HF a1-real": [
+      -1.307086164452348,
+      6
+     ]
+    }
+   },
+   "EN-Tenor-1": {
+    "breathy": {
+     "D a1-base": [
+      -0.19711300703815515,
+      30
+     ],
+     "D a0.5-base": [
+      -0.12157028337186061,
+      30
+     ],
+     "D_dyn a1-base": [
+      -0.035677291498180795,
+      30
+     ],
+     "D_dyn a1-eqmatch": [
+      -0.007666564982094896,
+      30
+     ],
+     "CPP a1-base": [
+      -1.7357206129282943,
+      30
+     ],
+     "CPP base-real": [
+      5.0669952033457415,
+      30
+     ],
+     "CPP a1-real": [
+      3.331274590417448,
+      30
+     ],
+     "HF a1-base": [
+      -3.332855115234817,
+      30
+     ],
+     "HF base-real": [
+      2.1264285017931694,
+      30
+     ],
+     "HF a1-real": [
+      -1.2064266134416486,
+      30
+     ]
+    },
+    "other": {}
+   }
+  }
+ },
+ "rows": [
+  {
+   "singer": "EN-Alto-1",
+   "sid": "00",
+   "song": "god is a girl",
+   "cluster": "EN-Alto-1|god is a girl",
+   "frames": {
+    "breathy": 819,
+    "other": 0
+   },
+   "real": {
+    "breathy": {
+     "cpp_db": 20.31503140195323,
+     "hf_ratio_db": -27.377032653085312
+    },
+    "other": {
+     "cpp_db": null,
+     "hf_ratio_db": null
+    }
+   },
+   "out": {
+    "base": {
+     "breathy": {
+      "d_raw": 7.390362585055243,
+      "d_dyn": 5.7807539260392184,
+      "frames_compared": 819,
+      "cpp_db": 23.72097031534849,
+      "hf_ratio_db": -31.340752094423998
+     },
+     "other": null
+    },
+    "a1": {
+     "breathy": {
+      "d_raw": 7.673362621381336,
+      "d_dyn": 5.697336188710489,
+      "frames_compared": 819,
+      "cpp_db": 22.132673837940686,
+      "hf_ratio_db": -32.370430552666164
+     },
+     "other": null
+    },
+    "a0.5": {
+     "breathy": {
+      "d_raw": 7.535483296591145,
+      "d_dyn": 5.682781905409614,
+      "frames_compared": 819,
+      "cpp_db": 23.171863160413437,
+      "hf_ratio_db": -31.772893565963397
+     },
+     "other": null
+    },
+    "eqmatch": {
+     "breathy": {
+      "d_raw": 7.6602569975921675,
+      "d_dyn": 5.775710634580929,
+      "frames_compared": 819,
+      "cpp_db": 23.66648403305814,
+      "hf_ratio_db": -32.57187844635311
+     },
+     "other": null
+    }
+   }
+  },
+  {
+   "singer": "EN-Alto-1",
+   "sid": "01",
+   "song": "god is a girl",
+   "cluster": "EN-Alto-1|god is a girl",
+   "frames": {
+    "breathy": 752,
+    "other": 0
+   },
+   "real": {
+    "breathy": {
+     "cpp_db": 21.93297779297197,
+     "hf_ratio_db": -23.58334313084408
+    },
+    "other": {
+     "cpp_db": null,
+     "hf_ratio_db": null
+    }
+   },
+   "out": {
+    "base": {
+     "breathy": {
+      "d_raw": 7.318402240319532,
+      "d_dyn": 5.862984145341487,
+      "frames_compared": 752,
+      "cpp_db": 22.8635130344571,
+      "hf_ratio_db": -26.846362059499047
+     },
+     "other": null
+    },
+    "a1": {
+     "breathy": {
+      "d_raw": 8.240546571593487,
+      "d_dyn": 5.931419439896786,
+      "frames_compared": 752,
+      "cpp_db": 21.636911816452066,
+      "hf_ratio_db": -26.423375877193656
+     },
+     "other": null
+    },
+    "a0.5": {
+     "breathy": {
+      "d_raw": 7.672626736194982,
+      "d_dyn": 5.730015637420108,
+      "frames_compared": 752,
+      "cpp_db": 22.411590960682556,
+      "hf_ratio_db": -26.224563103690716
+     },
+     "other": null
+    },
+    "eqmatch": {
+     "breathy": {
+      "d_raw": 8.193259838348903,
+      "d_dyn": 5.888806562000592,
+      "frames_compared": 752,
+      "cpp_db": 22.803530206804695,
+      "hf_ratio_db": -27.335235854488406
+     },
+     "other": null
+    }
+   }
+  },
+  {
+   "singer": "EN-Alto-1",
+   "sid": "02",
+   "song": "innocence",
+   "cluster": "EN-Alto-1|innocence",
+   "frames": {
+    "breathy": 0,
+    "other": 738
+   },
+   "real": {
+    "breathy": {
+     "cpp_db": null,
+     "hf_ratio_db": null
+    },
+    "other": {
+     "cpp_db": 21.102881502132227,
+     "hf_ratio_db": -27.98909622071196
+    }
+   },
+   "out": {
+    "base": {
+     "breathy": null,
+     "other": {
+      "d_raw": 8.539183269066735,
+      "d_dyn": 6.71795723666167,
+      "frames_compared": 738,
+      "cpp_db": 23.47183725471617,
+      "hf_ratio_db": -31.500412110818978
+     }
+    },
+    "a1": {
+     "breathy": null,
+     "other": {
+      "d_raw": 8.830860778137305,
+      "d_dyn": 6.72389256637244,
+      "frames_compared": 738,
+      "cpp_db": 21.60754043541809,
+      "hf_ratio_db": -30.62306724833642
+     }
+    },
+    "a0.5": {
+     "breathy": null,
+     "other": {
+      "d_raw": 8.657157618452938,
+      "d_dyn": 6.6361999065368655,
+      "frames_compared": 738,
+      "cpp_db": 22.6904086652489,
+      "hf_ratio_db": -31.145791585956385
+     }
+    },
+    "eqmatch": {
+     "breathy": null,
+     "other": {
+      "d_raw": 8.566174926652502,
+      "d_dyn": 6.7207346916759505,
+      "frames_compared": 738,
+      "cpp_db": 23.52398959922634,
+      "hf_ratio_db": -32.90282944251399
+     }
+    }
+   }
+  },
+  {
+   "singer": "EN-Alto-1",
+   "sid": "03",
+   "song": "innocence",
+   "cluster": "EN-Alto-1|innocence",
+   "frames": {
+    "breathy": 0,
+    "other": 600
+   },
+   "real": {
+    "breathy": {
+     "cpp_db": null,
+     "hf_ratio_db": null
+    },
+    "other": {
+     "cpp_db": 21.36018720735448,
+     "hf_ratio_db": -28.557575365621588
+    }
+   },
+   "out": {
+    "base": {
+     "breathy": null,
+     "other": {
+      "d_raw": 8.311801977725404,
+      "d_dyn": 6.803639949324267,
+      "frames_compared": 600,
+      "cpp_db": 23.71746997162547,
+      "hf_ratio_db": -30.2902421891697
+     }
+    },
+    "a1": {
+     "breathy": null,
+     "other": {
+      "d_raw": 8.755491726577118,
+      "d_dyn": 6.946541840060148,
+      "frames_compared": 600,
+      "cpp_db": 22.67823570318837,
+      "hf_ratio_db": -29.053437192769596
+     }
+    },
+    "a0.5": {
+     "breathy": null,
+     "other": {
+      "d_raw": 8.296319175301997,
+      "d_dyn": 6.721121967091353,
+      "frames_compared": 600,
+      "cpp_db": 23.40177584146293,
+      "hf_ratio_db": -29.484318741966256
+     }
+    },
+    "eqmatch": {
+     "breathy": null,
+     "other": {
+      "d_raw": 8.356756440999435,
+      "d_dyn": 6.820748947353723,
+      "frames_compared": 600,
+      "cpp_db": 23.781166793994025,
+      "hf_ratio_db": -30.531012286257546
+     }
+    }
+   }
+  },
+  {
+   "singer": "EN-Alto-1",
+   "sid": "04",
+   "song": "innocence",
+   "cluster": "EN-Alto-1|innocence",
+   "frames": {
+    "breathy": 0,
+    "other": 328
+   },
+   "real": {
+    "breathy": {
+     "cpp_db": null,
+     "hf_ratio_db": null
+    },
+    "other": {
+     "cpp_db": 18.70820931564036,
+     "hf_ratio_db": -13.355887546482915
+    }
+   },
+   "out": {
+    "base": {
+     "breathy": null,
+     "other": {
+      "d_raw": 8.673537343640263,
+      "d_dyn": 6.710515795077535,
+      "frames_compared": 328,
+      "cpp_db": 20.637897138405847,
+      "hf_ratio_db": -19.667261581341172
+     }
+    },
+    "a1": {
+     "breathy": null,
+     "other": {
+      "d_raw": 8.951256230608424,
+      "d_dyn": 6.941630071846208,
+      "frames_compared": 328,
+      "cpp_db": 19.83996126363481,
+      "hf_ratio_db": -20.838831526587587
+     }
+    },
+    "a0.5": {
+     "breathy": null,
+     "other": {
+      "d_raw": 8.629133314921612,
+      "d_dyn": 6.709864752819927,
+      "frames_compared": 328,
+      "cpp_db": 19.983837905145858,
+      "hf_ratio_db": -19.010336069237777
+     }
+    },
+    "eqmatch": {
+     "breathy": null,
+     "other": {
+      "d_raw": 8.814523706482904,
+      "d_dyn": 6.71294147852136,
+      "frames_compared": 328,
+      "cpp_db": 20.535408590223135,
+      "hf_ratio_db": -21.41752163231138
+     }
+    }
+   }
+  },
+  {
+   "singer": "EN-Alto-1",
+   "sid": "05",
+   "song": "innocence",
+   "cluster": "EN-Alto-1|innocence",
+   "frames": {
+    "breathy": 0,
+    "other": 871
+   },
+   "real": {
+    "breathy": {
+     "cpp_db": null,
+     "hf_ratio_db": null
+    },
+    "other": {
+     "cpp_db": 20.521308542020478,
+     "hf_ratio_db": -22.150464053591204
+    }
+   },
+   "out": {
+    "base": {
+     "breathy": null,
+     "other": {
+      "d_raw": 9.307723300451265,
+      "d_dyn": 7.444130159613431,
+      "frames_compared": 871,
+      "cpp_db": 22.893123800989052,
+      "hf_ratio_db": -28.827113839258136
+     }
+    },
+    "a1": {
+     "breathy": null,
+     "other": {
+      "d_raw": 9.770962921535777,
+      "d_dyn": 7.43490810783126,
+      "frames_compared": 871,
+      "cpp_db": 21.76662383482257,
+      "hf_ratio_db": -28.206590001758215
+     }
+    },
+    "a0.5": {
+     "breathy": null,
+     "other": {
+      "d_raw": 9.310179802986658,
+      "d_dyn": 7.29425546196307,
+      "frames_compared": 871,
+      "cpp_db": 22.2886846014004,
+      "hf_ratio_db": -28.393419993703628
+     }
+    },
+    "eqmatch": {
+     "breathy": null,
+     "other": {
+      "d_raw": 9.286196717321424,
+      "d_dyn": 7.4406065391884875,
+      "frames_compared": 871,
+      "cpp_db": 22.87226484323539,
+      "hf_ratio_db": -27.32389873294299
+     }
+    }
+   }
+  },
+  {
+   "singer": "EN-Alto-1",
+   "sid": "06",
+   "song": "innocence",
+   "cluster": "EN-Alto-1|innocence",
+   "frames": {
+    "breathy": 0,
+    "other": 990
+   },
+   "real": {
+    "breathy": {
+     "cpp_db": null,
+     "hf_ratio_db": null
+    },
+    "other": {
+     "cpp_db": 21.730821196421758,
+     "hf_ratio_db": -28.345236936079402
+    }
+   },
+   "out": {
+    "base": {
+     "breathy": null,
+     "other": {
+      "d_raw": 8.85181791979666,
+      "d_dyn": 6.558296460984632,
+      "frames_compared": 990,
+      "cpp_db": 24.9522776507851,
+      "hf_ratio_db": -26.917736301584814
+     }
+    },
+    "a1": {
+     "breathy": null,
+     "other": {
+      "d_raw": 9.148542656033882,
+      "d_dyn": 6.567985404276908,
+      "frames_compared": 990,
+      "cpp_db": 23.5543690488973,
+      "hf_ratio_db": -28.145907358159963
+     }
+    },
+    "a0.5": {
+     "breathy": null,
+     "other": {
+      "d_raw": 9.11422127872106,
+      "d_dyn": 6.550239396291248,
+      "frames_compared": 990,
+      "cpp_db": 24.409927394129085,
+      "hf_ratio_db": -27.38835296118926
+     }
+    },
+    "eqmatch": {
+     "breathy": null,
+     "other": {
+      "d_raw": 8.75276758268842,
+      "d_dyn": 6.561592825552931,
+      "frames_compared": 990,
+      "cpp_db": 24.640733814249668,
+      "hf_ratio_db": -28.288729037594088
+     }
+    }
+   }
+  },
+  {
+   "singer": "EN-Alto-1",
+   "sid": "07",
+   "song": "let it go",
+   "cluster": "EN-Alto-1|let it go",
+   "frames": {
+    "breathy": 0,
+    "other": 632
+   },
+   "real": {
+    "breathy": {
+     "cpp_db": null,
+     "hf_ratio_db": null
+    },
+    "other": {
+     "cpp_db": 18.05669302050029,
+     "hf_ratio_db": -29.055562153340286
+    }
+   },
+   "out": {
+    "base": {
+     "breathy": null,
+     "other": {
+      "d_raw": 7.00893446474273,
+      "d_dyn": 6.5149857715925865,
+      "frames_compared": 632,
+      "cpp_db": 23.13671466296625,
+      "hf_ratio_db": -28.305081134061556
+     }
+    },
+    "a1": {
+     "breathy": null,
+     "other": {
+      "d_raw": 7.16363496057152,
+      "d_dyn": 6.4187846193942555,
+      "frames_compared": 632,
+      "cpp_db": 22.83697027130031,
+      "hf_ratio_db": -28.07717989867441
+     }
+    },
+    "a0.5": {
+     "breathy": null,
+     "other": {
+      "d_raw": 7.0217622398074715,
+      "d_dyn": 6.391451139655874,
+      "frames_compared": 632,
+      "cpp_db": 22.680577331524795,
+      "hf_ratio_db": -27.918154458690335
+     }
+    },
+    "eqmatch": {
+     "breathy": null,
+     "other": {
+      "d_raw": 7.007836132507995,
+      "d_dyn": 6.508660087010516,
+      "frames_compared": 632,
+      "cpp_db": 23.1061291308644,
+      "hf_ratio_db": -28.7167321169335
+     }
+    }
+   }
+  },
+  {
+   "singer": "EN-Alto-1",
+   "sid": "08",
+   "song": "let it go",
+   "cluster": "EN-Alto-1|let it go",
+   "frames": {
+    "breathy": 0,
+    "other": 532
+   },
+   "real": {
+    "breathy": {
+     "cpp_db": null,
+     "hf_ratio_db": null
+    },
+    "other": {
+     "cpp_db": 21.23548517410946,
+     "hf_ratio_db": -25.679178872780597
+    }
+   },
+   "out": {
+    "base": {
+     "breathy": null,
+     "other": {
+      "d_raw": 7.544404556573505,
+      "d_dyn": 7.090286324029144,
+      "frames_compared": 532,
+      "cpp_db": 23.909855437405824,
+      "hf_ratio_db": -30.114514278963558
+     }
+    },
+    "a1": {
+     "breathy": null,
+     "other": {
+      "d_raw": 8.12337748206287,
+      "d_dyn": 7.278701635729383,
+      "frames_compared": 532,
+      "cpp_db": 21.481061622511472,
+      "hf_ratio_db": -31.603662964306825
+     }
+    },
+    "a0.5": {
+     "breathy": null,
+     "other": {
+      "d_raw": 7.815015620407392,
+      "d_dyn": 7.120625541112034,
+      "frames_compared": 532,
+      "cpp_db": 22.838119004764206,
+      "hf_ratio_db": -30.602189467766237
+     }
+    },
+    "eqmatch": {
+     "breathy": null,
+     "other": {
+      "d_raw": 7.937169502692861,
+      "d_dyn": 7.102227898165718,
+      "frames_compared": 532,
+      "cpp_db": 23.85863451664212,
+      "hf_ratio_db": -31.789802856729974
+     }
+    }
+   }
+  },
+  {
+   "singer": "EN-Alto-1",
+   "sid": "09",
+   "song": "once up a dream",
+   "cluster": "EN-Alto-1|once up a dream",
+   "frames": {
+    "breathy": 0,
+    "other": 782
+   },
+   "real": {
+    "breathy": {
+     "cpp_db": null,
+     "hf_ratio_db": null
+    },
+    "other": {
+     "cpp_db": 19.84654398020009,
+     "hf_ratio_db": -24.218535856000326
+    }
+   },
+   "out": {
+    "base": {
+     "breathy": null,
+     "other": {
+      "d_raw": 11.39073782178576,
+      "d_dyn": 9.07044564722682,
+      "frames_compared": 782,
+      "cpp_db": 24.076162777573913,
+      "hf_ratio_db": -30.71121044194514
+     }
+    },
+    "a1": {
+     "breathy": null,
+     "other": {
+      "d_raw": 11.348670259282834,
+      "d_dyn": 8.939636222242923,
+      "frames_compared": 782,
+      "cpp_db": 22.16392818016537,
+      "hf_ratio_db": -30.908163464658344
+     }
+    },
+    "a0.5": {
+     "breathy": null,
+     "other": {
+      "d_raw": 11.233300715312215,
+      "d_dyn": 8.904502846758113,
+      "frames_compared": 782,
+      "cpp_db": 23.096186814815226,
+      "hf_ratio_db": -30.976130776240044
+     }
+    },
+    "eqmatch": {
+     "breathy": null,
+     "other": {
+      "d_raw": 11.401273295325604,
+      "d_dyn": 9.082207184810024,
+      "frames_compared": 782,
+      "cpp_db": 24.064926662008528,
+      "hf_ratio_db": -32.02515978599663
+     }
+    }
+   }
+  },
+  {
+   "singer": "EN-Alto-1",
+   "sid": "10",
+   "song": "safe and sound",
+   "cluster": "EN-Alto-1|safe and sound",
+   "frames": {
+    "breathy": 0,
+    "other": 595
+   },
+   "real": {
+    "breathy": {
+     "cpp_db": null,
+     "hf_ratio_db": null
+    },
+    "other": {
+     "cpp_db": 20.422373940482657,
+     "hf_ratio_db": -31.420861222771144
+    }
+   },
+   "out": {
+    "base": {
+     "breathy": null,
+     "other": {
+      "d_raw": 6.302257108815315,
+      "d_dyn": 5.707910863203797,
+      "frames_compared": 595,
+      "cpp_db": 23.250083397113947,
+      "hf_ratio_db": -30.383274900359634
+     }
+    },
+    "a1": {
+     "breathy": null,
+     "other": {
+      "d_raw": 6.536445495610421,
+      "d_dyn": 5.783455836682605,
+      "frames_compared": 595,
+      "cpp_db": 21.902081932610628,
+      "hf_ratio_db": -29.308203396899174
+     }
+    },
+    "a0.5": {
+     "breathy": null,
+     "other": {
+      "d_raw": 6.26784937301242,
+      "d_dyn": 5.648371695766866,
+      "frames_compared": 595,
+      "cpp_db": 22.57062363526694,
+      "hf_ratio_db": -29.59855628168128
+     }
+    },
+    "eqmatch": {
+     "breathy": null,
+     "other": {
+      "d_raw": 6.297861340373687,
+      "d_dyn": 5.7351507114719045,
+      "frames_compared": 595,
+      "cpp_db": 23.158838136290978,
+      "hf_ratio_db": -30.011189531948638
+     }
+    }
+   }
+  },
+  {
+   "singer": "EN-Alto-1",
+   "sid": "11",
+   "song": "safe and sound",
+   "cluster": "EN-Alto-1|safe and sound",
+   "frames": {
+    "breathy": 0,
+    "other": 593
+   },
+   "real": {
+    "breathy": {
+     "cpp_db": null,
+     "hf_ratio_db": null
+    },
+    "other": {
+     "cpp_db": 20.868696574146764,
+     "hf_ratio_db": -34.2962672880002
+    }
+   },
+   "out": {
+    "base": {
+     "breathy": null,
+     "other": {
+      "d_raw": 8.468627914586811,
+      "d_dyn": 7.775883741419797,
+      "frames_compared": 593,
+      "cpp_db": 22.468637606482048,
+      "hf_ratio_db": -33.77450548318494
+     }
+    },
+    "a1": {
+     "breathy": null,
+     "other": {
+      "d_raw": 9.013610472778378,
+      "d_dyn": 7.820349246189413,
+      "frames_compared": 593,
+      "cpp_db": 21.373592222130814,
+      "hf_ratio_db": -33.288674990939334
+     }
+    },
+    "a0.5": {
+     "breathy": null,
+     "other": {
+      "d_raw": 8.457356126490255,
+      "d_dyn": 7.63527367784292,
+      "frames_compared": 593,
+      "cpp_db": 22.03082371151896,
+      "hf_ratio_db": -33.252685289309404
+     }
+    },
+    "eqmatch": {
+     "breathy": null,
+     "other": {
+      "d_raw": 8.606163791367242,
+      "d_dyn": 7.7466652191112155,
+      "frames_compared": 593,
+      "cpp_db": 22.484415323422734,
+      "hf_ratio_db": -33.31954869398994
+     }
+    }
+   }
+  },
+  {
+   "singer": "EN-Alto-1",
+   "sid": "12",
+   "song": "safe and sound",
+   "cluster": "EN-Alto-1|safe and sound",
+   "frames": {
+    "breathy": 0,
+    "other": 564
+   },
+   "real": {
+    "breathy": {
+     "cpp_db": null,
+     "hf_ratio_db": null
+    },
+    "other": {
+     "cpp_db": 20.90366911178046,
+     "hf_ratio_db": -28.086274729502183
+    }
+   },
+   "out": {
+    "base": {
+     "breathy": null,
+     "other": {
+      "d_raw": 6.276302688859323,
+      "d_dyn": 5.507140079815629,
+      "frames_compared": 563,
+      "cpp_db": 24.322843118479895,
+      "hf_ratio_db": -27.598636483449358
+     }
+    },
+    "a1": {
+     "breathy": null,
+     "other": {
+      "d_raw": 6.44016726004079,
+      "d_dyn": 5.357744576441308,
+      "frames_compared": 563,
+      "cpp_db": 23.05140706093132,
+      "hf_ratio_db": -28.078835421790426
+     }
+    },
+    "a0.5": {
+     "breathy": null,
+     "other": {
+      "d_raw": 6.27210738402303,
+      "d_dyn": 5.370589868906993,
+      "frames_compared": 563,
+      "cpp_db": 23.387946067997767,
+      "hf_ratio_db": -27.99923036233966
+     }
+    },
+    "eqmatch": {
+     "breathy": null,
+     "other": {
+      "d_raw": 6.320531181686935,
+      "d_dyn": 5.500004396697312,
+      "frames_compared": 563,
+      "cpp_db": 24.643454882480427,
+      "hf_ratio_db": -28.917913773623564
+     }
+    }
+   }
+  },
+  {
+   "singer": "EN-Alto-1",
+   "sid": "13",
+   "song": "safe and sound",
+   "cluster": "EN-Alto-1|safe and sound",
+   "frames": {
+    "breathy": 0,
+    "other": 590
+   },
+   "real": {
+    "breathy": {
+     "cpp_db": null,
+     "hf_ratio_db": null
+    },
+    "other": {
+     "cpp_db": 18.675811382740605,
+     "hf_ratio_db": -28.696458522423523
+    }
+   },
+   "out": {
+    "base": {
+     "breathy": null,
+     "other": {
+      "d_raw": 7.666891142463482,
+      "d_dyn": 7.034762970257012,
+      "frames_compared": 589,
+      "cpp_db": 23.48585982730635,
+      "hf_ratio_db": -29.57689176204926
+     }
+    },
+    "a1": {
+     "breathy": null,
+     "other": {
+      "d_raw": 8.067318004277611,
+      "d_dyn": 7.369226972851692,
+      "frames_compared": 589,
+      "cpp_db": 21.455917824830323,
+      "hf_ratio_db": -28.561678060071205
+     }
+    },
+    "a0.5": {
+     "breathy": null,
+     "other": {
+      "d_raw": 7.680361098803904,
+      "d_dyn": 7.0627355035711075,
+      "frames_compared": 589,
+      "cpp_db": 22.664867201425757,
+      "hf_ratio_db": -29.1464797677245
+     }
+    },
+    "eqmatch": {
+     "breathy": null,
+     "other": {
+      "d_raw": 7.523189939409244,
+      "d_dyn": 7.025991675474879,
+      "frames_compared": 589,
+      "cpp_db": 23.318917174446586,
+      "hf_ratio_db": -28.14539481432333
+     }
+    }
+   }
+  },
+  {
+   "singer": "EN-Alto-1",
+   "sid": "14",
+   "song": "safe and sound",
+   "cluster": "EN-Alto-1|safe and sound",
+   "frames": {
+    "breathy": 0,
+    "other": 658
+   },
+   "real": {
+    "breathy": {
+     "cpp_db": null,
+     "hf_ratio_db": null
+    },
+    "other": {
+     "cpp_db": 18.095007639846912,
+     "hf_ratio_db": -29.108528251732952
+    }
+   },
+   "out": {
+    "base": {
+     "breathy": null,
+     "other": {
+      "d_raw": 7.1682079226373565,
+      "d_dyn": 6.01327543333222,
+      "frames_compared": 658,
+      "cpp_db": 23.152626297199074,
+      "hf_ratio_db": -28.672657701290888
+     }
+    },
+    "a1": {
+     "breathy": null,
+     "other": {
+      "d_raw": 7.337145361650498,
+      "d_dyn": 6.039025957987319,
+      "frames_compared": 658,
+      "cpp_db": 21.24783148137161,
+      "hf_ratio_db": -27.590558283920814
+     }
+    },
+    "a0.5": {
+     "breathy": null,
+     "other": {
+      "d_raw": 7.0899305886337745,
+      "d_dyn": 5.914065792337054,
+      "frames_compared": 658,
+      "cpp_db": 22.22821894846335,
+      "hf_ratio_db": -27.83411118193403
+     }
+    },
+    "eqmatch": {
+     "breathy": null,
+     "other": {
+      "d_raw": 7.130752107694247,
+      "d_dyn": 6.018418240060001,
+      "frames_compared": 658,
+      "cpp_db": 23.061772356159878,
+      "hf_ratio_db": -28.113140733625645
+     }
+    }
+   }
+  },
+  {
+   "singer": "EN-Alto-1",
+   "sid": "15",
+   "song": "sleepyhead",
+   "cluster": "EN-Alto-1|sleepyhead",
+   "frames": {
+    "breathy": 682,
+    "other": 0
+   },
+   "real": {
+    "breathy": {
+     "cpp_db": 21.235532210107415,
+     "hf_ratio_db": -23.752743342250632
+    },
+    "other": {
+     "cpp_db": null,
+     "hf_ratio_db": null
+    }
+   },
+   "out": {
+    "base": {
+     "breathy": {
+      "d_raw": 9.020970368706099,
+      "d_dyn": 7.183067445488468,
+      "frames_compared": 682,
+      "cpp_db": 24.10258897406078,
+      "hf_ratio_db": -26.87051521410258
+     },
+     "other": null
+    },
+    "a1": {
+     "breathy": {
+      "d_raw": 9.02666767946204,
+      "d_dyn": 7.087583674185953,
+      "frames_compared": 682,
+      "cpp_db": 22.28101201595252,
+      "hf_ratio_db": -26.360970264008493
+     },
+     "other": null
+    },
+    "a0.5": {
+     "breathy": {
+      "d_raw": 9.045515092715265,
+      "d_dyn": 7.083686930558633,
+      "frames_compared": 682,
+      "cpp_db": 23.357364287870045,
+      "hf_ratio_db": -26.235361442101027
+     },
+     "other": null
+    },
+    "eqmatch": {
+     "breathy": {
+      "d_raw": 8.762278899657154,
+      "d_dyn": 7.1757569580774305,
+      "frames_compared": 682,
+      "cpp_db": 24.010240192697893,
+      "hf_ratio_db": -26.756302623270063
+     },
+     "other": null
+    }
+   }
+  },
+  {
+   "singer": "EN-Alto-1",
+   "sid": "16",
+   "song": "sleepyhead",
+   "cluster": "EN-Alto-1|sleepyhead",
+   "frames": {
+    "breathy": 729,
+    "other": 0
+   },
+   "real": {
+    "breathy": {
+     "cpp_db": 21.245750530630524,
+     "hf_ratio_db": -25.617995057269006
+    },
+    "other": {
+     "cpp_db": null,
+     "hf_ratio_db": null
+    }
+   },
+   "out": {
+    "base": {
+     "breathy": {
+      "d_raw": 9.343109578991509,
+      "d_dyn": 7.076354872333397,
+      "frames_compared": 729,
+      "cpp_db": 23.097930221966408,
+      "hf_ratio_db": -28.791091532860992
+     },
+     "other": null
+    },
+    "a1": {
+     "breathy": {
+      "d_raw": 9.859655412363995,
+      "d_dyn": 7.253120737565589,
+      "frames_compared": 729,
+      "cpp_db": 22.283441025800023,
+      "hf_ratio_db": -28.188202436483145
+     },
+     "other": null
+    },
+    "a0.5": {
+     "breathy": {
+      "d_raw": 9.59739234517842,
+      "d_dyn": 7.100182657097004,
+      "frames_compared": 729,
+      "cpp_db": 22.979225911016222,
+      "hf_ratio_db": -28.52699709835144
+     },
+     "other": null
+    },
+    "eqmatch": {
+     "breathy": {
+      "d_raw": 9.266177785834476,
+      "d_dyn": 7.0842459081549185,
+      "frames_compared": 729,
+      "cpp_db": 23.095545148317594,
+      "hf_ratio_db": -26.96226651327191
+     },
+     "other": null
+    }
+   }
+  },
+  {
+   "singer": "EN-Alto-1",
+   "sid": "17",
+   "song": "sleepyhead",
+   "cluster": "EN-Alto-1|sleepyhead",
+   "frames": {
+    "breathy": 637,
+    "other": 0
+   },
+   "real": {
+    "breathy": {
+     "cpp_db": 21.203781414416436,
+     "hf_ratio_db": -22.21657057821573
+    },
+    "other": {
+     "cpp_db": null,
+     "hf_ratio_db": null
+    }
+   },
+   "out": {
+    "base": {
+     "breathy": {
+      "d_raw": 9.892753466833712,
+      "d_dyn": 8.359328521627708,
+      "frames_compared": 637,
+      "cpp_db": 21.481958238278516,
+      "hf_ratio_db": -30.520466944121875
+     },
+     "other": null
+    },
+    "a1": {
+     "breathy": {
+      "d_raw": 9.92746200441793,
+      "d_dyn": 8.324243829688726,
+      "frames_compared": 637,
+      "cpp_db": 20.381312703926838,
+      "hf_ratio_db": -26.426740770787877
+     },
+     "other": null
+    },
+    "a0.5": {
+     "breathy": {
+      "d_raw": 9.776864767349876,
+      "d_dyn": 8.11684126720548,
+      "frames_compared": 637,
+      "cpp_db": 21.002303180897844,
+      "hf_ratio_db": -29.1977430081547
+     },
+     "other": null
+    },
+    "eqmatch": {
+     "breathy": {
+      "d_raw": 9.880357746124593,
+      "d_dyn": 8.354929409394435,
+      "frames_compared": 637,
+      "cpp_db": 21.435572916602773,
+      "hf_ratio_db": -31.091824329360055
+     },
+     "other": null
+    }
+   }
+  },
+  {
+   "singer": "EN-Alto-1",
+   "sid": "18",
+   "song": "sleepyhead",
+   "cluster": "EN-Alto-1|sleepyhead",
+   "frames": {
+    "breathy": 853,
+    "other": 0
+   },
+   "real": {
+    "breathy": {
+     "cpp_db": 22.263065868839433,
+     "hf_ratio_db": -26.975094812146153
+    },
+    "other": {
+     "cpp_db": null,
+     "hf_ratio_db": null
+    }
+   },
+   "out": {
+    "base": {
+     "breathy": {
+      "d_raw": 9.362807645902933,
+      "d_dyn": 7.623873234774951,
+      "frames_compared": 853,
+      "cpp_db": 23.296373153931267,
+      "hf_ratio_db": -30.241577707516967
+     },
+     "other": null
+    },
+    "a1": {
+     "breathy": {
+      "d_raw": 9.379278191580482,
+      "d_dyn": 7.666859864355383,
+      "frames_compared": 853,
+      "cpp_db": 21.736867007833407,
+      "hf_ratio_db": -29.458004847238783
+     },
+     "other": null
+    },
+    "a0.5": {
+     "breathy": {
+      "d_raw": 9.57345338712183,
+      "d_dyn": 7.719927087059736,
+      "frames_compared": 853,
+      "cpp_db": 22.522241558449064,
+      "hf_ratio_db": -29.446750843801958
+     },
+     "other": null
+    },
+    "eqmatch": {
+     "breathy": {
+      "d_raw": 9.371005976193931,
+      "d_dyn": 7.580967450603359,
+      "frames_compared": 853,
+      "cpp_db": 23.401760672506146,
+      "hf_ratio_db": -31.361735118695336
+     },
+     "other": null
+    }
+   }
+  },
+  {
+   "singer": "EN-Alto-1",
+   "sid": "19",
+   "song": "someday or oneday",
+   "cluster": "EN-Alto-1|someday or oneday",
+   "frames": {
+    "breathy": 0,
+    "other": 844
+   },
+   "real": {
+    "breathy": {
+     "cpp_db": null,
+     "hf_ratio_db": null
+    },
+    "other": {
+     "cpp_db": 20.50631173970591,
+     "hf_ratio_db": -27.935808806046936
+    }
+   },
+   "out": {
+    "base": {
+     "breathy": null,
+     "other": {
+      "d_raw": 8.303119680595987,
+      "d_dyn": 6.551982335830521,
+      "frames_compared": 844,
+      "cpp_db": 22.8228485243381,
+      "hf_ratio_db": -32.6705514925823
+     }
+    },
+    "a1": {
+     "breathy": null,
+     "other": {
+      "d_raw": 8.801834378628778,
+      "d_dyn": 6.792368091117562,
+      "frames_compared": 844,
+      "cpp_db": 20.252960057220953,
+      "hf_ratio_db": -31.721539210091557
+     }
+    },
+    "a0.5": {
+     "breathy": null,
+     "other": {
+      "d_raw": 8.446203078553715,
+      "d_dyn": 6.541542230009385,
+      "frames_compared": 844,
+      "cpp_db": 21.876431926389294,
+      "hf_ratio_db": -31.85135713083244
+     }
+    },
+    "eqmatch": {
+     "breathy": null,
+     "other": {
+      "d_raw": 7.999368552732224,
+      "d_dyn": 6.546787921668727,
+      "frames_compared": 844,
+      "cpp_db": 22.94818981890536,
+      "hf_ratio_db": -33.01178534649745
+     }
+    }
+   }
+  },
+  {
+   "singer": "EN-Alto-1",
+   "sid": "20",
+   "song": "someday or oneday",
+   "cluster": "EN-Alto-1|someday or oneday",
+   "frames": {
+    "breathy": 0,
+    "other": 476
+   },
+   "real": {
+    "breathy": {
+     "cpp_db": null,
+     "hf_ratio_db": null
+    },
+    "other": {
+     "cpp_db": 19.192693598432346,
+     "hf_ratio_db": -22.784711867077466
+    }
+   },
+   "out": {
+    "base": {
+     "breathy": null,
+     "other": {
+      "d_raw": 9.007767092851473,
+      "d_dyn": 6.404061805448197,
+      "frames_compared": 476,
+      "cpp_db": 23.622543850857017,
+      "hf_ratio_db": -27.476674086268027
+     }
+    },
+    "a1": {
+     "breathy": null,
+     "other": {
+      "d_raw": 9.26236014541672,
+      "d_dyn": 6.564242600353783,
+      "frames_compared": 476,
+      "cpp_db": 22.46336311647413,
+      "hf_ratio_db": -27.62871426947129
+     }
+    },
+    "a0.5": {
+     "breathy": null,
+     "other": {
+      "d_raw": 9.086675845470722,
+      "d_dyn": 6.368849957432782,
+      "frames_compared": 476,
+      "cpp_db": 22.991748466005394,
+      "hf_ratio_db": -27.340167920831696
+     }
+    },
+    "eqmatch": {
+     "breathy": null,
+     "other": {
+      "d_raw": 9.065699426830896,
+      "d_dyn": 6.408236927266679,
+      "frames_compared": 476,
+      "cpp_db": 23.531191666268807,
+      "hf_ratio_db": -28.39420220910231
+     }
+    }
+   }
+  },
+  {
+   "singer": "EN-Alto-1",
+   "sid": "21",
+   "song": "treasure",
+   "cluster": "EN-Alto-1|treasure",
+   "frames": {
+    "breathy": 0,
+    "other": 551
+   },
+   "real": {
+    "breathy": {
+     "cpp_db": null,
+     "hf_ratio_db": null
+    },
+    "other": {
+     "cpp_db": 22.63749566223228,
+     "hf_ratio_db": -20.212618917400025
+    }
+   },
+   "out": {
+    "base": {
+     "breathy": null,
+     "other": {
+      "d_raw": 9.56828039730963,
+      "d_dyn": 7.417867956089643,
+      "frames_compared": 550,
+      "cpp_db": 23.501083048668868,
+      "hf_ratio_db": -28.091300655530034
+     }
+    },
+    "a1": {
+     "breathy": null,
+     "other": {
+      "d_raw": 9.495907733716018,
+      "d_dyn": 7.4602088888278795,
+      "frames_compared": 550,
+      "cpp_db": 22.284086028425424,
+      "hf_ratio_db": -28.27934328078931
+     }
+    },
+    "a0.5": {
+     "breathy": null,
+     "other": {
+      "d_raw": 9.45096768672562,
+      "d_dyn": 7.329476679168107,
+      "frames_compared": 550,
+      "cpp_db": 23.1165656298666,
+      "hf_ratio_db": -27.81545772092202
+     }
+    },
+    "eqmatch": {
+     "breathy": null,
+     "other": {
+      "d_raw": 9.468850086479986,
+      "d_dyn": 7.4171886916267935,
+      "frames_compared": 550,
+      "cpp_db": 23.550627801556843,
+      "hf_ratio_db": -28.161818164620453
+     }
+    }
+   }
+  },
+  {
+   "singer": "EN-Alto-1",
+   "sid": "22",
+   "song": "treasure",
+   "cluster": "EN-Alto-1|treasure",
+   "frames": {
+    "breathy": 0,
+    "other": 538
+   },
+   "real": {
+    "breathy": {
+     "cpp_db": null,
+     "hf_ratio_db": null
+    },
+    "other": {
+     "cpp_db": 21.48839305668858,
+     "hf_ratio_db": -21.65774457562912
+    }
+   },
+   "out": {
+    "base": {
+     "breathy": null,
+     "other": {
+      "d_raw": 9.210693902400218,
+      "d_dyn": 7.800416219081792,
+      "frames_compared": 538,
+      "cpp_db": 22.986411649578,
+      "hf_ratio_db": -27.785591722213784
+     }
+    },
+    "a1": {
+     "breathy": null,
+     "other": {
+      "d_raw": 9.267015722783215,
+      "d_dyn": 7.80480253836351,
+      "frames_compared": 538,
+      "cpp_db": 21.70592092396504,
+      "hf_ratio_db": -28.049411134511907
+     }
+    },
+    "a0.5": {
+     "breathy": null,
+     "other": {
+      "d_raw": 9.229133903403904,
+      "d_dyn": 7.745538137923508,
+      "frames_compared": 538,
+      "cpp_db": 22.62095137496785,
+      "hf_ratio_db": -27.748621701806375
+     }
+    },
+    "eqmatch": {
+     "breathy": null,
+     "other": {
+      "d_raw": 9.280684273343452,
+      "d_dyn": 7.8006233227888,
+      "frames_compared": 538,
+      "cpp_db": 23.142599555631158,
+      "hf_ratio_db": -29.537845789380867
+     }
+    }
+   }
+  },
+  {
+   "singer": "EN-Alto-1",
+   "sid": "23",
+   "song": "treasure",
+   "cluster": "EN-Alto-1|treasure",
+   "frames": {
+    "breathy": 0,
+    "other": 640
+   },
+   "real": {
+    "breathy": {
+     "cpp_db": null,
+     "hf_ratio_db": null
+    },
+    "other": {
+     "cpp_db": 22.305669611850846,
+     "hf_ratio_db": -22.17465294229414
+    }
+   },
+   "out": {
+    "base": {
+     "breathy": null,
+     "other": {
+      "d_raw": 9.661123017284147,
+      "d_dyn": 8.629542757153795,
+      "frames_compared": 640,
+      "cpp_db": 23.31923622157515,
+      "hf_ratio_db": -26.345371659956868
+     }
+    },
+    "a1": {
+     "breathy": null,
+     "other": {
+      "d_raw": 10.104515264161064,
+      "d_dyn": 8.605389226037184,
+      "frames_compared": 640,
+      "cpp_db": 21.95220103843659,
+      "hf_ratio_db": -26.864846877259584
+     }
+    },
+    "a0.5": {
+     "breathy": null,
+     "other": {
+      "d_raw": 9.915412892659488,
+      "d_dyn": 8.55607950847066,
+      "frames_compared": 640,
+      "cpp_db": 22.609284872270692,
+      "hf_ratio_db": -25.91803818119159
+     }
+    },
+    "eqmatch": {
+     "breathy": null,
+     "other": {
+      "d_raw": 9.825705549278842,
+      "d_dyn": 8.627973325690082,
+      "frames_compared": 640,
+      "cpp_db": 23.330956183919962,
+      "hf_ratio_db": -26.5797762328078
+     }
+    }
+   }
+  },
+  {
+   "singer": "EN-Alto-1",
+   "sid": "24",
+   "song": "who says",
+   "cluster": "EN-Alto-1|who says",
+   "frames": {
+    "breathy": 859,
+    "other": 0
+   },
+   "real": {
+    "breathy": {
+     "cpp_db": 21.08317091662452,
+     "hf_ratio_db": -24.897323129185743
+    },
+    "other": {
+     "cpp_db": null,
+     "hf_ratio_db": null
+    }
+   },
+   "out": {
+    "base": {
+     "breathy": {
+      "d_raw": 7.260524337817034,
+      "d_dyn": 6.493029405248211,
+      "frames_compared": 858,
+      "cpp_db": 22.19467443219284,
+      "hf_ratio_db": -31.93169852092034
+     },
+     "other": null
+    },
+    "a1": {
+     "breathy": {
+      "d_raw": 7.8897504963525815,
+      "d_dyn": 6.667768805756165,
+      "frames_compared": 858,
+      "cpp_db": 20.88916648747593,
+      "hf_ratio_db": -29.723500376506983
+     },
+     "other": null
+    },
+    "a0.5": {
+     "breathy": {
+      "d_raw": 7.57446643828194,
+      "d_dyn": 6.4851296510693786,
+      "frames_compared": 858,
+      "cpp_db": 21.559914163750953,
+      "hf_ratio_db": -30.5774174779111
+     },
+     "other": null
+    },
+    "eqmatch": {
+     "breathy": {
+      "d_raw": 7.406993336364305,
+      "d_dyn": 6.5121314707108064,
+      "frames_compared": 858,
+      "cpp_db": 22.10668682693742,
+      "hf_ratio_db": -30.032059571937683
+     },
+     "other": null
+    }
+   }
+  },
+  {
+   "singer": "EN-Alto-1",
+   "sid": "25",
+   "song": "who says",
+   "cluster": "EN-Alto-1|who says",
+   "frames": {
+    "breathy": 608,
+    "other": 0
+   },
+   "real": {
+    "breathy": {
+     "cpp_db": 22.343432475152294,
+     "hf_ratio_db": -30.63684684880579
+    },
+    "other": {
+     "cpp_db": null,
+     "hf_ratio_db": null
+    }
+   },
+   "out": {
+    "base": {
+     "breathy": {
+      "d_raw": 6.881910316851257,
+      "d_dyn": 6.35002932277706,
+      "frames_compared": 608,
+      "cpp_db": 23.736090523834456,
+      "hf_ratio_db": -30.074955564743657
+     },
+     "other": null
+    },
+    "a1": {
+     "breathy": {
+      "d_raw": 7.644208689607463,
+      "d_dyn": 6.589338510808239,
+      "frames_compared": 608,
+      "cpp_db": 22.122663494435255,
+      "hf_ratio_db": -30.041738449980432
+     },
+     "other": null
+    },
+    "a0.5": {
+     "breathy": {
+      "d_raw": 7.008689645862243,
+      "d_dyn": 6.244623468705661,
+      "frames_compared": 608,
+      "cpp_db": 23.322276596936696,
+      "hf_ratio_db": -29.834504624855665
+     },
+     "other": null
+    },
+    "eqmatch": {
+     "breathy": {
+      "d_raw": 7.196253333116583,
+      "d_dyn": 6.369821487187158,
+      "frames_compared": 608,
+      "cpp_db": 23.77322632345129,
+      "hf_ratio_db": -30.234620972727303
+     },
+     "other": null
+    }
+   }
+  },
+  {
+   "singer": "EN-Alto-1",
+   "sid": "26",
+   "song": "who says",
+   "cluster": "EN-Alto-1|who says",
+   "frames": {
+    "breathy": 644,
+    "other": 0
+   },
+   "real": {
+    "breathy": {
+     "cpp_db": 22.838294442402724,
+     "hf_ratio_db": -26.241290308347683
+    },
+    "other": {
+     "cpp_db": null,
+     "hf_ratio_db": null
+    }
+   },
+   "out": {
+    "base": {
+     "breathy": {
+      "d_raw": 7.8012831676320165,
+      "d_dyn": 6.880362163687299,
+      "frames_compared": 644,
+      "cpp_db": 23.901728408732996,
+      "hf_ratio_db": -28.11491975302378
+     },
+     "other": null
+    },
+    "a1": {
+     "breathy": {
+      "d_raw": 8.71204415194201,
+      "d_dyn": 7.150776425425745,
+      "frames_compared": 644,
+      "cpp_db": 22.763530847210486,
+      "hf_ratio_db": -28.529232304242974
+     },
+     "other": null
+    },
+    "a0.5": {
+     "breathy": {
+      "d_raw": 8.09943704083401,
+      "d_dyn": 6.925308365171072,
+      "frames_compared": 644,
+      "cpp_db": 23.504290817632228,
+      "hf_ratio_db": -27.921973458586862
+     },
+     "other": null
+    },
+    "eqmatch": {
+     "breathy": {
+      "d_raw": 7.9499314887987165,
+      "d_dyn": 6.891088883048578,
+      "frames_compared": 644,
+      "cpp_db": 23.65061433492669,
+      "hf_ratio_db": -30.084783695358112
+     },
+     "other": null
+    }
+   }
+  },
+  {
+   "singer": "EN-Alto-1",
+   "sid": "27",
+   "song": "who says",
+   "cluster": "EN-Alto-1|who says",
+   "frames": {
+    "breathy": 647,
+    "other": 0
+   },
+   "real": {
+    "breathy": {
+     "cpp_db": 22.031288304035602,
+     "hf_ratio_db": -26.680152737595655
+    },
+    "other": {
+     "cpp_db": null,
+     "hf_ratio_db": null
+    }
+   },
+   "out": {
+    "base": {
+     "breathy": {
+      "d_raw": 7.1033790609568,
+      "d_dyn": 6.735330033067166,
+      "frames_compared": 647,
+      "cpp_db": 23.235775438040584,
+      "hf_ratio_db": -32.646482789107736
+     },
+     "other": null
+    },
+    "a1": {
+     "breathy": {
+      "d_raw": 7.159402365844349,
+      "d_dyn": 6.593695402232472,
+      "frames_compared": 647,
+      "cpp_db": 22.61405887499829,
+      "hf_ratio_db": -31.277740149457877
+     },
+     "other": null
+    },
+    "a0.5": {
+     "breathy": {
+      "d_raw": 7.1289111360735316,
+      "d_dyn": 6.6574624202464285,
+      "frames_compared": 647,
+      "cpp_db": 23.1334699532182,
+      "hf_ratio_db": -31.898360032588265
+     },
+     "other": null
+    },
+    "eqmatch": {
+     "breathy": {
+      "d_raw": 7.185569878204724,
+      "d_dyn": 6.72380253518019,
+      "frames_compared": 647,
+      "cpp_db": 23.607874436508272,
+      "hf_ratio_db": -33.31403684232035
+     },
+     "other": null
+    }
+   }
+  },
+  {
+   "singer": "EN-Alto-1",
+   "sid": "28",
+   "song": "who says",
+   "cluster": "EN-Alto-1|who says",
+   "frames": {
+    "breathy": 572,
+    "other": 0
+   },
+   "real": {
+    "breathy": {
+     "cpp_db": 21.895196963112305,
+     "hf_ratio_db": -32.39816111648175
+    },
+    "other": {
+     "cpp_db": null,
+     "hf_ratio_db": null
+    }
+   },
+   "out": {
+    "base": {
+     "breathy": {
+      "d_raw": 7.447087802435697,
+      "d_dyn": 6.646718836261293,
+      "frames_compared": 572,
+      "cpp_db": 23.804841057690034,
+      "hf_ratio_db": -30.975243811211623
+     },
+     "other": null
+    },
+    "a1": {
+     "breathy": {
+      "d_raw": 7.9441379951963045,
+      "d_dyn": 6.557316436178081,
+      "frames_compared": 572,
+      "cpp_db": 22.173372787876204,
+      "hf_ratio_db": -31.152237400256663
+     },
+     "other": null
+    },
+    "a0.5": {
+     "breathy": {
+      "d_raw": 7.498624127569612,
+      "d_dyn": 6.503852110354937,
+      "frames_compared": 572,
+      "cpp_db": 22.95128015101939,
+      "hf_ratio_db": -30.914275260867043
+     },
+     "other": null
+    },
+    "eqmatch": {
+     "breathy": {
+      "d_raw": 7.722378130543405,
+      "d_dyn": 6.660472202758395,
+      "frames_compared": 572,
+      "cpp_db": 23.81972909497889,
+      "hf_ratio_db": -31.137612618282553
+     },
+     "other": null
+    }
+   }
+  },
+  {
+   "singer": "EN-Alto-1",
+   "sid": "29",
+   "song": "who says",
+   "cluster": "EN-Alto-1|who says",
+   "frames": {
+    "breathy": 630,
+    "other": 0
+   },
+   "real": {
+    "breathy": {
+     "cpp_db": 22.765599840382812,
+     "hf_ratio_db": -24.85270351606667
+    },
+    "other": {
+     "cpp_db": null,
+     "hf_ratio_db": null
+    }
+   },
+   "out": {
+    "base": {
+     "breathy": {
+      "d_raw": 7.957355582681548,
+      "d_dyn": 6.811482077915627,
+      "frames_compared": 630,
+      "cpp_db": 23.52317601857343,
+      "hf_ratio_db": -25.1088668117933
+     },
+     "other": null
+    },
+    "a1": {
+     "breathy": {
+      "d_raw": 8.985952170216738,
+      "d_dyn": 6.909191794192197,
+      "frames_compared": 630,
+      "cpp_db": 22.877855194290756,
+      "hf_ratio_db": -27.21071171180615
+     },
+     "other": null
+    },
+    "a0.5": {
+     "breathy": {
+      "d_raw": 8.456046601434883,
+      "d_dyn": 6.8094878543992206,
+      "frames_compared": 630,
+      "cpp_db": 23.367095087395196,
+      "hf_ratio_db": -26.001561695442525
+     },
+     "other": null
+    },
+    "eqmatch": {
+     "breathy": {
+      "d_raw": 8.515551970616045,
+      "d_dyn": 6.765237839908019,
+      "frames_compared": 630,
+      "cpp_db": 23.484819682758964,
+      "hf_ratio_db": -26.342936945649214
+     },
+     "other": null
+    }
+   }
+  },
+  {
+   "singer": "EN-Alto-2",
+   "sid": "00",
+   "song": "All of Me",
+   "cluster": "EN-Alto-2|All of Me",
+   "frames": {
+    "breathy": 670,
+    "other": 0
+   },
+   "real": {
+    "breathy": {
+     "cpp_db": 18.060000105805685,
+     "hf_ratio_db": -30.382313857461163
+    },
+    "other": {
+     "cpp_db": null,
+     "hf_ratio_db": null
+    }
+   },
+   "out": {
+    "base": {
+     "breathy": {
+      "d_raw": 7.076612986776563,
+      "d_dyn": 6.534324087536593,
+      "frames_compared": 670,
+      "cpp_db": 20.624430378271658,
+      "hf_ratio_db": -32.47538120271442
+     },
+     "other": null
+    },
+    "a1": {
+     "breathy": {
+      "d_raw": 7.34848510245065,
+      "d_dyn": 6.61607198769285,
+      "frames_compared": 670,
+      "cpp_db": 19.275026862661342,
+      "hf_ratio_db": -33.47367455127373
+     },
+     "other": null
+    },
+    "a0.5": {
+     "breathy": {
+      "d_raw": 7.251504159997327,
+      "d_dyn": 6.516847026045226,
+      "frames_compared": 670,
+      "cpp_db": 19.523291243790887,
+      "hf_ratio_db": -32.71094664425641
+     },
+     "other": null
+    },
+    "eqmatch": {
+     "breathy": {
+      "d_raw": 7.403109035080153,
+      "d_dyn": 6.545165065775321,
+      "frames_compared": 670,
+      "cpp_db": 20.704556000572865,
+      "hf_ratio_db": -32.89637836493565
+     },
+     "other": null
+    }
+   }
+  },
+  {
+   "singer": "EN-Alto-2",
+   "sid": "01",
+   "song": "All of Me",
+   "cluster": "EN-Alto-2|All of Me",
+   "frames": {
+    "breathy": 719,
+    "other": 0
+   },
+   "real": {
+    "breathy": {
+     "cpp_db": 16.794838000785415,
+     "hf_ratio_db": -29.06198906513894
+    },
+    "other": {
+     "cpp_db": null,
+     "hf_ratio_db": null
+    }
+   },
+   "out": {
+    "base": {
+     "breathy": {
+      "d_raw": 7.5668792502135815,
+      "d_dyn": 6.965480335731854,
+      "frames_compared": 719,
+      "cpp_db": 20.841053550477525,
+      "hf_ratio_db": -30.06090786209465
+     },
+     "other": null
+    },
+    "a1": {
+     "breathy": {
+      "d_raw": 7.599539633834868,
+      "d_dyn": 7.041081649981615,
+      "frames_compared": 719,
+      "cpp_db": 18.56378815957074,
+      "hf_ratio_db": -30.5188078022479
+     },
+     "other": null
+    },
+    "a0.5": {
+     "breathy": {
+      "d_raw": 7.510390330255231,
+      "d_dyn": 6.859862193314947,
+      "frames_compared": 719,
+      "cpp_db": 19.587914553772126,
+      "hf_ratio_db": -30.232978259045115
+     },
+     "other": null
+    },
+    "eqmatch": {
+     "breathy": {
+      "d_raw": 7.629331780888759,
+      "d_dyn": 6.9812867473780145,
+      "frames_compared": 719,
+      "cpp_db": 20.780161915217317,
+      "hf_ratio_db": -30.421318057232746
+     },
+     "other": null
+    }
+   }
+  },
+  {
+   "singer": "EN-Alto-2",
+   "sid": "02",
+   "song": "All of Me",
+   "cluster": "EN-Alto-2|All of Me",
+   "frames": {
+    "breathy": 572,
+    "other": 0
+   },
+   "real": {
+    "breathy": {
+     "cpp_db": 17.402639594038448,
+     "hf_ratio_db": -23.38559127047764
+    },
+    "other": {
+     "cpp_db": null,
+     "hf_ratio_db": null
+    }
+   },
+   "out": {
+    "base": {
+     "breathy": {
+      "d_raw": 7.334059032511824,
+      "d_dyn": 5.895500542600321,
+      "frames_compared": 570,
+      "cpp_db": 22.2817576146564,
+      "hf_ratio_db": -29.49279719119912
+     },
+     "other": null
+    },
+    "a1": {
+     "breathy": {
+      "d_raw": 6.723357066238347,
+      "d_dyn": 5.913600462412603,
+      "frames_compared": 570,
+      "cpp_db": 20.473858870784323,
+      "hf_ratio_db": -30.07778538510685
+     },
+     "other": null
+    },
+    "a0.5": {
+     "breathy": {
+      "d_raw": 7.075761362472395,
+      "d_dyn": 5.827632975482638,
+      "frames_compared": 570,
+      "cpp_db": 21.62241636606281,
+      "hf_ratio_db": -30.241157297360868
+     },
+     "other": null
+    },
+    "eqmatch": {
+     "breathy": {
+      "d_raw": 7.53834561395139,
+      "d_dyn": 5.888245250491954,
+      "frames_compared": 570,
+      "cpp_db": 22.49821272741577,
+      "hf_ratio_db": -30.647460900479857
+     },
+     "other": null
+    }
+   }
+  },
+  {
+   "singer": "EN-Alto-2",
+   "sid": "03",
+   "song": "Dream It Possible",
+   "cluster": "EN-Alto-2|Dream It Possible",
+   "frames": {
+    "breathy": 484,
+    "other": 0
+   },
+   "real": {
+    "breathy": {
+     "cpp_db": 16.274682993632887,
+     "hf_ratio_db": -28.394655221889252
+    },
+    "other": {
+     "cpp_db": null,
+     "hf_ratio_db": null
+    }
+   },
+   "out": {
+    "base": {
+     "breathy": {
+      "d_raw": 7.104818554319791,
+      "d_dyn": 6.391327996450188,
+      "frames_compared": 484,
+      "cpp_db": 20.449298928544334,
+      "hf_ratio_db": -33.87302739576932
+     },
+     "other": null
+    },
+    "a1": {
+     "breathy": {
+      "d_raw": 7.260839299156064,
+      "d_dyn": 6.65468497332003,
+      "frames_compared": 484,
+      "cpp_db": 18.74185169389903,
+      "hf_ratio_db": -33.77096932718956
+     },
+     "other": null
+    },
+    "a0.5": {
+     "breathy": {
+      "d_raw": 7.177394512922467,
+      "d_dyn": 6.403658614361131,
+      "frames_compared": 484,
+      "cpp_db": 19.32825195089849,
+      "hf_ratio_db": -34.311548193246914
+     },
+     "other": null
+    },
+    "eqmatch": {
+     "breathy": {
+      "d_raw": 7.24267157294061,
+      "d_dyn": 6.415678238261055,
+      "frames_compared": 484,
+      "cpp_db": 20.175245256004864,
+      "hf_ratio_db": -34.27916488707141
+     },
+     "other": null
+    }
+   }
+  },
+  {
+   "singer": "EN-Alto-2",
+   "sid": "04",
+   "song": "Dream It Possible",
+   "cluster": "EN-Alto-2|Dream It Possible",
+   "frames": {
+    "breathy": 894,
+    "other": 0
+   },
+   "real": {
+    "breathy": {
+     "cpp_db": 17.55034955364314,
+     "hf_ratio_db": -26.280673926140764
+    },
+    "other": {
+     "cpp_db": null,
+     "hf_ratio_db": null
+    }
+   },
+   "out": {
+    "base": {
+     "breathy": {
+      "d_raw": 6.82857432370995,
+      "d_dyn": 5.784234436244907,
+      "frames_compared": 894,
+      "cpp_db": 20.766389219809952,
+      "hf_ratio_db": -27.910597709598555
+     },
+     "other": null
+    },
+    "a1": {
+     "breathy": {
+      "d_raw": 6.572002257479798,
+      "d_dyn": 5.683254418386179,
+      "frames_compared": 894,
+      "cpp_db": 18.212908226562018,
+      "hf_ratio_db": -27.070897755609572
+     },
+     "other": null
+    },
+    "a0.5": {
+     "breathy": {
+      "d_raw": 6.8111638849535465,
+      "d_dyn": 5.639705984514643,
+      "frames_compared": 894,
+      "cpp_db": 19.63504281638018,
+      "hf_ratio_db": -27.45991793626623
+     },
+     "other": null
+    },
+    "eqmatch": {
+     "breathy": {
+      "d_raw": 6.9058585723912085,
+      "d_dyn": 5.7838640735069795,
+      "frames_compared": 894,
+      "cpp_db": 20.651759802640278,
+      "hf_ratio_db": -27.193633763252123
+     },
+     "other": null
+    }
+   }
+  },
+  {
+   "singer": "EN-Alto-2",
+   "sid": "05",
+   "song": "Easy On Me",
+   "cluster": "EN-Alto-2|Easy On Me",
+   "frames": {
+    "breathy": 542,
+    "other": 0
+   },
+   "real": {
+    "breathy": {
+     "cpp_db": 18.055480186794746,
+     "hf_ratio_db": -31.139864366173875
+    },
+    "other": {
+     "cpp_db": null,
+     "hf_ratio_db": null
+    }
+   },
+   "out": {
+    "base": {
+     "breathy": {
+      "d_raw": 7.466499232198815,
+      "d_dyn": 6.687489809113612,
+      "frames_compared": 542,
+      "cpp_db": 20.272977856337608,
+      "hf_ratio_db": -29.50236078172658
+     },
+     "other": null
+    },
+    "a1": {
+     "breathy": {
+      "d_raw": 7.678492421801429,
+      "d_dyn": 6.544037857741695,
+      "frames_compared": 542,
+      "cpp_db": 18.5930837401382,
+      "hf_ratio_db": -30.555620924688128
+     },
+     "other": null
+    },
+    "a0.5": {
+     "breathy": {
+      "d_raw": 7.648110901357858,
+      "d_dyn": 6.595117805171183,
+      "frames_compared": 542,
+      "cpp_db": 19.11737808618362,
+      "hf_ratio_db": -29.82537035574278
+     },
+     "other": null
+    },
+    "eqmatch": {
+     "breathy": {
+      "d_raw": 7.8316570630574365,
+      "d_dyn": 6.7059352522629,
+      "frames_compared": 542,
+      "cpp_db": 20.138776035420648,
+      "hf_ratio_db": -29.300970549864665
+     },
+     "other": null
+    }
+   }
+  },
+  {
+   "singer": "EN-Alto-2",
+   "sid": "06",
+   "song": "Easy On Me",
+   "cluster": "EN-Alto-2|Easy On Me",
+   "frames": {
+    "breathy": 557,
+    "other": 57
+   },
+   "real": {
+    "breathy": {
+     "cpp_db": 18.83912766449192,
+     "hf_ratio_db": -30.061720290550042
+    },
+    "other": {
+     "cpp_db": 22.44747372929289,
+     "hf_ratio_db": -26.425291413766715
+    }
+   },
+   "out": {
+    "base": {
+     "breathy": {
+      "d_raw": 7.891349630230465,
+      "d_dyn": 5.946800102085545,
+      "frames_compared": 557,
+      "cpp_db": 22.029792528404037,
+      "hf_ratio_db": -27.01619712124608
+     },
+     "other": {
+      "d_raw": 8.262699584510033,
+      "d_dyn": 7.297063504703704,
+      "frames_compared": 57,
+      "cpp_db": 19.69323637507216,
+      "hf_ratio_db": -30.654480573592316
+     }
+    },
+    "a1": {
+     "breathy": {
+      "d_raw": 8.386448051257128,
+      "d_dyn": 5.913693318222589,
+      "frames_compared": 557,
+      "cpp_db": 19.867631895587426,
+      "hf_ratio_db": -29.214733764608095
+     },
+     "other": {
+      "d_raw": 9.15654336698993,
+      "d_dyn": 7.68816455300251,
+      "frames_compared": 57,
+      "cpp_db": 17.56658777861804,
+      "hf_ratio_db": -33.155227270214894
+     }
+    },
+    "a0.5": {
+     "breathy": {
+      "d_raw": 8.311794774093183,
+      "d_dyn": 5.92892248211106,
+      "frames_compared": 557,
+      "cpp_db": 21.142845970227935,
+      "hf_ratio_db": -28.431129740712915
+     },
+     "other": {
+      "d_raw": 8.542525033152465,
+      "d_dyn": 7.4118003616978525,
+      "frames_compared": 57,
+      "cpp_db": 18.127953982568364,
+      "hf_ratio_db": -31.416925928386057
+     }
+    },
+    "eqmatch": {
+     "breathy": {
+      "d_raw": 8.150850739320743,
+      "d_dyn": 5.967874780487546,
+      "frames_compared": 557,
+      "cpp_db": 21.611593507220817,
+      "hf_ratio_db": -28.2850064418153
+     },
+     "other": {
+      "d_raw": 9.223236255154069,
+      "d_dyn": 7.313336553818009,
+      "frames_compared": 57,
+      "cpp_db": 19.119447751781365,
+      "hf_ratio_db": -32.69412029105519
+     }
+    }
+   }
+  },
+  {
+   "singer": "EN-Alto-2",
+   "sid": "07",
+   "song": "Easy On Me",
+   "cluster": "EN-Alto-2|Easy On Me",
+   "frames": {
+    "breathy": 591,
+    "other": 0
+   },
+   "real": {
+    "breathy": {
+     "cpp_db": 17.052901027005028,
+     "hf_ratio_db": -27.633914518275503
+    },
+    "other": {
+     "cpp_db": null,
+     "hf_ratio_db": null
+    }
+   },
+   "out": {
+    "base": {
+     "breathy": {
+      "d_raw": 7.999481183418879,
+      "d_dyn": 6.895736596962239,
+      "frames_compared": 591,
+      "cpp_db": 19.894105348286907,
+      "hf_ratio_db": -26.094181398216477
+     },
+     "other": null
+    },
+    "a1": {
+     "breathy": {
+      "d_raw": 7.796926232726643,
+      "d_dyn": 6.400497283979928,
+      "frames_compared": 591,
+      "cpp_db": 18.479633255618037,
+      "hf_ratio_db": -26.564815892423546
+     },
+     "other": null
+    },
+    "a0.5": {
+     "breathy": {
+      "d_raw": 8.055089179363932,
+      "d_dyn": 6.682046370050733,
+      "frames_compared": 591,
+      "cpp_db": 19.324881653604738,
+      "hf_ratio_db": -26.595265222309877
+     },
+     "other": null
+    },
+    "eqmatch": {
+     "breathy": {
+      "d_raw": 8.263292218784208,
+      "d_dyn": 6.895377918347295,
+      "frames_compared": 591,
+      "cpp_db": 19.724089376876904,
+      "hf_ratio_db": -25.546033862997408
+     },
+     "other": null
+    }
+   }
+  },
+  {
+   "singer": "EN-Alto-2",
+   "sid": "08",
+   "song": "Fly Me to the Moon",
+   "cluster": "EN-Alto-2|Fly Me to the Moon",
+   "frames": {
+    "breathy": 672,
+    "other": 0
+   },
+   "real": {
+    "breathy": {
+     "cpp_db": 15.695641957410285,
+     "hf_ratio_db": -26.317783209799625
+    },
+    "other": {
+     "cpp_db": null,
+     "hf_ratio_db": null
+    }
+   },
+   "out": {
+    "base": {
+     "breathy": {
+      "d_raw": 8.36988432398971,
+      "d_dyn": 7.470454844979947,
+      "frames_compared": 672,
+      "cpp_db": 18.88838736339075,
+      "hf_ratio_db": -32.07111771306949
+     },
+     "other": null
+    },
+    "a1": {
+     "breathy": {
+      "d_raw": 8.736383207526684,
+      "d_dyn": 7.50530622243048,
+      "frames_compared": 672,
+      "cpp_db": 18.188280969636825,
+      "hf_ratio_db": -30.860231054198515
+     },
+     "other": null
+    },
+    "a0.5": {
+     "breathy": {
+      "d_raw": 8.491358794251745,
+      "d_dyn": 7.429444073958157,
+      "frames_compared": 672,
+      "cpp_db": 18.395505548713903,
+      "hf_ratio_db": -31.52887783347472
+     },
+     "other": null
+    },
+    "eqmatch": {
+     "breathy": {
+      "d_raw": 8.52077585914466,
+      "d_dyn": 7.494933626275503,
+      "frames_compared": 672,
+      "cpp_db": 18.98505124843224,
+      "hf_ratio_db": -31.629590389665342
+     },
+     "other": null
+    }
+   }
+  },
+  {
+   "singer": "EN-Alto-2",
+   "sid": "09",
+   "song": "Love Me Like You Do",
+   "cluster": "EN-Alto-2|Love Me Like You Do",
+   "frames": {
+    "breathy": 581,
+    "other": 0
+   },
+   "real": {
+    "breathy": {
+     "cpp_db": 17.445973310983593,
+     "hf_ratio_db": -23.640778939196366
+    },
+    "other": {
+     "cpp_db": null,
+     "hf_ratio_db": null
+    }
+   },
+   "out": {
+    "base": {
+     "breathy": {
+      "d_raw": 7.9615363280460745,
+      "d_dyn": 7.117062687851566,
+      "frames_compared": 581,
+      "cpp_db": 20.375233949621236,
+      "hf_ratio_db": -30.139708648922053
+     },
+     "other": null
+    },
+    "a1": {
+     "breathy": {
+      "d_raw": 7.837323870615051,
+      "d_dyn": 7.014501225853726,
+      "frames_compared": 581,
+      "cpp_db": 18.78700971614487,
+      "hf_ratio_db": -30.092338091584196
+     },
+     "other": null
+    },
+    "a0.5": {
+     "breathy": {
+      "d_raw": 8.017190143199821,
+      "d_dyn": 7.065671486212798,
+      "frames_compared": 581,
+      "cpp_db": 19.44496352908546,
+      "hf_ratio_db": -29.613508106251164
+     },
+     "other": null
+    },
+    "eqmatch": {
+     "breathy": {
+      "d_raw": 7.816235330177719,
+      "d_dyn": 7.134746535742317,
+      "frames_compared": 581,
+      "cpp_db": 20.37335921411399,
+      "hf_ratio_db": -29.313149660389502
+     },
+     "other": null
+    }
+   }
+  },
+  {
+   "singer": "EN-Alto-2",
+   "sid": "10",
+   "song": "Love Me Like You Do",
+   "cluster": "EN-Alto-2|Love Me Like You Do",
+   "frames": {
+    "breathy": 687,
+    "other": 62
+   },
+   "real": {
+    "breathy": {
+     "cpp_db": 18.05968231992694,
+     "hf_ratio_db": -25.75876086937753
+    },
+    "other": {
+     "cpp_db": null,
+     "hf_ratio_db": null
+    }
+   },
+   "out": {
+    "base": {
+     "breathy": {
+      "d_raw": 7.289373183513848,
+      "d_dyn": 6.322260224593745,
+      "frames_compared": 687,
+      "cpp_db": 20.738837649307605,
+      "hf_ratio_db": -26.237129482203752
+     },
+     "other": {
+      "d_raw": 8.769371656043507,
+      "d_dyn": 6.976671362751613,
+      "frames_compared": 62,
+      "cpp_db": 21.450457107967658,
+      "hf_ratio_db": -26.184955723314978
+     }
+    },
+    "a1": {
+     "breathy": {
+      "d_raw": 7.06266572910661,
+      "d_dyn": 6.0811418752137625,
+      "frames_compared": 687,
+      "cpp_db": 19.033805272563793,
+      "hf_ratio_db": -25.16443378432428
+     },
+     "other": {
+      "d_raw": 7.991994494875218,
+      "d_dyn": 6.658300753733181,
+      "frames_compared": 62,
+      "cpp_db": 19.67565533540155,
+      "hf_ratio_db": -25.949092777479095
+     }
+    },
+    "a0.5": {
+     "breathy": {
+      "d_raw": 7.308752439891153,
+      "d_dyn": 6.164543289246951,
+      "frames_compared": 687,
+      "cpp_db": 19.751787728201183,
+      "hf_ratio_db": -25.468305448397334
+     },
+     "other": {
+      "d_raw": 8.506984784301892,
+      "d_dyn": 6.829260163875745,
+      "frames_compared": 62,
+      "cpp_db": 20.16816892857691,
+      "hf_ratio_db": -25.049810422976204
+     }
+    },
+    "eqmatch": {
+     "breathy": {
+      "d_raw": 7.5517841060945905,
+      "d_dyn": 6.327801390588493,
+      "frames_compared": 687,
+      "cpp_db": 20.476264891540385,
+      "hf_ratio_db": -25.68460662728624
+     },
+     "other": {
+      "d_raw": 8.926992217178022,
+      "d_dyn": 6.998574190877144,
+      "frames_compared": 62,
+      "cpp_db": 21.31096209122969,
+      "hf_ratio_db": -27.29544220220899
+     }
+    }
+   }
+  },
+  {
+   "singer": "EN-Alto-2",
+   "sid": "11",
+   "song": "Love Me Like You Do",
+   "cluster": "EN-Alto-2|Love Me Like You Do",
+   "frames": {
+    "breathy": 580,
+    "other": 15
+   },
+   "real": {
+    "breathy": {
+     "cpp_db": 17.696545417643488,
+     "hf_ratio_db": -23.199152245021676
+    },
+    "other": {
+     "cpp_db": null,
+     "hf_ratio_db": null
+    }
+   },
+   "out": {
+    "base": {
+     "breathy": {
+      "d_raw": 7.583726368218889,
+      "d_dyn": 6.5869880379117625,
+      "frames_compared": 578,
+      "cpp_db": 20.24627916181183,
+      "hf_ratio_db": -26.564884098779007
+     },
+     "other": null
+    },
+    "a1": {
+     "breathy": {
+      "d_raw": 7.6375760759564715,
+      "d_dyn": 6.5791032590918865,
+      "frames_compared": 578,
+      "cpp_db": 18.387414853258765,
+      "hf_ratio_db": -24.8149441614476
+     },
+     "other": null
+    },
+    "a0.5": {
+     "breathy": {
+      "d_raw": 7.732702114949934,
+      "d_dyn": 6.537664922629322,
+      "frames_compared": 578,
+      "cpp_db": 19.253268197164648,
+      "hf_ratio_db": -25.619404841395202
+     },
+     "other": null
+    },
+    "eqmatch": {
+     "breathy": {
+      "d_raw": 7.545625482503678,
+      "d_dyn": 6.594474817260152,
+      "frames_compared": 578,
+      "cpp_db": 20.286361247989202,
+      "hf_ratio_db": -25.303100480857427
+     },
+     "other": null
+    }
+   }
+  },
+  {
+   "singer": "EN-Alto-2",
+   "sid": "12",
+   "song": "Love Story",
+   "cluster": "EN-Alto-2|Love Story",
+   "frames": {
+    "breathy": 790,
+    "other": 0
+   },
+   "real": {
+    "breathy": {
+     "cpp_db": 17.175362172967713,
+     "hf_ratio_db": -23.263078258416567
+    },
+    "other": {
+     "cpp_db": null,
+     "hf_ratio_db": null
+    }
+   },
+   "out": {
+    "base": {
+     "breathy": {
+      "d_raw": 7.828416579719174,
+      "d_dyn": 6.883863026143498,
+      "frames_compared": 790,
+      "cpp_db": 20.4307761979842,
+      "hf_ratio_db": -26.33345073287686
+     },
+     "other": null
+    },
+    "a1": {
+     "breathy": {
+      "d_raw": 7.690419275307141,
+      "d_dyn": 6.896592896061743,
+      "frames_compared": 790,
+      "cpp_db": 18.5774144591985,
+      "hf_ratio_db": -26.044493849802482
+     },
+     "other": null
+    },
+    "a0.5": {
+     "breathy": {
+      "d_raw": 7.906499392271746,
+      "d_dyn": 6.849715939710522,
+      "frames_compared": 790,
+      "cpp_db": 19.490870429980262,
+      "hf_ratio_db": -26.222281462177918
+     },
+     "other": null
+    },
+    "eqmatch": {
+     "breathy": {
+      "d_raw": 7.903845676756822,
+      "d_dyn": 6.910222996968313,
+      "frames_compared": 790,
+      "cpp_db": 20.315047001529695,
+      "hf_ratio_db": -26.01005791530449
+     },
+     "other": null
+    }
+   }
+  },
+  {
+   "singer": "EN-Alto-2",
+   "sid": "13",
+   "song": "My Heart Will Go On",
+   "cluster": "EN-Alto-2|My Heart Will Go On",
+   "frames": {
+    "breathy": 744,
+    "other": 0
+   },
+   "real": {
+    "breathy": {
+     "cpp_db": 17.56153560350301,
+     "hf_ratio_db": -26.516279930824158
+    },
+    "other": {
+     "cpp_db": null,
+     "hf_ratio_db": null
+    }
+   },
+   "out": {
+    "base": {
+     "breathy": {
+      "d_raw": 7.871200513635219,
+      "d_dyn": 6.49346673172221,
+      "frames_compared": 744,
+      "cpp_db": 22.462539376348488,
+      "hf_ratio_db": -27.22747014335705
+     },
+     "other": null
+    },
+    "a1": {
+     "breathy": {
+      "d_raw": 7.825668968484817,
+      "d_dyn": 6.440982454557274,
+      "frames_compared": 744,
+      "cpp_db": 20.087720873784598,
+      "hf_ratio_db": -26.250818233844978
+     },
+     "other": null
+    },
+    "a0.5": {
+     "breathy": {
+      "d_raw": 7.9764883469809655,
+      "d_dyn": 6.409302438529229,
+      "frames_compared": 744,
+      "cpp_db": 21.32477297553276,
+      "hf_ratio_db": -27.017651529639462
+     },
+     "other": null
+    },
+    "eqmatch": {
+     "breathy": {
+      "d_raw": 8.038814783046659,
+      "d_dyn": 6.501134552622129,
+      "frames_compared": 744,
+      "cpp_db": 22.330737684108126,
+      "hf_ratio_db": -27.147146128057475
+     },
+     "other": null
+    }
+   }
+  },
+  {
+   "singer": "EN-Alto-2",
+   "sid": "14",
+   "song": "My Heart Will Go On",
+   "cluster": "EN-Alto-2|My Heart Will Go On",
+   "frames": {
+    "breathy": 832,
+    "other": 0
+   },
+   "real": {
+    "breathy": {
+     "cpp_db": 19.706634441042784,
+     "hf_ratio_db": -31.008465734400513
+    },
+    "other": {
+     "cpp_db": null,
+     "hf_ratio_db": null
+    }
+   },
+   "out": {
+    "base": {
+     "breathy": {
+      "d_raw": 7.3899409732871835,
+      "d_dyn": 6.238508329112484,
+      "frames_compared": 832,
+      "cpp_db": 21.60622249171106,
+      "hf_ratio_db": -28.836191762274424
+     },
+     "other": null
+    },
+    "a1": {
+     "breathy": {
+      "d_raw": 6.937643681487022,
+      "d_dyn": 6.097323355775123,
+      "frames_compared": 832,
+      "cpp_db": 19.690028786450966,
+      "hf_ratio_db": -28.585926064266825
+     },
+     "other": null
+    },
+    "a0.5": {
+     "breathy": {
+      "d_raw": 7.3769896703357265,
+      "d_dyn": 6.133382052473667,
+      "frames_compared": 832,
+      "cpp_db": 20.576870269084797,
+      "hf_ratio_db": -28.945369908186922
+     },
+     "other": null
+    },
+    "eqmatch": {
+     "breathy": {
+      "d_raw": 7.236013839248007,
+      "d_dyn": 6.199041369878544,
+      "frames_compared": 832,
+      "cpp_db": 21.65668624428953,
+      "hf_ratio_db": -29.294022733480695
+     },
+     "other": null
+    }
+   }
+  },
+  {
+   "singer": "EN-Alto-2",
+   "sid": "15",
+   "song": "My Heart Will Go On",
+   "cluster": "EN-Alto-2|My Heart Will Go On",
+   "frames": {
+    "breathy": 807,
+    "other": 0
+   },
+   "real": {
+    "breathy": {
+     "cpp_db": 18.192761456518134,
+     "hf_ratio_db": -25.623865063872916
+    },
+    "other": {
+     "cpp_db": null,
+     "hf_ratio_db": null
+    }
+   },
+   "out": {
+    "base": {
+     "breathy": {
+      "d_raw": 7.6545540553914595,
+      "d_dyn": 6.531772417804455,
+      "frames_compared": 807,
+      "cpp_db": 21.51202855227782,
+      "hf_ratio_db": -27.082727995943866
+     },
+     "other": null
+    },
+    "a1": {
+     "breathy": {
+      "d_raw": 7.423506211805511,
+      "d_dyn": 6.356820112243727,
+      "frames_compared": 807,
+      "cpp_db": 18.785471209678022,
+      "hf_ratio_db": -26.022201491829506
+     },
+     "other": null
+    },
+    "a0.5": {
+     "breathy": {
+      "d_raw": 7.70290269914943,
+      "d_dyn": 6.42259705521771,
+      "frames_compared": 807,
+      "cpp_db": 20.11095312243795,
+      "hf_ratio_db": -26.663786757992494
+     },
+     "other": null
+    },
+    "eqmatch": {
+     "breathy": {
+      "d_raw": 7.72385024866578,
+      "d_dyn": 6.549243516609295,
+      "frames_compared": 807,
+      "cpp_db": 21.40315020563373,
+      "hf_ratio_db": -25.417742185158847
+     },
+     "other": null
+    }
+   }
+  },
+  {
+   "singer": "EN-Alto-2",
+   "sid": "16",
+   "song": "My Love",
+   "cluster": "EN-Alto-2|My Love",
+   "frames": {
+    "breathy": 534,
+    "other": 61
+   },
+   "real": {
+    "breathy": {
+     "cpp_db": 17.345515237843955,
+     "hf_ratio_db": -29.29468923753499
+    },
+    "other": {
+     "cpp_db": 17.8276802084142,
+     "hf_ratio_db": -31.44066066189588
+    }
+   },
+   "out": {
+    "base": {
+     "breathy": {
+      "d_raw": 8.176959298742442,
+      "d_dyn": 7.01565470910351,
+      "frames_compared": 534,
+      "cpp_db": 18.674008297696574,
+      "hf_ratio_db": -34.04079233166878
+     },
+     "other": {
+      "d_raw": 8.66185856685442,
+      "d_dyn": 6.9907304086170425,
+      "frames_compared": 61,
+      "cpp_db": 17.09488996310189,
+      "hf_ratio_db": -35.795843547630874
+     }
+    },
+    "a1": {
+     "breathy": {
+      "d_raw": 8.114842575721028,
+      "d_dyn": 6.994820078023151,
+      "frames_compared": 534,
+      "cpp_db": 17.531661087969333,
+      "hf_ratio_db": -32.81389874480409
+     },
+     "other": {
+      "d_raw": 9.533507940334545,
+      "d_dyn": 7.4143993777517485,
+      "frames_compared": 61,
+      "cpp_db": 16.092675477950344,
+      "hf_ratio_db": -33.34423161354544
+     }
+    },
+    "a0.5": {
+     "breathy": {
+      "d_raw": 8.30932189351394,
+      "d_dyn": 6.9748605612844985,
+      "frames_compared": 534,
+      "cpp_db": 17.024704664300263,
+      "hf_ratio_db": -33.86516629344031
+     },
+     "other": {
+      "d_raw": 9.131888743205156,
+      "d_dyn": 7.202155763487205,
+      "frames_compared": 61,
+      "cpp_db": 15.92927992258072,
+      "hf_ratio_db": -34.91882100918625
+     }
+    },
+    "eqmatch": {
+     "breathy": {
+      "d_raw": 8.35852675039917,
+      "d_dyn": 7.02583165275014,
+      "frames_compared": 534,
+      "cpp_db": 18.31877485627354,
+      "hf_ratio_db": -33.019650530397854
+     },
+     "other": {
+      "d_raw": 8.904120407110637,
+      "d_dyn": 7.025967598965437,
+      "frames_compared": 61,
+      "cpp_db": 17.289779756626068,
+      "hf_ratio_db": -33.9610883538326
+     }
+    }
+   }
+  },
+  {
+   "singer": "EN-Alto-2",
+   "sid": "17",
+   "song": "My Love",
+   "cluster": "EN-Alto-2|My Love",
+   "frames": {
+    "breathy": 801,
+    "other": 0
+   },
+   "real": {
+    "breathy": {
+     "cpp_db": 19.12640320142419,
+     "hf_ratio_db": -25.423007349037917
+    },
+    "other": {
+     "cpp_db": null,
+     "hf_ratio_db": null
+    }
+   },
+   "out": {
+    "base": {
+     "breathy": {
+      "d_raw": 8.90356459384055,
+      "d_dyn": 7.352141587384859,
+      "frames_compared": 794,
+      "cpp_db": 20.25049967684154,
+      "hf_ratio_db": -27.158981904134706
+     },
+     "other": null
+    },
+    "a1": {
+     "breathy": {
+      "d_raw": 7.7754958857274366,
+      "d_dyn": 6.6711086474018355,
+      "frames_compared": 794,
+      "cpp_db": 18.37124715251197,
+      "hf_ratio_db": -27.642536395344653
+     },
+     "other": null
+    },
+    "a0.5": {
+     "breathy": {
+      "d_raw": 8.65733122803504,
+      "d_dyn": 7.099279337404,
+      "frames_compared": 794,
+      "cpp_db": 19.273800203555652,
+      "hf_ratio_db": -28.231640733200067
+     },
+     "other": null
+    },
+    "eqmatch": {
+     "breathy": {
+      "d_raw": 9.159031755321394,
+      "d_dyn": 7.332067308540342,
+      "frames_compared": 794,
+      "cpp_db": 20.138844613537554,
+      "hf_ratio_db": -27.932334488338242
+     },
+     "other": null
+    }
+   }
+  },
+  {
+   "singer": "EN-Alto-2",
+   "sid": "18",
+   "song": "My Love",
+   "cluster": "EN-Alto-2|My Love",
+   "frames": {
+    "breathy": 847,
+    "other": 0
+   },
+   "real": {
+    "breathy": {
+     "cpp_db": 17.087481795294465,
+     "hf_ratio_db": -24.466579344980293
+    },
+    "other": {
+     "cpp_db": null,
+     "hf_ratio_db": null
+    }
+   },
+   "out": {
+    "base": {
+     "breathy": {
+      "d_raw": 8.26192376180645,
+      "d_dyn": 6.479746087629265,
+      "frames_compared": 847,
+      "cpp_db": 20.837832095633246,
+      "hf_ratio_db": -27.076315669082813
+     },
+     "other": null
+    },
+    "a1": {
+     "breathy": {
+      "d_raw": 7.39895950037711,
+      "d_dyn": 6.396332068282736,
+      "frames_compared": 847,
+      "cpp_db": 18.826770153836172,
+      "hf_ratio_db": -26.06012534887163
+     },
+     "other": null
+    },
+    "a0.5": {
+     "breathy": {
+      "d_raw": 7.9076045457734665,
+      "d_dyn": 6.243005861287543,
+      "frames_compared": 847,
+      "cpp_db": 19.532111222592903,
+      "hf_ratio_db": -26.439622604044153
+     },
+     "other": null
+    },
+    "eqmatch": {
+     "breathy": {
+      "d_raw": 8.433235375354968,
+      "d_dyn": 6.492404667585293,
+      "frames_compared": 847,
+      "cpp_db": 20.865791988877792,
+      "hf_ratio_db": -26.157406742602827
+     },
+     "other": null
+    }
+   }
+  },
+  {
+   "singer": "EN-Alto-2",
+   "sid": "19",
+   "song": "Safe and Sound",
+   "cluster": "EN-Alto-2|Safe and Sound",
+   "frames": {
+    "breathy": 779,
+    "other": 0
+   },
+   "real": {
+    "breathy": {
+     "cpp_db": 17.229411618582027,
+     "hf_ratio_db": -26.350081659022074
+    },
+    "other": {
+     "cpp_db": null,
+     "hf_ratio_db": null
+    }
+   },
+   "out": {
+    "base": {
+     "breathy": {
+      "d_raw": 8.458168861893034,
+      "d_dyn": 7.374755107045144,
+      "frames_compared": 779,
+      "cpp_db": 21.532650553303853,
+      "hf_ratio_db": -29.588641078688266
+     },
+     "other": null
+    },
+    "a1": {
+     "breathy": {
+      "d_raw": 8.083768751627334,
+      "d_dyn": 7.239743571729447,
+      "frames_compared": 779,
+      "cpp_db": 19.169092929319,
+      "hf_ratio_db": -30.027843937441123
+     },
+     "other": null
+    },
+    "a0.5": {
+     "breathy": {
+      "d_raw": 8.430435993229937,
+      "d_dyn": 7.293344258594762,
+      "frames_compared": 779,
+      "cpp_db": 20.26728998226351,
+      "hf_ratio_db": -29.55431839373783
+     },
+     "other": null
+    },
+    "eqmatch": {
+     "breathy": {
+      "d_raw": 8.42876496218205,
+      "d_dyn": 7.362113107659983,
+      "frames_compared": 779,
+      "cpp_db": 21.319911334913925,
+      "hf_ratio_db": -30.224183871193052
+     },
+     "other": null
+    }
+   }
+  },
+  {
+   "singer": "EN-Alto-2",
+   "sid": "20",
+   "song": "Someone Like You",
+   "cluster": "EN-Alto-2|Someone Like You",
+   "frames": {
+    "breathy": 499,
+    "other": 64
+   },
+   "real": {
+    "breathy": {
+     "cpp_db": 18.815783147904188,
+     "hf_ratio_db": -30.578081905365906
+    },
+    "other": {
+     "cpp_db": 18.929145584798555,
+     "hf_ratio_db": -38.085972427250674
+    }
+   },
+   "out": {
+    "base": {
+     "breathy": {
+      "d_raw": 6.871178363088957,
+      "d_dyn": 5.960911172869404,
+      "frames_compared": 499,
+      "cpp_db": 20.906838670157732,
+      "hf_ratio_db": -30.733033134545387
+     },
+     "other": {
+      "d_raw": 7.416181608601287,
+      "d_dyn": 5.399522815660465,
+      "frames_compared": 64,
+      "cpp_db": 19.433163612983176,
+      "hf_ratio_db": -43.061214125570416
+     }
+    },
+    "a1": {
+     "breathy": {
+      "d_raw": 6.678734833732451,
+      "d_dyn": 5.928509447299981,
+      "frames_compared": 499,
+      "cpp_db": 17.930460220573405,
+      "hf_ratio_db": -30.589097058205446
+     },
+     "other": {
+      "d_raw": 7.628176072453658,
+      "d_dyn": 5.589369913992703,
+      "frames_compared": 64,
+      "cpp_db": 18.543366356224112,
+      "hf_ratio_db": -45.51249885497282
+     }
+    },
+    "a0.5": {
+     "breathy": {
+      "d_raw": 6.896537270782709,
+      "d_dyn": 5.896316683460607,
+      "frames_compared": 499,
+      "cpp_db": 19.48478125780665,
+      "hf_ratio_db": -30.785373958341605
+     },
+     "other": {
+      "d_raw": 7.945760163631065,
+      "d_dyn": 5.495892707396842,
+      "frames_compared": 64,
+      "cpp_db": 19.19875662309232,
+      "hf_ratio_db": -44.2456684704529
+     }
+    },
+    "eqmatch": {
+     "breathy": {
+      "d_raw": 7.028143785366162,
+      "d_dyn": 5.956005429177595,
+      "frames_compared": 499,
+      "cpp_db": 20.766284735205172,
+      "hf_ratio_db": -29.98008025310522
+     },
+     "other": {
+      "d_raw": 7.72983627138938,
+      "d_dyn": 5.411535590301451,
+      "frames_compared": 64,
+      "cpp_db": 19.474401820328502,
+      "hf_ratio_db": -40.945054697078575
+     }
+    }
+   }
+  },
+  {
+   "singer": "EN-Alto-2",
+   "sid": "21",
+   "song": "Someone Like You",
+   "cluster": "EN-Alto-2|Someone Like You",
+   "frames": {
+    "breathy": 382,
+    "other": 335
+   },
+   "real": {
+    "breathy": {
+     "cpp_db": 17.226905593049498,
+     "hf_ratio_db": -30.428485232597108
+    },
+    "other": {
+     "cpp_db": 19.458252785138036,
+     "hf_ratio_db": -32.490890446324215
+    }
+   },
+   "out": {
+    "base": {
+     "breathy": {
+      "d_raw": 6.527467723025099,
+      "d_dyn": 5.831944723447103,
+      "frames_compared": 382,
+      "cpp_db": 19.08521968451891,
+      "hf_ratio_db": -28.938349024862454
+     },
+     "other": {
+      "d_raw": 6.735200629459646,
+      "d_dyn": 5.5542803000662735,
+      "frames_compared": 335,
+      "cpp_db": 19.550203380008153,
+      "hf_ratio_db": -30.865822925365944
+     }
+    },
+    "a1": {
+     "breathy": {
+      "d_raw": 6.43656166032346,
+      "d_dyn": 5.932549175344727,
+      "frames_compared": 382,
+      "cpp_db": 18.385665831205078,
+      "hf_ratio_db": -28.713933765167216
+     },
+     "other": {
+      "d_raw": 6.539617965233244,
+      "d_dyn": 5.436681887304151,
+      "frames_compared": 335,
+      "cpp_db": 18.46679896116902,
+      "hf_ratio_db": -31.03329368781894
+     }
+    },
+    "a0.5": {
+     "breathy": {
+      "d_raw": 6.61618080950418,
+      "d_dyn": 5.835467926045713,
+      "frames_compared": 382,
+      "cpp_db": 18.428721368621837,
+      "hf_ratio_db": -28.978665048694715
+     },
+     "other": {
+      "d_raw": 6.8198801864823775,
+      "d_dyn": 5.457091063289654,
+      "frames_compared": 335,
+      "cpp_db": 18.785939338500764,
+      "hf_ratio_db": -30.725564072992686
+     }
+    },
+    "eqmatch": {
+     "breathy": {
+      "d_raw": 6.416945550058548,
+      "d_dyn": 5.822575061419544,
+      "frames_compared": 382,
+      "cpp_db": 18.970565540312705,
+      "hf_ratio_db": -28.358172679796187
+     },
+     "other": {
+      "d_raw": 6.296032059838135,
+      "d_dyn": 5.554474012824023,
+      "frames_compared": 335,
+      "cpp_db": 19.53084418616118,
+      "hf_ratio_db": -30.623013878706587
+     }
+    }
+   }
+  },
+  {
+   "singer": "EN-Alto-2",
+   "sid": "22",
+   "song": "Someone Like You",
+   "cluster": "EN-Alto-2|Someone Like You",
+   "frames": {
+    "breathy": 636,
+    "other": 0
+   },
+   "real": {
+    "breathy": {
+     "cpp_db": 21.012890672462742,
+     "hf_ratio_db": -31.307874621231996
+    },
+    "other": {
+     "cpp_db": null,
+     "hf_ratio_db": null
+    }
+   },
+   "out": {
+    "base": {
+     "breathy": {
+      "d_raw": 6.446793388411211,
+      "d_dyn": 5.696541979497777,
+      "frames_compared": 636,
+      "cpp_db": 21.594804594469526,
+      "hf_ratio_db": -29.82704779302818
+     },
+     "other": null
+    },
+    "a1": {
+     "breathy": {
+      "d_raw": 6.677110202619352,
+      "d_dyn": 5.807517198756319,
+      "frames_compared": 636,
+      "cpp_db": 19.306287432593724,
+      "hf_ratio_db": -31.953551392113432
+     },
+     "other": null
+    },
+    "a0.5": {
+     "breathy": {
+      "d_raw": 6.681729458748683,
+      "d_dyn": 5.653040510088541,
+      "frames_compared": 636,
+      "cpp_db": 20.54040523118072,
+      "hf_ratio_db": -30.96130111153177
+     },
+     "other": null
+    },
+    "eqmatch": {
+     "breathy": {
+      "d_raw": 6.706068582764727,
+      "d_dyn": 5.709344784744658,
+      "frames_compared": 636,
+      "cpp_db": 21.401794803093715,
+      "hf_ratio_db": -28.4712260364995
+     },
+     "other": null
+    }
+   }
+  },
+  {
+   "singer": "EN-Alto-2",
+   "sid": "23",
+   "song": "Someone Like You",
+   "cluster": "EN-Alto-2|Someone Like You",
+   "frames": {
+    "breathy": 490,
+    "other": 181
+   },
+   "real": {
+    "breathy": {
+     "cpp_db": 18.336426791302376,
+     "hf_ratio_db": -32.757712998875306
+    },
+    "other": {
+     "cpp_db": 20.383676946758897,
+     "hf_ratio_db": -29.714058905167214
+    }
+   },
+   "out": {
+    "base": {
+     "breathy": {
+      "d_raw": 7.44784801359836,
+      "d_dyn": 6.848526974175802,
+      "frames_compared": 490,
+      "cpp_db": 18.64406522219532,
+      "hf_ratio_db": -30.826663475712632
+     },
+     "other": {
+      "d_raw": 6.407912997409474,
+      "d_dyn": 5.421541700153486,
+      "frames_compared": 181,
+      "cpp_db": 21.74287480109201,
+      "hf_ratio_db": -26.47309791387015
+     }
+    },
+    "a1": {
+     "breathy": {
+      "d_raw": 7.683742456548534,
+      "d_dyn": 6.797149299950639,
+      "frames_compared": 490,
+      "cpp_db": 17.979997808459952,
+      "hf_ratio_db": -27.468848730398562
+     },
+     "other": {
+      "d_raw": 6.049090503161953,
+      "d_dyn": 5.0332716937902,
+      "frames_compared": 181,
+      "cpp_db": 20.010313638730437,
+      "hf_ratio_db": -26.278849855485422
+     }
+    },
+    "a0.5": {
+     "breathy": {
+      "d_raw": 7.516843887350455,
+      "d_dyn": 6.778932172059818,
+      "frames_compared": 490,
+      "cpp_db": 18.37097007256241,
+      "hf_ratio_db": -29.485403068375955
+     },
+     "other": {
+      "d_raw": 6.378612742662709,
+      "d_dyn": 5.261608307940458,
+      "frames_compared": 181,
+      "cpp_db": 20.76235619521679,
+      "hf_ratio_db": -26.39919463217766
+     }
+    },
+    "eqmatch": {
+     "breathy": {
+      "d_raw": 7.647559900525879,
+      "d_dyn": 6.793404000083144,
+      "frames_compared": 490,
+      "cpp_db": 19.13530203487641,
+      "hf_ratio_db": -29.723472702464726
+     },
+     "other": {
+      "d_raw": 6.548542751734343,
+      "d_dyn": 5.424220898056907,
+      "frames_compared": 181,
+      "cpp_db": 21.765585706451525,
+      "hf_ratio_db": -27.46502590619438
+     }
+    }
+   }
+  },
+  {
+   "singer": "EN-Alto-2",
+   "sid": "24",
+   "song": "Someone You Loved",
+   "cluster": "EN-Alto-2|Someone You Loved",
+   "frames": {
+    "breathy": 752,
+    "other": 0
+   },
+   "real": {
+    "breathy": {
+     "cpp_db": 17.74900814044626,
+     "hf_ratio_db": -23.412794042724382
+    },
+    "other": {
+     "cpp_db": null,
+     "hf_ratio_db": null
+    }
+   },
+   "out": {
+    "base": {
+     "breathy": {
+      "d_raw": 6.701232542890088,
+      "d_dyn": 6.084925482652303,
+      "frames_compared": 752,
+      "cpp_db": 20.41603240520098,
+      "hf_ratio_db": -25.467396017401377
+     },
+     "other": null
+    },
+    "a1": {
+     "breathy": {
+      "d_raw": 6.77822110356053,
+      "d_dyn": 6.063687152142098,
+      "frames_compared": 752,
+      "cpp_db": 18.829445958860624,
+      "hf_ratio_db": -25.581447438845032
+     },
+     "other": null
+    },
+    "a0.5": {
+     "breathy": {
+      "d_raw": 6.803776154334386,
+      "d_dyn": 6.023690077050691,
+      "frames_compared": 752,
+      "cpp_db": 19.54630109530649,
+      "hf_ratio_db": -25.68065837619616
+     },
+     "other": null
+    },
+    "eqmatch": {
+     "breathy": {
+      "d_raw": 6.847683587683319,
+      "d_dyn": 6.102425007307188,
+      "frames_compared": 752,
+      "cpp_db": 20.313755742225826,
+      "hf_ratio_db": -24.949183361521623
+     },
+     "other": null
+    }
+   }
+  },
+  {
+   "singer": "EN-Alto-2",
+   "sid": "25",
+   "song": "What Are Words",
+   "cluster": "EN-Alto-2|What Are Words",
+   "frames": {
+    "breathy": 582,
+    "other": 0
+   },
+   "real": {
+    "breathy": {
+     "cpp_db": 16.055454523286436,
+     "hf_ratio_db": -26.561133240112788
+    },
+    "other": {
+     "cpp_db": null,
+     "hf_ratio_db": null
+    }
+   },
+   "out": {
+    "base": {
+     "breathy": {
+      "d_raw": 8.068823112396977,
+      "d_dyn": 6.760565111478506,
+      "frames_compared": 582,
+      "cpp_db": 20.313786166407972,
+      "hf_ratio_db": -31.34981404575664
+     },
+     "other": null
+    },
+    "a1": {
+     "breathy": {
+      "d_raw": 8.058489654755697,
+      "d_dyn": 6.733306801981167,
+      "frames_compared": 582,
+      "cpp_db": 18.329109741406842,
+      "hf_ratio_db": -30.83698563511302
+     },
+     "other": null
+    },
+    "a0.5": {
+     "breathy": {
+      "d_raw": 7.957681118768614,
+      "d_dyn": 6.627117671692767,
+      "frames_compared": 582,
+      "cpp_db": 19.4949854778751,
+      "hf_ratio_db": -31.09176989118758
+     },
+     "other": null
+    },
+    "eqmatch": {
+     "breathy": {
+      "d_raw": 8.042087124282618,
+      "d_dyn": 6.749624008834802,
+      "frames_compared": 582,
+      "cpp_db": 20.229432798536614,
+      "hf_ratio_db": -30.522243791593354
+     },
+     "other": null
+    }
+   }
+  },
+  {
+   "singer": "EN-Alto-2",
+   "sid": "26",
+   "song": "What Are Words",
+   "cluster": "EN-Alto-2|What Are Words",
+   "frames": {
+    "breathy": 624,
+    "other": 0
+   },
+   "real": {
+    "breathy": {
+     "cpp_db": 16.064091183212902,
+     "hf_ratio_db": -27.07033998326699
+    },
+    "other": {
+     "cpp_db": null,
+     "hf_ratio_db": null
+    }
+   },
+   "out": {
+    "base": {
+     "breathy": {
+      "d_raw": 8.295942036290937,
+      "d_dyn": 6.7099111206361455,
+      "frames_compared": 621,
+      "cpp_db": 20.349881763317736,
+      "hf_ratio_db": -31.011791194426284
+     },
+     "other": null
+    },
+    "a1": {
+     "breathy": {
+      "d_raw": 7.865159129930771,
+      "d_dyn": 6.507558587912786,
+      "frames_compared": 621,
+      "cpp_db": 18.10099486356812,
+      "hf_ratio_db": -29.716814595494863
+     },
+     "other": null
+    },
+    "a0.5": {
+     "breathy": {
+      "d_raw": 8.242957945063507,
+      "d_dyn": 6.575743131422199,
+      "frames_compared": 621,
+      "cpp_db": 19.04468220858318,
+      "hf_ratio_db": -30.60773655681723
+     },
+     "other": null
+    },
+    "eqmatch": {
+     "breathy": {
+      "d_raw": 8.581607625413788,
+      "d_dyn": 6.724492406084062,
+      "frames_compared": 621,
+      "cpp_db": 20.323082086677264,
+      "hf_ratio_db": -29.86942146513121
+     },
+     "other": null
+    }
+   }
+  },
+  {
+   "singer": "EN-Alto-2",
+   "sid": "27",
+   "song": "Yesterday Once More",
+   "cluster": "EN-Alto-2|Yesterday Once More",
+   "frames": {
+    "breathy": 908,
+    "other": 0
+   },
+   "real": {
+    "breathy": {
+     "cpp_db": 16.482808040004606,
+     "hf_ratio_db": -28.896673504965463
+    },
+    "other": {
+     "cpp_db": null,
+     "hf_ratio_db": null
+    }
+   },
+   "out": {
+    "base": {
+     "breathy": {
+      "d_raw": 7.933886584159386,
+      "d_dyn": 6.966389469319199,
+      "frames_compared": 908,
+      "cpp_db": 21.379562231150377,
+      "hf_ratio_db": -29.939030869515854
+     },
+     "other": null
+    },
+    "a1": {
+     "breathy": {
+      "d_raw": 7.623541728086425,
+      "d_dyn": 6.618593063002317,
+      "frames_compared": 908,
+      "cpp_db": 18.323883242778244,
+      "hf_ratio_db": -29.999471217807287
+     },
+     "other": null
+    },
+    "a0.5": {
+     "breathy": {
+      "d_raw": 7.775997059515563,
+      "d_dyn": 6.763073661691934,
+      "frames_compared": 908,
+      "cpp_db": 19.811703714641222,
+      "hf_ratio_db": -29.83385546163391
+     },
+     "other": null
+    },
+    "eqmatch": {
+     "breathy": {
+      "d_raw": 8.160610148486398,
+      "d_dyn": 6.9687454126212955,
+      "frames_compared": 908,
+      "cpp_db": 21.233136872691198,
+      "hf_ratio_db": -29.85230642173768
+     },
+     "other": null
+    }
+   }
+  },
+  {
+   "singer": "EN-Alto-2",
+   "sid": "28",
+   "song": "Yesterday Once More",
+   "cluster": "EN-Alto-2|Yesterday Once More",
+   "frames": {
+    "breathy": 618,
+    "other": 139
+   },
+   "real": {
+    "breathy": {
+     "cpp_db": 18.2325912255914,
+     "hf_ratio_db": -24.49099427695127
+    },
+    "other": {
+     "cpp_db": 20.11563378240228,
+     "hf_ratio_db": -29.593125711924625
+    }
+   },
+   "out": {
+    "base": {
+     "breathy": {
+      "d_raw": 8.961679468501295,
+      "d_dyn": 7.472943850104986,
+      "frames_compared": 618,
+      "cpp_db": 20.89077718954422,
+      "hf_ratio_db": -23.0147204048975
+     },
+     "other": {
+      "d_raw": 7.127454019169123,
+      "d_dyn": 5.561706374445916,
+      "frames_compared": 139,
+      "cpp_db": 23.03295432601012,
+      "hf_ratio_db": -24.36648652712077
+     }
+    },
+    "a1": {
+     "breathy": {
+      "d_raw": 8.841500033422035,
+      "d_dyn": 7.552092289249066,
+      "frames_compared": 618,
+      "cpp_db": 18.698037584343176,
+      "hf_ratio_db": -23.18583224806368
+     },
+     "other": {
+      "d_raw": 7.265278892608762,
+      "d_dyn": 5.40430460828875,
+      "frames_compared": 139,
+      "cpp_db": 19.679899449011106,
+      "hf_ratio_db": -26.268415271005896
+     }
+    },
+    "a0.5": {
+     "breathy": {
+      "d_raw": 8.879205970313263,
+      "d_dyn": 7.3647944589693815,
+      "frames_compared": 618,
+      "cpp_db": 20.089851173866258,
+      "hf_ratio_db": -23.851665214134908
+     },
+     "other": {
+      "d_raw": 7.157477872373257,
+      "d_dyn": 5.442893990960105,
+      "frames_compared": 139,
+      "cpp_db": 21.33340973808803,
+      "hf_ratio_db": -25.162668091260628
+     }
+    },
+    "eqmatch": {
+     "breathy": {
+      "d_raw": 9.128743123499461,
+      "d_dyn": 7.486160521049805,
+      "frames_compared": 618,
+      "cpp_db": 21.170086848065235,
+      "hf_ratio_db": -24.81547031060903
+     },
+     "other": {
+      "d_raw": 7.456129966235276,
+      "d_dyn": 5.5674971871741255,
+      "frames_compared": 139,
+      "cpp_db": 23.009815477650317,
+      "hf_ratio_db": -25.643766672737602
+     }
+    }
+   }
+  },
+  {
+   "singer": "EN-Alto-2",
+   "sid": "29",
+   "song": "Young And Beautiful",
+   "cluster": "EN-Alto-2|Young And Beautiful",
+   "frames": {
+    "breathy": 592,
+    "other": 0
+   },
+   "real": {
+    "breathy": {
+     "cpp_db": 15.990216831086885,
+     "hf_ratio_db": -20.86395960639352
+    },
+    "other": {
+     "cpp_db": null,
+     "hf_ratio_db": null
+    }
+   },
+   "out": {
+    "base": {
+     "breathy": {
+      "d_raw": 8.200461128920796,
+      "d_dyn": 6.785098674478709,
+      "frames_compared": 592,
+      "cpp_db": 21.05936351657266,
+      "hf_ratio_db": -27.052241808406237
+     },
+     "other": null
+    },
+    "a1": {
+     "breathy": {
+      "d_raw": 7.591063346623375,
+      "d_dyn": 6.422225097247036,
+      "frames_compared": 592,
+      "cpp_db": 18.77662134186076,
+      "hf_ratio_db": -27.519343708374425
+     },
+     "other": null
+    },
+    "a0.5": {
+     "breathy": {
+      "d_raw": 8.061568794715258,
+      "d_dyn": 6.549782297144691,
+      "frames_compared": 592,
+      "cpp_db": 19.867867636792596,
+      "hf_ratio_db": -27.23377094712215
+     },
+     "other": null
+    },
+    "eqmatch": {
+     "breathy": {
+      "d_raw": 8.13375012308131,
+      "d_dyn": 6.798063492326068,
+      "frames_compared": 592,
+      "cpp_db": 20.674212025422637,
+      "hf_ratio_db": -26.32061765978908
+     },
+     "other": null
+    }
+   }
+  },
+  {
+   "singer": "EN-Tenor-1",
+   "sid": "00",
+   "song": "Always Remember Us This Way",
+   "cluster": "EN-Tenor-1|Always Remember Us This Way",
+   "frames": {
+    "breathy": 856,
+    "other": 0
+   },
+   "real": {
+    "breathy": {
+     "cpp_db": 18.17646687189894,
+     "hf_ratio_db": -33.543922245731814
+    },
+    "other": {
+     "cpp_db": null,
+     "hf_ratio_db": null
+    }
+   },
+   "out": {
+    "base": {
+     "breathy": {
+      "d_raw": 9.044247101432882,
+      "d_dyn": 8.242210622512617,
+      "frames_compared": 856,
+      "cpp_db": 24.08720991789583,
+      "hf_ratio_db": -27.00372705319289
+     },
+     "other": null
+    },
+    "a1": {
+     "breathy": {
+      "d_raw": 8.835866926998186,
+      "d_dyn": 8.252464553942078,
+      "frames_compared": 856,
+      "cpp_db": 22.877399891851454,
+      "hf_ratio_db": -30.244148003469054
+     },
+     "other": null
+    },
+    "a0.5": {
+     "breathy": {
+      "d_raw": 8.809974154616315,
+      "d_dyn": 8.120908284152884,
+      "frames_compared": 856,
+      "cpp_db": 23.53162988653577,
+      "hf_ratio_db": -28.078997934011873
+     },
+     "other": null
+    },
+    "eqmatch": {
+     "breathy": {
+      "d_raw": 8.780709230420785,
+      "d_dyn": 8.182217911006635,
+      "frames_compared": 856,
+      "cpp_db": 23.989697530694684,
+      "hf_ratio_db": -29.038166807180485
+     },
+     "other": null
+    }
+   }
+  },
+  {
+   "singer": "EN-Tenor-1",
+   "sid": "01",
+   "song": "Always Remember Us This Way",
+   "cluster": "EN-Tenor-1|Always Remember Us This Way",
+   "frames": {
+    "breathy": 680,
+    "other": 0
+   },
+   "real": {
+    "breathy": {
+     "cpp_db": 21.519237375706723,
+     "hf_ratio_db": -36.15960576273911
+    },
+    "other": {
+     "cpp_db": null,
+     "hf_ratio_db": null
+    }
+   },
+   "out": {
+    "base": {
+     "breathy": {
+      "d_raw": 9.043810241439765,
+      "d_dyn": 8.14091308069895,
+      "frames_compared": 680,
+      "cpp_db": 24.796112013092102,
+      "hf_ratio_db": -33.78519802022565
+     },
+     "other": null
+    },
+    "a1": {
+     "breathy": {
+      "d_raw": 8.663263056284688,
+      "d_dyn": 7.714211069752337,
+      "frames_compared": 680,
+      "cpp_db": 22.593606720299633,
+      "hf_ratio_db": -39.10905424447019
+     },
+     "other": null
+    },
+    "a0.5": {
+     "breathy": {
+      "d_raw": 8.817036712478913,
+      "d_dyn": 7.939917191545642,
+      "frames_compared": 680,
+      "cpp_db": 24.691055639378977,
+      "hf_ratio_db": -35.99324050381137
+     },
+     "other": null
+    },
+    "eqmatch": {
+     "breathy": {
+      "d_raw": 8.819327229642113,
+      "d_dyn": 8.031813513141524,
+      "frames_compared": 680,
+      "cpp_db": 24.818694131812663,
+      "hf_ratio_db": -40.33320820354902
+     },
+     "other": null
+    }
+   }
+  },
+  {
+   "singer": "EN-Tenor-1",
+   "sid": "02",
+   "song": "Always Remember Us This Way",
+   "cluster": "EN-Tenor-1|Always Remember Us This Way",
+   "frames": {
+    "breathy": 510,
+    "other": 0
+   },
+   "real": {
+    "breathy": {
+     "cpp_db": 19.143817425693708,
+     "hf_ratio_db": -41.81578995480562
+    },
+    "other": {
+     "cpp_db": null,
+     "hf_ratio_db": null
+    }
+   },
+   "out": {
+    "base": {
+     "breathy": {
+      "d_raw": 11.068468696128988,
+      "d_dyn": 9.315421321686117,
+      "frames_compared": 510,
+      "cpp_db": 25.15761433049603,
+      "hf_ratio_db": -27.516599784073463
+     },
+     "other": null
+    },
+    "a1": {
+     "breathy": {
+      "d_raw": 11.085829733637658,
+      "d_dyn": 9.58395905731304,
+      "frames_compared": 510,
+      "cpp_db": 23.110107678829348,
+      "hf_ratio_db": -29.879546112134086
+     },
+     "other": null
+    },
+    "a0.5": {
+     "breathy": {
+      "d_raw": 10.92322767419029,
+      "d_dyn": 9.309785050861736,
+      "frames_compared": 510,
+      "cpp_db": 24.125055506491012,
+      "hf_ratio_db": -28.38574149903994
+     },
+     "other": null
+    },
+    "eqmatch": {
+     "breathy": {
+      "d_raw": 10.847531566761672,
+      "d_dyn": 9.271049340237163,
+      "frames_compared": 510,
+      "cpp_db": 25.36778451833006,
+      "hf_ratio_db": -28.825853847805785
+     },
+     "other": null
+    }
+   }
+  },
+  {
+   "singer": "EN-Tenor-1",
+   "sid": "03",
+   "song": "Always Remember Us This Way",
+   "cluster": "EN-Tenor-1|Always Remember Us This Way",
+   "frames": {
+    "breathy": 549,
+    "other": 0
+   },
+   "real": {
+    "breathy": {
+     "cpp_db": 19.49489092924126,
+     "hf_ratio_db": -35.925254044234656
+    },
+    "other": {
+     "cpp_db": null,
+     "hf_ratio_db": null
+    }
+   },
+   "out": {
+    "base": {
+     "breathy": {
+      "d_raw": 12.88071319860401,
+      "d_dyn": 10.906227714554833,
+      "frames_compared": 549,
+      "cpp_db": 21.928552443446268,
+      "hf_ratio_db": -22.868316666921082
+     },
+     "other": null
+    },
+    "a1": {
+     "breathy": {
+      "d_raw": 13.557433661201662,
+      "d_dyn": 11.503748276960419,
+      "frames_compared": 549,
+      "cpp_db": 21.13119659008275,
+      "hf_ratio_db": -24.851843488026795
+     },
+     "other": null
+    },
+    "a0.5": {
+     "breathy": {
+      "d_raw": 13.001941065591323,
+      "d_dyn": 11.005971773458965,
+      "frames_compared": 549,
+      "cpp_db": 21.71429550660557,
+      "hf_ratio_db": -23.96274342535002
+     },
+     "other": null
+    },
+    "eqmatch": {
+     "breathy": {
+      "d_raw": 12.910683334696305,
+      "d_dyn": 10.889710140400704,
+      "frames_compared": 549,
+      "cpp_db": 21.905094822303976,
+      "hf_ratio_db": -25.131390986829746
+     },
+     "other": null
+    }
+   }
+  },
+  {
+   "singer": "EN-Tenor-1",
+   "sid": "04",
+   "song": "Enchanted",
+   "cluster": "EN-Tenor-1|Enchanted",
+   "frames": {
+    "breathy": 896,
+    "other": 0
+   },
+   "real": {
+    "breathy": {
+     "cpp_db": 17.80578327200585,
+     "hf_ratio_db": -25.91716650233699
+    },
+    "other": {
+     "cpp_db": null,
+     "hf_ratio_db": null
+    }
+   },
+   "out": {
+    "base": {
+     "breathy": {
+      "d_raw": 8.895661314585867,
+      "d_dyn": 7.6838538380609505,
+      "frames_compared": 896,
+      "cpp_db": 23.11341125747671,
+      "hf_ratio_db": -26.78199042414293
+     },
+     "other": null
+    },
+    "a1": {
+     "breathy": {
+      "d_raw": 8.802627944518747,
+      "d_dyn": 7.7726906251843255,
+      "frames_compared": 896,
+      "cpp_db": 21.34086151082592,
+      "hf_ratio_db": -28.9148848225757
+     },
+     "other": null
+    },
+    "a0.5": {
+     "breathy": {
+      "d_raw": 8.918571477997293,
+      "d_dyn": 7.7239762694726855,
+      "frames_compared": 896,
+      "cpp_db": 22.662430721671758,
+      "hf_ratio_db": -28.032197422789437
+     },
+     "other": null
+    },
+    "eqmatch": {
+     "breathy": {
+      "d_raw": 9.198880056931678,
+      "d_dyn": 7.705033847074104,
+      "frames_compared": 896,
+      "cpp_db": 23.051689391550624,
+      "hf_ratio_db": -25.334649248342945
+     },
+     "other": null
+    }
+   }
+  },
+  {
+   "singer": "EN-Tenor-1",
+   "sid": "05",
+   "song": "Enchanted",
+   "cluster": "EN-Tenor-1|Enchanted",
+   "frames": {
+    "breathy": 871,
+    "other": 0
+   },
+   "real": {
+    "breathy": {
+     "cpp_db": 17.89142263373395,
+     "hf_ratio_db": -28.971900546380756
+    },
+    "other": {
+     "cpp_db": null,
+     "hf_ratio_db": null
+    }
+   },
+   "out": {
+    "base": {
+     "breathy": {
+      "d_raw": 9.09409305821769,
+      "d_dyn": 7.9935995229576555,
+      "frames_compared": 871,
+      "cpp_db": 23.606106907432792,
+      "hf_ratio_db": -31.149095956660823
+     },
+     "other": null
+    },
+    "a1": {
+     "breathy": {
+      "d_raw": 8.654683829368208,
+      "d_dyn": 7.8220728011827,
+      "frames_compared": 871,
+      "cpp_db": 21.72213856261046,
+      "hf_ratio_db": -34.05156935921623
+     },
+     "other": null
+    },
+    "a0.5": {
+     "breathy": {
+      "d_raw": 8.93006152411514,
+      "d_dyn": 7.953776435273742,
+      "frames_compared": 871,
+      "cpp_db": 23.05935047377985,
+      "hf_ratio_db": -32.27971806787975
+     },
+     "other": null
+    },
+    "eqmatch": {
+     "breathy": {
+      "d_raw": 8.96874266066968,
+      "d_dyn": 7.99742733560415,
+      "frames_compared": 871,
+      "cpp_db": 23.67184260944659,
+      "hf_ratio_db": -30.610223543689838
+     },
+     "other": null
+    }
+   }
+  },
+  {
+   "singer": "EN-Tenor-1",
+   "sid": "06",
+   "song": "I Knew You Were Trouble",
+   "cluster": "EN-Tenor-1|I Knew You Were Trouble",
+   "frames": {
+    "breathy": 760,
+    "other": 0
+   },
+   "real": {
+    "breathy": {
+     "cpp_db": 19.802694032741368,
+     "hf_ratio_db": -32.93447505496234
+    },
+    "other": {
+     "cpp_db": null,
+     "hf_ratio_db": null
+    }
+   },
+   "out": {
+    "base": {
+     "breathy": {
+      "d_raw": 8.544910908530092,
+      "d_dyn": 7.452190574269621,
+      "frames_compared": 760,
+      "cpp_db": 23.68961544316333,
+      "hf_ratio_db": -36.86387877981977
+     },
+     "other": null
+    },
+    "a1": {
+     "breathy": {
+      "d_raw": 8.389566140072452,
+      "d_dyn": 7.273612404686551,
+      "frames_compared": 760,
+      "cpp_db": 21.340548239973863,
+      "hf_ratio_db": -42.97120787831268
+     },
+     "other": null
+    },
+    "a0.5": {
+     "breathy": {
+      "d_raw": 8.434034375516257,
+      "d_dyn": 7.290431042731959,
+      "frames_compared": 760,
+      "cpp_db": 23.04514040435678,
+      "hf_ratio_db": -38.817947741845536
+     },
+     "other": null
+    },
+    "eqmatch": {
+     "breathy": {
+      "d_raw": 8.46214636024729,
+      "d_dyn": 7.203243154948398,
+      "frames_compared": 760,
+      "cpp_db": 23.946471668826177,
+      "hf_ratio_db": -41.94376893807678
+     },
+     "other": null
+    }
+   }
+  },
+  {
+   "singer": "EN-Tenor-1",
+   "sid": "07",
+   "song": "I Knew You Were Trouble",
+   "cluster": "EN-Tenor-1|I Knew You Were Trouble",
+   "frames": {
+    "breathy": 1007,
+    "other": 0
+   },
+   "real": {
+    "breathy": {
+     "cpp_db": 18.133883327294697,
+     "hf_ratio_db": -33.92747838139905
+    },
+    "other": {
+     "cpp_db": null,
+     "hf_ratio_db": null
+    }
+   },
+   "out": {
+    "base": {
+     "breathy": {
+      "d_raw": 9.621321069905557,
+      "d_dyn": 8.852812335592684,
+      "frames_compared": 1007,
+      "cpp_db": 22.356917570011436,
+      "hf_ratio_db": -29.87211522591305
+     },
+     "other": null
+    },
+    "a1": {
+     "breathy": {
+      "d_raw": 9.284853854053646,
+      "d_dyn": 8.767987634356373,
+      "frames_compared": 1007,
+      "cpp_db": 21.265746443305016,
+      "hf_ratio_db": -33.330187462658685
+     },
+     "other": null
+    },
+    "a0.5": {
+     "breathy": {
+      "d_raw": 9.399427980684912,
+      "d_dyn": 8.772087460669194,
+      "frames_compared": 1007,
+      "cpp_db": 21.94219753646909,
+      "hf_ratio_db": -31.540798874536694
+     },
+     "other": null
+    },
+    "eqmatch": {
+     "breathy": {
+      "d_raw": 9.317354357447305,
+      "d_dyn": 8.836021579290055,
+      "frames_compared": 1007,
+      "cpp_db": 22.408699272417138,
+      "hf_ratio_db": -31.997795763839655
+     },
+     "other": null
+    }
+   }
+  },
+  {
+   "singer": "EN-Tenor-1",
+   "sid": "08",
+   "song": "Long Live",
+   "cluster": "EN-Tenor-1|Long Live",
+   "frames": {
+    "breathy": 722,
+    "other": 0
+   },
+   "real": {
+    "breathy": {
+     "cpp_db": 18.395101343561542,
+     "hf_ratio_db": -33.0236614933898
+    },
+    "other": {
+     "cpp_db": null,
+     "hf_ratio_db": null
+    }
+   },
+   "out": {
+    "base": {
+     "breathy": {
+      "d_raw": 8.598991332662258,
+      "d_dyn": 7.447281781603359,
+      "frames_compared": 722,
+      "cpp_db": 23.51354107482482,
+      "hf_ratio_db": -32.95212190260982
+     },
+     "other": null
+    },
+    "a1": {
+     "breathy": {
+      "d_raw": 8.16614120230696,
+      "d_dyn": 7.355154817857884,
+      "frames_compared": 722,
+      "cpp_db": 22.28803190185557,
+      "hf_ratio_db": -35.707243866903
+     },
+     "other": null
+    },
+    "a0.5": {
+     "breathy": {
+      "d_raw": 8.350153555874174,
+      "d_dyn": 7.395443423277584,
+      "frames_compared": 722,
+      "cpp_db": 22.874109723302865,
+      "hf_ratio_db": -33.94700064293068
+     },
+     "other": null
+    },
+    "eqmatch": {
+     "breathy": {
+      "d_raw": 8.463173901012167,
+      "d_dyn": 7.445042928897722,
+      "frames_compared": 722,
+      "cpp_db": 23.497112548334165,
+      "hf_ratio_db": -33.16826739478841
+     },
+     "other": null
+    }
+   }
+  },
+  {
+   "singer": "EN-Tenor-1",
+   "sid": "09",
+   "song": "Long Live",
+   "cluster": "EN-Tenor-1|Long Live",
+   "frames": {
+    "breathy": 713,
+    "other": 0
+   },
+   "real": {
+    "breathy": {
+     "cpp_db": 18.494419984224272,
+     "hf_ratio_db": -31.151511019864138
+    },
+    "other": {
+     "cpp_db": null,
+     "hf_ratio_db": null
+    }
+   },
+   "out": {
+    "base": {
+     "breathy": {
+      "d_raw": 8.611287657268086,
+      "d_dyn": 7.302838039888506,
+      "frames_compared": 713,
+      "cpp_db": 23.689835389747852,
+      "hf_ratio_db": -29.965447112197104
+     },
+     "other": null
+    },
+    "a1": {
+     "breathy": {
+      "d_raw": 8.123730778881773,
+      "d_dyn": 7.078144594134958,
+      "frames_compared": 713,
+      "cpp_db": 22.12862961416337,
+      "hf_ratio_db": -33.281923116947226
+     },
+     "other": null
+    },
+    "a0.5": {
+     "breathy": {
+      "d_raw": 8.484019888683507,
+      "d_dyn": 7.305096407261299,
+      "frames_compared": 713,
+      "cpp_db": 23.12793093000547,
+      "hf_ratio_db": -31.031384250788097
+     },
+     "other": null
+    },
+    "eqmatch": {
+     "breathy": {
+      "d_raw": 8.344442119354603,
+      "d_dyn": 7.310271662450314,
+      "frames_compared": 713,
+      "cpp_db": 23.68484333187343,
+      "hf_ratio_db": -32.03470212159141
+     },
+     "other": null
+    }
+   }
+  },
+  {
+   "singer": "EN-Tenor-1",
+   "sid": "10",
+   "song": "Long Live",
+   "cluster": "EN-Tenor-1|Long Live",
+   "frames": {
+    "breathy": 820,
+    "other": 0
+   },
+   "real": {
+    "breathy": {
+     "cpp_db": 20.146038624991263,
+     "hf_ratio_db": -31.965794402838707
+    },
+    "other": {
+     "cpp_db": null,
+     "hf_ratio_db": null
+    }
+   },
+   "out": {
+    "base": {
+     "breathy": {
+      "d_raw": 8.849545478723938,
+      "d_dyn": 8.238238351405787,
+      "frames_compared": 820,
+      "cpp_db": 22.78665179905683,
+      "hf_ratio_db": -31.52569118925482
+     },
+     "other": null
+    },
+    "a1": {
+     "breathy": {
+      "d_raw": 8.737030594923263,
+      "d_dyn": 8.13961290839501,
+      "frames_compared": 820,
+      "cpp_db": 21.04477049823592,
+      "hf_ratio_db": -34.465436715713146
+     },
+     "other": null
+    },
+    "a0.5": {
+     "breathy": {
+      "d_raw": 8.810498632774221,
+      "d_dyn": 8.186419607577132,
+      "frames_compared": 820,
+      "cpp_db": 22.060765509970658,
+      "hf_ratio_db": -32.410305273042106
+     },
+     "other": null
+    },
+    "eqmatch": {
+     "breathy": {
+      "d_raw": 8.831660203713179,
+      "d_dyn": 8.241273371979387,
+      "frames_compared": 820,
+      "cpp_db": 22.354448620487346,
+      "hf_ratio_db": -32.45802852700186
+     },
+     "other": null
+    }
+   }
+  },
+  {
+   "singer": "EN-Tenor-1",
+   "sid": "11",
+   "song": "Million Reasons",
+   "cluster": "EN-Tenor-1|Million Reasons",
+   "frames": {
+    "breathy": 803,
+    "other": 0
+   },
+   "real": {
+    "breathy": {
+     "cpp_db": 18.61260071195587,
+     "hf_ratio_db": -33.677295843607915
+    },
+    "other": {
+     "cpp_db": null,
+     "hf_ratio_db": null
+    }
+   },
+   "out": {
+    "base": {
+     "breathy": {
+      "d_raw": 8.069506440875537,
+      "d_dyn": 7.045435092674627,
+      "frames_compared": 803,
+      "cpp_db": 25.34757827630752,
+      "hf_ratio_db": -29.102633833392765
+     },
+     "other": null
+    },
+    "a1": {
+     "breathy": {
+      "d_raw": 7.72364639107315,
+      "d_dyn": 7.019213356752423,
+      "frames_compared": 803,
+      "cpp_db": 24.40651338337473,
+      "hf_ratio_db": -34.27316181867098
+     },
+     "other": null
+    },
+    "a0.5": {
+     "breathy": {
+      "d_raw": 7.822816171667221,
+      "d_dyn": 6.9696151741485775,
+      "frames_compared": 803,
+      "cpp_db": 24.764930821958025,
+      "hf_ratio_db": -31.069357935164025
+     },
+     "other": null
+    },
+    "eqmatch": {
+     "breathy": {
+      "d_raw": 7.762191326162964,
+      "d_dyn": 6.976750545178134,
+      "frames_compared": 803,
+      "cpp_db": 25.350751790376755,
+      "hf_ratio_db": -31.739817540050314
+     },
+     "other": null
+    }
+   }
+  },
+  {
+   "singer": "EN-Tenor-1",
+   "sid": "12",
+   "song": "Million Reasons",
+   "cluster": "EN-Tenor-1|Million Reasons",
+   "frames": {
+    "breathy": 759,
+    "other": 0
+   },
+   "real": {
+    "breathy": {
+     "cpp_db": 20.3893764465474,
+     "hf_ratio_db": -33.738879829113976
+    },
+    "other": {
+     "cpp_db": null,
+     "hf_ratio_db": null
+    }
+   },
+   "out": {
+    "base": {
+     "breathy": {
+      "d_raw": 7.84991617873914,
+      "d_dyn": 6.81114517850686,
+      "frames_compared": 759,
+      "cpp_db": 24.91108752014586,
+      "hf_ratio_db": -30.956728323051784
+     },
+     "other": null
+    },
+    "a1": {
+     "breathy": {
+      "d_raw": 7.8604576804996595,
+      "d_dyn": 6.800025564573342,
+      "frames_compared": 759,
+      "cpp_db": 22.925858410714035,
+      "hf_ratio_db": -34.476944252087954
+     },
+     "other": null
+    },
+    "a0.5": {
+     "breathy": {
+      "d_raw": 7.839081335467799,
+      "d_dyn": 6.761920127648016,
+      "frames_compared": 759,
+      "cpp_db": 24.152637325945896,
+      "hf_ratio_db": -32.30751047929044
+     },
+     "other": null
+    },
+    "eqmatch": {
+     "breathy": {
+      "d_raw": 7.951115220759683,
+      "d_dyn": 6.854595975266947,
+      "frames_compared": 759,
+      "cpp_db": 24.927535179632198,
+      "hf_ratio_db": -31.809077067280313
+     },
+     "other": null
+    }
+   }
+  },
+  {
+   "singer": "EN-Tenor-1",
+   "sid": "13",
+   "song": "Million Reasons",
+   "cluster": "EN-Tenor-1|Million Reasons",
+   "frames": {
+    "breathy": 1090,
+    "other": 0
+   },
+   "real": {
+    "breathy": {
+     "cpp_db": 19.60587345400729,
+     "hf_ratio_db": -31.197339330216007
+    },
+    "other": {
+     "cpp_db": null,
+     "hf_ratio_db": null
+    }
+   },
+   "out": {
+    "base": {
+     "breathy": {
+      "d_raw": 8.485814326085315,
+      "d_dyn": 7.039955065683614,
+      "frames_compared": 1090,
+      "cpp_db": 24.427053688825254,
+      "hf_ratio_db": -31.231534682219557
+     },
+     "other": null
+    },
+    "a1": {
+     "breathy": {
+      "d_raw": 8.1505977811348,
+      "d_dyn": 6.708278374948219,
+      "frames_compared": 1090,
+      "cpp_db": 22.2879003314996,
+      "hf_ratio_db": -34.139495071563935
+     },
+     "other": null
+    },
+    "a0.5": {
+     "breathy": {
+      "d_raw": 8.138102808604573,
+      "d_dyn": 6.789348515951963,
+      "frames_compared": 1090,
+      "cpp_db": 23.649905260297153,
+      "hf_ratio_db": -32.55445510081027
+     },
+     "other": null
+    },
+    "eqmatch": {
+     "breathy": {
+      "d_raw": 8.23465100233171,
+      "d_dyn": 6.950846610473883,
+      "frames_compared": 1090,
+      "cpp_db": 24.609090919618485,
+      "hf_ratio_db": -34.69457427224785
+     },
+     "other": null
+    }
+   }
+  },
+  {
+   "singer": "EN-Tenor-1",
+   "sid": "14",
+   "song": "Rolling in the Deep",
+   "cluster": "EN-Tenor-1|Rolling in the Deep",
+   "frames": {
+    "breathy": 880,
+    "other": 0
+   },
+   "real": {
+    "breathy": {
+     "cpp_db": 18.309546500501998,
+     "hf_ratio_db": -31.031821925765733
+    },
+    "other": {
+     "cpp_db": null,
+     "hf_ratio_db": null
+    }
+   },
+   "out": {
+    "base": {
+     "breathy": {
+      "d_raw": 8.339193300158279,
+      "d_dyn": 7.307929762661232,
+      "frames_compared": 879,
+      "cpp_db": 23.81125860709156,
+      "hf_ratio_db": -28.13893334254896
+     },
+     "other": null
+    },
+    "a1": {
+     "breathy": {
+      "d_raw": 8.1616331300811,
+      "d_dyn": 7.1987598454255295,
+      "frames_compared": 879,
+      "cpp_db": 23.21949978932639,
+      "hf_ratio_db": -31.283712945428572
+     },
+     "other": null
+    },
+    "a0.5": {
+     "breathy": {
+      "d_raw": 8.318946630003223,
+      "d_dyn": 7.306349635387175,
+      "frames_compared": 879,
+      "cpp_db": 23.33625884238847,
+      "hf_ratio_db": -29.117240282226337
+     },
+     "other": null
+    },
+    "eqmatch": {
+     "breathy": {
+      "d_raw": 8.199586413308456,
+      "d_dyn": 7.301095843888141,
+      "frames_compared": 879,
+      "cpp_db": 23.80493744537707,
+      "hf_ratio_db": -29.724603755425
+     },
+     "other": null
+    }
+   }
+  },
+  {
+   "singer": "EN-Tenor-1",
+   "sid": "15",
+   "song": "Shallow",
+   "cluster": "EN-Tenor-1|Shallow",
+   "frames": {
+    "breathy": 725,
+    "other": 0
+   },
+   "real": {
+    "breathy": {
+     "cpp_db": 20.094039806613715,
+     "hf_ratio_db": -37.10068571799317
+    },
+    "other": {
+     "cpp_db": null,
+     "hf_ratio_db": null
+    }
+   },
+   "out": {
+    "base": {
+     "breathy": {
+      "d_raw": 9.339079604180528,
+      "d_dyn": 8.32975426853967,
+      "frames_compared": 725,
+      "cpp_db": 24.122927448533535,
+      "hf_ratio_db": -35.20372065476758
+     },
+     "other": null
+    },
+    "a1": {
+     "breathy": {
+      "d_raw": 9.164487502165,
+      "d_dyn": 8.492480198205127,
+      "frames_compared": 725,
+      "cpp_db": 21.847390598942923,
+      "hf_ratio_db": -38.325241969593876
+     },
+     "other": null
+    },
+    "a0.5": {
+     "breathy": {
+      "d_raw": 9.179249194459045,
+      "d_dyn": 8.360169168495748,
+      "frames_compared": 725,
+      "cpp_db": 23.02392295283657,
+      "hf_ratio_db": -36.66305811900233
+     },
+     "other": null
+    },
+    "eqmatch": {
+     "breathy": {
+      "d_raw": 9.207602627462984,
+      "d_dyn": 8.278507812321408,
+      "frames_compared": 725,
+      "cpp_db": 24.15306785733091,
+      "hf_ratio_db": -36.126503108882595
+     },
+     "other": null
+    }
+   }
+  },
+  {
+   "singer": "EN-Tenor-1",
+   "sid": "16",
+   "song": "Shallow",
+   "cluster": "EN-Tenor-1|Shallow",
+   "frames": {
+    "breathy": 763,
+    "other": 0
+   },
+   "real": {
+    "breathy": {
+     "cpp_db": 18.373525313423926,
+     "hf_ratio_db": -35.00584742120932
+    },
+    "other": {
+     "cpp_db": null,
+     "hf_ratio_db": null
+    }
+   },
+   "out": {
+    "base": {
+     "breathy": {
+      "d_raw": 9.701556012219099,
+      "d_dyn": 8.172371094374288,
+      "frames_compared": 763,
+      "cpp_db": 24.839788745383927,
+      "hf_ratio_db": -32.52064639099937
+     },
+     "other": null
+    },
+    "a1": {
+     "breathy": {
+      "d_raw": 9.0764356464042,
+      "d_dyn": 8.143032024082002,
+      "frames_compared": 763,
+      "cpp_db": 23.09882576355131,
+      "hf_ratio_db": -35.755253936163676
+     },
+     "other": null
+    },
+    "a0.5": {
+     "breathy": {
+      "d_raw": 9.418600065214525,
+      "d_dyn": 8.129344955791998,
+      "frames_compared": 763,
+      "cpp_db": 23.930734736779904,
+      "hf_ratio_db": -33.356196902663484
+     },
+     "other": null
+    },
+    "eqmatch": {
+     "breathy": {
+      "d_raw": 9.309858911800427,
+      "d_dyn": 8.220191049991945,
+      "frames_compared": 763,
+      "cpp_db": 24.633519553228986,
+      "hf_ratio_db": -34.573696085154346
+     },
+     "other": null
+    }
+   }
+  },
+  {
+   "singer": "EN-Tenor-1",
+   "sid": "17",
+   "song": "Shallow",
+   "cluster": "EN-Tenor-1|Shallow",
+   "frames": {
+    "breathy": 889,
+    "other": 0
+   },
+   "real": {
+    "breathy": {
+     "cpp_db": 19.569053146269056,
+     "hf_ratio_db": -33.431023558368075
+    },
+    "other": {
+     "cpp_db": null,
+     "hf_ratio_db": null
+    }
+   },
+   "out": {
+    "base": {
+     "breathy": {
+      "d_raw": 9.440804177467168,
+      "d_dyn": 8.468655447428121,
+      "frames_compared": 889,
+      "cpp_db": 24.71986319416508,
+      "hf_ratio_db": -31.81968383594651
+     },
+     "other": null
+    },
+    "a1": {
+     "breathy": {
+      "d_raw": 9.270409593835664,
+      "d_dyn": 8.375651993332385,
+      "frames_compared": 889,
+      "cpp_db": 22.647631737272032,
+      "hf_ratio_db": -36.52233342711681
+     },
+     "other": null
+    },
+    "a0.5": {
+     "breathy": {
+      "d_raw": 9.257527062616772,
+      "d_dyn": 8.326053734712428,
+      "frames_compared": 889,
+      "cpp_db": 24.156144572236467,
+      "hf_ratio_db": -33.96942824806213
+     },
+     "other": null
+    },
+    "eqmatch": {
+     "breathy": {
+      "d_raw": 9.47379180513748,
+      "d_dyn": 8.43231583455966,
+      "frames_compared": 889,
+      "cpp_db": 24.58628387121392,
+      "hf_ratio_db": -32.71506536086612
+     },
+     "other": null
+    }
+   }
+  },
+  {
+   "singer": "EN-Tenor-1",
+   "sid": "18",
+   "song": "Shallow",
+   "cluster": "EN-Tenor-1|Shallow",
+   "frames": {
+    "breathy": 839,
+    "other": 0
+   },
+   "real": {
+    "breathy": {
+     "cpp_db": 19.612996858565563,
+     "hf_ratio_db": -29.917453108863157
+    },
+    "other": {
+     "cpp_db": null,
+     "hf_ratio_db": null
+    }
+   },
+   "out": {
+    "base": {
+     "breathy": {
+      "d_raw": 8.761226093727272,
+      "d_dyn": 7.874347234899731,
+      "frames_compared": 839,
+      "cpp_db": 23.631469157153624,
+      "hf_ratio_db": -28.802267692601642
+     },
+     "other": null
+    },
+    "a1": {
+     "breathy": {
+      "d_raw": 8.420806404449298,
+      "d_dyn": 7.668731450045749,
+      "frames_compared": 839,
+      "cpp_db": 22.050005588298376,
+      "hf_ratio_db": -33.39234970871875
+     },
+     "other": null
+    },
+    "a0.5": {
+     "breathy": {
+      "d_raw": 8.618207513603288,
+      "d_dyn": 7.752759863975309,
+      "frames_compared": 839,
+      "cpp_db": 23.329408570116723,
+      "hf_ratio_db": -30.875424153624607
+     },
+     "other": null
+    },
+    "eqmatch": {
+     "breathy": {
+      "d_raw": 8.821991415520861,
+      "d_dyn": 7.8558717547707575,
+      "frames_compared": 839,
+      "cpp_db": 23.722274730277984,
+      "hf_ratio_db": -28.93609380503171
+     },
+     "other": null
+    }
+   }
+  },
+  {
+   "singer": "EN-Tenor-1",
+   "sid": "19",
+   "song": "Someone Like You",
+   "cluster": "EN-Tenor-1|Someone Like You",
+   "frames": {
+    "breathy": 1004,
+    "other": 0
+   },
+   "real": {
+    "breathy": {
+     "cpp_db": 18.418225323801884,
+     "hf_ratio_db": -29.594687808412733
+    },
+    "other": {
+     "cpp_db": null,
+     "hf_ratio_db": null
+    }
+   },
+   "out": {
+    "base": {
+     "breathy": {
+      "d_raw": 8.498711417400125,
+      "d_dyn": 7.91021880679131,
+      "frames_compared": 1004,
+      "cpp_db": 22.825729528519485,
+      "hf_ratio_db": -29.454298541548894
+     },
+     "other": null
+    },
+    "a1": {
+     "breathy": {
+      "d_raw": 8.569562974741322,
+      "d_dyn": 8.030196697335732,
+      "frames_compared": 1004,
+      "cpp_db": 21.726003328409618,
+      "hf_ratio_db": -34.18711918602125
+     },
+     "other": null
+    },
+    "a0.5": {
+     "breathy": {
+      "d_raw": 8.516679439035164,
+      "d_dyn": 7.9590258509333145,
+      "frames_compared": 1004,
+      "cpp_db": 22.307352903989266,
+      "hf_ratio_db": -30.86705612753868
+     },
+     "other": null
+    },
+    "eqmatch": {
+     "breathy": {
+      "d_raw": 8.577056855504978,
+      "d_dyn": 7.921710967646834,
+      "frames_compared": 1004,
+      "cpp_db": 22.998940578867504,
+      "hf_ratio_db": -29.62482551862512
+     },
+     "other": null
+    }
+   }
+  },
+  {
+   "singer": "EN-Tenor-1",
+   "sid": "20",
+   "song": "Someone Like You",
+   "cluster": "EN-Tenor-1|Someone Like You",
+   "frames": {
+    "breathy": 472,
+    "other": 0
+   },
+   "real": {
+    "breathy": {
+     "cpp_db": 16.82504702073999,
+     "hf_ratio_db": -35.465173836625354
+    },
+    "other": {
+     "cpp_db": null,
+     "hf_ratio_db": null
+    }
+   },
+   "out": {
+    "base": {
+     "breathy": {
+      "d_raw": 7.467294901112721,
+      "d_dyn": 6.734415574541286,
+      "frames_compared": 472,
+      "cpp_db": 23.78269920386358,
+      "hf_ratio_db": -33.660186935055805
+     },
+     "other": null
+    },
+    "a1": {
+     "breathy": {
+      "d_raw": 7.865796449363541,
+      "d_dyn": 6.897944224344418,
+      "frames_compared": 472,
+      "cpp_db": 21.702390383574937,
+      "hf_ratio_db": -38.03880444311934
+     },
+     "other": null
+    },
+    "a0.5": {
+     "breathy": {
+      "d_raw": 7.551979996321141,
+      "d_dyn": 6.772202316537042,
+      "frames_compared": 472,
+      "cpp_db": 22.909888850884784,
+      "hf_ratio_db": -35.682544731451586
+     },
+     "other": null
+    },
+    "eqmatch": {
+     "breathy": {
+      "d_raw": 7.362984289713618,
+      "d_dyn": 6.63079060090639,
+      "frames_compared": 472,
+      "cpp_db": 23.960679277867285,
+      "hf_ratio_db": -35.7500365324289
+     },
+     "other": null
+    }
+   }
+  },
+  {
+   "singer": "EN-Tenor-1",
+   "sid": "21",
+   "song": "Stay",
+   "cluster": "EN-Tenor-1|Stay",
+   "frames": {
+    "breathy": 682,
+    "other": 0
+   },
+   "real": {
+    "breathy": {
+     "cpp_db": 18.104006668899277,
+     "hf_ratio_db": -35.7604642770223
+    },
+    "other": {
+     "cpp_db": null,
+     "hf_ratio_db": null
+    }
+   },
+   "out": {
+    "base": {
+     "breathy": {
+      "d_raw": 8.40612871603853,
+      "d_dyn": 7.113403291180801,
+      "frames_compared": 682,
+      "cpp_db": 24.935672580215954,
+      "hf_ratio_db": -33.02812444902221
+     },
+     "other": null
+    },
+    "a1": {
+     "breathy": {
+      "d_raw": 7.996361444967827,
+      "d_dyn": 7.10793438528098,
+      "frames_compared": 682,
+      "cpp_db": 22.480320250714115,
+      "hf_ratio_db": -36.93543669068535
+     },
+     "other": null
+    },
+    "a0.5": {
+     "breathy": {
+      "d_raw": 8.21744061321532,
+      "d_dyn": 7.05474336793977,
+      "frames_compared": 682,
+      "cpp_db": 24.08483974649805,
+      "hf_ratio_db": -34.803566031329524
+     },
+     "other": null
+    },
+    "eqmatch": {
+     "breathy": {
+      "d_raw": 7.991034671995308,
+      "d_dyn": 7.044167972741508,
+      "frames_compared": 682,
+      "cpp_db": 24.839607168472625,
+      "hf_ratio_db": -37.900816899475416
+     },
+     "other": null
+    }
+   }
+  },
+  {
+   "singer": "EN-Tenor-1",
+   "sid": "22",
+   "song": "Stay",
+   "cluster": "EN-Tenor-1|Stay",
+   "frames": {
+    "breathy": 680,
+    "other": 0
+   },
+   "real": {
+    "breathy": {
+     "cpp_db": 18.42272616573039,
+     "hf_ratio_db": -34.240655000407635
+    },
+    "other": {
+     "cpp_db": null,
+     "hf_ratio_db": null
+    }
+   },
+   "out": {
+    "base": {
+     "breathy": {
+      "d_raw": 8.779904788979055,
+      "d_dyn": 7.539861384981222,
+      "frames_compared": 680,
+      "cpp_db": 23.938073826890836,
+      "hf_ratio_db": -28.286279734762953
+     },
+     "other": null
+    },
+    "a1": {
+     "breathy": {
+      "d_raw": 8.665193522518097,
+      "d_dyn": 7.677162730887323,
+      "frames_compared": 680,
+      "cpp_db": 22.007372231690614,
+      "hf_ratio_db": -30.531682634858278
+     },
+     "other": null
+    },
+    "a0.5": {
+     "breathy": {
+      "d_raw": 8.632403548535404,
+      "d_dyn": 7.5142520404108,
+      "frames_compared": 680,
+      "cpp_db": 23.409485342213337,
+      "hf_ratio_db": -29.36980519431876
+     },
+     "other": null
+    },
+    "eqmatch": {
+     "breathy": {
+      "d_raw": 8.810821628498326,
+      "d_dyn": 7.569901057254505,
+      "frames_compared": 680,
+      "cpp_db": 23.95339513890894,
+      "hf_ratio_db": -28.897612899494003
+     },
+     "other": null
+    }
+   }
+  },
+  {
+   "singer": "EN-Tenor-1",
+   "sid": "23",
+   "song": "What Was I Made For\uff1f",
+   "cluster": "EN-Tenor-1|What Was I Made For\uff1f",
+   "frames": {
+    "breathy": 592,
+    "other": 0
+   },
+   "real": {
+    "breathy": {
+     "cpp_db": 18.259980727854085,
+     "hf_ratio_db": -30.623349447326046
+    },
+    "other": {
+     "cpp_db": null,
+     "hf_ratio_db": null
+    }
+   },
+   "out": {
+    "base": {
+     "breathy": {
+      "d_raw": 9.34102881076731,
+      "d_dyn": 7.915087993801504,
+      "frames_compared": 592,
+      "cpp_db": 23.60311755263088,
+      "hf_ratio_db": -32.063669476662284
+     },
+     "other": null
+    },
+    "a1": {
+     "breathy": {
+      "d_raw": 9.041491362959071,
+      "d_dyn": 7.883069065587269,
+      "frames_compared": 592,
+      "cpp_db": 22.32300838433987,
+      "hf_ratio_db": -33.94938519391486
+     },
+     "other": null
+    },
+    "a0.5": {
+     "breathy": {
+      "d_raw": 9.312395202932178,
+      "d_dyn": 8.053604364539332,
+      "frames_compared": 592,
+      "cpp_db": 23.30654379467736,
+      "hf_ratio_db": -33.009272088493
+     },
+     "other": null
+    },
+    "eqmatch": {
+     "breathy": {
+      "d_raw": 9.248322389867184,
+      "d_dyn": 7.979186467057666,
+      "frames_compared": 592,
+      "cpp_db": 23.517437499037595,
+      "hf_ratio_db": -30.22736338731188
+     },
+     "other": null
+    }
+   }
+  },
+  {
+   "singer": "EN-Tenor-1",
+   "sid": "24",
+   "song": "What Was I Made For\uff1f",
+   "cluster": "EN-Tenor-1|What Was I Made For\uff1f",
+   "frames": {
+    "breathy": 920,
+    "other": 0
+   },
+   "real": {
+    "breathy": {
+     "cpp_db": 18.417139517481278,
+     "hf_ratio_db": -29.53592770409951
+    },
+    "other": {
+     "cpp_db": null,
+     "hf_ratio_db": null
+    }
+   },
+   "out": {
+    "base": {
+     "breathy": {
+      "d_raw": 9.033237609059176,
+      "d_dyn": 7.76952446210701,
+      "frames_compared": 920,
+      "cpp_db": 24.328446971353106,
+      "hf_ratio_db": -31.79812318722666
+     },
+     "other": null
+    },
+    "a1": {
+     "breathy": {
+      "d_raw": 8.811580104623944,
+      "d_dyn": 7.662130513684999,
+      "frames_compared": 920,
+      "cpp_db": 22.474796770762406,
+      "hf_ratio_db": -31.446632107150574
+     },
+     "other": null
+    },
+    "a0.5": {
+     "breathy": {
+      "d_raw": 8.995025181220923,
+      "d_dyn": 7.679396234155305,
+      "frames_compared": 920,
+      "cpp_db": 23.41897501326413,
+      "hf_ratio_db": -31.8746813079936
+     },
+     "other": null
+    },
+    "eqmatch": {
+     "breathy": {
+      "d_raw": 9.336889225087262,
+      "d_dyn": 7.737095155153324,
+      "frames_compared": 920,
+      "cpp_db": 24.370548146662987,
+      "hf_ratio_db": -30.76980300551359
+     },
+     "other": null
+    }
+   }
+  },
+  {
+   "singer": "EN-Tenor-1",
+   "sid": "25",
+   "song": "What Was I Made For\uff1f",
+   "cluster": "EN-Tenor-1|What Was I Made For\uff1f",
+   "frames": {
+    "breathy": 862,
+    "other": 0
+   },
+   "real": {
+    "breathy": {
+     "cpp_db": 18.529979811634963,
+     "hf_ratio_db": -30.692611989741835
+    },
+    "other": {
+     "cpp_db": null,
+     "hf_ratio_db": null
+    }
+   },
+   "out": {
+    "base": {
+     "breathy": {
+      "d_raw": 8.836328904096371,
+      "d_dyn": 7.583175570594392,
+      "frames_compared": 862,
+      "cpp_db": 25.04872513894449,
+      "hf_ratio_db": -32.874483391884574
+     },
+     "other": null
+    },
+    "a1": {
+     "breathy": {
+      "d_raw": 8.402562657912853,
+      "d_dyn": 7.21399009741004,
+      "frames_compared": 862,
+      "cpp_db": 22.42045165942445,
+      "hf_ratio_db": -35.65232478193807
+     },
+     "other": null
+    },
+    "a0.5": {
+     "breathy": {
+      "d_raw": 8.767399961999264,
+      "d_dyn": 7.535075055326972,
+      "frames_compared": 862,
+      "cpp_db": 23.761335004768206,
+      "hf_ratio_db": -33.80680394480371
+     },
+     "other": null
+    },
+    "eqmatch": {
+     "breathy": {
+      "d_raw": 8.471521973588862,
+      "d_dyn": 7.485666487486499,
+      "frames_compared": 862,
+      "cpp_db": 24.783072311176586,
+      "hf_ratio_db": -34.10508476535861
+     },
+     "other": null
+    }
+   }
+  },
+  {
+   "singer": "EN-Tenor-1",
+   "sid": "26",
+   "song": "What Was I Made For\uff1f",
+   "cluster": "EN-Tenor-1|What Was I Made For\uff1f",
+   "frames": {
+    "breathy": 918,
+    "other": 0
+   },
+   "real": {
+    "breathy": {
+     "cpp_db": 18.64872505979593,
+     "hf_ratio_db": -33.12717935424186
+    },
+    "other": {
+     "cpp_db": null,
+     "hf_ratio_db": null
+    }
+   },
+   "out": {
+    "base": {
+     "breathy": {
+      "d_raw": 10.1707512097086,
+      "d_dyn": 8.8308247701636,
+      "frames_compared": 918,
+      "cpp_db": 24.525689764786215,
+      "hf_ratio_db": -31.611230481339653
+     },
+     "other": null
+    },
+    "a1": {
+     "breathy": {
+      "d_raw": 10.260275604738139,
+      "d_dyn": 9.255508074074388,
+      "frames_compared": 918,
+      "cpp_db": 22.473326128133927,
+      "hf_ratio_db": -34.919982448654785
+     },
+     "other": null
+    },
+    "a0.5": {
+     "breathy": {
+      "d_raw": 10.088727106011955,
+      "d_dyn": 8.910917977609124,
+      "frames_compared": 918,
+      "cpp_db": 23.94527929322499,
+      "hf_ratio_db": -32.32673277502022
+     },
+     "other": null
+    },
+    "eqmatch": {
+     "breathy": {
+      "d_raw": 10.108271604679201,
+      "d_dyn": 8.765896298322515,
+      "frames_compared": 918,
+      "cpp_db": 24.192641653165783,
+      "hf_ratio_db": -32.66268598677338
+     },
+     "other": null
+    }
+   }
+  },
+  {
+   "singer": "EN-Tenor-1",
+   "sid": "27",
+   "song": "You Belong With Me",
+   "cluster": "EN-Tenor-1|You Belong With Me",
+   "frames": {
+    "breathy": 809,
+    "other": 0
+   },
+   "real": {
+    "breathy": {
+     "cpp_db": 17.257850909754147,
+     "hf_ratio_db": -31.119691479884885
+    },
+    "other": {
+     "cpp_db": null,
+     "hf_ratio_db": null
+    }
+   },
+   "out": {
+    "base": {
+     "breathy": {
+      "d_raw": 9.204540969431022,
+      "d_dyn": 8.306542707963509,
+      "frames_compared": 809,
+      "cpp_db": 22.97382224692589,
+      "hf_ratio_db": -28.271994393191953
+     },
+     "other": null
+    },
+    "a1": {
+     "breathy": {
+      "d_raw": 8.897402886140844,
+      "d_dyn": 8.209113141999918,
+      "frames_compared": 809,
+      "cpp_db": 21.227542754960243,
+      "hf_ratio_db": -32.44280295172783
+     },
+     "other": null
+    },
+    "a0.5": {
+     "breathy": {
+      "d_raw": 9.061434847052523,
+      "d_dyn": 8.268272084373274,
+      "frames_compared": 809,
+      "cpp_db": 22.31344417540274,
+      "hf_ratio_db": -30.24844274499785
+     },
+     "other": null
+    },
+    "eqmatch": {
+     "breathy": {
+      "d_raw": 9.08290220905274,
+      "d_dyn": 8.338813110432634,
+      "frames_compared": 809,
+      "cpp_db": 22.88005788397532,
+      "hf_ratio_db": -29.016196974876035
+     },
+     "other": null
+    }
+   }
+  },
+  {
+   "singer": "EN-Tenor-1",
+   "sid": "28",
+   "song": "You Belong With Me",
+   "cluster": "EN-Tenor-1|You Belong With Me",
+   "frames": {
+    "breathy": 613,
+    "other": 0
+   },
+   "real": {
+    "breathy": {
+     "cpp_db": 19.464154577891424,
+     "hf_ratio_db": -30.858185285458532
+    },
+    "other": {
+     "cpp_db": null,
+     "hf_ratio_db": null
+    }
+   },
+   "out": {
+    "base": {
+     "breathy": {
+      "d_raw": 8.476881527523709,
+      "d_dyn": 7.058999732694504,
+      "frames_compared": 613,
+      "cpp_db": 23.198088910555473,
+      "hf_ratio_db": -30.301422998908684
+     },
+     "other": null
+    },
+    "a1": {
+     "breathy": {
+      "d_raw": 8.162532911466286,
+      "d_dyn": 6.829298346514737,
+      "frames_compared": 613,
+      "cpp_db": 21.11092482809742,
+      "hf_ratio_db": -32.44993593556753
+     },
+     "other": null
+    },
+    "a0.5": {
+     "breathy": {
+      "d_raw": 8.298392717490884,
+      "d_dyn": 6.89027469707857,
+      "frames_compared": 613,
+      "cpp_db": 22.553650430223495,
+      "hf_ratio_db": -31.617233709256848
+     },
+     "other": null
+    },
+    "eqmatch": {
+     "breathy": {
+      "d_raw": 8.541783227904226,
+      "d_dyn": 7.094242563243554,
+      "frames_compared": 613,
+      "cpp_db": 23.111879543306458,
+      "hf_ratio_db": -30.374592486368652
+     },
+     "other": null
+    }
+   }
+  },
+  {
+   "singer": "EN-Tenor-1",
+   "sid": "29",
+   "song": "You Belong With Me",
+   "cluster": "EN-Tenor-1|You Belong With Me",
+   "frames": {
+    "breathy": 716,
+    "other": 0
+   },
+   "real": {
+    "breathy": {
+     "cpp_db": 19.410417200854905,
+     "hf_ratio_db": -33.87480902466484
+    },
+    "other": {
+     "cpp_db": null,
+     "hf_ratio_db": null
+    }
+   },
+   "out": {
+    "base": {
+     "breathy": {
+      "d_raw": 8.511274150625656,
+      "d_dyn": 7.5365471692922945,
+      "frames_compared": 716,
+      "cpp_db": 23.64221663485266,
+      "hf_ratio_db": -32.126641837767565
+     },
+     "other": null
+    },
+    "a1": {
+     "breathy": {
+      "d_raw": 8.250577213227054,
+      "d_dyn": 7.417284218914975,
+      "frames_compared": 716,
+      "cpp_db": 21.994458780819794,
+      "hf_ratio_db": -35.99279518154612
+     },
+     "other": null
+    },
+    "a0.5": {
+     "breathy": {
+      "d_raw": 8.40576425656438,
+      "d_dyn": 7.46621695138037,
+      "frames_compared": 716,
+      "cpp_db": 22.973652553926183,
+      "hf_ratio_db": -33.56426575381376
+     },
+     "other": null
+    },
+    "eqmatch": {
+     "breathy": {
+      "d_raw": 8.448116900528774,
+      "d_dyn": 7.53270910490162,
+      "frames_compared": 716,
+      "cpp_db": 23.743583333809944,
+      "hf_ratio_db": -32.76634669554598
+     },
+     "other": null
+    }
+   }
+  }
+ ],
+ "annotation_sha256": {
+  "English/EN-Alto-1/Breathy/god is a girl/Breathy_Group/0000.json": "d4dd9f96c8bc792bb0e1835bb394913f3cc445c7bdcabed9b239bef84d096298",
+  "English/EN-Alto-1/Breathy/god is a girl/Breathy_Group/0003.json": "69c4579f1e54ee11147560ae2ffafcd828407a1a60010a8a42ccd46005669627",
+  "English/EN-Alto-1/Breathy/innocence/Breathy_Group/0001.json": "2ceb11c098ad3096170f26e8a0dbd29590b16d2c5da8cb53263e203e54b87625",
+  "English/EN-Alto-1/Breathy/innocence/Breathy_Group/0004.json": "5d1a48378a0b05293785fdaa8c0767b2ff0646bba2ccdf83df4101ddd091077d",
+  "English/EN-Alto-1/Breathy/innocence/Breathy_Group/0007.json": "3e0144281e303a43c1d63d6390eddaecc047387592b93c2b5367dbdaca9372c5",
+  "English/EN-Alto-1/Breathy/innocence/Breathy_Group/0009.json": "7af0ac6d0996e77727c355094ce48684a9323d4d22d1adf94ec0aa7d95994652",
+  "English/EN-Alto-1/Breathy/innocence/Breathy_Group/0012.json": "be628555ea73c89dad3c6d25e7eef3d463ff4d0f2904fb98cdb0376d14e8bebd",
+  "English/EN-Alto-1/Breathy/let it go/Breathy_Group/0002.json": "9be170c112fb6b5827145b96a24159afd94d4956573c59e7fdc904571d81e40d",
+  "English/EN-Alto-1/Breathy/let it go/Breathy_Group/0005.json": "a04f3e5efa285aaadcd3274c1f3f3e2e4c926cc34b34de27a0e34dacd11544da",
+  "English/EN-Alto-1/Breathy/once up a dream/Breathy_Group/0000.json": "dcbbc80f9e0ceeffa7c90f807267d59889358077fe2b64bc8db15d5fa6a57d7d",
+  "English/EN-Alto-1/Breathy/safe and sound/Breathy_Group/0000.json": "e81fe2f7966363231fdef0458a0f1208ec525aa96d81a2a74cbaa8f0cb8bc9dc",
+  "English/EN-Alto-1/Breathy/safe and sound/Breathy_Group/0004.json": "fbe4ae9233346a614aec5d7689d50f787c726aff76a2d2ce23e4aaf2806f0471",
+  "English/EN-Alto-1/Breathy/safe and sound/Breathy_Group/0008.json": "dbcf991593f7609dd4c842234ffb4a5e31a3acde4a488ec234a7a58c22aacebc",
+  "English/EN-Alto-1/Breathy/safe and sound/Breathy_Group/0010.json": "0044e057f98f963b5eaf1e87a6a1e452fe4611cf1b1e0c8d57f5fd723e9d3d63",
+  "English/EN-Alto-1/Breathy/safe and sound/Breathy_Group/0013.json": "31adbfc49a2f569bd85ab1ba8ed256cd01033cc6667db0e86e5fec3f2c6bd4bc",
+  "English/EN-Alto-1/Breathy/sleepyhead/Breathy_Group/0002.json": "07c2c7c131681539575de732e3fc5c0c31f266e688f2d2eef81bc899a64ee479",
+  "English/EN-Alto-1/Breathy/sleepyhead/Breathy_Group/0005.json": "8c97e8566131cbaf1f7e2f7ab66e0862e646fe669469ea3e630a366f02eb8581",
+  "English/EN-Alto-1/Breathy/sleepyhead/Breathy_Group/0008.json": "9a839f5d558f823c96b14485e9a07b9b95784401ffc1c1297c292958363d1404",
+  "English/EN-Alto-1/Breathy/sleepyhead/Breathy_Group/0010.json": "763ce82ca2518a00af371854bd39752509ea856226b8cb2b8473cdfaf4fa6eb3",
+  "English/EN-Alto-1/Breathy/someday or oneday/Breathy_Group/0001.json": "b1f226635127ec501d7d3d8ff81302ba81c068da8594962d0d83ce5bc41678e2",
+  "English/EN-Alto-1/Breathy/someday or oneday/Breathy_Group/0004.json": "7ff93c3c72e5f960345a0ab8d49ba9cc79b6d99a32597e341f62ba6aa945e530",
+  "English/EN-Alto-1/Breathy/treasure/Breathy_Group/0002.json": "1f04d6ecb0eceaf36b61b884b67f67893615b41a5e8799ead65afacac9f40b23",
+  "English/EN-Alto-1/Breathy/treasure/Breathy_Group/0004.json": "9c28d5751f2d0837ba072da329f4189852b06f69789b7c9a59df79883227961b",
+  "English/EN-Alto-1/Breathy/treasure/Breathy_Group/0007.json": "c5dbc2710a50b70acb9629940931706b9ccf21f550a4ed6449509168f53c6e29",
+  "English/EN-Alto-1/Breathy/who says/Breathy_Group/0001.json": "e8493ddf1b06dc55f3820434a1dfad05fbc1d2f8784a6a2d4b43fab9a4cf81f2",
+  "English/EN-Alto-1/Breathy/who says/Breathy_Group/0004.json": "1ac2e47ca16ebad761c9ae7020ec0b90286f10b785c9a891efcec15bd2849cad",
+  "English/EN-Alto-1/Breathy/who says/Breathy_Group/0006.json": "c019e29e417b10475e4594f908acc09b0e6ae0e45ebb59b429bef2faf61ecd55",
+  "English/EN-Alto-1/Breathy/who says/Breathy_Group/0009.json": "394acbd240a51b05215387c4dfca91c9bcb227c86a86935dabf6455dff0dcdb6",
+  "English/EN-Alto-1/Breathy/who says/Breathy_Group/0012.json": "7123c94152a332c40b9f153c16f62b6fdf355d80cef2b895a878b22b235b1764",
+  "English/EN-Alto-1/Breathy/who says/Breathy_Group/0015.json": "89fa183a7ffb5267808133889d1dfd2725a524df3479ca836d536c371b2e77d9",
+  "English/EN-Alto-2/Breathy/All of Me/Breathy_Group/0000.json": "29c750cf35eea02306732cbd55ce0158f495bdce7256b7d07e9c03c9c80e74a8",
+  "English/EN-Alto-2/Breathy/All of Me/Breathy_Group/0003.json": "c32d4c102232a5fff1a3e1c380c4376b9e88123488bd8774af1e82b9e6db4ad8",
+  "English/EN-Alto-2/Breathy/All of Me/Breathy_Group/0006.json": "2bb8df38ec37c2bf57eae497d0738a4c8220d9181ea28dbefa6e2e1df8c85661",
+  "English/EN-Alto-2/Breathy/Dream It Possible/Breathy_Group/0000.json": "9fc01134d94f5cf61f4f0e993856306ed3edd1ed1f90d8846cd8b194ae42b9c7",
+  "English/EN-Alto-2/Breathy/Dream It Possible/Breathy_Group/0003.json": "d2d6de0a7c12694cc7898cc710403fda33d77b66bee72334200765f3ab984463",
+  "English/EN-Alto-2/Breathy/Easy On Me/Breathy_Group/0000.json": "54dcc847ecc1ec8833c0a0ea1e785e86e265b962d8fed4f59e9133470a38b167",
+  "English/EN-Alto-2/Breathy/Easy On Me/Breathy_Group/0004.json": "73240989a06251cb0cd56654cd391b0f90cc0d253f49e85d343adc3d82093165",
+  "English/EN-Alto-2/Breathy/Easy On Me/Breathy_Group/0007.json": "107b688c565e463a115aef773ec742006dabde66236fd329ed35aacb91b8f64b",
+  "English/EN-Alto-2/Breathy/Fly Me to the Moon/Breathy_Group/0002.json": "7077ef78fd4675af6036bb8e3849904cc0c28c12cfa96609b43952926042e050",
+  "English/EN-Alto-2/Breathy/Love Me Like You Do/Breathy_Group/0000.json": "49abacd776ae508c5a34369167211cca6050562e3f4586fd561687c54a050ddd",
+  "English/EN-Alto-2/Breathy/Love Me Like You Do/Breathy_Group/0003.json": "af12b4aa7a2a819cf7113ccb529e2d96eb8fa21cfe578f3bb9c5c92a236d2d11",
+  "English/EN-Alto-2/Breathy/Love Me Like You Do/Breathy_Group/0006.json": "1e92f8978973d126f69dc979267907eb924302ea9441d8003b6d32cffe92dbce",
+  "English/EN-Alto-2/Breathy/Love Story/Breathy_Group/0000.json": "874da25b79a88cd1a128e6923990ad5aa34f37961207a339ebf6ff399c7014dd",
+  "English/EN-Alto-2/Breathy/My Heart Will Go On/Breathy_Group/0000.json": "3963285458aefcdffd0cb0dc81b13bfa7e34b2ddd70aa0cd6fbfd7336c20c68d",
+  "English/EN-Alto-2/Breathy/My Heart Will Go On/Breathy_Group/0004.json": "f03d2b08643de925638a881098edc008f25313e87b023ce8cb3ec55faab98bcd",
+  "English/EN-Alto-2/Breathy/My Heart Will Go On/Breathy_Group/0008.json": "e81072543454fe67926e0ebdb7b0b38d1087bc523d6c28ca01ada3bf3a182beb",
+  "English/EN-Alto-2/Breathy/My Love/Breathy_Group/0001.json": "c769c6057071ba2bfdeb8da49e8ac27b3b06cd4391a39a711075f46f59d04987",
+  "English/EN-Alto-2/Breathy/My Love/Breathy_Group/0004.json": "1431e35c87fefc3669077db43b44cba7df0e7a51f4eac2f3d78a8876ae7c6643",
+  "English/EN-Alto-2/Breathy/My Love/Breathy_Group/0008.json": "838220f16ea6ed0dafb89b8a859285f1526a904ed2a38debaa3c7bf01ebe638a",
+  "English/EN-Alto-2/Breathy/Safe and Sound/Breathy_Group/0003.json": "1221ab3b5fb5b5543a019e6c435a4c7a16acace03da39a1a7f2a37b0807173b7",
+  "English/EN-Alto-2/Breathy/Someone Like You/Breathy_Group/0001.json": "bf3bdabfdf9ab084e0f395e4af98054d26f10827cb8b614979ee5dd16381c370",
+  "English/EN-Alto-2/Breathy/Someone Like You/Breathy_Group/0005.json": "bd6ecd180cf68b8040f6ae36d8f8d9546536a704aa552b19e40e02dd1ed94427",
+  "English/EN-Alto-2/Breathy/Someone Like You/Breathy_Group/0008.json": "d6b7e1d21ff64ed0f6f049669873610522c43f45efa556f40874b93b526207c7",
+  "English/EN-Alto-2/Breathy/Someone Like You/Breathy_Group/0011.json": "ddf81301b320a72f28854f7ac16fa3de2f189d8c21a4426739fc6e894dad4120",
+  "English/EN-Alto-2/Breathy/Someone You Loved/Breathy_Group/0003.json": "525d011f19a02a9aeca8164ab0ded01802b3ae9a2b1006b7db5c45184bcbaba0",
+  "English/EN-Alto-2/Breathy/What Are Words/Breathy_Group/0000.json": "7a6e23a5629c5cc6779642a20a5c4cecf850a45825697ce40b4b2b8313b123df",
+  "English/EN-Alto-2/Breathy/What Are Words/Breathy_Group/0005.json": "7d1fb60ee799d2c8898e75bd6ba67b9a92977f248b3c3ad30d5b9c1bf3e68622",
+  "English/EN-Alto-2/Breathy/Yesterday Once More/Breathy_Group/0001.json": "1fd6f886ac10695d2d46cc25273c4bd503a05933600447f0c8e24e87fabd51aa",
+  "English/EN-Alto-2/Breathy/Yesterday Once More/Breathy_Group/0004.json": "b415fd5b2caddaf28e86edc359e5b45509dec9bc445ecf9773134b902644fc7d",
+  "English/EN-Alto-2/Breathy/Young And Beautiful/Breathy_Group/0000.json": "0150d329a5c64dbc1a314b9015c95f8b7a643c17e84080d2adebd3ff99b67126",
+  "English/EN-Tenor-1/Breathy/Always Remember Us This Way/Breathy_Group/0000.json": "66ba9ab1cb2e16c1ce4a72ae16f5b9d9adcfcbc5dd6d6e9541037cce68197b90",
+  "English/EN-Tenor-1/Breathy/Always Remember Us This Way/Breathy_Group/0003.json": "f2d47b7531039ddafa1fe940bae426698f809e44e13826aad33ad59aefc6171a",
+  "English/EN-Tenor-1/Breathy/Always Remember Us This Way/Breathy_Group/0007.json": "8c1f15916ac4610130939dd168063ce87bbf8dd1a164b16ff3e5bfa28c353765",
+  "English/EN-Tenor-1/Breathy/Always Remember Us This Way/Breathy_Group/0011.json": "9c036db86576dfcdab5e1716768b0211be1663b35a29e351a1d3a8697df3ed65",
+  "English/EN-Tenor-1/Breathy/Enchanted/Breathy_Group/0001.json": "e0e69698d8ed7288daf5769740738d83dcaa7e117771aeb95a9379ce6baaf269",
+  "English/EN-Tenor-1/Breathy/Enchanted/Breathy_Group/0005.json": "95eb3d0c64953ab1bd656f5fd409bcb2d93e9ae5743bc0c396ac1d5fc398e9db",
+  "English/EN-Tenor-1/Breathy/I Knew You Were Trouble/Breathy_Group/0001.json": "01e90143163a61c58e5d950f504a6a7014939f8d9d052210232cb83bcb77add6",
+  "English/EN-Tenor-1/Breathy/I Knew You Were Trouble/Breathy_Group/0005.json": "968493c3fa15d57b0af9361622babf5239cd7eeb7c830cf233853040d5156284",
+  "English/EN-Tenor-1/Breathy/Long Live/Breathy_Group/0000.json": "846752c5e2c4147fcbc9c10e9b3905d222596b5c15da4f6e40483ce82d9795a0",
+  "English/EN-Tenor-1/Breathy/Long Live/Breathy_Group/0004.json": "cd5da84b45dfd3f50483da90ed9ba8a9f884b2db6142fa10aa5f61f6c0f70427",
+  "English/EN-Tenor-1/Breathy/Long Live/Breathy_Group/0008.json": "45821b778b8cf840c6bfa6fbe9264319d8c79d17a2ea6378d499486b2bbd7281",
+  "English/EN-Tenor-1/Breathy/Million Reasons/Breathy_Group/0000.json": "3e6e58a69ced96b6aa861f26c3aedbd1f473313747e35475e8b88f1c7e3f4bad",
+  "English/EN-Tenor-1/Breathy/Million Reasons/Breathy_Group/0004.json": "492c89785634f2bcb28bde145496024f7072577e137a9a0b49bec5558e27ebaf",
+  "English/EN-Tenor-1/Breathy/Million Reasons/Breathy_Group/0008.json": "f4b06b3cd9f4f41c09753fca36de6d56a5914fbc4bdc28437e66bdee93d5a419",
+  "English/EN-Tenor-1/Breathy/Rolling in the Deep/Breathy_Group/0003.json": "d87c0827ed9d9dbce6a74d72d5eb0f42a7242034eb60d48daa6c73e486a70675",
+  "English/EN-Tenor-1/Breathy/Shallow/Breathy_Group/0000.json": "4e77e7294773ead0651a8e66183c3b85ae5266b7c05a41eb7901c334b3c87d0d",
+  "English/EN-Tenor-1/Breathy/Shallow/Breathy_Group/0004.json": "40c308dac8e6eba584a52a97f583f5c5b9c0993d074cd6c865ef4617d4e32f77",
+  "English/EN-Tenor-1/Breathy/Shallow/Breathy_Group/0009.json": "7b90716fe915a740648c651af25bc0005a8470d3a6abc9e0adbb39404c558f7e",
+  "English/EN-Tenor-1/Breathy/Shallow/Breathy_Group/0013.json": "5d0f4e14d8c80b236c666521665fbce39710e9461bb881cb697a80d9504b89e7",
+  "English/EN-Tenor-1/Breathy/Someone Like You/Breathy_Group/0002.json": "66e2ed792491d2c5f9a8079d51a27625ea475a97eef6c151bce5266e436e8ade",
+  "English/EN-Tenor-1/Breathy/Someone Like You/Breathy_Group/0006.json": "e6e4ea003d597bfdcb1938a3aecdf67d05a1a1337cbf32ed62cd69aa12c15d0d",
+  "English/EN-Tenor-1/Breathy/Stay/Breathy_Group/0003.json": "242359e06edb4d70cca93ea41369671590f3cfb2354835ddd1bd6d421013e591",
+  "English/EN-Tenor-1/Breathy/Stay/Breathy_Group/0007.json": "385652836a9d93bf9af97f4ec8e93ca8aa3ab0c8bf13b7836dcf9d49219c7b04",
+  "English/EN-Tenor-1/Breathy/What Was I Made For\uff1f/Breathy_Group/0000.json": "e562cc583804e0ddd8908fbee9bd22d35ece4afba01a38df41eff0ff6797e4eb",
+  "English/EN-Tenor-1/Breathy/What Was I Made For\uff1f/Breathy_Group/0004.json": "7aa2c79d9e746446c38074e41ce1f7a436896cead101992fbca3b6a6bb4d5388",
+  "English/EN-Tenor-1/Breathy/What Was I Made For\uff1f/Breathy_Group/0008.json": "0c1730638a8adc786e6c4b8b6f0335dd250bcd8e9b0986a314b47149a32c6e93",
+  "English/EN-Tenor-1/Breathy/What Was I Made For\uff1f/Breathy_Group/0012.json": "f1c2992a4bb0b750e3c3c96dd90423d59595f24b45e23c34ff3ca7974342f40a",
+  "English/EN-Tenor-1/Breathy/You Belong With Me/Breathy_Group/0002.json": "dfd46636d40b68e5aed9d75788efafc0cbe2cec5acac34609bbc9bb7b37f878e",
+  "English/EN-Tenor-1/Breathy/You Belong With Me/Breathy_Group/0006.json": "d72fc7339fb16259fcf0c234104a6a48e49ebb01c724a2d52aa18c7c9bc9d941",
+  "English/EN-Tenor-1/Breathy/You Belong With Me/Breathy_Group/0010.json": "c8f6fa9763865644f3285f2de485ed433debf6c413da9191df63ffee6c800950"
+ }
+}

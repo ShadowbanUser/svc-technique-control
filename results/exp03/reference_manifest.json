@@ -1,0 +1,152 @@
+{
+ "female4_belt": {
+  "source_file": "data/vocalset_full/FULL/female4/scales/belt/f4_scales_belt_a.wav",
+  "start_seconds": 0.9,
+  "tiled": false,
+  "gain_db": 0.09809636304044834
+ },
+ "female4_breathy": {
+  "source_file": "data/vocalset_full/FULL/female4/scales/breathy/f4_scales_breathy_a.wav",
+  "start_seconds": 3.2,
+  "tiled": false,
+  "gain_db": 22.897840449849575
+ },
+ "female4_slow_forte": {
+  "source_file": "data/vocalset_full/FULL/female4/scales/slow_forte/f4_scales_c_slow_forte_a.wav",
+  "start_seconds": 3.6,
+  "tiled": false,
+  "gain_db": 2.401192007569393
+ },
+ "female4_slow_piano": {
+  "source_file": "data/vocalset_full/FULL/female4/scales/slow_piano/f4_scales_c_slow_piano_a.wav",
+  "start_seconds": 4.3,
+  "tiled": false,
+  "gain_db": 12.479503029050381
+ },
+ "female4_straight": {
+  "source_file": "data/vocalset_full/FULL/female4/scales/straight/scales_straight_a.wav",
+  "start_seconds": 1.3,
+  "tiled": false,
+  "gain_db": 5.216119852564729
+ },
+ "female4_vocal_fry": {
+  "source_file": "data/vocalset_full/FULL/female4/scales/vocal_fry/f4_scales_vocal_fry_a.wav",
+  "start_seconds": 0.6,
+  "tiled": false,
+  "gain_db": 24.95525500074723
+ },
+ "female5_belt": {
+  "source_file": "data/vocalset_full/FULL/female5/scales/belt/f5_scales_belt_a.wav",
+  "start_seconds": 2.2,
+  "tiled": false,
+  "gain_db": -8.333744612767626
+ },
+ "female5_breathy": {
+  "source_file": "data/vocalset_full/FULL/female5/scales/breathy/f5_scales_breathy_a.wav",
+  "start_seconds": 2.7,
+  "tiled": false,
+  "gain_db": 12.06885917498437
+ },
+ "female5_slow_forte": {
+  "source_file": "data/vocalset_full/FULL/female5/scales/slow_forte/f5_scales_c_slow_forte_a.wav",
+  "start_seconds": 1.9,
+  "tiled": false,
+  "gain_db": -8.494051803439447
+ },
+ "female5_slow_piano": {
+  "source_file": "data/vocalset_full/FULL/female5/scales/slow_piano/f5_scales_c_slow_piano_a.wav",
+  "start_seconds": 2.5,
+  "tiled": false,
+  "gain_db": 0.6746492139305583
+ },
+ "female5_straight": {
+  "source_file": "data/vocalset_full/FULL/female5/scales/straight/f5_scales_straight_a.wav",
+  "start_seconds": 2.3,
+  "tiled": false,
+  "gain_db": -2.0524475894447503
+ },
+ "female5_vocal_fry": {
+  "source_file": "data/vocalset_full/FULL/female5/scales/vocal_fry/f5_scales_vocal_fry_a.wav",
+  "start_seconds": 2.5,
+  "tiled": false,
+  "gain_db": 16.329632069717867
+ },
+ "female6_belt": {
+  "source_file": "data/vocalset_full/FULL/female6/scales/belt/f6_scales_belt_a.wav",
+  "start_seconds": 1.2,
+  "tiled": false,
+  "gain_db": -11.956242816446325
+ },
+ "female6_breathy": {
+  "source_file": "data/vocalset_full/FULL/female6/scales/breathy/f6_scales_breathy_a.wav",
+  "start_seconds": 0.8,
+  "tiled": false,
+  "gain_db": -5.1433213235624455
+ },
+ "female6_slow_forte": {
+  "source_file": "data/vocalset_full/FULL/female6/scales/slow_forte/f6_scales_c_slow_forte_a.wav",
+  "start_seconds": 2.7,
+  "tiled": false,
+  "gain_db": -10.264080509576408
+ },
+ "female6_slow_piano": {
+  "source_file": "data/vocalset_full/FULL/female6/scales/slow_piano/f6_scales_c_slow_piano_a.wav",
+  "start_seconds": 2.2,
+  "tiled": false,
+  "gain_db": -6.240721307439422
+ },
+ "female6_straight": {
+  "source_file": "data/vocalset_full/FULL/female6/scales/straight/f6_scales_straight_a.wav",
+  "start_seconds": 0.1,
+  "tiled": false,
+  "gain_db": -1.4746746117781324
+ },
+ "female6_vocal_fry": {
+  "source_file": "data/vocalset_full/FULL/female6/scales/vocal_fry/f6_scales_vocal_fry_a.wav",
+  "start_seconds": 1.2,
+  "tiled": false,
+  "gain_db": -0.1826354778384905
+ },
+ "female7_belt": {
+  "source_file": "data/vocalset_full/FULL/female7/scales/belt/f7_scales_belt_a.wav",
+  "start_seconds": 1.7,
+  "tiled": false,
+  "gain_db": -1.749173023879644
+ },
+ "female7_breathy": {
+  "source_file": "data/vocalset_full/FULL/female7/scales/breathy/f7_scales_breathy_a.wav",
+  "start_seconds": 3.6,
+  "tiled": false,
+  "gain_db": 2.671062403869186
+ },
+ "female7_slow_forte": {
+  "source_file": "data/vocalset_full/FULL/female7/scales/slow_forte/f7_scales_c_slow_forte_a.wav",
+  "start_seconds": 1.9,
+  "tiled": false,
+  "gain_db": -5.350800775854847
+ },
+ "female7_slow_piano": {
+  "source_file": "data/vocalset_full/FULL/female7/scales/slow_piano/f7_scales_c_slow_piano_a.wav",
+  "start_seconds": 3.0,
+  "tiled": false,
+  "gain_db": -1.3240201336386757
+ },
+ "female7_straight": {
+  "source_file": "data/vocalset_full/FULL/female7/scales/straight/f7_scales_straight_a.wav",
+  "start_seconds": 3.7,
+  "tiled": false,
+  "gain_db": -0.11643324902288843
+ },
+ "female7_vocal_fry": {
+  "source_file": "data/vocalset_full/FULL/female7/scales/vocal_fry/f7_scales_vocal_fry_a.wav",
+  "start_seconds": 1.4,
+  "tiled": false,
+  "gain_db": -1.4848224377175367
+ },
+ "target_f9": {
+  "source_file": "data/vocalset_full/FULL/female9/excerpts/straight/f9_caro_straight.wav",
+  "start_seconds": 15.5,
+  "tiled": false,
+  "gain_db": 3.4810275518475953
+ }
+}

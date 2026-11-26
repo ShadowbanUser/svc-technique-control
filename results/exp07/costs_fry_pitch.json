@@ -1,0 +1,416 @@
+[
+{
+"item": "female1_arpeggios_e",
+"real_voiced_share": 0.6477541371158393,
+"real_dev_cents": 2261.065160799755,
+"out_a1_dev_cents": 62.518320478522874,
+"out_a1_voiced_share": 0.9348441926345609,
+"out_a0.5_dev_cents": 10.044737850478482,
+"out_a0.5_voiced_share": 0.9716713881019831
+},
+{
+"item": "female1_arpeggios_i",
+"real_voiced_share": 0.5025906735751295,
+"real_dev_cents": 2305.313773836865,
+"out_a1_dev_cents": 113.64072145041233,
+"out_a1_voiced_share": 0.8777173913043478,
+"out_a0.5_dev_cents": 9.08680277765011,
+"out_a0.5_voiced_share": 0.9565217391304348
+},
+{
+"item": "female1_scales_a",
+"real_voiced_share": 0.827027027027027,
+"real_dev_cents": 366.17923441831056,
+"out_a1_dev_cents": 158.484036961637,
+"out_a1_voiced_share": 0.9047619047619048,
+"out_a0.5_dev_cents": 9.702596998766719,
+"out_a0.5_voiced_share": 0.979047619047619
+},
+{
+"item": "female1_scales_e",
+"real_voiced_share": 0.9482439926062847,
+"real_dev_cents": 342.11258737448645,
+"out_a1_dev_cents": 83.18801196711105,
+"out_a1_voiced_share": 0.9686346863468634,
+"out_a0.5_dev_cents": 7.897798314682353,
+"out_a0.5_voiced_share": 0.977859778597786
+},
+{
+"item": "female1_scales_i",
+"real_voiced_share": 0.9210526315789473,
+"real_dev_cents": 77.59927173623534,
+"out_a1_dev_cents": 22.692182744627086,
+"out_a1_voiced_share": 0.9680451127819549,
+"out_a0.5_dev_cents": 7.6970475446424516,
+"out_a0.5_voiced_share": 0.9793233082706767
+},
+{
+"item": "female1_scales_o",
+"real_voiced_share": 0.9501779359430605,
+"real_dev_cents": 135.7225270337042,
+"out_a1_dev_cents": 128.23011766979624,
+"out_a1_voiced_share": 0.9576427255985267,
+"out_a0.5_dev_cents": 8.608537699947497,
+"out_a0.5_voiced_share": 0.9631675874769797
+},
+{
+"item": "female1_scales_u",
+"real_voiced_share": 0.9833679833679834,
+"real_dev_cents": 31.593552817974953,
+"out_a1_dev_cents": 88.39740766127137,
+"out_a1_voiced_share": 0.9506398537477148,
+"out_a0.5_dev_cents": 7.261133192654085,
+"out_a0.5_voiced_share": 0.9780621572212066
+},
+{
+"item": "female3_arpeggios_a",
+"real_voiced_share": 0.8815426997245179,
+"real_dev_cents": 1181.403929741561,
+"out_a1_dev_cents": 456.3537439151623,
+"out_a1_voiced_share": 0.7981438515081206,
+"out_a0.5_dev_cents": 10.6885349590407,
+"out_a0.5_voiced_share": 0.9234338747099768
+},
+{
+"item": "female3_arpeggios_e",
+"real_voiced_share": 0.8756218905472637,
+"real_dev_cents": 717.8990404309957,
+"out_a1_dev_cents": 127.92151108951188,
+"out_a1_voiced_share": 0.8435897435897436,
+"out_a0.5_dev_cents": 12.299639181231198,
+"out_a0.5_voiced_share": 0.958974358974359
+},
+{
+"item": "female3_arpeggios_i",
+"real_voiced_share": 0.8461538461538461,
+"real_dev_cents": 370.34731405782327,
+"out_a1_dev_cents": 54.71354866634245,
+"out_a1_voiced_share": 0.8883248730964467,
+"out_a0.5_dev_cents": 11.30683329050242,
+"out_a0.5_voiced_share": 0.9593908629441624
+},
+{
+"item": "female3_arpeggios_o",
+"real_voiced_share": 0.8915343915343915,
+"real_dev_cents": 747.5264273334592,
+"out_a1_dev_cents": 176.1864341033392,
+"out_a1_voiced_share": 0.945273631840796,
+"out_a0.5_dev_cents": 11.556459371618466,
+"out_a0.5_voiced_share": 0.9651741293532339
+},
+{
+"item": "female3_arpeggios_u",
+"real_voiced_share": 0.8418604651162791,
+"real_dev_cents": 245.8903827029881,
+"out_a1_dev_cents": 73.18658874790255,
+"out_a1_voiced_share": 0.8703241895261845,
+"out_a0.5_dev_cents": 12.656126865425069,
+"out_a0.5_voiced_share": 0.9650872817955112
+},
+{
+"item": "female3_scales_a",
+"real_voiced_share": 0.846307385229541,
+"real_dev_cents": 1181.2030859921367,
+"out_a1_dev_cents": 191.87350421248587,
+"out_a1_voiced_share": 0.8682170542635659,
+"out_a0.5_dev_cents": 10.598292825843492,
+"out_a0.5_voiced_share": 0.9748062015503876
+},
+{
+"item": "female3_scales_e",
+"real_voiced_share": 0.924892703862661,
+"real_dev_cents": 485.78368609891135,
+"out_a1_dev_cents": 60.55487733024655,
+"out_a1_voiced_share": 0.8768382352941176,
+"out_a0.5_dev_cents": 11.954297056903487,
+"out_a0.5_voiced_share": 0.9172794117647058
+},
+{
+"item": "female3_scales_i",
+"real_voiced_share": 0.8873517786561265,
+"real_dev_cents": 335.38493985395246,
+"out_a1_dev_cents": 40.55014805756441,
+"out_a1_voiced_share": 0.9230769230769231,
+"out_a0.5_dev_cents": 9.927890306487262,
+"out_a0.5_voiced_share": 0.9737335834896811
+},
+{
+"item": "female3_scales_o",
+"real_voiced_share": 0.8927789934354485,
+"real_dev_cents": 168.10496520219075,
+"out_a1_dev_cents": 156.07525155285168,
+"out_a1_voiced_share": 0.8346007604562737,
+"out_a0.5_dev_cents": 8.524214392582907,
+"out_a0.5_voiced_share": 0.9657794676806084
+},
+{
+"item": "female3_scales_u",
+"real_voiced_share": 0.8592436974789915,
+"real_dev_cents": 477.64091743345523,
+"out_a1_dev_cents": 103.96373961111387,
+"out_a1_voiced_share": 0.9240986717267552,
+"out_a0.5_dev_cents": 9.72777543280449,
+"out_a0.5_voiced_share": 0.9316888045540797
+},
+{
+"item": "female9_arpeggios_a",
+"real_voiced_share": 0.8966789667896679,
+"real_dev_cents": 1125.2323364169793,
+"out_a1_dev_cents": 420.5687105614116,
+"out_a1_voiced_share": 0.9242902208201893,
+"out_a0.5_dev_cents": 9.34336011565396,
+"out_a0.5_voiced_share": 0.9558359621451105
+},
+{
+"item": "female9_arpeggios_e",
+"real_voiced_share": 0.8853503184713376,
+"real_dev_cents": 754.5181021646506,
+"out_a1_dev_cents": 223.5824504651251,
+"out_a1_voiced_share": 0.8838709677419355,
+"out_a0.5_dev_cents": 9.52102793042401,
+"out_a0.5_voiced_share": 0.9451612903225807
+},
+{
+"item": "female9_arpeggios_i",
+"real_voiced_share": 0.8878205128205128,
+"real_dev_cents": 663.3122863472129,
+"out_a1_dev_cents": 75.05337017575873,
+"out_a1_voiced_share": 0.9448051948051948,
+"out_a0.5_dev_cents": 11.417352440134957,
+"out_a0.5_voiced_share": 0.9545454545454546
+},
+{
+"item": "female9_arpeggios_u",
+"real_voiced_share": 0.9039735099337748,
+"real_dev_cents": 330.50876684639314,
+"out_a1_dev_cents": 118.06212570295057,
+"out_a1_voiced_share": 0.8792569659442725,
+"out_a0.5_dev_cents": 11.078702470824348,
+"out_a0.5_voiced_share": 0.8699690402476781
+},
+{
+"item": "female9_scales_a",
+"real_voiced_share": 0.891358024691358,
+"real_dev_cents": 491.5510955417343,
+"out_a1_dev_cents": 211.32592055872936,
+"out_a1_voiced_share": 0.8076923076923077,
+"out_a0.5_dev_cents": 9.12971218615366,
+"out_a0.5_voiced_share": 0.8489010989010989
+},
+{
+"item": "female9_scales_e",
+"real_voiced_share": 0.826530612244898,
+"real_dev_cents": 530.7992692965163,
+"out_a1_dev_cents": 115.52553804455128,
+"out_a1_voiced_share": 0.8925619834710744,
+"out_a0.5_dev_cents": 18.735456639762983,
+"out_a0.5_voiced_share": 0.9393939393939394
+},
+{
+"item": "female9_scales_i",
+"real_voiced_share": 0.9260204081632653,
+"real_dev_cents": 548.7349054317101,
+"out_a1_dev_cents": 37.993005298570694,
+"out_a1_voiced_share": 0.9606299212598425,
+"out_a0.5_dev_cents": 10.76173822121401,
+"out_a0.5_voiced_share": 0.963254593175853
+},
+{
+"item": "female9_scales_o",
+"real_voiced_share": 0.9240837696335078,
+"real_dev_cents": 617.6863322898568,
+"out_a1_dev_cents": 236.14622321207918,
+"out_a1_voiced_share": 0.9410187667560321,
+"out_a0.5_dev_cents": 10.268561435184845,
+"out_a0.5_voiced_share": 0.9544235924932976
+},
+{
+"item": "female9_scales_u",
+"real_voiced_share": 0.9433962264150944,
+"real_dev_cents": 410.04151110606466,
+"out_a1_dev_cents": 57.024239106134274,
+"out_a1_voiced_share": 0.8407310704960835,
+"out_a0.5_dev_cents": 16.449028413527632,
+"out_a0.5_voiced_share": 0.9060052219321149
+},
+{
+"item": "male3_arpeggios_a",
+"real_voiced_share": 0.956766917293233,
+"real_dev_cents": 46.96181272409529,
+"out_a1_dev_cents": 1030.9815655550522,
+"out_a1_voiced_share": 0.8028846153846154,
+"out_a0.5_dev_cents": 19.790467905768004,
+"out_a0.5_voiced_share": 0.9278846153846154
+},
+{
+"item": "male3_arpeggios_e",
+"real_voiced_share": 0.9490566037735849,
+"real_dev_cents": 50.718184304697765,
+"out_a1_dev_cents": 56.079553783384824,
+"out_a1_voiced_share": 0.8671328671328671,
+"out_a0.5_dev_cents": 18.586582092152607,
+"out_a0.5_voiced_share": 0.958041958041958
+},
+{
+"item": "male3_arpeggios_i",
+"real_voiced_share": 0.9494584837545126,
+"real_dev_cents": 38.501109918405675,
+"out_a1_dev_cents": 142.57434873621867,
+"out_a1_voiced_share": 0.9222222222222223,
+"out_a0.5_dev_cents": 18.982751847167954,
+"out_a0.5_voiced_share": 0.9755555555555555
+},
+{
+"item": "male3_arpeggios_o",
+"real_voiced_share": 0.9479166666666666,
+"real_dev_cents": 34.735245997649535,
+"out_a1_dev_cents": 604.5687940318948,
+"out_a1_voiced_share": 0.8432304038004751,
+"out_a0.5_dev_cents": 18.9688170554423,
+"out_a0.5_voiced_share": 0.9643705463182898
+},
+{
+"item": "male3_arpeggios_u",
+"real_voiced_share": 0.9392789373814042,
+"real_dev_cents": 33.69641927389016,
+"out_a1_dev_cents": 347.78848944144534,
+"out_a1_voiced_share": 0.9249448123620309,
+"out_a0.5_dev_cents": 20.57613968445832,
+"out_a0.5_voiced_share": 0.9426048565121413
+},
+{
+"item": "male3_scales_a",
+"real_voiced_share": 0.9075949367088607,
+"real_dev_cents": 49.900055008408046,
+"out_a1_dev_cents": 237.72430162806845,
+"out_a1_voiced_share": 0.9407744874715261,
+"out_a0.5_dev_cents": 17.732530552897504,
+"out_a0.5_voiced_share": 0.9715261958997722
+},
+{
+"item": "male3_scales_e",
+"real_voiced_share": 0.9276985743380856,
+"real_dev_cents": 52.035370729649124,
+"out_a1_dev_cents": 203.2422607697033,
+"out_a1_voiced_share": 0.9121475054229935,
+"out_a0.5_dev_cents": 17.2474148421741,
+"out_a0.5_voiced_share": 0.9609544468546638
+},
+{
+"item": "male3_scales_i",
+"real_voiced_share": 0.9267822736030829,
+"real_dev_cents": 52.046627813060965,
+"out_a1_dev_cents": 185.56569720893492,
+"out_a1_voiced_share": 0.9497816593886463,
+"out_a0.5_dev_cents": 18.969466534619464,
+"out_a0.5_voiced_share": 0.962882096069869
+},
+{
+"item": "male3_scales_o",
+"real_voiced_share": 0.9579256360078278,
+"real_dev_cents": 29.44580676939027,
+"out_a1_dev_cents": 328.503330085607,
+"out_a1_voiced_share": 0.9533622559652929,
+"out_a0.5_dev_cents": 18.49984851205752,
+"out_a0.5_voiced_share": 0.9674620390455532
+},
+{
+"item": "male3_scales_u",
+"real_voiced_share": 0.8753363228699551,
+"real_dev_cents": 47.22067339028126,
+"out_a1_dev_cents": 283.22313530906797,
+"out_a1_voiced_share": 0.9609292502639916,
+"out_a0.5_dev_cents": 17.861263778929253,
+"out_a0.5_voiced_share": 0.9672650475184794
+},
+{
+"item": "male9_arpeggios_a",
+"real_voiced_share": 0.9401913875598086,
+"real_dev_cents": 126.94313200414553,
+"out_a1_dev_cents": 114.17380595335086,
+"out_a1_voiced_share": 0.8978622327790974,
+"out_a0.5_dev_cents": 8.10006267437867,
+"out_a0.5_voiced_share": 0.9667458432304038
+},
+{
+"item": "male9_arpeggios_e",
+"real_voiced_share": 0.9507772020725389,
+"real_dev_cents": 58.71821088718438,
+"out_a1_dev_cents": 51.0651717267834,
+"out_a1_voiced_share": 0.8484848484848485,
+"out_a0.5_dev_cents": 9.333018654330111,
+"out_a0.5_voiced_share": 0.9166666666666666
+},
+{
+"item": "male9_arpeggios_i",
+"real_voiced_share": 0.929471032745592,
+"real_dev_cents": 98.22132150363298,
+"out_a1_dev_cents": 26.099638817955924,
+"out_a1_voiced_share": 0.8865248226950354,
+"out_a0.5_dev_cents": 7.354324854672437,
+"out_a0.5_voiced_share": 0.9408983451536643
+},
+{
+"item": "male9_arpeggios_o",
+"real_voiced_share": 0.9205955334987593,
+"real_dev_cents": 35.67350340850174,
+"out_a1_dev_cents": 60.106204689885246,
+"out_a1_voiced_share": 0.8596491228070176,
+"out_a0.5_dev_cents": 14.909899113813069,
+"out_a0.5_voiced_share": 0.9047619047619048
+},
+{
+"item": "male9_arpeggios_u",
+"real_voiced_share": 0.9330143540669856,
+"real_dev_cents": 36.95241852685117,
+"out_a1_dev_cents": 102.85330311222359,
+"out_a1_voiced_share": 0.9078014184397163,
+"out_a0.5_dev_cents": 8.739365496517271,
+"out_a0.5_voiced_share": 0.9408983451536643
+},
+{
+"item": "male9_scales_a",
+"real_voiced_share": 0.96875,
+"real_dev_cents": 52.87569949503846,
+"out_a1_dev_cents": 60.80681478769415,
+"out_a1_voiced_share": 0.8428805237315876,
+"out_a0.5_dev_cents": 7.450891180403238,
+"out_a0.5_voiced_share": 0.9623567921440261
+},
+{
+"item": "male9_scales_e",
+"real_voiced_share": 0.9684418145956607,
+"real_dev_cents": 36.5112300414351,
+"out_a1_dev_cents": 24.222911693869424,
+"out_a1_voiced_share": 0.9650735294117647,
+"out_a0.5_dev_cents": 8.27142826310349,
+"out_a0.5_voiced_share": 0.9632352941176471
+},
+{
+"item": "male9_scales_i",
+"real_voiced_share": 0.9711538461538461,
+"real_dev_cents": 42.262224209740815,
+"out_a1_dev_cents": 26.788475711418265,
+"out_a1_voiced_share": 0.8902439024390244,
+"out_a0.5_dev_cents": 8.144704884692414,
+"out_a0.5_voiced_share": 0.926829268292683
+},
+{
+"item": "male9_scales_o",
+"real_voiced_share": 0.9720670391061452,
+"real_dev_cents": 41.26886377612584,
+"out_a1_dev_cents": 84.32686979011497,
+"out_a1_voiced_share": 0.8571428571428571,
+"out_a0.5_dev_cents": 6.694499105015172,
+"out_a0.5_voiced_share": 0.921602787456446
+},
+{
+"item": "male9_scales_u",
+"real_voiced_share": 0.9519572953736655,
+"real_dev_cents": 28.488028836884922,
+"out_a1_dev_cents": 30.771243109996682,
+"out_a1_voiced_share": 0.9214046822742475,
+"out_a0.5_dev_cents": 8.160687499528702,
+"out_a0.5_voiced_share": 0.9615384615384616
+}
+]

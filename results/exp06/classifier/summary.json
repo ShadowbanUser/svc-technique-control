@@ -1,0 +1,5006 @@
+{
+ "status": "completed",
+ "classes": [
+  "straight",
+  "breathy",
+  "belt",
+  "vocal_fry",
+  "forte",
+  "piano"
+ ],
+ "train_singers": [
+  "female2",
+  "female4",
+  "female5",
+  "female6",
+  "female7",
+  "female8",
+  "male1",
+  "male10",
+  "male11",
+  "male2",
+  "male4",
+  "male5",
+  "male6",
+  "male7",
+  "male8"
+ ],
+ "held_out": [
+  "female1",
+  "female3",
+  "female9",
+  "male3",
+  "male9"
+ ],
+ "n_train": 1192,
+ "n_test": 400,
+ "feature_names": {
+  "dyn": [
+   "cep_std_1",
+   "cep_std_2",
+   "cep_std_3",
+   "cep_std_4",
+   "cep_std_5",
+   "cep_std_6",
+   "cep_std_7",
+   "cep_std_8",
+   "cep_std_9",
+   "cep_std_10",
+   "cep_std_11",
+   "cep_std_12",
+   "cep_std_13",
+   "cep_std_14",
+   "cep_std_15",
+   "cep_std_16",
+   "cep_std_17",
+   "cep_std_18",
+   "cep_std_19",
+   "cep_std_20",
+   "cep_std_21",
+   "cep_std_22",
+   "cep_std_23",
+   "cep_std_24",
+   "cep_std_25",
+   "cep_std_26",
+   "cep_std_27",
+   "cep_std_28",
+   "cep_std_29",
+   "cep_std_30",
+   "cep_dabs_1",
+   "cep_dabs_2",
+   "cep_dabs_3",
+   "cep_dabs_4",
+   "cep_dabs_5",
+   "cep_dabs_6",
+   "cep_dabs_7",
+   "cep_dabs_8",
+   "cep_dabs_9",
+   "cep_dabs_10",
+   "cep_dabs_11",
+   "cep_dabs_12",
+   "cep_dabs_13",
+   "cep_dabs_14",
+   "cep_dabs_15",
+   "cep_dabs_16",
+   "cep_dabs_17",
+   "cep_dabs_18",
+   "cep_dabs_19",
+   "cep_dabs_20",
+   "cep_dabs_21",
+   "cep_dabs_22",
+   "cep_dabs_23",
+   "cep_dabs_24",
+   "cep_dabs_25",
+   "cep_dabs_26",
+   "cep_dabs_27",
+   "cep_dabs_28",
+   "cep_dabs_29",
+   "cep_dabs_30",
+   "band_std_0",
+   "band_std_1",
+   "band_std_2",
+   "band_std_3",
+   "band_std_4",
+   "band_std_5",
+   "band_std_6",
+   "band_std_7",
+   "cpp_mean",
+   "cpp_std"
+  ],
+  "full": [
+   "cep_std_1",
+   "cep_std_2",
+   "cep_std_3",
+   "cep_std_4",
+   "cep_std_5",
+   "cep_std_6",
+   "cep_std_7",
+   "cep_std_8",
+   "cep_std_9",
+   "cep_std_10",
+   "cep_std_11",
+   "cep_std_12",
+   "cep_std_13",
+   "cep_std_14",
+   "cep_std_15",
+   "cep_std_16",
+   "cep_std_17",
+   "cep_std_18",
+   "cep_std_19",
+   "cep_std_20",
+   "cep_std_21",
+   "cep_std_22",
+   "cep_std_23",
+   "cep_std_24",
+   "cep_std_25",
+   "cep_std_26",
+   "cep_std_27",
+   "cep_std_28",
+   "cep_std_29",
+   "cep_std_30",
+   "cep_dabs_1",
+   "cep_dabs_2",
+   "cep_dabs_3",
+   "cep_dabs_4",
+   "cep_dabs_5",
+   "cep_dabs_6",
+   "cep_dabs_7",
+   "cep_dabs_8",
+   "cep_dabs_9",
+   "cep_dabs_10",
+   "cep_dabs_11",
+   "cep_dabs_12",
+   "cep_dabs_13",
+   "cep_dabs_14",
+   "cep_dabs_15",
+   "cep_dabs_16",
+   "cep_dabs_17",
+   "cep_dabs_18",
+   "cep_dabs_19",
+   "cep_dabs_20",
+   "cep_dabs_21",
+   "cep_dabs_22",
+   "cep_dabs_23",
+   "cep_dabs_24",
+   "cep_dabs_25",
+   "cep_dabs_26",
+   "cep_dabs_27",
+   "cep_dabs_28",
+   "cep_dabs_29",
+   "cep_dabs_30",
+   "band_std_0",
+   "band_std_1",
+   "band_std_2",
+   "band_std_3",
+   "band_std_4",
+   "band_std_5",
+   "band_std_6",
+   "band_std_7",
+   "cpp_mean",
+   "cpp_std",
+   "cep_mean_1",
+   "cep_mean_2",
+   "cep_mean_3",
+   "cep_mean_4",
+   "cep_mean_5",
+   "cep_mean_6",
+   "cep_mean_7",
+   "cep_mean_8",
+   "cep_mean_9",
+   "cep_mean_10",
+   "cep_mean_11",
+   "cep_mean_12",
+   "cep_mean_13",
+   "cep_mean_14",
+   "cep_mean_15",
+   "cep_mean_16",
+   "cep_mean_17",
+   "cep_mean_18",
+   "cep_mean_19",
+   "cep_mean_20",
+   "cep_mean_21",
+   "cep_mean_22",
+   "cep_mean_23",
+   "cep_mean_24",
+   "cep_mean_25",
+   "cep_mean_26",
+   "cep_mean_27",
+   "cep_mean_28",
+   "cep_mean_29",
+   "cep_mean_30"
+  ]
+ },
+ "full": {
+  "l2": 0.1,
+  "loso_balanced_accuracy": {
+   "0.0001": 0.5811111111111111,
+   "0.001": 0.594074074074074,
+   "0.01": 0.6094444444444445,
+   "0.1": 0.6159259259259258
+  },
+  "heldout_balanced_accuracy": 0.6716666666666667,
+  "heldout_accuracy": 0.635,
+  "heldout_confusion": {
+   "straight": {
+    "straight": 36,
+    "breathy": 6,
+    "belt": 8,
+    "vocal_fry": 0,
+    "forte": 0,
+    "piano": 0
+   },
+   "breathy": {
+    "straight": 9,
+    "breathy": 36,
+    "belt": 5,
+    "vocal_fry": 0,
+    "forte": 0,
+    "piano": 0
+   },
+   "belt": {
+    "straight": 5,
+    "breathy": 0,
+    "belt": 40,
+    "vocal_fry": 0,
+    "forte": 5,
+    "piano": 0
+   },
+   "vocal_fry": {
+    "straight": 8,
+    "breathy": 0,
+    "belt": 5,
+    "vocal_fry": 37,
+    "forte": 0,
+    "piano": 0
+   },
+   "forte": {
+    "straight": 13,
+    "breathy": 0,
+    "belt": 18,
+    "vocal_fry": 0,
+    "forte": 60,
+    "piano": 9
+   },
+   "piano": {
+    "straight": 18,
+    "breathy": 2,
+    "belt": 3,
+    "vocal_fry": 0,
+    "forte": 32,
+    "piano": 45
+   }
+  },
+  "applied": {
+   "real_straight_oracleeq": {
+    "base|None|": {
+     "n": 50,
+     "predicted": {
+      "straight": 36,
+      "breathy": 6,
+      "belt": 8,
+      "vocal_fry": 0,
+      "forte": 0,
+      "piano": 0
+     },
+     "mean_p": {
+      "straight": 0.41858414169161556,
+      "breathy": 0.115655530701936,
+      "belt": 0.22584483681715356,
+      "vocal_fry": 0.0503458353176911,
+      "forte": 0.07735409893915202,
+      "piano": 0.11221555653245174
+     }
+    },
+    "real_straight_oracleeq|belt|": {
+     "n": 50,
+     "predicted": {
+      "straight": 13,
+      "breathy": 8,
+      "belt": 28,
+      "vocal_fry": 0,
+      "forte": 1,
+      "piano": 0
+     },
+     "mean_p": {
+      "straight": 0.28227611813145637,
+      "breathy": 0.14488965867335105,
+      "belt": 0.3450483515497607,
+      "vocal_fry": 0.04272168801760569,
+      "forte": 0.10152423504157052,
+      "piano": 0.08353994858625562
+     },
+     "p_label": 0.3450483515497607,
+     "hit_rate": 0.56,
+     "p_label_minus_base": 0.11920351473260721,
+     "pairs_increased": 49,
+     "pairs": 50
+    },
+    "real_straight_oracleeq|breathy|": {
+     "n": 50,
+     "predicted": {
+      "straight": 35,
+      "breathy": 8,
+      "belt": 7,
+      "vocal_fry": 0,
+      "forte": 0,
+      "piano": 0
+     },
+     "mean_p": {
+      "straight": 0.4195603897558354,
+      "breathy": 0.16755964546849622,
+      "belt": 0.18562670840114992,
+      "vocal_fry": 0.05964095062199681,
+      "forte": 0.05972199367701539,
+      "piano": 0.10789031207550633
+     },
+     "p_label": 0.16755964546849622,
+     "hit_rate": 0.16,
+     "p_label_minus_base": 0.05190411476656018,
+     "pairs_increased": 46,
+     "pairs": 50
+    },
+    "real_straight_oracleeq|forte|": {
+     "n": 100,
+     "predicted": {
+      "straight": 69,
+      "breathy": 11,
+      "belt": 18,
+      "vocal_fry": 0,
+      "forte": 2,
+      "piano": 0
+     },
+     "mean_p": {
+      "straight": 0.3863518909982485,
+      "breathy": 0.11200364323874278,
+      "belt": 0.25076246249022377,
+      "vocal_fry": 0.04323644599371213,
+      "forte": 0.09861421301602118,
+      "piano": 0.10903134426305168
+     },
+     "p_label": 0.09861421301602118,
+     "hit_rate": 0.02,
+     "p_label_minus_base": 0.021260114076869147,
+     "pairs_increased": 79,
+     "pairs": 100
+    },
+    "real_straight_oracleeq|piano|": {
+     "n": 100,
+     "predicted": {
+      "straight": 83,
+      "breathy": 5,
+      "belt": 4,
+      "vocal_fry": 0,
+      "forte": 2,
+      "piano": 6
+     },
+     "mean_p": {
+      "straight": 0.4649604548552122,
+      "breathy": 0.1117170423278439,
+      "belt": 0.14630333930784764,
+      "vocal_fry": 0.04794692616474776,
+      "forte": 0.06769046329546008,
+      "piano": 0.16138177404888837
+     },
+     "p_label": 0.16138177404888837,
+     "hit_rate": 0.06,
+     "p_label_minus_base": 0.04916621751643663,
+     "pairs_increased": 86,
+     "pairs": 100
+    },
+    "real_straight_oracleeq|vocal_fry|": {
+     "n": 50,
+     "predicted": {
+      "straight": 28,
+      "breathy": 11,
+      "belt": 5,
+      "vocal_fry": 0,
+      "forte": 1,
+      "piano": 5
+     },
+     "mean_p": {
+      "straight": 0.33798062275692564,
+      "breathy": 0.20554712132798134,
+      "belt": 0.17675505425919844,
+      "vocal_fry": 0.05953799128820087,
+      "forte": 0.06457255818869495,
+      "piano": 0.1556066521789989
+     },
+     "p_label": 0.05953799128820087,
+     "hit_rate": 0.0,
+     "p_label_minus_base": 0.009192155970509756,
+     "pairs_increased": 32,
+     "pairs": 50
+    }
+   },
+   "exp06a": {
+    "adapter|belt|0.5": {
+     "n": 50,
+     "predicted": {
+      "straight": 6,
+      "breathy": 0,
+      "belt": 42,
+      "vocal_fry": 1,
+      "forte": 1,
+      "piano": 0
+     },
+     "mean_p": {
+      "straight": 0.20268497454414608,
+      "breathy": 0.06129456026268735,
+      "belt": 0.47228918675663245,
+      "vocal_fry": 0.05940374481923265,
+      "forte": 0.1529157087554851,
+      "piano": 0.051411824861816446
+     },
+     "p_label": 0.47228918675663245,
+     "hit_rate": 0.84,
+     "p_label_minus_base": 0.23990473398521545,
+     "pairs_increased": 50,
+     "pairs": 50
+    },
+    "adapter|belt|1.0": {
+     "n": 50,
+     "predicted": {
+      "straight": 1,
+      "breathy": 0,
+      "belt": 48,
+      "vocal_fry": 0,
+      "forte": 1,
+      "piano": 0
+     },
+     "mean_p": {
+      "straight": 0.13145255021714064,
+      "breathy": 0.050282253480717645,
+      "belt": 0.5679208909813206,
+      "vocal_fry": 0.04409453941977347,
+      "forte": 0.16103577302228891,
+      "piano": 0.045213992878758734
+     },
+     "p_label": 0.5679208909813206,
+     "hit_rate": 0.96,
+     "p_label_minus_base": 0.33553643820990364,
+     "pairs_increased": 50,
+     "pairs": 50
+    },
+    "adapter|breathy|0.5": {
+     "n": 50,
+     "predicted": {
+      "straight": 38,
+      "breathy": 1,
+      "belt": 3,
+      "vocal_fry": 3,
+      "forte": 4,
+      "piano": 1
+     },
+     "mean_p": {
+      "straight": 0.39122346462551577,
+      "breathy": 0.15115398243840464,
+      "belt": 0.13870999998344563,
+      "vocal_fry": 0.0891225505555774,
+      "forte": 0.10250167630729036,
+      "piano": 0.12728832608976617
+     },
+     "p_label": 0.15115398243840464,
+     "hit_rate": 0.02,
+     "p_label_minus_base": 0.07172489147075209,
+     "pairs_increased": 50,
+     "pairs": 50
+    },
+    "adapter|breathy|1.0": {
+     "n": 50,
+     "predicted": {
+      "straight": 16,
+      "breathy": 31,
+      "belt": 0,
+      "vocal_fry": 1,
+      "forte": 2,
+      "piano": 0
+     },
+     "mean_p": {
+      "straight": 0.27423791000696335,
+      "breathy": 0.331548562306649,
+      "belt": 0.0737143122997563,
+      "vocal_fry": 0.11361893153034593,
+      "forte": 0.06851910258989104,
+      "piano": 0.13836118126639452
+     },
+     "p_label": 0.331548562306649,
+     "hit_rate": 0.62,
+     "p_label_minus_base": 0.25211947133899637,
+     "pairs_increased": 50,
+     "pairs": 50
+    },
+    "adapter|forte|0.5": {
+     "n": 50,
+     "predicted": {
+      "straight": 19,
+      "breathy": 0,
+      "belt": 24,
+      "vocal_fry": 2,
+      "forte": 5,
+      "piano": 0
+     },
+     "mean_p": {
+      "straight": 0.2683713209826648,
+      "breathy": 0.06483255387410183,
+      "belt": 0.3323364993722048,
+      "vocal_fry": 0.0656850362185249,
+      "forte": 0.18986558927485608,
+      "piano": 0.07890900027764763
+     },
+     "p_label": 0.18986558927485608,
+     "hit_rate": 0.1,
+     "p_label_minus_base": 0.04889418182485414,
+     "pairs_increased": 49,
+     "pairs": 50
+    },
+    "adapter|forte|1.0": {
+     "n": 50,
+     "predicted": {
+      "straight": 1,
+      "breathy": 0,
+      "belt": 4,
+      "vocal_fry": 3,
+      "forte": 42,
+      "piano": 0
+     },
+     "mean_p": {
+      "straight": 0.08728675934713521,
+      "breathy": 0.04126968267230627,
+      "belt": 0.2031907810351026,
+      "vocal_fry": 0.05462590154397774,
+      "forte": 0.48895085799405646,
+      "piano": 0.12467601740742165
+     },
+     "p_label": 0.48895085799405646,
+     "hit_rate": 0.84,
+     "p_label_minus_base": 0.34797945054405455,
+     "pairs_increased": 50,
+     "pairs": 50
+    },
+    "adapter|piano|0.5": {
+     "n": 50,
+     "predicted": {
+      "straight": 36,
+      "breathy": 0,
+      "belt": 4,
+      "vocal_fry": 1,
+      "forte": 7,
+      "piano": 2
+     },
+     "mean_p": {
+      "straight": 0.37477754507019556,
+      "breathy": 0.08146791471663184,
+      "belt": 0.17584237185116927,
+      "vocal_fry": 0.07523980636580944,
+      "forte": 0.15042769340292114,
+      "piano": 0.14224466859327267
+     },
+     "p_label": 0.14224466859327267,
+     "hit_rate": 0.04,
+     "p_label_minus_base": 0.028808112128248093,
+     "pairs_increased": 40,
+     "pairs": 50
+    },
+    "adapter|piano|1.0": {
+     "n": 50,
+     "predicted": {
+      "straight": 13,
+      "breathy": 0,
+      "belt": 1,
+      "vocal_fry": 4,
+      "forte": 10,
+      "piano": 22
+     },
+     "mean_p": {
+      "straight": 0.18955813622411313,
+      "breathy": 0.0753740686579208,
+      "belt": 0.09083540576905963,
+      "vocal_fry": 0.07725181076483296,
+      "forte": 0.2631669880818325,
+      "piano": 0.303813590502241
+     },
+     "p_label": 0.303813590502241,
+     "hit_rate": 0.44,
+     "p_label_minus_base": 0.1903770340372164,
+     "pairs_increased": 50,
+     "pairs": 50
+    },
+    "adapter|vocal_fry|0.5": {
+     "n": 50,
+     "predicted": {
+      "straight": 31,
+      "breathy": 2,
+      "belt": 7,
+      "vocal_fry": 5,
+      "forte": 4,
+      "piano": 1
+     },
+     "mean_p": {
+      "straight": 0.3084643668187132,
+      "breathy": 0.1240565221304675,
+      "belt": 0.18862249397108038,
+      "vocal_fry": 0.12601795062724036,
+      "forte": 0.13022447495567127,
+      "piano": 0.12261419149682734
+     },
+     "p_label": 0.12601795062724036,
+     "hit_rate": 0.1,
+     "p_label_minus_base": 0.04736263082959846,
+     "pairs_increased": 47,
+     "pairs": 50
+    },
+    "adapter|vocal_fry|1.0": {
+     "n": 50,
+     "predicted": {
+      "straight": 3,
+      "breathy": 8,
+      "belt": 0,
+      "vocal_fry": 38,
+      "forte": 1,
+      "piano": 0
+     },
+     "mean_p": {
+      "straight": 0.08472693388600247,
+      "breathy": 0.1896271661494814,
+      "belt": 0.05577436736808376,
+      "vocal_fry": 0.4626065910690418,
+      "forte": 0.0811424428794093,
+      "piano": 0.12612249864798128
+     },
+     "p_label": 0.4626065910690418,
+     "hit_rate": 0.76,
+     "p_label_minus_base": 0.3839512712713999,
+     "pairs_increased": 50,
+     "pairs": 50
+    },
+    "base|None|": {
+     "n": 50,
+     "predicted": {
+      "straight": 34,
+      "breathy": 0,
+      "belt": 10,
+      "vocal_fry": 3,
+      "forte": 3,
+      "piano": 0
+     },
+     "mean_p": {
+      "straight": 0.355123172548262,
+      "breathy": 0.07942909096765255,
+      "belt": 0.23238445277141698,
+      "vocal_fry": 0.07865531979764191,
+      "forte": 0.14097140745000192,
+      "piano": 0.11343655646502458
+     }
+    },
+    "carried|belt|": {
+     "n": 41,
+     "predicted": {
+      "straight": 10,
+      "breathy": 3,
+      "belt": 18,
+      "vocal_fry": 4,
+      "forte": 6,
+      "piano": 0
+     },
+     "mean_p": {
+      "straight": 0.18181942462773307,
+      "breathy": 0.09909942314749573,
+      "belt": 0.2938625265759576,
+      "vocal_fry": 0.1296864105197668,
+      "forte": 0.20358274688617461,
+      "piano": 0.0919494682428722
+     },
+     "p_label": 0.2938625265759576,
+     "hit_rate": 0.43902439024390244,
+     "p_label_minus_base": 0.05269634913623963,
+     "pairs_increased": 27,
+     "pairs": 41
+    },
+    "carried|breathy|": {
+     "n": 50,
+     "predicted": {
+      "straight": 25,
+      "breathy": 0,
+      "belt": 18,
+      "vocal_fry": 6,
+      "forte": 0,
+      "piano": 1
+     },
+     "mean_p": {
+      "straight": 0.3172263915007517,
+      "breathy": 0.0777400202091143,
+      "belt": 0.2385745074556583,
+      "vocal_fry": 0.09932255946447384,
+      "forte": 0.13172062642195717,
+      "piano": 0.13541589494804465
+     },
+     "p_label": 0.0777400202091143,
+     "hit_rate": 0.0,
+     "p_label_minus_base": -0.001689070758538247,
+     "pairs_increased": 26,
+     "pairs": 50
+    },
+    "carried|forte|": {
+     "n": 48,
+     "predicted": {
+      "straight": 12,
+      "breathy": 0,
+      "belt": 3,
+      "vocal_fry": 3,
+      "forte": 28,
+      "piano": 2
+     },
+     "mean_p": {
+      "straight": 0.11664235248189009,
+      "breathy": 0.04257815688364844,
+      "belt": 0.09324911331253498,
+      "vocal_fry": 0.060667612240935476,
+      "forte": 0.531257638453665,
+      "piano": 0.155605126627326
+     },
+     "p_label": 0.531257638453665,
+     "hit_rate": 0.5833333333333334,
+     "p_label_minus_base": 0.3882609424781587,
+     "pairs_increased": 48,
+     "pairs": 48
+    },
+    "carried|piano|": {
+     "n": 50,
+     "predicted": {
+      "straight": 9,
+      "breathy": 0,
+      "belt": 4,
+      "vocal_fry": 3,
+      "forte": 30,
+      "piano": 4
+     },
+     "mean_p": {
+      "straight": 0.13405729726702512,
+      "breathy": 0.06259485848269974,
+      "belt": 0.0975814770363678,
+      "vocal_fry": 0.06693617521810177,
+      "forte": 0.4320659943563366,
+      "piano": 0.20676419763946896
+     },
+     "p_label": 0.20676419763946896,
+     "hit_rate": 0.08,
+     "p_label_minus_base": 0.0933276411744444,
+     "pairs_increased": 41,
+     "pairs": 50
+    },
+    "carried|vocal_fry|": {
+     "n": 46,
+     "predicted": {
+      "straight": 2,
+      "breathy": 5,
+      "belt": 3,
+      "vocal_fry": 28,
+      "forte": 6,
+      "piano": 2
+     },
+     "mean_p": {
+      "straight": 0.10879453592516722,
+      "breathy": 0.12587262317417697,
+      "belt": 0.10550115242840505,
+      "vocal_fry": 0.4204327707846717,
+      "forte": 0.1368770250584266,
+      "piano": 0.10252189262915247
+     },
+     "p_label": 0.4204327707846717,
+     "hit_rate": 0.6086956521739131,
+     "p_label_minus_base": 0.3380703904826113,
+     "pairs_increased": 45,
+     "pairs": 46
+    },
+    "eqmatch|belt|": {
+     "n": 50,
+     "predicted": {
+      "straight": 1,
+      "breathy": 1,
+      "belt": 46,
+      "vocal_fry": 2,
+      "forte": 0,
+      "piano": 0
+     },
+     "mean_p": {
+      "straight": 0.18012649264047537,
+      "breathy": 0.07782732317834165,
+      "belt": 0.4978089902890835,
+      "vocal_fry": 0.048881418330025295,
+      "forte": 0.1420296029514841,
+      "piano": 0.05332617261059011
+     },
+     "p_label": 0.4978089902890835,
+     "hit_rate": 0.92,
+     "p_label_minus_base": 0.2654245375176665,
+     "pairs_increased": 50,
+     "pairs": 50
+    },
+    "eqmatch|breathy|": {
+     "n": 50,
+     "predicted": {
+      "straight": 44,
+      "breathy": 0,
+      "belt": 5,
+      "vocal_fry": 0,
+      "forte": 1,
+      "piano": 0
+     },
+     "mean_p": {
+      "straight": 0.4347475248346415,
+      "breathy": 0.11993644009618638,
+      "belt": 0.17014816572183306,
+      "vocal_fry": 0.09082786182356146,
+      "forte": 0.07606634471943848,
+      "piano": 0.10827366280433907
+     },
+     "p_label": 0.11993644009618638,
+     "hit_rate": 0.0,
+     "p_label_minus_base": 0.040507349128533834,
+     "pairs_increased": 44,
+     "pairs": 50
+    },
+    "eqmatch|forte|": {
+     "n": 50,
+     "predicted": {
+      "straight": 21,
+      "breathy": 0,
+      "belt": 28,
+      "vocal_fry": 0,
+      "forte": 1,
+      "piano": 0
+     },
+     "mean_p": {
+      "straight": 0.3090769185077574,
+      "breathy": 0.06113653126187009,
+      "belt": 0.35144123407837824,
+      "vocal_fry": 0.051232751082177036,
+      "forte": 0.14931837465286749,
+      "piano": 0.07779419041694981
+     },
+     "p_label": 0.14931837465286749,
+     "hit_rate": 0.02,
+     "p_label_minus_base": 0.008346967202865528,
+     "pairs_increased": 33,
+     "pairs": 50
+    },
+    "eqmatch|piano|": {
+     "n": 50,
+     "predicted": {
+      "straight": 43,
+      "breathy": 0,
+      "belt": 5,
+      "vocal_fry": 0,
+      "forte": 2,
+      "piano": 0
+     },
+     "mean_p": {
+      "straight": 0.465329034235532,
+      "breathy": 0.0656396477684002,
+      "belt": 0.16320189784863678,
+      "vocal_fry": 0.0678697307812124,
+      "forte": 0.1028373042139315,
+      "piano": 0.13512238515228708
+     },
+     "p_label": 0.13512238515228708,
+     "hit_rate": 0.0,
+     "p_label_minus_base": 0.021685828687262466,
+     "pairs_increased": 35,
+     "pairs": 50
+    },
+    "eqmatch|vocal_fry|": {
+     "n": 50,
+     "predicted": {
+      "straight": 32,
+      "breathy": 3,
+      "belt": 9,
+      "vocal_fry": 1,
+      "forte": 2,
+      "piano": 3
+     },
+     "mean_p": {
+      "straight": 0.34517896028174355,
+      "breathy": 0.13959459539635544,
+      "belt": 0.19143265492321818,
+      "vocal_fry": 0.10299325783531021,
+      "forte": 0.08944434876496107,
+      "piano": 0.13135618279841163
+     },
+     "p_label": 0.10299325783531021,
+     "hit_rate": 0.02,
+     "p_label_minus_base": 0.024337938037668306,
+     "pairs_increased": 40,
+     "pairs": 50
+    },
+    "guidance|belt|": {
+     "n": 5,
+     "predicted": {
+      "straight": 0,
+      "breathy": 0,
+      "belt": 5,
+      "vocal_fry": 0,
+      "forte": 0,
+      "piano": 0
+     },
+     "mean_p": {
+      "straight": 0.041769449752510054,
+      "breathy": 0.04841348603982543,
+      "belt": 0.6664683587778893,
+      "vocal_fry": 0.02767895221466616,
+      "forte": 0.17817863572446446,
+      "piano": 0.03749111749064453
+     },
+     "p_label": 0.6664683587778893,
+     "hit_rate": 1.0,
+     "p_label_minus_base": 0.3795195037231802,
+     "pairs_increased": 5,
+     "pairs": 5
+    },
+    "guidance|breathy|": {
+     "n": 5,
+     "predicted": {
+      "straight": 0,
+      "breathy": 2,
+      "belt": 0,
+      "vocal_fry": 1,
+      "forte": 0,
+      "piano": 2
+     },
+     "mean_p": {
+      "straight": 0.1466842289011448,
+      "breathy": 0.19899487742161645,
+      "belt": 0.13571816234238301,
+      "vocal_fry": 0.12546989720862803,
+      "forte": 0.1592006065703674,
+      "piano": 0.23393222755586035
+     },
+     "p_label": 0.19899487742161645,
+     "hit_rate": 0.4,
+     "p_label_minus_base": 0.12650660563215696,
+     "pairs_increased": 5,
+     "pairs": 5
+    },
+    "guidance|forte|": {
+     "n": 5,
+     "predicted": {
+      "straight": 0,
+      "breathy": 0,
+      "belt": 5,
+      "vocal_fry": 0,
+      "forte": 0,
+      "piano": 0
+     },
+     "mean_p": {
+      "straight": 0.10517548741016096,
+      "breathy": 0.040073498797378815,
+      "belt": 0.5616700165641635,
+      "vocal_fry": 0.03999167581922786,
+      "forte": 0.21413138050512787,
+      "piano": 0.038957940903941016
+     },
+     "p_label": 0.21413138050512787,
+     "hit_rate": 0.0,
+     "p_label_minus_base": 0.03473898317495957,
+     "pairs_increased": 4,
+     "pairs": 5
+    },
+    "guidance|piano|": {
+     "n": 5,
+     "predicted": {
+      "straight": 2,
+      "breathy": 0,
+      "belt": 0,
+      "vocal_fry": 0,
+      "forte": 0,
+      "piano": 3
+     },
+     "mean_p": {
+      "straight": 0.3210554457175133,
+      "breathy": 0.12290034060732595,
+      "belt": 0.07742735890329208,
+      "vocal_fry": 0.09912772954627273,
+      "forte": 0.06862740070799009,
+      "piano": 0.3108617245176058
+     },
+     "p_label": 0.3108617245176058,
+     "hit_rate": 0.6,
+     "p_label_minus_base": 0.18028964156211807,
+     "pairs_increased": 5,
+     "pairs": 5
+    },
+    "guidance|vocal_fry|": {
+     "n": 5,
+     "predicted": {
+      "straight": 0,
+      "breathy": 0,
+      "belt": 5,
+      "vocal_fry": 0,
+      "forte": 0,
+      "piano": 0
+     },
+     "mean_p": {
+      "straight": 0.03090961748270884,
+      "breathy": 0.07522185700299824,
+      "belt": 0.4703180660601376,
+      "vocal_fry": 0.12601605658483828,
+      "forte": 0.25352899368546183,
+      "piano": 0.04400540918385529
+     },
+     "p_label": 0.12601605658483828,
+     "hit_rate": 0.0,
+     "p_label_minus_base": 0.04485721920138855,
+     "pairs_increased": 5,
+     "pairs": 5
+    },
+    "oracleeq|belt|": {
+     "n": 41,
+     "predicted": {
+      "straight": 5,
+      "breathy": 0,
+      "belt": 35,
+      "vocal_fry": 0,
+      "forte": 1,
+      "piano": 0
+     },
+     "mean_p": {
+      "straight": 0.18854228341944518,
+      "breathy": 0.09609193491116154,
+      "belt": 0.397639103017818,
+      "vocal_fry": 0.06249211396789516,
+      "forte": 0.17619143013257899,
+      "piano": 0.0790431345511012
+     },
+     "p_label": 0.397639103017818,
+     "hit_rate": 0.8536585365853658,
+     "p_label_minus_base": 0.15647292557809991,
+     "pairs_increased": 38,
+     "pairs": 41
+    },
+    "oracleeq|breathy|": {
+     "n": 50,
+     "predicted": {
+      "straight": 31,
+      "breathy": 1,
+      "belt": 12,
+      "vocal_fry": 4,
+      "forte": 1,
+      "piano": 1
+     },
+     "mean_p": {
+      "straight": 0.3156790363550988,
+      "breathy": 0.136137179825805,
+      "belt": 0.2252417816343123,
+      "vocal_fry": 0.09814909924578828,
+      "forte": 0.09879561817665503,
+      "piano": 0.1259972847623405
+     },
+     "p_label": 0.136137179825805,
+     "hit_rate": 0.02,
+     "p_label_minus_base": 0.05670808885815247,
+     "pairs_increased": 46,
+     "pairs": 50
+    },
+    "oracleeq|forte|": {
+     "n": 48,
+     "predicted": {
+      "straight": 22,
+      "breathy": 0,
+      "belt": 20,
+      "vocal_fry": 1,
+      "forte": 5,
+      "piano": 0
+     },
+     "mean_p": {
+      "straight": 0.31057448545573535,
+      "breathy": 0.07813238154374123,
+      "belt": 0.28438512021450624,
+      "vocal_fry": 0.05650811976375286,
+      "forte": 0.15520280735992018,
+      "piano": 0.11519708566234414
+     },
+     "p_label": 0.15520280735992018,
+     "hit_rate": 0.10416666666666667,
+     "p_label_minus_base": 0.01220611138441384,
+     "pairs_increased": 33,
+     "pairs": 48
+    },
+    "oracleeq|piano|": {
+     "n": 50,
+     "predicted": {
+      "straight": 41,
+      "breathy": 0,
+      "belt": 2,
+      "vocal_fry": 1,
+      "forte": 4,
+      "piano": 2
+     },
+     "mean_p": {
+      "straight": 0.37512659250135694,
+      "breathy": 0.10304516918020519,
+      "belt": 0.1629246097252405,
+      "vocal_fry": 0.07304079809515346,
+      "forte": 0.11151246467822858,
+      "piano": 0.1743503658198153
+     },
+     "p_label": 0.1743503658198153,
+     "hit_rate": 0.04,
+     "p_label_minus_base": 0.06091380935479072,
+     "pairs_increased": 43,
+     "pairs": 50
+    },
+    "oracleeq|vocal_fry|": {
+     "n": 46,
+     "predicted": {
+      "straight": 18,
+      "breathy": 2,
+      "belt": 11,
+      "vocal_fry": 4,
+      "forte": 1,
+      "piano": 10
+     },
+     "mean_p": {
+      "straight": 0.24746008022465016,
+      "breathy": 0.16259226445720973,
+      "belt": 0.20367672093746275,
+      "vocal_fry": 0.09318610929960426,
+      "forte": 0.10975463689070573,
+      "piano": 0.18333018819036745
+     },
+     "p_label": 0.09318610929960426,
+     "hit_rate": 0.08695652173913043,
+     "p_label_minus_base": 0.010823728997543884,
+     "pairs_increased": 30,
+     "pairs": 46
+    },
+    "real_oracleeq|belt|": {
+     "n": 41,
+     "predicted": {
+      "straight": 11,
+      "breathy": 8,
+      "belt": 21,
+      "vocal_fry": 0,
+      "forte": 1,
+      "piano": 0
+     },
+     "mean_p": {
+      "straight": 0.28294468233256126,
+      "breathy": 0.15780998210818847,
+      "belt": 0.3263733258424688,
+      "vocal_fry": 0.04534161327190334,
+      "forte": 0.10500889369960355,
+      "piano": 0.08252150274527453
+     },
+     "p_label": 0.3263733258424688,
+     "hit_rate": 0.5121951219512195,
+     "p_label_minus_base": 0.08520714840275084,
+     "pairs_increased": 27,
+     "pairs": 41
+    },
+    "real_oracleeq|breathy|": {
+     "n": 50,
+     "predicted": {
+      "straight": 35,
+      "breathy": 8,
+      "belt": 7,
+      "vocal_fry": 0,
+      "forte": 0,
+      "piano": 0
+     },
+     "mean_p": {
+      "straight": 0.4148766944314555,
+      "breathy": 0.17173033425707826,
+      "belt": 0.18350569200487976,
+      "vocal_fry": 0.060672591869700136,
+      "forte": 0.05999798801351901,
+      "piano": 0.10921669942336731
+     },
+     "p_label": 0.17173033425707826,
+     "hit_rate": 0.16,
+     "p_label_minus_base": 0.09230124328942567,
+     "pairs_increased": 45,
+     "pairs": 50
+    },
+    "real_oracleeq|forte|": {
+     "n": 48,
+     "predicted": {
+      "straight": 35,
+      "breathy": 4,
+      "belt": 8,
+      "vocal_fry": 0,
+      "forte": 1,
+      "piano": 0
+     },
+     "mean_p": {
+      "straight": 0.4183188541702771,
+      "breathy": 0.10015363574488419,
+      "belt": 0.25842952566776506,
+      "vocal_fry": 0.039788368507671305,
+      "forte": 0.08924620523487388,
+      "piano": 0.09406341067452857
+     },
+     "p_label": 0.08924620523487388,
+     "hit_rate": 0.020833333333333332,
+     "p_label_minus_base": -0.05375049074063245,
+     "pairs_increased": 10,
+     "pairs": 48
+    },
+    "real_oracleeq|piano|": {
+     "n": 50,
+     "predicted": {
+      "straight": 44,
+      "breathy": 3,
+      "belt": 2,
+      "vocal_fry": 0,
+      "forte": 1,
+      "piano": 0
+     },
+     "mean_p": {
+      "straight": 0.4839393059070148,
+      "breathy": 0.11738181278670595,
+      "belt": 0.15042990728328703,
+      "vocal_fry": 0.049397546236175316,
+      "forte": 0.060651013680868476,
+      "piano": 0.13820041410594833
+     },
+     "p_label": 0.13820041410594833,
+     "hit_rate": 0.0,
+     "p_label_minus_base": 0.02476385764092373,
+     "pairs_increased": 26,
+     "pairs": 50
+    },
+    "real_oracleeq|vocal_fry|": {
+     "n": 46,
+     "predicted": {
+      "straight": 25,
+      "breathy": 11,
+      "belt": 4,
+      "vocal_fry": 0,
+      "forte": 1,
+      "piano": 5
+     },
+     "mean_p": {
+      "straight": 0.34430251686276636,
+      "breathy": 0.20332636415885935,
+      "belt": 0.17896199236957458,
+      "vocal_fry": 0.06015545431055947,
+      "forte": 0.061741600808288714,
+      "piano": 0.15151207148995155
+     },
+     "p_label": 0.06015545431055947,
+     "hit_rate": 0.0,
+     "p_label_minus_base": -0.02220692599150093,
+     "pairs_increased": 21,
+     "pairs": 46
+    }
+   },
+   "earlier_cells": {
+    "exp03|base|None|": {
+     "n": 4,
+     "predicted": {
+      "straight": 0,
+      "breathy": 0,
+      "belt": 0,
+      "vocal_fry": 2,
+      "forte": 2,
+      "piano": 0
+     },
+     "mean_p": {
+      "straight": 0.0032355055690190286,
+      "breathy": 0.013250308204207958,
+      "belt": 0.10483318772220751,
+      "vocal_fry": 0.4348358533383378,
+      "forte": 0.4055840271998368,
+      "piano": 0.03826111796639086
+     }
+    },
+    "exp03|donor_eq|belt|": {
+     "n": 4,
+     "predicted": {
+      "straight": 0,
+      "breathy": 0,
+      "belt": 0,
+      "vocal_fry": 0,
+      "forte": 4,
+      "piano": 0
+     },
+     "mean_p": {
+      "straight": 0.0027585160659186836,
+      "breathy": 0.011717501930341637,
+      "belt": 0.21168323885459112,
+      "vocal_fry": 0.24959310548531355,
+      "forte": 0.4945254511455507,
+      "piano": 0.029722186518284354
+     },
+     "p_label": 0.21168323885459112,
+     "hit_rate": 0.0,
+     "p_label_minus_base": 0.1068500511323836,
+     "pairs_increased": 4,
+     "pairs": 4
+    },
+    "exp03|donor_eq|breathy|": {
+     "n": 4,
+     "predicted": {
+      "straight": 0,
+      "breathy": 0,
+      "belt": 0,
+      "vocal_fry": 3,
+      "forte": 1,
+      "piano": 0
+     },
+     "mean_p": {
+      "straight": 0.0037612713583664095,
+      "breathy": 0.026814931695137746,
+      "belt": 0.08589319256744478,
+      "vocal_fry": 0.5201147943587886,
+      "forte": 0.3150878639220102,
+      "piano": 0.04832794609825225
+     },
+     "p_label": 0.026814931695137746,
+     "hit_rate": 0.0,
+     "p_label_minus_base": 0.013564623490929784,
+     "pairs_increased": 4,
+     "pairs": 4
+    },
+    "exp03|donor_eq|forte|": {
+     "n": 4,
+     "predicted": {
+      "straight": 0,
+      "breathy": 0,
+      "belt": 0,
+      "vocal_fry": 2,
+      "forte": 2,
+      "piano": 0
+     },
+     "mean_p": {
+      "straight": 0.002901094788906732,
+      "breathy": 0.012421167074340059,
+      "belt": 0.15645349966428637,
+      "vocal_fry": 0.3764015396190893,
+      "forte": 0.42737772814153696,
+      "piano": 0.024444970711840628
+     },
+     "p_label": 0.42737772814153696,
+     "hit_rate": 0.5,
+     "p_label_minus_base": 0.021793700941700148,
+     "pairs_increased": 4,
+     "pairs": 4
+    },
+    "exp03|donor_eq|vocal_fry|": {
+     "n": 4,
+     "predicted": {
+      "straight": 0,
+      "breathy": 0,
+      "belt": 0,
+      "vocal_fry": 2,
+      "forte": 2,
+      "piano": 0
+     },
+     "mean_p": {
+      "straight": 0.003512546247172463,
+      "breathy": 0.027861850396780824,
+      "belt": 0.10424759418825418,
+      "vocal_fry": 0.40888556684176935,
+      "forte": 0.4065769323787366,
+      "piano": 0.048915509947286634
+     },
+     "p_label": 0.40888556684176935,
+     "hit_rate": 0.5,
+     "p_label_minus_base": -0.02595028649656845,
+     "pairs_increased": 0,
+     "pairs": 4
+    },
+    "exp03|eqmatch_guidance|belt|": {
+     "n": 4,
+     "predicted": {
+      "straight": 0,
+      "breathy": 0,
+      "belt": 0,
+      "vocal_fry": 0,
+      "forte": 4,
+      "piano": 0
+     },
+     "mean_p": {
+      "straight": 0.002716321455310797,
+      "breathy": 0.008883793491070335,
+      "belt": 0.19521786344944653,
+      "vocal_fry": 0.22502971878941475,
+      "forte": 0.5376305620641182,
+      "piano": 0.030521740750639438
+     },
+     "p_label": 0.19521786344944653,
+     "hit_rate": 0.0,
+     "p_label_minus_base": 0.09038467572723902,
+     "pairs_increased": 4,
+     "pairs": 4
+    },
+    "exp03|eqmatch_guidance|breathy|": {
+     "n": 4,
+     "predicted": {
+      "straight": 0,
+      "breathy": 0,
+      "belt": 0,
+      "vocal_fry": 3,
+      "forte": 1,
+      "piano": 0
+     },
+     "mean_p": {
+      "straight": 0.005731847466427258,
+      "breathy": 0.032593126496749315,
+      "belt": 0.05496872565904459,
+      "vocal_fry": 0.5212603688849412,
+      "forte": 0.2965409246806245,
+      "piano": 0.08890500681221317
+     },
+     "p_label": 0.032593126496749315,
+     "hit_rate": 0.0,
+     "p_label_minus_base": 0.019342818292541353,
+     "pairs_increased": 4,
+     "pairs": 4
+    },
+    "exp03|eqmatch_guidance|forte|": {
+     "n": 4,
+     "predicted": {
+      "straight": 0,
+      "breathy": 0,
+      "belt": 0,
+      "vocal_fry": 2,
+      "forte": 2,
+      "piano": 0
+     },
+     "mean_p": {
+      "straight": 0.0025464510499612876,
+      "breathy": 0.009875291348216067,
+      "belt": 0.15186823141520125,
+      "vocal_fry": 0.3465416069054476,
+      "forte": 0.46239482298225165,
+      "piano": 0.026773596298922155
+     },
+     "p_label": 0.46239482298225165,
+     "hit_rate": 0.5,
+     "p_label_minus_base": 0.05681079578241484,
+     "pairs_increased": 4,
+     "pairs": 4
+    },
+    "exp03|eqmatch_guidance|vocal_fry|": {
+     "n": 4,
+     "predicted": {
+      "straight": 0,
+      "breathy": 0,
+      "belt": 0,
+      "vocal_fry": 2,
+      "forte": 2,
+      "piano": 0
+     },
+     "mean_p": {
+      "straight": 0.0032713093965433078,
+      "breathy": 0.01790485456292918,
+      "belt": 0.09108516000712853,
+      "vocal_fry": 0.3915064422614216,
+      "forte": 0.444429576350263,
+      "piano": 0.05180265742171439
+     },
+     "p_label": 0.3915064422614216,
+     "hit_rate": 0.5,
+     "p_label_minus_base": -0.043329411076916166,
+     "pairs_increased": 1,
+     "pairs": 4
+    },
+    "exp03|guidance|belt|": {
+     "n": 4,
+     "predicted": {
+      "straight": 0,
+      "breathy": 0,
+      "belt": 0,
+      "vocal_fry": 0,
+      "forte": 4,
+      "piano": 0
+     },
+     "mean_p": {
+      "straight": 0.0012746258060929115,
+      "breathy": 0.007557603779702115,
+      "belt": 0.2238203271034271,
+      "vocal_fry": 0.13666744908681083,
+      "forte": 0.6071886296795144,
+      "piano": 0.023491364544452657
+     },
+     "p_label": 0.2238203271034271,
+     "hit_rate": 0.0,
+     "p_label_minus_base": 0.11898713938121958,
+     "pairs_increased": 4,
+     "pairs": 4
+    },
+    "exp03|guidance|breathy|": {
+     "n": 4,
+     "predicted": {
+      "straight": 0,
+      "breathy": 0,
+      "belt": 0,
+      "vocal_fry": 3,
+      "forte": 1,
+      "piano": 0
+     },
+     "mean_p": {
+      "straight": 0.005094696655730834,
+      "breathy": 0.05405574570742207,
+      "belt": 0.05351760827998308,
+      "vocal_fry": 0.4924947804468327,
+      "forte": 0.2998986263685074,
+      "piano": 0.0949385425415239
+     },
+     "p_label": 0.05405574570742207,
+     "hit_rate": 0.0,
+     "p_label_minus_base": 0.040805437503214116,
+     "pairs_increased": 4,
+     "pairs": 4
+    },
+    "exp03|guidance|forte|": {
+     "n": 4,
+     "predicted": {
+      "straight": 0,
+      "breathy": 0,
+      "belt": 0,
+      "vocal_fry": 0,
+      "forte": 4,
+      "piano": 0
+     },
+     "mean_p": {
+      "straight": 0.0014058313574540798,
+      "breathy": 0.0069911462688250405,
+      "belt": 0.15634783320740592,
+      "vocal_fry": 0.2770567295148534,
+      "forte": 0.5388531877031915,
+      "piano": 0.019345271948270067
+     },
+     "p_label": 0.5388531877031915,
+     "hit_rate": 1.0,
+     "p_label_minus_base": 0.13326916050335463,
+     "pairs_increased": 4,
+     "pairs": 4
+    },
+    "exp03|guidance|piano|": {
+     "n": 4,
+     "predicted": {
+      "straight": 0,
+      "breathy": 0,
+      "belt": 0,
+      "vocal_fry": 4,
+      "forte": 0,
+      "piano": 0
+     },
+     "mean_p": {
+      "straight": 0.012832209178123787,
+      "breathy": 0.04278236883538942,
+      "belt": 0.07556946725676687,
+      "vocal_fry": 0.5404083572869185,
+      "forte": 0.23378138357308925,
+      "piano": 0.09462621386971226
+     },
+     "p_label": 0.09462621386971226,
+     "hit_rate": 0.0,
+     "p_label_minus_base": 0.056365095903321394,
+     "pairs_increased": 4,
+     "pairs": 4
+    },
+    "exp03|guidance|vocal_fry|": {
+     "n": 4,
+     "predicted": {
+      "straight": 0,
+      "breathy": 0,
+      "belt": 0,
+      "vocal_fry": 2,
+      "forte": 2,
+      "piano": 0
+     },
+     "mean_p": {
+      "straight": 0.002580852019393193,
+      "breathy": 0.027215151326657007,
+      "belt": 0.08407906544349958,
+      "vocal_fry": 0.3182964177000537,
+      "forte": 0.524112660792031,
+      "piano": 0.04371585271836549
+     },
+     "p_label": 0.3182964177000537,
+     "hit_rate": 0.5,
+     "p_label_minus_base": -0.11653943563828413,
+     "pairs_increased": 0,
+     "pairs": 4
+    },
+    "exp04|adapter|belt|0.5": {
+     "n": 4,
+     "predicted": {
+      "straight": 0,
+      "breathy": 0,
+      "belt": 0,
+      "vocal_fry": 2,
+      "forte": 2,
+      "piano": 0
+     },
+     "mean_p": {
+      "straight": 0.003316931854272448,
+      "breathy": 0.011914730834903759,
+      "belt": 0.17082904936514132,
+      "vocal_fry": 0.3757493712653133,
+      "forte": 0.4122199838003187,
+      "piano": 0.025969932880050332
+     },
+     "p_label": 0.17082904936514132,
+     "hit_rate": 0.0,
+     "p_label_minus_base": 0.0659958616429338,
+     "pairs_increased": 4,
+     "pairs": 4
+    },
+    "exp04|adapter|belt|1.0": {
+     "n": 4,
+     "predicted": {
+      "straight": 0,
+      "breathy": 0,
+      "belt": 0,
+      "vocal_fry": 2,
+      "forte": 2,
+      "piano": 0
+     },
+     "mean_p": {
+      "straight": 0.0037934824284218075,
+      "breathy": 0.011621194285761412,
+      "belt": 0.21151669738094497,
+      "vocal_fry": 0.2974818346076049,
+      "forte": 0.4498912423602267,
+      "piano": 0.02569554893704017
+     },
+     "p_label": 0.21151669738094497,
+     "hit_rate": 0.0,
+     "p_label_minus_base": 0.10668350965873746,
+     "pairs_increased": 4,
+     "pairs": 4
+    },
+    "exp04|adapter|belt|1.5": {
+     "n": 4,
+     "predicted": {
+      "straight": 0,
+      "breathy": 0,
+      "belt": 0,
+      "vocal_fry": 2,
+      "forte": 2,
+      "piano": 0
+     },
+     "mean_p": {
+      "straight": 0.003787489342649087,
+      "breathy": 0.010366714950437936,
+      "belt": 0.1896190412199568,
+      "vocal_fry": 0.2387784812024686,
+      "forte": 0.5267314197637438,
+      "piano": 0.030716853520743697
+     },
+     "p_label": 0.1896190412199568,
+     "hit_rate": 0.0,
+     "p_label_minus_base": 0.08478585349774928,
+     "pairs_increased": 4,
+     "pairs": 4
+    },
+    "exp04|adapter|breathy|0.5": {
+     "n": 4,
+     "predicted": {
+      "straight": 0,
+      "breathy": 0,
+      "belt": 0,
+      "vocal_fry": 3,
+      "forte": 1,
+      "piano": 0
+     },
+     "mean_p": {
+      "straight": 0.003980381528001151,
+      "breathy": 0.024072005339082957,
+      "belt": 0.09268090102471585,
+      "vocal_fry": 0.5074642377093189,
+      "forte": 0.33233094289725057,
+      "piano": 0.03947153150163051
+     },
+     "p_label": 0.024072005339082957,
+     "hit_rate": 0.0,
+     "p_label_minus_base": 0.010821697134874995,
+     "pairs_increased": 4,
+     "pairs": 4
+    },
+    "exp04|adapter|breathy|1.0": {
+     "n": 4,
+     "predicted": {
+      "straight": 0,
+      "breathy": 0,
+      "belt": 0,
+      "vocal_fry": 3,
+      "forte": 1,
+      "piano": 0
+     },
+     "mean_p": {
+      "straight": 0.005530223033832213,
+      "breathy": 0.033155018328889015,
+      "belt": 0.06451308944531975,
+      "vocal_fry": 0.6178417487802338,
+      "forte": 0.2360090876188678,
+      "piano": 0.04295083279285733
+     },
+     "p_label": 0.033155018328889015,
+     "hit_rate": 0.0,
+     "p_label_minus_base": 0.01990471012468106,
+     "pairs_increased": 4,
+     "pairs": 4
+    },
+    "exp04|adapter|breathy|1.5": {
+     "n": 4,
+     "predicted": {
+      "straight": 0,
+      "breathy": 0,
+      "belt": 0,
+      "vocal_fry": 4,
+      "forte": 0,
+      "piano": 0
+     },
+     "mean_p": {
+      "straight": 0.01798178981673283,
+      "breathy": 0.11502691518576108,
+      "belt": 0.039362991561978554,
+      "vocal_fry": 0.5983406653481054,
+      "forte": 0.12457109688705696,
+      "piano": 0.10471654120036525
+     },
+     "p_label": 0.11502691518576108,
+     "hit_rate": 0.0,
+     "p_label_minus_base": 0.10177660698155314,
+     "pairs_increased": 4,
+     "pairs": 4
+    },
+    "exp04|adapter|forte|0.5": {
+     "n": 4,
+     "predicted": {
+      "straight": 0,
+      "breathy": 0,
+      "belt": 0,
+      "vocal_fry": 2,
+      "forte": 2,
+      "piano": 0
+     },
+     "mean_p": {
+      "straight": 0.002125135207380086,
+      "breathy": 0.009116918426389098,
+      "belt": 0.10812089039971362,
+      "vocal_fry": 0.42432981429426986,
+      "forte": 0.4324736478627425,
+      "piano": 0.023833593809504856
+     },
+     "p_label": 0.4324736478627425,
+     "hit_rate": 0.5,
+     "p_label_minus_base": 0.026889620662905678,
+     "pairs_increased": 2,
+     "pairs": 4
+    },
+    "exp04|adapter|forte|1.0": {
+     "n": 4,
+     "predicted": {
+      "straight": 0,
+      "breathy": 0,
+      "belt": 0,
+      "vocal_fry": 2,
+      "forte": 2,
+      "piano": 0
+     },
+     "mean_p": {
+      "straight": 0.0009209491183643902,
+      "breathy": 0.004235571533867544,
+      "belt": 0.07498304429918948,
+      "vocal_fry": 0.31715741370279893,
+      "forte": 0.5847763089556879,
+      "piano": 0.01792671239009171
+     },
+     "p_label": 0.5847763089556879,
+     "hit_rate": 0.5,
+     "p_label_minus_base": 0.17919228175585117,
+     "pairs_increased": 4,
+     "pairs": 4
+    },
+    "exp04|adapter|forte|1.5": {
+     "n": 4,
+     "predicted": {
+      "straight": 0,
+      "breathy": 0,
+      "belt": 0,
+      "vocal_fry": 0,
+      "forte": 4,
+      "piano": 0
+     },
+     "mean_p": {
+      "straight": 3.5254286271733835e-05,
+      "breathy": 0.0009809606134514519,
+      "belt": 0.016170489672954674,
+      "vocal_fry": 0.13846029328572587,
+      "forte": 0.828863825266194,
+      "piano": 0.01548917687540232
+     },
+     "p_label": 0.828863825266194,
+     "hit_rate": 1.0,
+     "p_label_minus_base": 0.42327979806635707,
+     "pairs_increased": 4,
+     "pairs": 4
+    },
+    "exp04|adapter|piano|0.5": {
+     "n": 4,
+     "predicted": {
+      "straight": 0,
+      "breathy": 0,
+      "belt": 0,
+      "vocal_fry": 2,
+      "forte": 2,
+      "piano": 0
+     },
+     "mean_p": {
+      "straight": 0.0024297524062973676,
+      "breathy": 0.012654361592719187,
+      "belt": 0.08792644639681928,
+      "vocal_fry": 0.4726031196704737,
+      "forte": 0.390580020151738,
+      "piano": 0.033806299781952535
+     },
+     "p_label": 0.033806299781952535,
+     "hit_rate": 0.0,
+     "p_label_minus_base": -0.0044548181844383285,
+     "pairs_increased": 1,
+     "pairs": 4
+    },
+    "exp04|adapter|piano|1.0": {
+     "n": 4,
+     "predicted": {
+      "straight": 0,
+      "breathy": 0,
+      "belt": 0,
+      "vocal_fry": 2,
+      "forte": 2,
+      "piano": 0
+     },
+     "mean_p": {
+      "straight": 0.0009217711334913723,
+      "breathy": 0.008042896952136419,
+      "belt": 0.05141265147041141,
+      "vocal_fry": 0.42830338843016097,
+      "forte": 0.4805617721541393,
+      "piano": 0.030757519859660513
+     },
+     "p_label": 0.030757519859660513,
+     "hit_rate": 0.0,
+     "p_label_minus_base": -0.007503598106730348,
+     "pairs_increased": 1,
+     "pairs": 4
+    },
+    "exp04|adapter|piano|1.5": {
+     "n": 4,
+     "predicted": {
+      "straight": 0,
+      "breathy": 0,
+      "belt": 0,
+      "vocal_fry": 1,
+      "forte": 3,
+      "piano": 0
+     },
+     "mean_p": {
+      "straight": 0.00012637765829970294,
+      "breathy": 0.0032152277600234853,
+      "belt": 0.014991292993775602,
+      "vocal_fry": 0.2588760000396466,
+      "forte": 0.6787423096653104,
+      "piano": 0.04404879188294428
+     },
+     "p_label": 0.04404879188294428,
+     "hit_rate": 0.0,
+     "p_label_minus_base": 0.00578767391655341,
+     "pairs_increased": 3,
+     "pairs": 4
+    },
+    "exp04|adapter|vocal_fry|0.5": {
+     "n": 4,
+     "predicted": {
+      "straight": 0,
+      "breathy": 0,
+      "belt": 0,
+      "vocal_fry": 3,
+      "forte": 1,
+      "piano": 0
+     },
+     "mean_p": {
+      "straight": 0.0023607822531748193,
+      "breathy": 0.013165629822526666,
+      "belt": 0.08500738154902264,
+      "vocal_fry": 0.5916180947708655,
+      "forte": 0.28352083297515285,
+      "piano": 0.0243272786292576
+     },
+     "p_label": 0.5916180947708655,
+     "hit_rate": 0.75,
+     "p_label_minus_base": 0.15678224143252764,
+     "pairs_increased": 4,
+     "pairs": 4
+    },
+    "exp04|adapter|vocal_fry|1.0": {
+     "n": 4,
+     "predicted": {
+      "straight": 0,
+      "breathy": 0,
+      "belt": 0,
+      "vocal_fry": 4,
+      "forte": 0,
+      "piano": 0
+     },
+     "mean_p": {
+      "straight": 0.00047657317946132497,
+      "breathy": 0.003689648556706349,
+      "belt": 0.012134812276357848,
+      "vocal_fry": 0.9383170235663681,
+      "forte": 0.04209329614684956,
+      "piano": 0.0032886462742568643
+     },
+     "p_label": 0.9383170235663681,
+     "hit_rate": 1.0,
+     "p_label_minus_base": 0.5034811702280303,
+     "pairs_increased": 4,
+     "pairs": 4
+    },
+    "exp04|adapter|vocal_fry|1.5": {
+     "n": 4,
+     "predicted": {
+      "straight": 0,
+      "breathy": 0,
+      "belt": 0,
+      "vocal_fry": 4,
+      "forte": 0,
+      "piano": 0
+     },
+     "mean_p": {
+      "straight": 0.0010588423641331322,
+      "breathy": 0.015119980441059964,
+      "belt": 0.0032172823914952183,
+      "vocal_fry": 0.9551157729242159,
+      "forte": 0.014949286089742938,
+      "piano": 0.01053883578935291
+     },
+     "p_label": 0.9551157729242159,
+     "hit_rate": 1.0,
+     "p_label_minus_base": 0.520279919585878,
+     "pairs_increased": 4,
+     "pairs": 4
+    },
+    "exp04|base|None|": {
+     "n": 4,
+     "predicted": {
+      "straight": 0,
+      "breathy": 0,
+      "belt": 0,
+      "vocal_fry": 2,
+      "forte": 2,
+      "piano": 0
+     },
+     "mean_p": {
+      "straight": 0.0032355055690190286,
+      "breathy": 0.013250308204207958,
+      "belt": 0.10483318772220751,
+      "vocal_fry": 0.4348358533383378,
+      "forte": 0.4055840271998368,
+      "piano": 0.03826111796639086
+     }
+    },
+    "exp04|eqmatch|belt|": {
+     "n": 4,
+     "predicted": {
+      "straight": 0,
+      "breathy": 0,
+      "belt": 0,
+      "vocal_fry": 2,
+      "forte": 2,
+      "piano": 0
+     },
+     "mean_p": {
+      "straight": 0.0032349748632397976,
+      "breathy": 0.011416147363092537,
+      "belt": 0.2148087774357563,
+      "vocal_fry": 0.30624209331024477,
+      "forte": 0.44065026024136095,
+      "piano": 0.023647746786305705
+     },
+     "p_label": 0.2148087774357563,
+     "hit_rate": 0.0,
+     "p_label_minus_base": 0.10997558971354876,
+     "pairs_increased": 4,
+     "pairs": 4
+    },
+    "exp04|eqmatch|breathy|": {
+     "n": 4,
+     "predicted": {
+      "straight": 0,
+      "breathy": 0,
+      "belt": 0,
+      "vocal_fry": 3,
+      "forte": 1,
+      "piano": 0
+     },
+     "mean_p": {
+      "straight": 0.004472027041759748,
+      "breathy": 0.024451832687061734,
+      "belt": 0.12320323827463497,
+      "vocal_fry": 0.5325610207870312,
+      "forte": 0.2784006793558445,
+      "piano": 0.0369112018536678
+     },
+     "p_label": 0.024451832687061734,
+     "hit_rate": 0.0,
+     "p_label_minus_base": 0.011201524482853772,
+     "pairs_increased": 4,
+     "pairs": 4
+    },
+    "exp04|eqmatch|forte|": {
+     "n": 4,
+     "predicted": {
+      "straight": 0,
+      "breathy": 0,
+      "belt": 0,
+      "vocal_fry": 2,
+      "forte": 2,
+      "piano": 0
+     },
+     "mean_p": {
+      "straight": 0.00316743127665784,
+      "breathy": 0.010561254995613684,
+      "belt": 0.14904974253115663,
+      "vocal_fry": 0.3374075755341236,
+      "forte": 0.4705511599490807,
+      "piano": 0.029262835713367512
+     },
+     "p_label": 0.4705511599490807,
+     "hit_rate": 0.5,
+     "p_label_minus_base": 0.06496713274924386,
+     "pairs_increased": 4,
+     "pairs": 4
+    },
+    "exp04|eqmatch|piano|": {
+     "n": 4,
+     "predicted": {
+      "straight": 0,
+      "breathy": 0,
+      "belt": 0,
+      "vocal_fry": 2,
+      "forte": 2,
+      "piano": 0
+     },
+     "mean_p": {
+      "straight": 0.003425365739314989,
+      "breathy": 0.015042127995626816,
+      "belt": 0.11408626829898885,
+      "vocal_fry": 0.45962523492352425,
+      "forte": 0.3726379649057757,
+      "piano": 0.035183038136769394
+     },
+     "p_label": 0.035183038136769394,
+     "hit_rate": 0.0,
+     "p_label_minus_base": -0.003078079829621468,
+     "pairs_increased": 2,
+     "pairs": 4
+    },
+    "exp04|eqmatch|vocal_fry|": {
+     "n": 4,
+     "predicted": {
+      "straight": 0,
+      "breathy": 0,
+      "belt": 0,
+      "vocal_fry": 3,
+      "forte": 1,
+      "piano": 0
+     },
+     "mean_p": {
+      "straight": 0.0038981970834102795,
+      "breathy": 0.024466511270218046,
+      "belt": 0.0985104190986765,
+      "vocal_fry": 0.5970978968131058,
+      "forte": 0.24552013528685074,
+      "piano": 0.030506840447738708
+     },
+     "p_label": 0.5970978968131058,
+     "hit_rate": 0.75,
+     "p_label_minus_base": 0.16226204347476797,
+     "pairs_increased": 4,
+     "pairs": 4
+    },
+    "exp05|adapter|belt|0.6": {
+     "n": 4,
+     "predicted": {
+      "straight": 0,
+      "breathy": 0,
+      "belt": 0,
+      "vocal_fry": 2,
+      "forte": 2,
+      "piano": 0
+     },
+     "mean_p": {
+      "straight": 0.003235420797726345,
+      "breathy": 0.011292131413182293,
+      "belt": 0.17840319661923132,
+      "vocal_fry": 0.36401860900955496,
+      "forte": 0.41853580395876283,
+      "piano": 0.02451483820154218
+     },
+     "p_label": 0.17840319661923132,
+     "hit_rate": 0.0,
+     "p_label_minus_base": 0.07357000889702381,
+     "pairs_increased": 4,
+     "pairs": 4
+    },
+    "exp05|adapter|belt|0.7": {
+     "n": 4,
+     "predicted": {
+      "straight": 0,
+      "breathy": 0,
+      "belt": 0,
+      "vocal_fry": 2,
+      "forte": 2,
+      "piano": 0
+     },
+     "mean_p": {
+      "straight": 0.0036337622203100285,
+      "breathy": 0.011941353461329327,
+      "belt": 0.194069656360281,
+      "vocal_fry": 0.3425634626761491,
+      "forte": 0.4231568480295809,
+      "piano": 0.024634917252349568
+     },
+     "p_label": 0.194069656360281,
+     "hit_rate": 0.0,
+     "p_label_minus_base": 0.0892364686380735,
+     "pairs_increased": 4,
+     "pairs": 4
+    },
+    "exp05|adapter|belt|0.8": {
+     "n": 4,
+     "predicted": {
+      "straight": 0,
+      "breathy": 0,
+      "belt": 0,
+      "vocal_fry": 2,
+      "forte": 2,
+      "piano": 0
+     },
+     "mean_p": {
+      "straight": 0.0036373048203560813,
+      "breathy": 0.012233882420224029,
+      "belt": 0.19679614297053805,
+      "vocal_fry": 0.32867504114545376,
+      "forte": 0.43336976902813923,
+      "piano": 0.025287859615288837
+     },
+     "p_label": 0.19679614297053805,
+     "hit_rate": 0.0,
+     "p_label_minus_base": 0.09196295524833054,
+     "pairs_increased": 4,
+     "pairs": 4
+    },
+    "exp05|adapter|belt|0.9": {
+     "n": 4,
+     "predicted": {
+      "straight": 0,
+      "breathy": 0,
+      "belt": 0,
+      "vocal_fry": 2,
+      "forte": 2,
+      "piano": 0
+     },
+     "mean_p": {
+      "straight": 0.0036370465117685456,
+      "breathy": 0.01167258668581175,
+      "belt": 0.2002953825491694,
+      "vocal_fry": 0.3077108960356983,
+      "forte": 0.4504194724177496,
+      "piano": 0.026264615799802403
+     },
+     "p_label": 0.2002953825491694,
+     "hit_rate": 0.0,
+     "p_label_minus_base": 0.09546219482696186,
+     "pairs_increased": 4,
+     "pairs": 4
+    },
+    "exp05|adapter|breathy|0.6": {
+     "n": 4,
+     "predicted": {
+      "straight": 0,
+      "breathy": 0,
+      "belt": 0,
+      "vocal_fry": 3,
+      "forte": 1,
+      "piano": 0
+     },
+     "mean_p": {
+      "straight": 0.004058498574933467,
+      "breathy": 0.025426152972680506,
+      "belt": 0.08508636038665032,
+      "vocal_fry": 0.5318508606562403,
+      "forte": 0.3150320931343004,
+      "piano": 0.038546034275195006
+     },
+     "p_label": 0.025426152972680506,
+     "hit_rate": 0.0,
+     "p_label_minus_base": 0.012175844768472548,
+     "pairs_increased": 4,
+     "pairs": 4
+    },
+    "exp05|adapter|breathy|0.7": {
+     "n": 4,
+     "predicted": {
+      "straight": 0,
+      "breathy": 0,
+      "belt": 0,
+      "vocal_fry": 3,
+      "forte": 1,
+      "piano": 0
+     },
+     "mean_p": {
+      "straight": 0.004311520816505138,
+      "breathy": 0.027526534733746666,
+      "belt": 0.08124566397003688,
+      "vocal_fry": 0.5432888194345795,
+      "forte": 0.30472949471027533,
+      "piano": 0.03889796633485646
+     },
+     "p_label": 0.027526534733746666,
+     "hit_rate": 0.0,
+     "p_label_minus_base": 0.014276226529538708,
+     "pairs_increased": 4,
+     "pairs": 4
+    },
+    "exp05|adapter|breathy|0.8": {
+     "n": 4,
+     "predicted": {
+      "straight": 0,
+      "breathy": 0,
+      "belt": 0,
+      "vocal_fry": 3,
+      "forte": 1,
+      "piano": 0
+     },
+     "mean_p": {
+      "straight": 0.004735845935403294,
+      "breathy": 0.029084002745240558,
+      "belt": 0.07725627167199277,
+      "vocal_fry": 0.5646484605098172,
+      "forte": 0.2849892359295575,
+      "piano": 0.03928618320798873
+     },
+     "p_label": 0.029084002745240558,
+     "hit_rate": 0.0,
+     "p_label_minus_base": 0.0158336945410326,
+     "pairs_increased": 4,
+     "pairs": 4
+    },
+    "exp05|adapter|breathy|0.9": {
+     "n": 4,
+     "predicted": {
+      "straight": 0,
+      "breathy": 0,
+      "belt": 0,
+      "vocal_fry": 3,
+      "forte": 1,
+      "piano": 0
+     },
+     "mean_p": {
+      "straight": 0.004823591896287573,
+      "breathy": 0.03154613414144078,
+      "belt": 0.07017455296050537,
+      "vocal_fry": 0.5967898423830864,
+      "forte": 0.25712971646185195,
+      "piano": 0.039536162156827946
+     },
+     "p_label": 0.03154613414144078,
+     "hit_rate": 0.0,
+     "p_label_minus_base": 0.018295825937232817,
+     "pairs_increased": 4,
+     "pairs": 4
+    },
+    "exp05|adapter|forte|0.6": {
+     "n": 4,
+     "predicted": {
+      "straight": 0,
+      "breathy": 0,
+      "belt": 0,
+      "vocal_fry": 2,
+      "forte": 2,
+      "piano": 0
+     },
+     "mean_p": {
+      "straight": 0.0020454949982989415,
+      "breathy": 0.00851056191321515,
+      "belt": 0.1089481579995267,
+      "vocal_fry": 0.39636022598735365,
+      "forte": 0.46097187171576176,
+      "piano": 0.023163687385843748
+     },
+     "p_label": 0.46097187171576176,
+     "hit_rate": 0.5,
+     "p_label_minus_base": 0.05538784451592497,
+     "pairs_increased": 3,
+     "pairs": 4
+    },
+    "exp05|adapter|forte|0.7": {
+     "n": 4,
+     "predicted": {
+      "straight": 0,
+      "breathy": 0,
+      "belt": 0,
+      "vocal_fry": 2,
+      "forte": 2,
+      "piano": 0
+     },
+     "mean_p": {
+      "straight": 0.0018404486836456342,
+      "breathy": 0.007686424861569717,
+      "belt": 0.10487707981071884,
+      "vocal_fry": 0.37511240016904035,
+      "forte": 0.4890904965516727,
+      "piano": 0.021393149923352762
+     },
+     "p_label": 0.4890904965516727,
+     "hit_rate": 0.5,
+     "p_label_minus_base": 0.08350646935183584,
+     "pairs_increased": 3,
+     "pairs": 4
+    },
+    "exp05|adapter|forte|0.8": {
+     "n": 4,
+     "predicted": {
+      "straight": 0,
+      "breathy": 0,
+      "belt": 0,
+      "vocal_fry": 2,
+      "forte": 2,
+      "piano": 0
+     },
+     "mean_p": {
+      "straight": 0.0015502114233655584,
+      "breathy": 0.0067942352923087545,
+      "belt": 0.09505538029979901,
+      "vocal_fry": 0.3631890157264841,
+      "forte": 0.5133536557363224,
+      "piano": 0.02005750152172016
+     },
+     "p_label": 0.5133536557363224,
+     "hit_rate": 0.5,
+     "p_label_minus_base": 0.10776962853648553,
+     "pairs_increased": 4,
+     "pairs": 4
+    },
+    "exp05|adapter|forte|0.9": {
+     "n": 4,
+     "predicted": {
+      "straight": 0,
+      "breathy": 0,
+      "belt": 0,
+      "vocal_fry": 2,
+      "forte": 2,
+      "piano": 0
+     },
+     "mean_p": {
+      "straight": 0.0012984106238065828,
+      "breathy": 0.005742833906767994,
+      "belt": 0.08576428519548501,
+      "vocal_fry": 0.34419302798212015,
+      "forte": 0.543727748550191,
+      "piano": 0.019273693741629242
+     },
+     "p_label": 0.543727748550191,
+     "hit_rate": 0.5,
+     "p_label_minus_base": 0.13814372135035413,
+     "pairs_increased": 4,
+     "pairs": 4
+    },
+    "exp05|adapter|piano|0.6": {
+     "n": 4,
+     "predicted": {
+      "straight": 0,
+      "breathy": 0,
+      "belt": 0,
+      "vocal_fry": 2,
+      "forte": 2,
+      "piano": 0
+     },
+     "mean_p": {
+      "straight": 0.0021575066356433166,
+      "breathy": 0.011725320076471993,
+      "belt": 0.08267395705388339,
+      "vocal_fry": 0.4672004410270653,
+      "forte": 0.40305761538612256,
+      "piano": 0.0331851598208134
+     },
+     "p_label": 0.0331851598208134,
+     "hit_rate": 0.0,
+     "p_label_minus_base": -0.005075958145577462,
+     "pairs_increased": 1,
+     "pairs": 4
+    },
+    "exp05|adapter|piano|0.7": {
+     "n": 4,
+     "predicted": {
+      "straight": 0,
+      "breathy": 0,
+      "belt": 0,
+      "vocal_fry": 2,
+      "forte": 2,
+      "piano": 0
+     },
+     "mean_p": {
+      "straight": 0.0016281875567614405,
+      "breathy": 0.010333925590268047,
+      "belt": 0.07734477254100199,
+      "vocal_fry": 0.45293387846872635,
+      "forte": 0.42604309455873773,
+      "piano": 0.03171614128450448
+     },
+     "p_label": 0.03171614128450448,
+     "hit_rate": 0.0,
+     "p_label_minus_base": -0.0065449766818863825,
+     "pairs_increased": 1,
+     "pairs": 4
+    },
+    "exp05|adapter|piano|0.8": {
+     "n": 4,
+     "predicted": {
+      "straight": 0,
+      "breathy": 0,
+      "belt": 0,
+      "vocal_fry": 2,
+      "forte": 2,
+      "piano": 0
+     },
+     "mean_p": {
+      "straight": 0.001533529726497218,
+      "breathy": 0.01045829730904122,
+      "belt": 0.07262946568446052,
+      "vocal_fry": 0.4482714718668692,
+      "forte": 0.4357708977077851,
+      "piano": 0.03133633770534672
+     },
+     "p_label": 0.03133633770534672,
+     "hit_rate": 0.0,
+     "p_label_minus_base": -0.006924780261044147,
+     "pairs_increased": 0,
+     "pairs": 4
+    },
+    "exp05|adapter|piano|0.9": {
+     "n": 4,
+     "predicted": {
+      "straight": 0,
+      "breathy": 0,
+      "belt": 0,
+      "vocal_fry": 2,
+      "forte": 2,
+      "piano": 0
+     },
+     "mean_p": {
+      "straight": 0.0011707131541525279,
+      "breathy": 0.008882945633814728,
+      "belt": 0.061493486859584584,
+      "vocal_fry": 0.43983141054360214,
+      "forte": 0.45899560169717146,
+      "piano": 0.029625842111674523
+     },
+     "p_label": 0.029625842111674523,
+     "hit_rate": 0.0,
+     "p_label_minus_base": -0.008635275854716337,
+     "pairs_increased": 1,
+     "pairs": 4
+    },
+    "exp05|adapter|vocal_fry|0.6": {
+     "n": 4,
+     "predicted": {
+      "straight": 0,
+      "breathy": 0,
+      "belt": 0,
+      "vocal_fry": 3,
+      "forte": 1,
+      "piano": 0
+     },
+     "mean_p": {
+      "straight": 0.0020296286484942075,
+      "breathy": 0.011764079200837106,
+      "belt": 0.0718724182236159,
+      "vocal_fry": 0.6460925288802836,
+      "forte": 0.2483062730954549,
+      "piano": 0.019935071951314283
+     },
+     "p_label": 0.6460925288802836,
+     "hit_rate": 0.75,
+     "p_label_minus_base": 0.21125667554194583,
+     "pairs_increased": 4,
+     "pairs": 4
+    },
+    "exp05|adapter|vocal_fry|0.7": {
+     "n": 4,
+     "predicted": {
+      "straight": 0,
+      "breathy": 0,
+      "belt": 0,
+      "vocal_fry": 4,
+      "forte": 0,
+      "piano": 0
+     },
+     "mean_p": {
+      "straight": 0.0015176744912215592,
+      "breathy": 0.00899550647534285,
+      "belt": 0.04999082339073459,
+      "vocal_fry": 0.7415275546496702,
+      "forte": 0.1833946546245689,
+      "piano": 0.014573786368461857
+     },
+     "p_label": 0.7415275546496702,
+     "hit_rate": 1.0,
+     "p_label_minus_base": 0.30669170131133244,
+     "pairs_increased": 4,
+     "pairs": 4
+    },
+    "exp05|adapter|vocal_fry|0.8": {
+     "n": 4,
+     "predicted": {
+      "straight": 0,
+      "breathy": 0,
+      "belt": 0,
+      "vocal_fry": 4,
+      "forte": 0,
+      "piano": 0
+     },
+     "mean_p": {
+      "straight": 0.001095377186326836,
+      "breathy": 0.006776440743573583,
+      "belt": 0.03503734216789225,
+      "vocal_fry": 0.8176269980095707,
+      "forte": 0.12928365509610362,
+      "piano": 0.010180186796533043
+     },
+     "p_label": 0.8176269980095707,
+     "hit_rate": 1.0,
+     "p_label_minus_base": 0.38279114467123293,
+     "pairs_increased": 4,
+     "pairs": 4
+    },
+    "exp05|adapter|vocal_fry|0.9": {
+     "n": 4,
+     "predicted": {
+      "straight": 0,
+      "breathy": 0,
+      "belt": 0,
+      "vocal_fry": 4,
+      "forte": 0,
+      "piano": 0
+     },
+     "mean_p": {
+      "straight": 0.0007681457336105033,
+      "breathy": 0.0049740201481920324,
+      "belt": 0.022659021273949607,
+      "vocal_fry": 0.8857102517735206,
+      "forte": 0.07994841961106329,
+      "piano": 0.005940141459664027
+     },
+     "p_label": 0.8857102517735206,
+     "hit_rate": 1.0,
+     "p_label_minus_base": 0.45087439843518284,
+     "pairs_increased": 4,
+     "pairs": 4
+    },
+    "exp05|base|None|": {
+     "n": 4,
+     "predicted": {
+      "straight": 0,
+      "breathy": 0,
+      "belt": 0,
+      "vocal_fry": 2,
+      "forte": 2,
+      "piano": 0
+     },
+     "mean_p": {
+      "straight": 0.0032355055690190286,
+      "breathy": 0.013250308204207958,
+      "belt": 0.10483318772220751,
+      "vocal_fry": 0.4348358533383378,
+      "forte": 0.4055840271998368,
+      "piano": 0.03826111796639086
+     }
+    }
+   }
+  }
+ },
+ "dyn": {
+  "l2": 0.01,
+  "loso_balanced_accuracy": {
+   "0.0001": 0.5453703703703704,
+   "0.001": 0.5725925925925927,
+   "0.01": 0.6035185185185186,
+   "0.1": 0.5912962962962963
+  },
+  "heldout_balanced_accuracy": 0.6333333333333334,
+  "heldout_accuracy": 0.5925,
+  "heldout_confusion": {
+   "straight": {
+    "straight": 40,
+    "breathy": 4,
+    "belt": 6,
+    "vocal_fry": 0,
+    "forte": 0,
+    "piano": 0
+   },
+   "breathy": {
+    "straight": 13,
+    "breathy": 34,
+    "belt": 1,
+    "vocal_fry": 0,
+    "forte": 0,
+    "piano": 2
+   },
+   "belt": {
+    "straight": 7,
+    "breathy": 0,
+    "belt": 34,
+    "vocal_fry": 0,
+    "forte": 9,
+    "piano": 0
+   },
+   "vocal_fry": {
+    "straight": 6,
+    "breathy": 3,
+    "belt": 6,
+    "vocal_fry": 35,
+    "forte": 0,
+    "piano": 0
+   },
+   "forte": {
+    "straight": 12,
+    "breathy": 1,
+    "belt": 20,
+    "vocal_fry": 0,
+    "forte": 58,
+    "piano": 9
+   },
+   "piano": {
+    "straight": 12,
+    "breathy": 9,
+    "belt": 6,
+    "vocal_fry": 1,
+    "forte": 36,
+    "piano": 36
+   }
+  },
+  "applied": {
+   "real_straight_oracleeq": {
+    "base|None|": {
+     "n": 50,
+     "predicted": {
+      "straight": 40,
+      "breathy": 4,
+      "belt": 6,
+      "vocal_fry": 0,
+      "forte": 0,
+      "piano": 0
+     },
+     "mean_p": {
+      "straight": 0.5122922658624924,
+      "breathy": 0.12961148108840548,
+      "belt": 0.17577820464100438,
+      "vocal_fry": 0.04846322116021285,
+      "forte": 0.06189877574352355,
+      "piano": 0.07195605150436132
+     }
+    },
+    "real_straight_oracleeq|belt|": {
+     "n": 50,
+     "predicted": {
+      "straight": 27,
+      "breathy": 10,
+      "belt": 13,
+      "vocal_fry": 0,
+      "forte": 0,
+      "piano": 0
+     },
+     "mean_p": {
+      "straight": 0.34610070103979446,
+      "breathy": 0.22058772630208384,
+      "belt": 0.28413038346422165,
+      "vocal_fry": 0.03906051652207668,
+      "forte": 0.07214238486713898,
+      "piano": 0.03797828780468437
+     },
+     "p_label": 0.28413038346422165,
+     "hit_rate": 0.26,
+     "p_label_minus_base": 0.1083521788232173,
+     "pairs_increased": 44,
+     "pairs": 50
+    },
+    "real_straight_oracleeq|breathy|": {
+     "n": 50,
+     "predicted": {
+      "straight": 35,
+      "breathy": 8,
+      "belt": 7,
+      "vocal_fry": 0,
+      "forte": 0,
+      "piano": 0
+     },
+     "mean_p": {
+      "straight": 0.4864839937114594,
+      "breathy": 0.17500389763118662,
+      "belt": 0.18799689224167765,
+      "vocal_fry": 0.059971384064898034,
+      "forte": 0.04541275385566223,
+      "piano": 0.04513107849511591
+     },
+     "p_label": 0.17500389763118662,
+     "hit_rate": 0.16,
+     "p_label_minus_base": 0.045392416542781124,
+     "pairs_increased": 41,
+     "pairs": 50
+    },
+    "real_straight_oracleeq|forte|": {
+     "n": 100,
+     "predicted": {
+      "straight": 67,
+      "breathy": 19,
+      "belt": 9,
+      "vocal_fry": 0,
+      "forte": 4,
+      "piano": 1
+     },
+     "mean_p": {
+      "straight": 0.4591188164341648,
+      "breathy": 0.19638989078411842,
+      "belt": 0.16944128806816522,
+      "vocal_fry": 0.0331973525212581,
+      "forte": 0.06921252435352304,
+      "piano": 0.07264012783877041
+     },
+     "p_label": 0.06921252435352304,
+     "hit_rate": 0.04,
+     "p_label_minus_base": 0.007313748609999484,
+     "pairs_increased": 61,
+     "pairs": 100
+    },
+    "real_straight_oracleeq|piano|": {
+     "n": 100,
+     "predicted": {
+      "straight": 81,
+      "breathy": 12,
+      "belt": 2,
+      "vocal_fry": 0,
+      "forte": 3,
+      "piano": 2
+     },
+     "mean_p": {
+      "straight": 0.5378568100390683,
+      "breathy": 0.15170620391108383,
+      "belt": 0.10430438931597048,
+      "vocal_fry": 0.0396621633862061,
+      "forte": 0.05013198096181926,
+      "piano": 0.1163384523858521
+     },
+     "p_label": 0.1163384523858521,
+     "hit_rate": 0.02,
+     "p_label_minus_base": 0.04438240088149076,
+     "pairs_increased": 78,
+     "pairs": 100
+    },
+    "real_straight_oracleeq|vocal_fry|": {
+     "n": 50,
+     "predicted": {
+      "straight": 29,
+      "breathy": 13,
+      "belt": 8,
+      "vocal_fry": 0,
+      "forte": 0,
+      "piano": 0
+     },
+     "mean_p": {
+      "straight": 0.3989093890260393,
+      "breathy": 0.2322211997365705,
+      "belt": 0.1777960830086182,
+      "vocal_fry": 0.05802775151978922,
+      "forte": 0.05449349893097159,
+      "piano": 0.07855207777801126
+     },
+     "p_label": 0.05802775151978922,
+     "hit_rate": 0.0,
+     "p_label_minus_base": 0.009564530359576377,
+     "pairs_increased": 35,
+     "pairs": 50
+    }
+   },
+   "exp06a": {
+    "adapter|belt|0.5": {
+     "n": 50,
+     "predicted": {
+      "straight": 6,
+      "breathy": 0,
+      "belt": 40,
+      "vocal_fry": 3,
+      "forte": 1,
+      "piano": 0
+     },
+     "mean_p": {
+      "straight": 0.17167954255996679,
+      "breathy": 0.036841839255311,
+      "belt": 0.5828272017019066,
+      "vocal_fry": 0.07631808523121936,
+      "forte": 0.10429319082591908,
+      "piano": 0.028040140425677228
+     },
+     "p_label": 0.5828272017019066,
+     "hit_rate": 0.8,
+     "p_label_minus_base": 0.3170660377789163,
+     "pairs_increased": 50,
+     "pairs": 50
+    },
+    "adapter|belt|1.0": {
+     "n": 50,
+     "predicted": {
+      "straight": 3,
+      "breathy": 0,
+      "belt": 44,
+      "vocal_fry": 1,
+      "forte": 2,
+      "piano": 0
+     },
+     "mean_p": {
+      "straight": 0.11545144662902451,
+      "breathy": 0.04323662072751361,
+      "belt": 0.6320409951125051,
+      "vocal_fry": 0.045702509916426104,
+      "forte": 0.13766831345289288,
+      "piano": 0.025900114161637743
+     },
+     "p_label": 0.6320409951125051,
+     "hit_rate": 0.88,
+     "p_label_minus_base": 0.36627983118951485,
+     "pairs_increased": 49,
+     "pairs": 50
+    },
+    "adapter|breathy|0.5": {
+     "n": 50,
+     "predicted": {
+      "straight": 35,
+      "breathy": 2,
+      "belt": 5,
+      "vocal_fry": 5,
+      "forte": 2,
+      "piano": 1
+     },
+     "mean_p": {
+      "straight": 0.42224736748142605,
+      "breathy": 0.11160425851711088,
+      "belt": 0.13915708594715512,
+      "vocal_fry": 0.14876125050192293,
+      "forte": 0.08712416433366046,
+      "piano": 0.09110587321872458
+     },
+     "p_label": 0.11160425851711088,
+     "hit_rate": 0.04,
+     "p_label_minus_base": 0.0802247281843525,
+     "pairs_increased": 50,
+     "pairs": 50
+    },
+    "adapter|breathy|1.0": {
+     "n": 50,
+     "predicted": {
+      "straight": 15,
+      "breathy": 27,
+      "belt": 0,
+      "vocal_fry": 3,
+      "forte": 0,
+      "piano": 5
+     },
+     "mean_p": {
+      "straight": 0.2601425468693324,
+      "breathy": 0.4208937754540481,
+      "belt": 0.03126040547317998,
+      "vocal_fry": 0.14939727818482662,
+      "forte": 0.034445808562830776,
+      "piano": 0.1038601854557821
+     },
+     "p_label": 0.4208937754540481,
+     "hit_rate": 0.54,
+     "p_label_minus_base": 0.38951424512128957,
+     "pairs_increased": 50,
+     "pairs": 50
+    },
+    "adapter|forte|0.5": {
+     "n": 50,
+     "predicted": {
+      "straight": 13,
+      "breathy": 0,
+      "belt": 27,
+      "vocal_fry": 3,
+      "forte": 7,
+      "piano": 0
+     },
+     "mean_p": {
+      "straight": 0.22909646960918156,
+      "breathy": 0.033560108302074815,
+      "belt": 0.42659783744272967,
+      "vocal_fry": 0.09587827473382735,
+      "forte": 0.1693838482227344,
+      "piano": 0.04548346168945225
+     },
+     "p_label": 0.1693838482227344,
+     "hit_rate": 0.14,
+     "p_label_minus_base": 0.07059745714020325,
+     "pairs_increased": 48,
+     "pairs": 50
+    },
+    "adapter|forte|1.0": {
+     "n": 50,
+     "predicted": {
+      "straight": 0,
+      "breathy": 0,
+      "belt": 8,
+      "vocal_fry": 3,
+      "forte": 39,
+      "piano": 0
+     },
+     "mean_p": {
+      "straight": 0.039149860801843656,
+      "breathy": 0.02076050307056748,
+      "belt": 0.22106465687802093,
+      "vocal_fry": 0.048721718039699484,
+      "forte": 0.5881427879905781,
+      "piano": 0.08216047321929032
+     },
+     "p_label": 0.5881427879905781,
+     "hit_rate": 0.78,
+     "p_label_minus_base": 0.4893563969080471,
+     "pairs_increased": 50,
+     "pairs": 50
+    },
+    "adapter|piano|0.5": {
+     "n": 50,
+     "predicted": {
+      "straight": 24,
+      "breathy": 0,
+      "belt": 11,
+      "vocal_fry": 4,
+      "forte": 8,
+      "piano": 3
+     },
+     "mean_p": {
+      "straight": 0.3519637885535931,
+      "breathy": 0.037089102017832054,
+      "belt": 0.21600483577306703,
+      "vocal_fry": 0.1354026088577003,
+      "forte": 0.15039410328874536,
+      "piano": 0.10914556150906206
+     },
+     "p_label": 0.10914556150906206,
+     "hit_rate": 0.06,
+     "p_label_minus_base": 0.02556077813994651,
+     "pairs_increased": 36,
+     "pairs": 50
+    },
+    "adapter|piano|1.0": {
+     "n": 50,
+     "predicted": {
+      "straight": 4,
+      "breathy": 1,
+      "belt": 4,
+      "vocal_fry": 6,
+      "forte": 14,
+      "piano": 21
+     },
+     "mean_p": {
+      "straight": 0.12231738917713698,
+      "breathy": 0.03498033856725822,
+      "belt": 0.09562243588356215,
+      "vocal_fry": 0.11274666935388923,
+      "forte": 0.30684230992064565,
+      "piano": 0.3274908570975078
+     },
+     "p_label": 0.3274908570975078,
+     "hit_rate": 0.42,
+     "p_label_minus_base": 0.2439060737283922,
+     "pairs_increased": 47,
+     "pairs": 50
+    },
+    "adapter|vocal_fry|0.5": {
+     "n": 50,
+     "predicted": {
+      "straight": 23,
+      "breathy": 1,
+      "belt": 14,
+      "vocal_fry": 7,
+      "forte": 5,
+      "piano": 0
+     },
+     "mean_p": {
+      "straight": 0.2941616927279391,
+      "breathy": 0.07205045656824562,
+      "belt": 0.23672920802425762,
+      "vocal_fry": 0.2018545884321417,
+      "forte": 0.12098485911891826,
+      "piano": 0.07421919512849774
+     },
+     "p_label": 0.2018545884321417,
+     "hit_rate": 0.14,
+     "p_label_minus_base": 0.07224502917938666,
+     "pairs_increased": 38,
+     "pairs": 50
+    },
+    "adapter|vocal_fry|1.0": {
+     "n": 50,
+     "predicted": {
+      "straight": 1,
+      "breathy": 8,
+      "belt": 0,
+      "vocal_fry": 41,
+      "forte": 0,
+      "piano": 0
+     },
+     "mean_p": {
+      "straight": 0.05333651543672475,
+      "breathy": 0.15826232826720654,
+      "belt": 0.037979184884033595,
+      "vocal_fry": 0.6810071394886651,
+      "forte": 0.031415220749835784,
+      "piano": 0.03799961117353431
+     },
+     "p_label": 0.6810071394886651,
+     "hit_rate": 0.82,
+     "p_label_minus_base": 0.55139758023591,
+     "pairs_increased": 44,
+     "pairs": 50
+    },
+    "base|None|": {
+     "n": 50,
+     "predicted": {
+      "straight": 28,
+      "breathy": 0,
+      "belt": 14,
+      "vocal_fry": 4,
+      "forte": 3,
+      "piano": 1
+     },
+     "mean_p": {
+      "straight": 0.3908785720398496,
+      "breathy": 0.031379530332758386,
+      "belt": 0.26576116392299026,
+      "vocal_fry": 0.12960955925275508,
+      "forte": 0.0987863910825311,
+      "piano": 0.08358478336911554
+     }
+    },
+    "carried|belt|": {
+     "n": 41,
+     "predicted": {
+      "straight": 1,
+      "breathy": 2,
+      "belt": 20,
+      "vocal_fry": 14,
+      "forte": 3,
+      "piano": 1
+     },
+     "mean_p": {
+      "straight": 0.1369857083539816,
+      "breathy": 0.05066159260559667,
+      "belt": 0.3824203499722221,
+      "vocal_fry": 0.2026548743230989,
+      "forte": 0.15541001713448432,
+      "piano": 0.07186745761061644
+     },
+     "p_label": 0.3824203499722221,
+     "hit_rate": 0.4878048780487805,
+     "p_label_minus_base": 0.08729600844574077,
+     "pairs_increased": 28,
+     "pairs": 41
+    },
+    "carried|breathy|": {
+     "n": 50,
+     "predicted": {
+      "straight": 24,
+      "breathy": 0,
+      "belt": 17,
+      "vocal_fry": 8,
+      "forte": 1,
+      "piano": 0
+     },
+     "mean_p": {
+      "straight": 0.36801273984486454,
+      "breathy": 0.03501930611479565,
+      "belt": 0.27314989566446723,
+      "vocal_fry": 0.14528186422883735,
+      "forte": 0.07870719781103318,
+      "piano": 0.09982899633600201
+     },
+     "p_label": 0.03501930611479565,
+     "hit_rate": 0.0,
+     "p_label_minus_base": 0.00363977578203727,
+     "pairs_increased": 27,
+     "pairs": 50
+    },
+    "carried|forte|": {
+     "n": 48,
+     "predicted": {
+      "straight": 5,
+      "breathy": 0,
+      "belt": 7,
+      "vocal_fry": 5,
+      "forte": 31,
+      "piano": 0
+     },
+     "mean_p": {
+      "straight": 0.0935265940471501,
+      "breathy": 0.012999332819119176,
+      "belt": 0.134750295130688,
+      "vocal_fry": 0.08138026511891837,
+      "forte": 0.5617106544278335,
+      "piano": 0.11563285845629083
+     },
+     "p_label": 0.5617106544278335,
+     "hit_rate": 0.6458333333333334,
+     "p_label_minus_base": 0.46044321068052735,
+     "pairs_increased": 48,
+     "pairs": 48
+    },
+    "carried|piano|": {
+     "n": 50,
+     "predicted": {
+      "straight": 9,
+      "breathy": 0,
+      "belt": 3,
+      "vocal_fry": 4,
+      "forte": 28,
+      "piano": 6
+     },
+     "mean_p": {
+      "straight": 0.11522427951939038,
+      "breathy": 0.018277326921305705,
+      "belt": 0.129298075095366,
+      "vocal_fry": 0.10016320272866802,
+      "forte": 0.4547770147071224,
+      "piano": 0.18226010102814752
+     },
+     "p_label": 0.18226010102814752,
+     "hit_rate": 0.12,
+     "p_label_minus_base": 0.09867531765903195,
+     "pairs_increased": 40,
+     "pairs": 50
+    },
+    "carried|vocal_fry|": {
+     "n": 46,
+     "predicted": {
+      "straight": 2,
+      "breathy": 5,
+      "belt": 2,
+      "vocal_fry": 36,
+      "forte": 1,
+      "piano": 0
+     },
+     "mean_p": {
+      "straight": 0.07393542319707454,
+      "breathy": 0.09544327535116989,
+      "belt": 0.08198962780320308,
+      "vocal_fry": 0.6490844082475263,
+      "forte": 0.06336446145168748,
+      "piano": 0.03618280394933865
+     },
+     "p_label": 0.6490844082475263,
+     "hit_rate": 0.782608695652174,
+     "p_label_minus_base": 0.5151143635618698,
+     "pairs_increased": 43,
+     "pairs": 46
+    },
+    "eqmatch|belt|": {
+     "n": 50,
+     "predicted": {
+      "straight": 10,
+      "breathy": 0,
+      "belt": 37,
+      "vocal_fry": 3,
+      "forte": 0,
+      "piano": 0
+     },
+     "mean_p": {
+      "straight": 0.19957564741354158,
+      "breathy": 0.06389835167759472,
+      "belt": 0.5594297331153111,
+      "vocal_fry": 0.05376454382843481,
+      "forte": 0.09250034631764333,
+      "piano": 0.030831377647474487
+     },
+     "p_label": 0.5594297331153111,
+     "hit_rate": 0.74,
+     "p_label_minus_base": 0.29366856919232076,
+     "pairs_increased": 50,
+     "pairs": 50
+    },
+    "eqmatch|breathy|": {
+     "n": 50,
+     "predicted": {
+      "straight": 35,
+      "breathy": 0,
+      "belt": 8,
+      "vocal_fry": 6,
+      "forte": 1,
+      "piano": 0
+     },
+     "mean_p": {
+      "straight": 0.45562747542832005,
+      "breathy": 0.054025048956114353,
+      "belt": 0.21112441126464657,
+      "vocal_fry": 0.16641691091350752,
+      "forte": 0.060235112677178716,
+      "piano": 0.052571040760232786
+     },
+     "p_label": 0.054025048956114353,
+     "hit_rate": 0.0,
+     "p_label_minus_base": 0.02264551862335598,
+     "pairs_increased": 44,
+     "pairs": 50
+    },
+    "eqmatch|forte|": {
+     "n": 50,
+     "predicted": {
+      "straight": 23,
+      "breathy": 0,
+      "belt": 23,
+      "vocal_fry": 3,
+      "forte": 1,
+      "piano": 0
+     },
+     "mean_p": {
+      "straight": 0.3375154533630488,
+      "breathy": 0.04852545268842733,
+      "belt": 0.37723585637670276,
+      "vocal_fry": 0.06591641555292786,
+      "forte": 0.10983856436992662,
+      "piano": 0.060968257648966614
+     },
+     "p_label": 0.10983856436992662,
+     "hit_rate": 0.02,
+     "p_label_minus_base": 0.011052173287395524,
+     "pairs_increased": 37,
+     "pairs": 50
+    },
+    "eqmatch|piano|": {
+     "n": 50,
+     "predicted": {
+      "straight": 39,
+      "breathy": 0,
+      "belt": 5,
+      "vocal_fry": 4,
+      "forte": 2,
+      "piano": 0
+     },
+     "mean_p": {
+      "straight": 0.5065191519371662,
+      "breathy": 0.032149827012851274,
+      "belt": 0.1614713597244847,
+      "vocal_fry": 0.10727009416559449,
+      "forte": 0.08634515279418963,
+      "piano": 0.10624441436571373
+     },
+     "p_label": 0.10624441436571373,
+     "hit_rate": 0.0,
+     "p_label_minus_base": 0.022659630996598176,
+     "pairs_increased": 39,
+     "pairs": 50
+    },
+    "eqmatch|vocal_fry|": {
+     "n": 50,
+     "predicted": {
+      "straight": 30,
+      "breathy": 0,
+      "belt": 15,
+      "vocal_fry": 4,
+      "forte": 1,
+      "piano": 0
+     },
+     "mean_p": {
+      "straight": 0.37239066684458594,
+      "breathy": 0.07572334387591517,
+      "belt": 0.256191189844935,
+      "vocal_fry": 0.15644518351122294,
+      "forte": 0.07181544753529355,
+      "piano": 0.06743416838804732
+     },
+     "p_label": 0.15644518351122294,
+     "hit_rate": 0.08,
+     "p_label_minus_base": 0.026835624258467892,
+     "pairs_increased": 34,
+     "pairs": 50
+    },
+    "guidance|belt|": {
+     "n": 5,
+     "predicted": {
+      "straight": 0,
+      "breathy": 0,
+      "belt": 5,
+      "vocal_fry": 0,
+      "forte": 0,
+      "piano": 0
+     },
+     "mean_p": {
+      "straight": 0.07635028745990444,
+      "breathy": 0.036902166882409375,
+      "belt": 0.6508044878775537,
+      "vocal_fry": 0.05561002228608124,
+      "forte": 0.121874619927743,
+      "piano": 0.05845841556630811
+     },
+     "p_label": 0.6508044878775537,
+     "hit_rate": 1.0,
+     "p_label_minus_base": 0.3057267415257502,
+     "pairs_increased": 4,
+     "pairs": 5
+    },
+    "guidance|breathy|": {
+     "n": 5,
+     "predicted": {
+      "straight": 0,
+      "breathy": 0,
+      "belt": 1,
+      "vocal_fry": 2,
+      "forte": 0,
+      "piano": 2
+     },
+     "mean_p": {
+      "straight": 0.15528047542978402,
+      "breathy": 0.11701419659701862,
+      "belt": 0.20753761508738963,
+      "vocal_fry": 0.18094949666702198,
+      "forte": 0.09166722107472405,
+      "piano": 0.2475509951440617
+     },
+     "p_label": 0.11701419659701862,
+     "hit_rate": 0.0,
+     "p_label_minus_base": 0.09128497219859519,
+     "pairs_increased": 5,
+     "pairs": 5
+    },
+    "guidance|forte|": {
+     "n": 5,
+     "predicted": {
+      "straight": 1,
+      "breathy": 0,
+      "belt": 4,
+      "vocal_fry": 0,
+      "forte": 0,
+      "piano": 0
+     },
+     "mean_p": {
+      "straight": 0.11900880835254446,
+      "breathy": 0.024874727014531813,
+      "belt": 0.56210968486207,
+      "vocal_fry": 0.05834115705997771,
+      "forte": 0.19927967213622716,
+      "piano": 0.03638595057464885
+     },
+     "p_label": 0.19927967213622716,
+     "hit_rate": 0.0,
+     "p_label_minus_base": 0.08066207673426044,
+     "pairs_increased": 4,
+     "pairs": 5
+    },
+    "guidance|piano|": {
+     "n": 5,
+     "predicted": {
+      "straight": 3,
+      "breathy": 0,
+      "belt": 0,
+      "vocal_fry": 0,
+      "forte": 0,
+      "piano": 2
+     },
+     "mean_p": {
+      "straight": 0.3992792920397775,
+      "breathy": 0.04350136027255578,
+      "belt": 0.06943400962364446,
+      "vocal_fry": 0.13986611510939706,
+      "forte": 0.02746256505172249,
+      "piano": 0.32045665790290273
+     },
+     "p_label": 0.32045665790290273,
+     "hit_rate": 0.4,
+     "p_label_minus_base": 0.18925915055733689,
+     "pairs_increased": 5,
+     "pairs": 5
+    },
+    "guidance|vocal_fry|": {
+     "n": 5,
+     "predicted": {
+      "straight": 0,
+      "breathy": 0,
+      "belt": 5,
+      "vocal_fry": 0,
+      "forte": 0,
+      "piano": 0
+     },
+     "mean_p": {
+      "straight": 0.013156822609583788,
+      "breathy": 0.007527029943113936,
+      "belt": 0.690529228393874,
+      "vocal_fry": 0.1495717960119239,
+      "forte": 0.1259830679750406,
+      "piano": 0.013232055066463824
+     },
+     "p_label": 0.1495717960119239,
+     "hit_rate": 0.0,
+     "p_label_minus_base": 0.034345268739137916,
+     "pairs_increased": 4,
+     "pairs": 5
+    },
+    "oracleeq|belt|": {
+     "n": 41,
+     "predicted": {
+      "straight": 6,
+      "breathy": 0,
+      "belt": 32,
+      "vocal_fry": 2,
+      "forte": 1,
+      "piano": 0
+     },
+     "mean_p": {
+      "straight": 0.20439302257428515,
+      "breathy": 0.07142600996267345,
+      "belt": 0.49674183598412675,
+      "vocal_fry": 0.07909153534460713,
+      "forte": 0.11654151330093282,
+      "piano": 0.03180608283337472
+     },
+     "p_label": 0.49674183598412675,
+     "hit_rate": 0.7804878048780488,
+     "p_label_minus_base": 0.20161749445764543,
+     "pairs_increased": 36,
+     "pairs": 41
+    },
+    "oracleeq|breathy|": {
+     "n": 50,
+     "predicted": {
+      "straight": 27,
+      "breathy": 0,
+      "belt": 19,
+      "vocal_fry": 4,
+      "forte": 0,
+      "piano": 0
+     },
+     "mean_p": {
+      "straight": 0.3660124925198896,
+      "breathy": 0.07676574334833615,
+      "belt": 0.30853313657188747,
+      "vocal_fry": 0.13848177311109353,
+      "forte": 0.061403724801116874,
+      "piano": 0.048803129647676365
+     },
+     "p_label": 0.07676574334833615,
+     "hit_rate": 0.0,
+     "p_label_minus_base": 0.04538621301557777,
+     "pairs_increased": 48,
+     "pairs": 50
+    },
+    "oracleeq|forte|": {
+     "n": 48,
+     "predicted": {
+      "straight": 28,
+      "breathy": 0,
+      "belt": 15,
+      "vocal_fry": 2,
+      "forte": 3,
+      "piano": 0
+     },
+     "mean_p": {
+      "straight": 0.38266061564939896,
+      "breathy": 0.0619532947324673,
+      "belt": 0.29507244018705775,
+      "vocal_fry": 0.06908211705810517,
+      "forte": 0.10588502468461053,
+      "piano": 0.08534650768836029
+     },
+     "p_label": 0.10588502468461053,
+     "hit_rate": 0.0625,
+     "p_label_minus_base": 0.004617580937304364,
+     "pairs_increased": 33,
+     "pairs": 48
+    },
+    "oracleeq|piano|": {
+     "n": 50,
+     "predicted": {
+      "straight": 35,
+      "breathy": 0,
+      "belt": 7,
+      "vocal_fry": 4,
+      "forte": 3,
+      "piano": 1
+     },
+     "mean_p": {
+      "straight": 0.46091712767387977,
+      "breathy": 0.06188474760756825,
+      "belt": 0.17156123839416373,
+      "vocal_fry": 0.10807292557433047,
+      "forte": 0.07574369129905581,
+      "piano": 0.12182026945100195
+     },
+     "p_label": 0.12182026945100195,
+     "hit_rate": 0.02,
+     "p_label_minus_base": 0.0382354860818864,
+     "pairs_increased": 39,
+     "pairs": 50
+    },
+    "oracleeq|vocal_fry|": {
+     "n": 46,
+     "predicted": {
+      "straight": 24,
+      "breathy": 1,
+      "belt": 16,
+      "vocal_fry": 3,
+      "forte": 1,
+      "piano": 1
+     },
+     "mean_p": {
+      "straight": 0.304413098552259,
+      "breathy": 0.12267955628216148,
+      "belt": 0.2735398273059923,
+      "vocal_fry": 0.12412835300967258,
+      "forte": 0.08285270643261687,
+      "piano": 0.0923864584172978
+     },
+     "p_label": 0.12412835300967258,
+     "hit_rate": 0.06521739130434782,
+     "p_label_minus_base": -0.009841691675983984,
+     "pairs_increased": 23,
+     "pairs": 46
+    },
+    "real_oracleeq|belt|": {
+     "n": 41,
+     "predicted": {
+      "straight": 24,
+      "breathy": 10,
+      "belt": 6,
+      "vocal_fry": 0,
+      "forte": 1,
+      "piano": 0
+     },
+     "mean_p": {
+      "straight": 0.34728292735811894,
+      "breathy": 0.24832537131871268,
+      "belt": 0.25052915354324284,
+      "vocal_fry": 0.0395048587170715,
+      "forte": 0.07499256345118144,
+      "piano": 0.039365125611672575
+     },
+     "p_label": 0.25052915354324284,
+     "hit_rate": 0.14634146341463414,
+     "p_label_minus_base": -0.044595187983238464,
+     "pairs_increased": 18,
+     "pairs": 41
+    },
+    "real_oracleeq|breathy|": {
+     "n": 50,
+     "predicted": {
+      "straight": 35,
+      "breathy": 8,
+      "belt": 7,
+      "vocal_fry": 0,
+      "forte": 0,
+      "piano": 0
+     },
+     "mean_p": {
+      "straight": 0.48062247308217343,
+      "breathy": 0.1821814435605827,
+      "belt": 0.1806870434706261,
+      "vocal_fry": 0.06553674256627447,
+      "forte": 0.044342544162343935,
+      "piano": 0.046629753157999325
+     },
+     "p_label": 0.1821814435605827,
+     "hit_rate": 0.16,
+     "p_label_minus_base": 0.1508019132278243,
+     "pairs_increased": 40,
+     "pairs": 50
+    },
+    "real_oracleeq|forte|": {
+     "n": 48,
+     "predicted": {
+      "straight": 36,
+      "breathy": 6,
+      "belt": 4,
+      "vocal_fry": 0,
+      "forte": 1,
+      "piano": 1
+     },
+     "mean_p": {
+      "straight": 0.4980894854470364,
+      "breathy": 0.14594645936380815,
+      "belt": 0.17244841216040785,
+      "vocal_fry": 0.0362664986130562,
+      "forte": 0.07174168400211557,
+      "piano": 0.07550746041357574
+     },
+     "p_label": 0.07174168400211557,
+     "hit_rate": 0.020833333333333332,
+     "p_label_minus_base": -0.029525759745190585,
+     "pairs_increased": 14,
+     "pairs": 48
+    },
+    "real_oracleeq|piano|": {
+     "n": 50,
+     "predicted": {
+      "straight": 43,
+      "breathy": 4,
+      "belt": 1,
+      "vocal_fry": 0,
+      "forte": 1,
+      "piano": 1
+     },
+     "mean_p": {
+      "straight": 0.5589000088359604,
+      "breathy": 0.12347903075116053,
+      "belt": 0.1070200779389197,
+      "vocal_fry": 0.04844512319082577,
+      "forte": 0.05016871149865271,
+      "piano": 0.111987047784481
+     },
+     "p_label": 0.111987047784481,
+     "hit_rate": 0.02,
+     "p_label_minus_base": 0.028402264415365436,
+     "pairs_increased": 31,
+     "pairs": 50
+    },
+    "real_oracleeq|vocal_fry|": {
+     "n": 46,
+     "predicted": {
+      "straight": 28,
+      "breathy": 12,
+      "belt": 6,
+      "vocal_fry": 0,
+      "forte": 0,
+      "piano": 0
+     },
+     "mean_p": {
+      "straight": 0.4077230774723887,
+      "breathy": 0.23636026990191283,
+      "belt": 0.17356333307033686,
+      "vocal_fry": 0.060406310394198276,
+      "forte": 0.04650356198229488,
+      "piano": 0.07544344717886842
+     },
+     "p_label": 0.060406310394198276,
+     "hit_rate": 0.0,
+     "p_label_minus_base": -0.07356373429145827,
+     "pairs_increased": 18,
+     "pairs": 46
+    }
+   },
+   "earlier_cells": {
+    "exp03|base|None|": {
+     "n": 4,
+     "predicted": {
+      "straight": 0,
+      "breathy": 0,
+      "belt": 0,
+      "vocal_fry": 2,
+      "forte": 2,
+      "piano": 0
+     },
+     "mean_p": {
+      "straight": 0.00035019359763790943,
+      "breathy": 1.8373231195887838e-05,
+      "belt": 0.1821847778184276,
+      "vocal_fry": 0.5560473047461698,
+      "forte": 0.26004947279143226,
+      "piano": 0.0013498778151365542
+     }
+    },
+    "exp03|donor_eq|belt|": {
+     "n": 4,
+     "predicted": {
+      "straight": 0,
+      "breathy": 0,
+      "belt": 1,
+      "vocal_fry": 1,
+      "forte": 2,
+      "piano": 0
+     },
+     "mean_p": {
+      "straight": 0.0003801955163757893,
+      "breathy": 3.088032308448894e-05,
+      "belt": 0.34146406661579076,
+      "vocal_fry": 0.3208461005280533,
+      "forte": 0.33602080219427033,
+      "piano": 0.0012579548224253402
+     },
+     "p_label": 0.34146406661579076,
+     "hit_rate": 0.25,
+     "p_label_minus_base": 0.15927928879736314,
+     "pairs_increased": 4,
+     "pairs": 4
+    },
+    "exp03|donor_eq|breathy|": {
+     "n": 4,
+     "predicted": {
+      "straight": 0,
+      "breathy": 0,
+      "belt": 0,
+      "vocal_fry": 3,
+      "forte": 1,
+      "piano": 0
+     },
+     "mean_p": {
+      "straight": 0.00029732039027472715,
+      "breathy": 3.609698239953911e-05,
+      "belt": 0.1671808780869226,
+      "vocal_fry": 0.6014576059921567,
+      "forte": 0.22942234461328226,
+      "piano": 0.0016057539349641566
+     },
+     "p_label": 3.609698239953911e-05,
+     "hit_rate": 0.0,
+     "p_label_minus_base": 1.7723751203651278e-05,
+     "pairs_increased": 4,
+     "pairs": 4
+    },
+    "exp03|donor_eq|forte|": {
+     "n": 4,
+     "predicted": {
+      "straight": 0,
+      "breathy": 0,
+      "belt": 1,
+      "vocal_fry": 2,
+      "forte": 1,
+      "piano": 0
+     },
+     "mean_p": {
+      "straight": 0.00030511792010700197,
+      "breathy": 1.8884288662176306e-05,
+      "belt": 0.2746011706371753,
+      "vocal_fry": 0.45298329608130095,
+      "forte": 0.2712847629779157,
+      "piano": 0.0008067680948388339
+     },
+     "p_label": 0.2712847629779157,
+     "hit_rate": 0.25,
+     "p_label_minus_base": 0.011235290186483372,
+     "pairs_increased": 4,
+     "pairs": 4
+    },
+    "exp03|donor_eq|vocal_fry|": {
+     "n": 4,
+     "predicted": {
+      "straight": 0,
+      "breathy": 0,
+      "belt": 0,
+      "vocal_fry": 2,
+      "forte": 2,
+      "piano": 0
+     },
+     "mean_p": {
+      "straight": 0.0003554682699526537,
+      "breathy": 5.726695308314929e-05,
+      "belt": 0.19797335835490681,
+      "vocal_fry": 0.5296800628506423,
+      "forte": 0.2705368156340989,
+      "piano": 0.0013970279373162154
+     },
+     "p_label": 0.5296800628506423,
+     "hit_rate": 0.5,
+     "p_label_minus_base": -0.026367241895527506,
+     "pairs_increased": 2,
+     "pairs": 4
+    },
+    "exp03|eqmatch_guidance|belt|": {
+     "n": 4,
+     "predicted": {
+      "straight": 0,
+      "breathy": 0,
+      "belt": 1,
+      "vocal_fry": 1,
+      "forte": 2,
+      "piano": 0
+     },
+     "mean_p": {
+      "straight": 0.00034332213249734173,
+      "breathy": 3.2414538493080454e-05,
+      "belt": 0.2723823188931713,
+      "vocal_fry": 0.31310467263020214,
+      "forte": 0.41264333207743636,
+      "piano": 0.0014939397281996916
+     },
+     "p_label": 0.2723823188931713,
+     "hit_rate": 0.25,
+     "p_label_minus_base": 0.09019754107474376,
+     "pairs_increased": 2,
+     "pairs": 4
+    },
+    "exp03|eqmatch_guidance|breathy|": {
+     "n": 4,
+     "predicted": {
+      "straight": 0,
+      "breathy": 0,
+      "belt": 0,
+      "vocal_fry": 3,
+      "forte": 1,
+      "piano": 0
+     },
+     "mean_p": {
+      "straight": 0.0006531861417997188,
+      "breathy": 6.456868533757293e-05,
+      "belt": 0.09569435362580979,
+      "vocal_fry": 0.6861056615266858,
+      "forte": 0.21372886772744043,
+      "piano": 0.0037533622929266284
+     },
+     "p_label": 6.456868533757293e-05,
+     "hit_rate": 0.0,
+     "p_label_minus_base": 4.6195454141685094e-05,
+     "pairs_increased": 4,
+     "pairs": 4
+    },
+    "exp03|eqmatch_guidance|forte|": {
+     "n": 4,
+     "predicted": {
+      "straight": 0,
+      "breathy": 0,
+      "belt": 0,
+      "vocal_fry": 2,
+      "forte": 2,
+      "piano": 0
+     },
+     "mean_p": {
+      "straight": 0.00024349890072284587,
+      "breathy": 1.7252929209424876e-05,
+      "belt": 0.2391820851134014,
+      "vocal_fry": 0.45936536016561524,
+      "forte": 0.3003414979316075,
+      "piano": 0.0008503049594435779
+     },
+     "p_label": 0.3003414979316075,
+     "hit_rate": 0.5,
+     "p_label_minus_base": 0.0402920251401752,
+     "pairs_increased": 4,
+     "pairs": 4
+    },
+    "exp03|eqmatch_guidance|vocal_fry|": {
+     "n": 4,
+     "predicted": {
+      "straight": 0,
+      "breathy": 0,
+      "belt": 0,
+      "vocal_fry": 2,
+      "forte": 2,
+      "piano": 0
+     },
+     "mean_p": {
+      "straight": 0.0003941912237954373,
+      "breathy": 7.399026449481848e-05,
+      "belt": 0.14458324647157814,
+      "vocal_fry": 0.497935726369894,
+      "forte": 0.35470137342841196,
+      "piano": 0.0023114722418256448
+     },
+     "p_label": 0.497935726369894,
+     "hit_rate": 0.5,
+     "p_label_minus_base": -0.05811157837627576,
+     "pairs_increased": 0,
+     "pairs": 4
+    },
+    "exp03|guidance|belt|": {
+     "n": 4,
+     "predicted": {
+      "straight": 0,
+      "breathy": 0,
+      "belt": 1,
+      "vocal_fry": 1,
+      "forte": 2,
+      "piano": 0
+     },
+     "mean_p": {
+      "straight": 0.00010486857106765505,
+      "breathy": 1.0086574875917018e-05,
+      "belt": 0.35304119744314066,
+      "vocal_fry": 0.18898492373037906,
+      "forte": 0.4563469604618384,
+      "piano": 0.0015119632186982737
+     },
+     "p_label": 0.35304119744314066,
+     "hit_rate": 0.25,
+     "p_label_minus_base": 0.1708564196247131,
+     "pairs_increased": 3,
+     "pairs": 4
+    },
+    "exp03|guidance|breathy|": {
+     "n": 4,
+     "predicted": {
+      "straight": 0,
+      "breathy": 0,
+      "belt": 1,
+      "vocal_fry": 3,
+      "forte": 0,
+      "piano": 0
+     },
+     "mean_p": {
+      "straight": 0.0013299038002484369,
+      "breathy": 0.0006258868323695797,
+      "belt": 0.19686939144841473,
+      "vocal_fry": 0.6149980543212662,
+      "forte": 0.17621453028237447,
+      "piano": 0.009962233315326544
+     },
+     "p_label": 0.0006258868323695797,
+     "hit_rate": 0.0,
+     "p_label_minus_base": 0.0006075136011736917,
+     "pairs_increased": 4,
+     "pairs": 4
+    },
+    "exp03|guidance|forte|": {
+     "n": 4,
+     "predicted": {
+      "straight": 0,
+      "breathy": 0,
+      "belt": 0,
+      "vocal_fry": 2,
+      "forte": 2,
+      "piano": 0
+     },
+     "mean_p": {
+      "straight": 6.864973933159208e-05,
+      "breathy": 5.560945378621833e-06,
+      "belt": 0.19223884932472274,
+      "vocal_fry": 0.4588984160759192,
+      "forte": 0.34830068652585866,
+      "piano": 0.0004878373887892077
+     },
+     "p_label": 0.34830068652585866,
+     "hit_rate": 0.5,
+     "p_label_minus_base": 0.08825121373442635,
+     "pairs_increased": 4,
+     "pairs": 4
+    },
+    "exp03|guidance|piano|": {
+     "n": 4,
+     "predicted": {
+      "straight": 0,
+      "breathy": 0,
+      "belt": 1,
+      "vocal_fry": 3,
+      "forte": 0,
+      "piano": 0
+     },
+     "mean_p": {
+      "straight": 0.005406773509209979,
+      "breathy": 0.00028159819679177025,
+      "belt": 0.19546409190529584,
+      "vocal_fry": 0.6582730413512349,
+      "forte": 0.13244827535832515,
+      "piano": 0.008126219679142333
+     },
+     "p_label": 0.008126219679142333,
+     "hit_rate": 0.0,
+     "p_label_minus_base": 0.006776341864005779,
+     "pairs_increased": 4,
+     "pairs": 4
+    },
+    "exp03|guidance|vocal_fry|": {
+     "n": 4,
+     "predicted": {
+      "straight": 0,
+      "breathy": 0,
+      "belt": 0,
+      "vocal_fry": 2,
+      "forte": 2,
+      "piano": 0
+     },
+     "mean_p": {
+      "straight": 0.0003363417202219401,
+      "breathy": 0.0001620019340594417,
+      "belt": 0.18270141324477107,
+      "vocal_fry": 0.37552586546706856,
+      "forte": 0.43841038392039705,
+      "piano": 0.002863993713481951
+     },
+     "p_label": 0.37552586546706856,
+     "hit_rate": 0.5,
+     "p_label_minus_base": -0.1805214392791012,
+     "pairs_increased": 0,
+     "pairs": 4
+    },
+    "exp04|adapter|belt|0.5": {
+     "n": 4,
+     "predicted": {
+      "straight": 0,
+      "breathy": 0,
+      "belt": 1,
+      "vocal_fry": 2,
+      "forte": 1,
+      "piano": 0
+     },
+     "mean_p": {
+      "straight": 0.00033572908398086577,
+      "breathy": 1.1497931329133758e-05,
+      "belt": 0.31530314105585233,
+      "vocal_fry": 0.42635321166650686,
+      "forte": 0.25701421038956684,
+      "piano": 0.00098220987276387
+     },
+     "p_label": 0.31530314105585233,
+     "hit_rate": 0.25,
+     "p_label_minus_base": 0.13311836323742476,
+     "pairs_increased": 4,
+     "pairs": 4
+    },
+    "exp04|adapter|belt|1.0": {
+     "n": 4,
+     "predicted": {
+      "straight": 0,
+      "breathy": 0,
+      "belt": 1,
+      "vocal_fry": 2,
+      "forte": 1,
+      "piano": 0
+     },
+     "mean_p": {
+      "straight": 0.0002972628978253163,
+      "breathy": 1.391980896176159e-05,
+      "belt": 0.30563402245248483,
+      "vocal_fry": 0.33829639840222564,
+      "forte": 0.35468983998917303,
+      "piano": 0.001068556449329397
+     },
+     "p_label": 0.30563402245248483,
+     "hit_rate": 0.25,
+     "p_label_minus_base": 0.12344924463405729,
+     "pairs_increased": 4,
+     "pairs": 4
+    },
+    "exp04|adapter|belt|1.5": {
+     "n": 4,
+     "predicted": {
+      "straight": 0,
+      "breathy": 0,
+      "belt": 1,
+      "vocal_fry": 1,
+      "forte": 2,
+      "piano": 0
+     },
+     "mean_p": {
+      "straight": 0.00027716100755851094,
+      "breathy": 1.9480156173162676e-05,
+      "belt": 0.2688632015539986,
+      "vocal_fry": 0.23927726542336675,
+      "forte": 0.49030705212611236,
+      "piano": 0.0012558397327905213
+     },
+     "p_label": 0.2688632015539986,
+     "hit_rate": 0.25,
+     "p_label_minus_base": 0.08667842373557103,
+     "pairs_increased": 2,
+     "pairs": 4
+    },
+    "exp04|adapter|breathy|0.5": {
+     "n": 4,
+     "predicted": {
+      "straight": 0,
+      "breathy": 0,
+      "belt": 0,
+      "vocal_fry": 2,
+      "forte": 2,
+      "piano": 0
+     },
+     "mean_p": {
+      "straight": 0.0008758486125717401,
+      "breathy": 5.876305434251683e-05,
+      "belt": 0.19633874329747672,
+      "vocal_fry": 0.5304783639369285,
+      "forte": 0.27025056781547374,
+      "piano": 0.00199771328320663
+     },
+     "p_label": 5.876305434251683e-05,
+     "hit_rate": 0.0,
+     "p_label_minus_base": 4.038982314662899e-05,
+     "pairs_increased": 4,
+     "pairs": 4
+    },
+    "exp04|adapter|breathy|1.0": {
+     "n": 4,
+     "predicted": {
+      "straight": 0,
+      "breathy": 0,
+      "belt": 0,
+      "vocal_fry": 2,
+      "forte": 2,
+      "piano": 0
+     },
+     "mean_p": {
+      "straight": 0.001984780633442846,
+      "breathy": 0.00018707660668005526,
+      "belt": 0.13823608551225502,
+      "vocal_fry": 0.5286605437128313,
+      "forte": 0.3264434712598492,
+      "piano": 0.004488042274941488
+     },
+     "p_label": 0.00018707660668005526,
+     "hit_rate": 0.0,
+     "p_label_minus_base": 0.00016870337548416741,
+     "pairs_increased": 4,
+     "pairs": 4
+    },
+    "exp04|adapter|breathy|1.5": {
+     "n": 4,
+     "predicted": {
+      "straight": 0,
+      "breathy": 0,
+      "belt": 0,
+      "vocal_fry": 2,
+      "forte": 2,
+      "piano": 0
+     },
+     "mean_p": {
+      "straight": 0.03584267078868757,
+      "breathy": 0.013451579455317143,
+      "belt": 0.0698035441574917,
+      "vocal_fry": 0.5008144990494926,
+      "forte": 0.2913708958015494,
+      "piano": 0.0887168107474617
+     },
+     "p_label": 0.013451579455317143,
+     "hit_rate": 0.0,
+     "p_label_minus_base": 0.013433206224121256,
+     "pairs_increased": 4,
+     "pairs": 4
+    },
+    "exp04|adapter|forte|0.5": {
+     "n": 4,
+     "predicted": {
+      "straight": 0,
+      "breathy": 0,
+      "belt": 0,
+      "vocal_fry": 2,
+      "forte": 2,
+      "piano": 0
+     },
+     "mean_p": {
+      "straight": 0.00013637046227556567,
+      "breathy": 7.2935200011905415e-06,
+      "belt": 0.13318747720454133,
+      "vocal_fry": 0.5447362303004029,
+      "forte": 0.3212038654558535,
+      "piano": 0.0007287630569255549
+     },
+     "p_label": 0.3212038654558535,
+     "hit_rate": 0.5,
+     "p_label_minus_base": 0.061154392664421214,
+     "pairs_increased": 2,
+     "pairs": 4
+    },
+    "exp04|adapter|forte|1.0": {
+     "n": 4,
+     "predicted": {
+      "straight": 0,
+      "breathy": 0,
+      "belt": 0,
+      "vocal_fry": 2,
+      "forte": 2,
+      "piano": 0
+     },
+     "mean_p": {
+      "straight": 1.1730956097530992e-05,
+      "breathy": 1.028469864773224e-06,
+      "belt": 0.047549054463482954,
+      "vocal_fry": 0.4426613435007455,
+      "forte": 0.5095176866632244,
+      "piano": 0.00025915594658492487
+     },
+     "p_label": 0.5095176866632244,
+     "hit_rate": 0.5,
+     "p_label_minus_base": 0.24946821387179208,
+     "pairs_increased": 4,
+     "pairs": 4
+    },
+    "exp04|adapter|forte|1.5": {
+     "n": 4,
+     "predicted": {
+      "straight": 0,
+      "breathy": 0,
+      "belt": 0,
+      "vocal_fry": 0,
+      "forte": 4,
+      "piano": 0
+     },
+     "mean_p": {
+      "straight": 6.958802874187961e-08,
+      "breathy": 5.6580953956164246e-08,
+      "belt": 0.008557030211035046,
+      "vocal_fry": 0.08598505166096951,
+      "forte": 0.9051117098067405,
+      "piano": 0.00034608215227208995
+     },
+     "p_label": 0.9051117098067405,
+     "hit_rate": 1.0,
+     "p_label_minus_base": 0.6450622370153083,
+     "pairs_increased": 4,
+     "pairs": 4
+    },
+    "exp04|adapter|piano|0.5": {
+     "n": 4,
+     "predicted": {
+      "straight": 0,
+      "breathy": 0,
+      "belt": 0,
+      "vocal_fry": 2,
+      "forte": 2,
+      "piano": 0
+     },
+     "mean_p": {
+      "straight": 0.00018831946079989206,
+      "breathy": 1.1102338099903226e-05,
+      "belt": 0.1348367203124715,
+      "vocal_fry": 0.5581318187203546,
+      "forte": 0.3056552387921244,
+      "piano": 0.0011768003761496526
+     },
+     "p_label": 0.0011768003761496526,
+     "hit_rate": 0.0,
+     "p_label_minus_base": -0.00017307743898690151,
+     "pairs_increased": 1,
+     "pairs": 4
+    },
+    "exp04|adapter|piano|1.0": {
+     "n": 4,
+     "predicted": {
+      "straight": 0,
+      "breathy": 0,
+      "belt": 0,
+      "vocal_fry": 2,
+      "forte": 2,
+      "piano": 0
+     },
+     "mean_p": {
+      "straight": 2.9523406015651582e-05,
+      "breathy": 2.6886448626018176e-06,
+      "belt": 0.06809174876060738,
+      "vocal_fry": 0.4814971092309481,
+      "forte": 0.44970125322295834,
+      "piano": 0.0006776767346079052
+     },
+     "p_label": 0.0006776767346079052,
+     "hit_rate": 0.0,
+     "p_label_minus_base": -0.0006722010805286489,
+     "pairs_increased": 0,
+     "pairs": 4
+    },
+    "exp04|adapter|piano|1.5": {
+     "n": 4,
+     "predicted": {
+      "straight": 0,
+      "breathy": 0,
+      "belt": 0,
+      "vocal_fry": 1,
+      "forte": 3,
+      "piano": 0
+     },
+     "mean_p": {
+      "straight": 1.152260234930164e-06,
+      "breathy": 3.9491391711753276e-07,
+      "belt": 0.013780891560047578,
+      "vocal_fry": 0.20086565311792798,
+      "forte": 0.7833401562256898,
+      "piano": 0.0020117519221825686
+     },
+     "p_label": 0.0020117519221825686,
+     "hit_rate": 0.0,
+     "p_label_minus_base": 0.0006618741070460148,
+     "pairs_increased": 3,
+     "pairs": 4
+    },
+    "exp04|adapter|vocal_fry|0.5": {
+     "n": 4,
+     "predicted": {
+      "straight": 0,
+      "breathy": 0,
+      "belt": 1,
+      "vocal_fry": 2,
+      "forte": 1,
+      "piano": 0
+     },
+     "mean_p": {
+      "straight": 0.0002878244245807895,
+      "breathy": 1.83746521625999e-05,
+      "belt": 0.21780239976784674,
+      "vocal_fry": 0.5541981277325343,
+      "forte": 0.22700752583789696,
+      "piano": 0.0006857475849785156
+     },
+     "p_label": 0.5541981277325343,
+     "hit_rate": 0.5,
+     "p_label_minus_base": -0.0018491770136354335,
+     "pairs_increased": 2,
+     "pairs": 4
+    },
+    "exp04|adapter|vocal_fry|1.0": {
+     "n": 4,
+     "predicted": {
+      "straight": 0,
+      "breathy": 0,
+      "belt": 0,
+      "vocal_fry": 4,
+      "forte": 0,
+      "piano": 0
+     },
+     "mean_p": {
+      "straight": 0.00010953550412345248,
+      "breathy": 7.583622010266314e-06,
+      "belt": 0.060327105190077605,
+      "vocal_fry": 0.8963663267932238,
+      "forte": 0.04315644377065229,
+      "piano": 3.3005119912653036e-05
+     },
+     "p_label": 0.8963663267932238,
+     "hit_rate": 1.0,
+     "p_label_minus_base": 0.34031902204705405,
+     "pairs_increased": 4,
+     "pairs": 4
+    },
+    "exp04|adapter|vocal_fry|1.5": {
+     "n": 4,
+     "predicted": {
+      "straight": 0,
+      "breathy": 0,
+      "belt": 0,
+      "vocal_fry": 4,
+      "forte": 0,
+      "piano": 0
+     },
+     "mean_p": {
+      "straight": 0.0008341453457413274,
+      "breathy": 0.0007124795028606081,
+      "belt": 0.005452395111338084,
+      "vocal_fry": 0.9495675309363278,
+      "forte": 0.040555554961623476,
+      "piano": 0.0028778941421086874
+     },
+     "p_label": 0.9495675309363278,
+     "hit_rate": 1.0,
+     "p_label_minus_base": 0.39352022619015803,
+     "pairs_increased": 4,
+     "pairs": 4
+    },
+    "exp04|base|None|": {
+     "n": 4,
+     "predicted": {
+      "straight": 0,
+      "breathy": 0,
+      "belt": 0,
+      "vocal_fry": 2,
+      "forte": 2,
+      "piano": 0
+     },
+     "mean_p": {
+      "straight": 0.00035019359763790943,
+      "breathy": 1.8373231195887838e-05,
+      "belt": 0.1821847778184276,
+      "vocal_fry": 0.5560473047461698,
+      "forte": 0.26004947279143226,
+      "piano": 0.0013498778151365542
+     }
+    },
+    "exp04|eqmatch|belt|": {
+     "n": 4,
+     "predicted": {
+      "straight": 0,
+      "breathy": 0,
+      "belt": 0,
+      "vocal_fry": 2,
+      "forte": 2,
+      "piano": 0
+     },
+     "mean_p": {
+      "straight": 0.00044456282672525267,
+      "breathy": 3.400149259189363e-05,
+      "belt": 0.2840806273478784,
+      "vocal_fry": 0.382845995606706,
+      "forte": 0.3314626233095286,
+      "piano": 0.0011321894165697316
+     },
+     "p_label": 0.2840806273478784,
+     "hit_rate": 0.0,
+     "p_label_minus_base": 0.10189584952945085,
+     "pairs_increased": 4,
+     "pairs": 4
+    },
+    "exp04|eqmatch|breathy|": {
+     "n": 4,
+     "predicted": {
+      "straight": 0,
+      "breathy": 0,
+      "belt": 1,
+      "vocal_fry": 2,
+      "forte": 1,
+      "piano": 0
+     },
+     "mean_p": {
+      "straight": 0.0007715214673829976,
+      "breathy": 4.1551359700120955e-05,
+      "belt": 0.23862004464750025,
+      "vocal_fry": 0.5316275893811038,
+      "forte": 0.22760657924657815,
+      "piano": 0.0013327138977345973
+     },
+     "p_label": 4.1551359700120955e-05,
+     "hit_rate": 0.0,
+     "p_label_minus_base": 2.3178128504233117e-05,
+     "pairs_increased": 4,
+     "pairs": 4
+    },
+    "exp04|eqmatch|forte|": {
+     "n": 4,
+     "predicted": {
+      "straight": 0,
+      "breathy": 0,
+      "belt": 0,
+      "vocal_fry": 2,
+      "forte": 2,
+      "piano": 0
+     },
+     "mean_p": {
+      "straight": 0.00037938346183620313,
+      "breathy": 2.851410289343177e-05,
+      "belt": 0.1774658445065903,
+      "vocal_fry": 0.48924544111465484,
+      "forte": 0.33178462924814417,
+      "piano": 0.0010961875658810083
+     },
+     "p_label": 0.33178462924814417,
+     "hit_rate": 0.5,
+     "p_label_minus_base": 0.07173515645671186,
+     "pairs_increased": 3,
+     "pairs": 4
+    },
+    "exp04|eqmatch|piano|": {
+     "n": 4,
+     "predicted": {
+      "straight": 0,
+      "breathy": 0,
+      "belt": 0,
+      "vocal_fry": 2,
+      "forte": 2,
+      "piano": 0
+     },
+     "mean_p": {
+      "straight": 0.0004615693427520145,
+      "breathy": 2.2239825315314918e-05,
+      "belt": 0.17493662185903786,
+      "vocal_fry": 0.5595570062661497,
+      "forte": 0.26392180676413424,
+      "piano": 0.0011007559426109556
+     },
+     "p_label": 0.0011007559426109556,
+     "hit_rate": 0.0,
+     "p_label_minus_base": -0.0002491218725255985,
+     "pairs_increased": 1,
+     "pairs": 4
+    },
+    "exp04|eqmatch|vocal_fry|": {
+     "n": 4,
+     "predicted": {
+      "straight": 0,
+      "breathy": 0,
+      "belt": 0,
+      "vocal_fry": 2,
+      "forte": 2,
+      "piano": 0
+     },
+     "mean_p": {
+      "straight": 0.000509847018625555,
+      "breathy": 6.256028712339803e-05,
+      "belt": 0.1820396558399169,
+      "vocal_fry": 0.5981159952828037,
+      "forte": 0.21849687935399284,
+      "piano": 0.0007750622175375255
+     },
+     "p_label": 0.5981159952828037,
+     "hit_rate": 0.5,
+     "p_label_minus_base": 0.04206869053663395,
+     "pairs_increased": 4,
+     "pairs": 4
+    },
+    "exp05|adapter|belt|0.6": {
+     "n": 4,
+     "predicted": {
+      "straight": 0,
+      "breathy": 0,
+      "belt": 1,
+      "vocal_fry": 2,
+      "forte": 1,
+      "piano": 0
+     },
+     "mean_p": {
+      "straight": 0.0002945032027980905,
+      "breathy": 9.977336380078122e-06,
+      "belt": 0.2998378350174891,
+      "vocal_fry": 0.42496251506365257,
+      "forte": 0.2739820549790368,
+      "piano": 0.0009131144006433754
+     },
+     "p_label": 0.2998378350174891,
+     "hit_rate": 0.25,
+     "p_label_minus_base": 0.11765305719906152,
+     "pairs_increased": 4,
+     "pairs": 4
+    },
+    "exp05|adapter|belt|0.7": {
+     "n": 4,
+     "predicted": {
+      "straight": 0,
+      "breathy": 0,
+      "belt": 1,
+      "vocal_fry": 2,
+      "forte": 1,
+      "piano": 0
+     },
+     "mean_p": {
+      "straight": 0.0003335829389117963,
+      "breathy": 1.2927443085280251e-05,
+      "belt": 0.3195426324140753,
+      "vocal_fry": 0.3990158208167005,
+      "forte": 0.28014162503468565,
+      "piano": 0.0009534113525414115
+     },
+     "p_label": 0.3195426324140753,
+     "hit_rate": 0.25,
+     "p_label_minus_base": 0.13735785459564775,
+     "pairs_increased": 4,
+     "pairs": 4
+    },
+    "exp05|adapter|belt|0.8": {
+     "n": 4,
+     "predicted": {
+      "straight": 0,
+      "breathy": 0,
+      "belt": 1,
+      "vocal_fry": 2,
+      "forte": 1,
+      "piano": 0
+     },
+     "mean_p": {
+      "straight": 0.0003401900469692451,
+      "breathy": 1.5406734805672283e-05,
+      "belt": 0.2966913368674279,
+      "vocal_fry": 0.39319035895514015,
+      "forte": 0.308663628991757,
+      "piano": 0.001099078403900155
+     },
+     "p_label": 0.2966913368674279,
+     "hit_rate": 0.25,
+     "p_label_minus_base": 0.11450655904900028,
+     "pairs_increased": 4,
+     "pairs": 4
+    },
+    "exp05|adapter|belt|0.9": {
+     "n": 4,
+     "predicted": {
+      "straight": 0,
+      "breathy": 0,
+      "belt": 1,
+      "vocal_fry": 2,
+      "forte": 1,
+      "piano": 0
+     },
+     "mean_p": {
+      "straight": 0.00029999344987432657,
+      "breathy": 1.4829045947581697e-05,
+      "belt": 0.29494516791602715,
+      "vocal_fry": 0.354259714714138,
+      "forte": 0.34924410338027734,
+      "piano": 0.0012361914937354945
+     },
+     "p_label": 0.29494516791602715,
+     "hit_rate": 0.25,
+     "p_label_minus_base": 0.11276039009759958,
+     "pairs_increased": 4,
+     "pairs": 4
+    },
+    "exp05|adapter|breathy|0.6": {
+     "n": 4,
+     "predicted": {
+      "straight": 0,
+      "breathy": 0,
+      "belt": 0,
+      "vocal_fry": 2,
+      "forte": 2,
+      "piano": 0
+     },
+     "mean_p": {
+      "straight": 0.001154261001655261,
+      "breathy": 7.078802137238749e-05,
+      "belt": 0.19253212583158363,
+      "vocal_fry": 0.5340255055981027,
+      "forte": 0.26986151371382155,
+      "piano": 0.0023558058334645004
+     },
+     "p_label": 7.078802137238749e-05,
+     "hit_rate": 0.0,
+     "p_label_minus_base": 5.241479017649965e-05,
+     "pairs_increased": 4,
+     "pairs": 4
+    },
+    "exp05|adapter|breathy|0.7": {
+     "n": 4,
+     "predicted": {
+      "straight": 0,
+      "breathy": 0,
+      "belt": 0,
+      "vocal_fry": 2,
+      "forte": 2,
+      "piano": 0
+     },
+     "mean_p": {
+      "straight": 0.0011738180675159168,
+      "breathy": 7.582995319720431e-05,
+      "belt": 0.19008833941513698,
+      "vocal_fry": 0.5248667078795081,
+      "forte": 0.28136870351195276,
+      "piano": 0.0024266011726890874
+     },
+     "p_label": 7.582995319720431e-05,
+     "hit_rate": 0.0,
+     "p_label_minus_base": 5.745672200131645e-05,
+     "pairs_increased": 4,
+     "pairs": 4
+    },
+    "exp05|adapter|breathy|0.8": {
+     "n": 4,
+     "predicted": {
+      "straight": 0,
+      "breathy": 0,
+      "belt": 0,
+      "vocal_fry": 2,
+      "forte": 2,
+      "piano": 0
+     },
+     "mean_p": {
+      "straight": 0.0015584278371327072,
+      "breathy": 9.816119330761858e-05,
+      "belt": 0.18288701801346116,
+      "vocal_fry": 0.5236736251006515,
+      "forte": 0.2891051423144996,
+      "piano": 0.002677625540947467
+     },
+     "p_label": 9.816119330761858e-05,
+     "hit_rate": 0.0,
+     "p_label_minus_base": 7.978796211173074e-05,
+     "pairs_increased": 4,
+     "pairs": 4
+    },
+    "exp05|adapter|breathy|0.9": {
+     "n": 4,
+     "predicted": {
+      "straight": 0,
+      "breathy": 0,
+      "belt": 0,
+      "vocal_fry": 2,
+      "forte": 2,
+      "piano": 0
+     },
+     "mean_p": {
+      "straight": 0.0015411333356651843,
+      "breathy": 0.00012188319229232455,
+      "belt": 0.16489467816507938,
+      "vocal_fry": 0.528804546289308,
+      "forte": 0.30141511544238786,
+      "piano": 0.0032226435752672907
+     },
+     "p_label": 0.00012188319229232455,
+     "hit_rate": 0.0,
+     "p_label_minus_base": 0.0001035099610964367,
+     "pairs_increased": 4,
+     "pairs": 4
+    },
+    "exp05|adapter|forte|0.6": {
+     "n": 4,
+     "predicted": {
+      "straight": 0,
+      "breathy": 0,
+      "belt": 0,
+      "vocal_fry": 2,
+      "forte": 2,
+      "piano": 0
+     },
+     "mean_p": {
+      "straight": 9.255632677157899e-05,
+      "breathy": 5.010014070507829e-06,
+      "belt": 0.1207359188410797,
+      "vocal_fry": 0.5171094791717703,
+      "forte": 0.36153939082370345,
+      "piano": 0.0005176448226043908
+     },
+     "p_label": 0.36153939082370345,
+     "hit_rate": 0.5,
+     "p_label_minus_base": 0.10148991803227113,
+     "pairs_increased": 3,
+     "pairs": 4
+    },
+    "exp05|adapter|forte|0.7": {
+     "n": 4,
+     "predicted": {
+      "straight": 0,
+      "breathy": 0,
+      "belt": 0,
+      "vocal_fry": 2,
+      "forte": 2,
+      "piano": 0
+     },
+     "mean_p": {
+      "straight": 7.001407859191833e-05,
+      "breathy": 4.227827112824974e-06,
+      "belt": 0.1102040503116401,
+      "vocal_fry": 0.48886003710545234,
+      "forte": 0.4004832628258666,
+      "piano": 0.00037840785133601447
+     },
+     "p_label": 0.4004832628258666,
+     "hit_rate": 0.5,
+     "p_label_minus_base": 0.14043379003443432,
+     "pairs_increased": 3,
+     "pairs": 4
+    },
+    "exp05|adapter|forte|0.8": {
+     "n": 4,
+     "predicted": {
+      "straight": 0,
+      "breathy": 0,
+      "belt": 0,
+      "vocal_fry": 2,
+      "forte": 2,
+      "piano": 0
+     },
+     "mean_p": {
+      "straight": 4.921779402647086e-05,
+      "breathy": 3.285211427023754e-06,
+      "belt": 0.08792010328811951,
+      "vocal_fry": 0.47242824302666103,
+      "forte": 0.4392090861787404,
+      "piano": 0.00039006450102561463
+     },
+     "p_label": 0.4392090861787404,
+     "hit_rate": 0.5,
+     "p_label_minus_base": 0.17915961338730804,
+     "pairs_increased": 4,
+     "pairs": 4
+    },
+    "exp05|adapter|forte|0.9": {
+     "n": 4,
+     "predicted": {
+      "straight": 0,
+      "breathy": 0,
+      "belt": 0,
+      "vocal_fry": 2,
+      "forte": 2,
+      "piano": 0
+     },
+     "mean_p": {
+      "straight": 2.9602246748243188e-05,
+      "breathy": 2.0022978251289992e-06,
+      "belt": 0.0639569797055245,
+      "vocal_fry": 0.46761475078525344,
+      "forte": 0.46807259364403897,
+      "piano": 0.00032407132060973396
+     },
+     "p_label": 0.46807259364403897,
+     "hit_rate": 0.5,
+     "p_label_minus_base": 0.20802312085260663,
+     "pairs_increased": 4,
+     "pairs": 4
+    },
+    "exp05|adapter|piano|0.6": {
+     "n": 4,
+     "predicted": {
+      "straight": 0,
+      "breathy": 0,
+      "belt": 0,
+      "vocal_fry": 2,
+      "forte": 2,
+      "piano": 0
+     },
+     "mean_p": {
+      "straight": 0.00016601337726081236,
+      "breathy": 9.662609158516252e-06,
+      "belt": 0.11653868008453871,
+      "vocal_fry": 0.5538772233708001,
+      "forte": 0.32825585960138637,
+      "piano": 0.0011525609568554041
+     },
+     "p_label": 0.0011525609568554041,
+     "hit_rate": 0.0,
+     "p_label_minus_base": -0.00019731685828115004,
+     "pairs_increased": 1,
+     "pairs": 4
+    },
+    "exp05|adapter|piano|0.7": {
+     "n": 4,
+     "predicted": {
+      "straight": 0,
+      "breathy": 0,
+      "belt": 0,
+      "vocal_fry": 2,
+      "forte": 2,
+      "piano": 0
+     },
+     "mean_p": {
+      "straight": 0.00012178718812020087,
+      "breathy": 8.060623324479975e-06,
+      "belt": 0.12053560101958524,
+      "vocal_fry": 0.523795526880259,
+      "forte": 0.354563851615984,
+      "piano": 0.0009751726727271126
+     },
+     "p_label": 0.0009751726727271126,
+     "hit_rate": 0.0,
+     "p_label_minus_base": -0.00037470514240944147,
+     "pairs_increased": 0,
+     "pairs": 4
+    },
+    "exp05|adapter|piano|0.8": {
+     "n": 4,
+     "predicted": {
+      "straight": 0,
+      "breathy": 0,
+      "belt": 0,
+      "vocal_fry": 2,
+      "forte": 2,
+      "piano": 0
+     },
+     "mean_p": {
+      "straight": 9.840406108318189e-05,
+      "breathy": 6.2877550219294556e-06,
+      "belt": 0.11365664922402219,
+      "vocal_fry": 0.511407734762528,
+      "forte": 0.3740946291213754,
+      "piano": 0.0007362950759692251
+     },
+     "p_label": 0.0007362950759692251,
+     "hit_rate": 0.0,
+     "p_label_minus_base": -0.0006135827391673289,
+     "pairs_increased": 0,
+     "pairs": 4
+    },
+    "exp05|adapter|piano|0.9": {
+     "n": 4,
+     "predicted": {
+      "straight": 0,
+      "breathy": 0,
+      "belt": 0,
+      "vocal_fry": 2,
+      "forte": 2,
+      "piano": 0
+     },
+     "mean_p": {
+      "straight": 5.146062412982979e-05,
+      "breathy": 3.7086305230062768e-06,
+      "belt": 0.09217764549715846,
+      "vocal_fry": 0.4894283037542991,
+      "forte": 0.4177368280792203,
+      "piano": 0.0006020534146693072
+     },
+     "p_label": 0.0006020534146693072,
+     "hit_rate": 0.0,
+     "p_label_minus_base": -0.0007478244004672468,
+     "pairs_increased": 0,
+     "pairs": 4
+    },
+    "exp05|adapter|vocal_fry|0.6": {
+     "n": 4,
+     "predicted": {
+      "straight": 0,
+      "breathy": 0,
+      "belt": 1,
+      "vocal_fry": 2,
+      "forte": 1,
+      "piano": 0
+     },
+     "mean_p": {
+      "straight": 0.0002332238736476173,
+      "breathy": 1.4591326721845394e-05,
+      "belt": 0.22526064042454683,
+      "vocal_fry": 0.5630290058311491,
+      "forte": 0.2109681908563711,
+      "piano": 0.0004943476875635003
+     },
+     "p_label": 0.5630290058311491,
+     "hit_rate": 0.5,
+     "p_label_minus_base": 0.006981701084979398,
+     "pairs_increased": 2,
+     "pairs": 4
+    },
+    "exp05|adapter|vocal_fry|0.7": {
+     "n": 4,
+     "predicted": {
+      "straight": 0,
+      "breathy": 0,
+      "belt": 1,
+      "vocal_fry": 2,
+      "forte": 1,
+      "piano": 0
+     },
+     "mean_p": {
+      "straight": 0.00020477198328688333,
+      "breathy": 1.3068245131981946e-05,
+      "belt": 0.17838149186571242,
+      "vocal_fry": 0.6449099396599756,
+      "forte": 0.17614956125738504,
+      "piano": 0.0003411669885081206
+     },
+     "p_label": 0.6449099396599756,
+     "hit_rate": 0.5,
+     "p_label_minus_base": 0.08886263491380582,
+     "pairs_increased": 4,
+     "pairs": 4
+    },
+    "exp05|adapter|vocal_fry|0.8": {
+     "n": 4,
+     "predicted": {
+      "straight": 0,
+      "breathy": 0,
+      "belt": 0,
+      "vocal_fry": 4,
+      "forte": 0,
+      "piano": 0
+     },
+     "mean_p": {
+      "straight": 0.00016241652541837875,
+      "breathy": 9.00738848390924e-06,
+      "belt": 0.14497636846836492,
+      "vocal_fry": 0.7337658873377884,
+      "forte": 0.12091425244185626,
+      "piano": 0.00017206783808819919
+     },
+     "p_label": 0.7337658873377884,
+     "hit_rate": 1.0,
+     "p_label_minus_base": 0.17771858259161857,
+     "pairs_increased": 4,
+     "pairs": 4
+    },
+    "exp05|adapter|vocal_fry|0.9": {
+     "n": 4,
+     "predicted": {
+      "straight": 0,
+      "breathy": 0,
+      "belt": 0,
+      "vocal_fry": 4,
+      "forte": 0,
+      "piano": 0
+     },
+     "mean_p": {
+      "straight": 0.00012612131550549001,
+      "breathy": 7.982527936058818e-06,
+      "belt": 0.10865277860192073,
+      "vocal_fry": 0.805004522860802,
+      "forte": 0.08611997716639486,
+      "piano": 8.86175274406586e-05
+     },
+     "p_label": 0.805004522860802,
+     "hit_rate": 1.0,
+     "p_label_minus_base": 0.24895721811463237,
+     "pairs_increased": 4,
+     "pairs": 4
+    },
+    "exp05|base|None|": {
+     "n": 4,
+     "predicted": {
+      "straight": 0,
+      "breathy": 0,
+      "belt": 0,
+      "vocal_fry": 2,
+      "forte": 2,
+      "piano": 0
+     },
+     "mean_p": {
+      "straight": 0.00035019359763790943,
+      "breathy": 1.8373231195887838e-05,
+      "belt": 0.1821847778184276,
+      "vocal_fry": 0.5560473047461698,
+      "forte": 0.26004947279143226,
+      "piano": 0.0013498778151365542
+     }
+    }
+   }
+  }
+ },
+ "minutes": 5.923340020000008
+}

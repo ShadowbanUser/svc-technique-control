@@ -1,0 +1,43 @@
+{
+  "status": "completed",
+  "seed": 20261020,
+  "settings": {
+    "f0_condition": true,
+    "auto_f0_adjust": false,
+    "semi_tone_shift": 0,
+    "length_adjust": 1.0,
+    "diffusion_steps": 30,
+    "inference_cfg_rate": 0.7,
+    "fp16": true
+  },
+  "runs": 196,
+  "donors": [
+    "female4",
+    "female5",
+    "female6",
+    "female7"
+  ],
+  "targets": {
+    "f3": "data/style_pilot/identity_f3_6s.wav",
+    "f9": "data/exp03_refs/target_f9.wav"
+  },
+  "axes": {
+    "breathy": [
+      "breathy",
+      "straight"
+    ],
+    "belt": [
+      "belt",
+      "straight"
+    ],
+    "fry": [
+      "vocal_fry",
+      "straight"
+    ],
+    "forte": [
+      "slow_forte",
+      "slow_piano"
+    ]
+  },
+  "gpu_peak_allocated_gib": 2.650822162628174
+}

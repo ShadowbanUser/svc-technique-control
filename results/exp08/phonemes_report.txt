@@ -1,0 +1,40 @@
+Experiment 08 by GTSinger breathy label (breathy control, alpha = 1 unless stated)
+
+Check against experiment 08 (all active frames), largest absolute difference: d_raw 0.00e+00, d_dyn 0.00e+00, cpp_db 0.00e+00, hf_ratio_db 0.00e+00
+
+Share of sung frames labelled breathy per singer:
+  EN-Alto-1   0.42 (18 of 30 phrases without breathy frames)
+  EN-Alto-2   0.96 (0 of 30 phrases without breathy frames)
+  EN-Tenor-1  1.00 (0 of 30 phrases without breathy frames)
+
+== Sung phonemes labelled breathy (pooled; mean [95% interval] n=phrases k=clusters) ==
+  D a1-base          -0.06 [-0.20, +0.09] n=72 k=28
+  D a0.5-base        -0.01 [-0.07, +0.05] n=72 k=28
+  D_dyn a1-base      -0.04 [-0.09, -0.00] n=72 k=28
+  D_dyn a1-eqmatch   -0.03 [-0.09, +0.01] n=72 k=28
+  CPP a1-base        -1.72 [-1.88, -1.58] n=72 k=28
+  CPP base-real      +3.62 [+2.99, +4.34] n=72 k=28
+  CPP a1-real        +1.90 [+1.33, +2.54] n=72 k=28
+  HF a1-base         -1.22 [-2.06, -0.44] n=72 k=28
+  HF base-real       -0.39 [-1.67, +1.12] n=72 k=28
+  HF a1-real         -1.61 [-2.57, -0.51] n=72 k=28
+  per singer (mean, n):
+    EN-Alto-1   D a1-base +0.47 (12) | D_dyn a1-base +0.05 (12) | CPP a1-base -1.26 (12) | HF a1-base +0.53 (12) | HF base-real -3.19 (12)
+    EN-Alto-2   D a1-base -0.14 (30) | D_dyn a1-base -0.09 (30) | CPP a1-base -1.90 (30) | HF a1-base +0.19 (30) | HF base-real -1.78 (30)
+    EN-Tenor-1  D a1-base -0.20 (30) | D_dyn a1-base -0.04 (30) | CPP a1-base -1.74 (30) | HF a1-base -3.33 (30) | HF base-real +2.13 (30)
+
+== Sung phonemes not labelled breathy (pooled; mean [95% interval] n=phrases k=clusters) ==
+  D a1-base          +0.24 [+0.06, +0.39] n=25 k=11
+  D a0.5-base        +0.07 [+0.01, +0.15] n=25 k=11
+  D_dyn a1-base      +0.04 [-0.03, +0.12] n=25 k=11
+  D_dyn a1-eqmatch   +0.04 [-0.04, +0.12] n=25 k=11
+  CPP a1-base        -1.52 [-1.84, -1.34] n=25 k=11
+  CPP base-real      +2.23 [+1.12, +3.11] n=24 k=10
+  CPP a1-real        +0.71 [-0.42, +1.55] n=24 k=10
+  HF a1-base         -0.09 [-0.62, +0.35] n=25 k=11
+  HF base-real       -2.35 [-4.28, -0.62] n=24 k=10
+  HF a1-real         -2.46 [-4.44, -0.61] n=24 k=10
+  per singer (mean, n):
+    EN-Alto-1   D a1-base +0.29 (18) | D_dyn a1-base +0.06 (18) | CPP a1-base -1.45 (18) | HF a1-base +0.10 (18) | HF base-real -2.94 (18)
+    EN-Alto-2   D a1-base +0.11 (7) | D_dyn a1-base +0.00 (7) | CPP a1-base -1.71 (7) | HF a1-base -0.59 (7) | HF base-real -0.58 (6)
+    EN-Tenor-1  

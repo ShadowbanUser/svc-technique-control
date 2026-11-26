@@ -1,0 +1,573 @@
+{
+ "source": "https://huggingface.co/datasets/AaronZ345/GTSinger",
+ "license": "CC BY-NC-SA 4.0",
+ "singers": {
+  "EN-Alto-1": {
+   "reference_song": "all is found",
+   "reference": [
+    "English/EN-Alto-1/Breathy/all is found/Control_Group/0000.wav",
+    "English/EN-Alto-1/Breathy/all is found/Control_Group/0001.wav"
+   ],
+   "pairs": [
+    {
+     "song": "god is a girl",
+     "index": "0000",
+     "control": "English/EN-Alto-1/Breathy/god is a girl/Control_Group/0000.wav",
+     "breathy": "English/EN-Alto-1/Breathy/god is a girl/Breathy_Group/0000.wav"
+    },
+    {
+     "song": "god is a girl",
+     "index": "0003",
+     "control": "English/EN-Alto-1/Breathy/god is a girl/Control_Group/0003.wav",
+     "breathy": "English/EN-Alto-1/Breathy/god is a girl/Breathy_Group/0003.wav"
+    },
+    {
+     "song": "innocence",
+     "index": "0001",
+     "control": "English/EN-Alto-1/Breathy/innocence/Control_Group/0001.wav",
+     "breathy": "English/EN-Alto-1/Breathy/innocence/Breathy_Group/0001.wav"
+    },
+    {
+     "song": "innocence",
+     "index": "0004",
+     "control": "English/EN-Alto-1/Breathy/innocence/Control_Group/0004.wav",
+     "breathy": "English/EN-Alto-1/Breathy/innocence/Breathy_Group/0004.wav"
+    },
+    {
+     "song": "innocence",
+     "index": "0007",
+     "control": "English/EN-Alto-1/Breathy/innocence/Control_Group/0007.wav",
+     "breathy": "English/EN-Alto-1/Breathy/innocence/Breathy_Group/0007.wav"
+    },
+    {
+     "song": "innocence",
+     "index": "0009",
+     "control": "English/EN-Alto-1/Breathy/innocence/Control_Group/0009.wav",
+     "breathy": "English/EN-Alto-1/Breathy/innocence/Breathy_Group/0009.wav"
+    },
+    {
+     "song": "innocence",
+     "index": "0012",
+     "control": "English/EN-Alto-1/Breathy/innocence/Control_Group/0012.wav",
+     "breathy": "English/EN-Alto-1/Breathy/innocence/Breathy_Group/0012.wav"
+    },
+    {
+     "song": "let it go",
+     "index": "0002",
+     "control": "English/EN-Alto-1/Breathy/let it go/Control_Group/0002.wav",
+     "breathy": "English/EN-Alto-1/Breathy/let it go/Breathy_Group/0002.wav"
+    },
+    {
+     "song": "let it go",
+     "index": "0005",
+     "control": "English/EN-Alto-1/Breathy/let it go/Control_Group/0005.wav",
+     "breathy": "English/EN-Alto-1/Breathy/let it go/Breathy_Group/0005.wav"
+    },
+    {
+     "song": "once up a dream",
+     "index": "0000",
+     "control": "English/EN-Alto-1/Breathy/once up a dream/Control_Group/0000.wav",
+     "breathy": "English/EN-Alto-1/Breathy/once up a dream/Breathy_Group/0000.wav"
+    },
+    {
+     "song": "safe and sound",
+     "index": "0000",
+     "control": "English/EN-Alto-1/Breathy/safe and sound/Control_Group/0000.wav",
+     "breathy": "English/EN-Alto-1/Breathy/safe and sound/Breathy_Group/0000.wav"
+    },
+    {
+     "song": "safe and sound",
+     "index": "0004",
+     "control": "English/EN-Alto-1/Breathy/safe and sound/Control_Group/0004.wav",
+     "breathy": "English/EN-Alto-1/Breathy/safe and sound/Breathy_Group/0004.wav"
+    },
+    {
+     "song": "safe and sound",
+     "index": "0008",
+     "control": "English/EN-Alto-1/Breathy/safe and sound/Control_Group/0008.wav",
+     "breathy": "English/EN-Alto-1/Breathy/safe and sound/Breathy_Group/0008.wav"
+    },
+    {
+     "song": "safe and sound",
+     "index": "0010",
+     "control": "English/EN-Alto-1/Breathy/safe and sound/Control_Group/0010.wav",
+     "breathy": "English/EN-Alto-1/Breathy/safe and sound/Breathy_Group/0010.wav"
+    },
+    {
+     "song": "safe and sound",
+     "index": "0013",
+     "control": "English/EN-Alto-1/Breathy/safe and sound/Control_Group/0013.wav",
+     "breathy": "English/EN-Alto-1/Breathy/safe and sound/Breathy_Group/0013.wav"
+    },
+    {
+     "song": "sleepyhead",
+     "index": "0002",
+     "control": "English/EN-Alto-1/Breathy/sleepyhead/Control_Group/0002.wav",
+     "breathy": "English/EN-Alto-1/Breathy/sleepyhead/Breathy_Group/0002.wav"
+    },
+    {
+     "song": "sleepyhead",
+     "index": "0005",
+     "control": "English/EN-Alto-1/Breathy/sleepyhead/Control_Group/0005.wav",
+     "breathy": "English/EN-Alto-1/Breathy/sleepyhead/Breathy_Group/0005.wav"
+    },
+    {
+     "song": "sleepyhead",
+     "index": "0008",
+     "control": "English/EN-Alto-1/Breathy/sleepyhead/Control_Group/0008.wav",
+     "breathy": "English/EN-Alto-1/Breathy/sleepyhead/Breathy_Group/0008.wav"
+    },
+    {
+     "song": "sleepyhead",
+     "index": "0010",
+     "control": "English/EN-Alto-1/Breathy/sleepyhead/Control_Group/0010.wav",
+     "breathy": "English/EN-Alto-1/Breathy/sleepyhead/Breathy_Group/0010.wav"
+    },
+    {
+     "song": "someday or oneday",
+     "index": "0001",
+     "control": "English/EN-Alto-1/Breathy/someday or oneday/Control_Group/0001.wav",
+     "breathy": "English/EN-Alto-1/Breathy/someday or oneday/Breathy_Group/0001.wav"
+    },
+    {
+     "song": "someday or oneday",
+     "index": "0004",
+     "control": "English/EN-Alto-1/Breathy/someday or oneday/Control_Group/0004.wav",
+     "breathy": "English/EN-Alto-1/Breathy/someday or oneday/Breathy_Group/0004.wav"
+    },
+    {
+     "song": "treasure",
+     "index": "0002",
+     "control": "English/EN-Alto-1/Breathy/treasure/Control_Group/0002.wav",
+     "breathy": "English/EN-Alto-1/Breathy/treasure/Breathy_Group/0002.wav"
+    },
+    {
+     "song": "treasure",
+     "index": "0004",
+     "control": "English/EN-Alto-1/Breathy/treasure/Control_Group/0004.wav",
+     "breathy": "English/EN-Alto-1/Breathy/treasure/Breathy_Group/0004.wav"
+    },
+    {
+     "song": "treasure",
+     "index": "0007",
+     "control": "English/EN-Alto-1/Breathy/treasure/Control_Group/0007.wav",
+     "breathy": "English/EN-Alto-1/Breathy/treasure/Breathy_Group/0007.wav"
+    },
+    {
+     "song": "who says",
+     "index": "0001",
+     "control": "English/EN-Alto-1/Breathy/who says/Control_Group/0001.wav",
+     "breathy": "English/EN-Alto-1/Breathy/who says/Breathy_Group/0001.wav"
+    },
+    {
+     "song": "who says",
+     "index": "0004",
+     "control": "English/EN-Alto-1/Breathy/who says/Control_Group/0004.wav",
+     "breathy": "English/EN-Alto-1/Breathy/who says/Breathy_Group/0004.wav"
+    },
+    {
+     "song": "who says",
+     "index": "0006",
+     "control": "English/EN-Alto-1/Breathy/who says/Control_Group/0006.wav",
+     "breathy": "English/EN-Alto-1/Breathy/who says/Breathy_Group/0006.wav"
+    },
+    {
+     "song": "who says",
+     "index": "0009",
+     "control": "English/EN-Alto-1/Breathy/who says/Control_Group/0009.wav",
+     "breathy": "English/EN-Alto-1/Breathy/who says/Breathy_Group/0009.wav"
+    },
+    {
+     "song": "who says",
+     "index": "0012",
+     "control": "English/EN-Alto-1/Breathy/who says/Control_Group/0012.wav",
+     "breathy": "English/EN-Alto-1/Breathy/who says/Breathy_Group/0012.wav"
+    },
+    {
+     "song": "who says",
+     "index": "0015",
+     "control": "English/EN-Alto-1/Breathy/who says/Control_Group/0015.wav",
+     "breathy": "English/EN-Alto-1/Breathy/who says/Breathy_Group/0015.wav"
+    }
+   ]
+  },
+  "EN-Alto-2": {
+   "reference_song": "A Thousand Years",
+   "reference": [
+    "English/EN-Alto-2/Breathy/A Thousand Years/Control_Group/0000.wav",
+    "English/EN-Alto-2/Breathy/A Thousand Years/Control_Group/0001.wav"
+   ],
+   "pairs": [
+    {
+     "song": "All of Me",
+     "index": "0000",
+     "control": "English/EN-Alto-2/Breathy/All of Me/Control_Group/0000.wav",
+     "breathy": "English/EN-Alto-2/Breathy/All of Me/Breathy_Group/0000.wav"
+    },
+    {
+     "song": "All of Me",
+     "index": "0003",
+     "control": "English/EN-Alto-2/Breathy/All of Me/Control_Group/0003.wav",
+     "breathy": "English/EN-Alto-2/Breathy/All of Me/Breathy_Group/0003.wav"
+    },
+    {
+     "song": "All of Me",
+     "index": "0006",
+     "control": "English/EN-Alto-2/Breathy/All of Me/Control_Group/0006.wav",
+     "breathy": "English/EN-Alto-2/Breathy/All of Me/Breathy_Group/0006.wav"
+    },
+    {
+     "song": "Dream It Possible",
+     "index": "0000",
+     "control": "English/EN-Alto-2/Breathy/Dream It Possible/Control_Group/0000.wav",
+     "breathy": "English/EN-Alto-2/Breathy/Dream It Possible/Breathy_Group/0000.wav"
+    },
+    {
+     "song": "Dream It Possible",
+     "index": "0003",
+     "control": "English/EN-Alto-2/Breathy/Dream It Possible/Control_Group/0003.wav",
+     "breathy": "English/EN-Alto-2/Breathy/Dream It Possible/Breathy_Group/0003.wav"
+    },
+    {
+     "song": "Easy On Me",
+     "index": "0000",
+     "control": "English/EN-Alto-2/Breathy/Easy On Me/Control_Group/0000.wav",
+     "breathy": "English/EN-Alto-2/Breathy/Easy On Me/Breathy_Group/0000.wav"
+    },
+    {
+     "song": "Easy On Me",
+     "index": "0004",
+     "control": "English/EN-Alto-2/Breathy/Easy On Me/Control_Group/0004.wav",
+     "breathy": "English/EN-Alto-2/Breathy/Easy On Me/Breathy_Group/0004.wav"
+    },
+    {
+     "song": "Easy On Me",
+     "index": "0007",
+     "control": "English/EN-Alto-2/Breathy/Easy On Me/Control_Group/0007.wav",
+     "breathy": "English/EN-Alto-2/Breathy/Easy On Me/Breathy_Group/0007.wav"
+    },
+    {
+     "song": "Fly Me to the Moon",
+     "index": "0002",
+     "control": "English/EN-Alto-2/Breathy/Fly Me to the Moon/Control_Group/0002.wav",
+     "breathy": "English/EN-Alto-2/Breathy/Fly Me to the Moon/Breathy_Group/0002.wav"
+    },
+    {
+     "song": "Love Me Like You Do",
+     "index": "0000",
+     "control": "English/EN-Alto-2/Breathy/Love Me Like You Do/Control_Group/0000.wav",
+     "breathy": "English/EN-Alto-2/Breathy/Love Me Like You Do/Breathy_Group/0000.wav"
+    },
+    {
+     "song": "Love Me Like You Do",
+     "index": "0003",
+     "control": "English/EN-Alto-2/Breathy/Love Me Like You Do/Control_Group/0003.wav",
+     "breathy": "English/EN-Alto-2/Breathy/Love Me Like You Do/Breathy_Group/0003.wav"
+    },
+    {
+     "song": "Love Me Like You Do",
+     "index": "0006",
+     "control": "English/EN-Alto-2/Breathy/Love Me Like You Do/Control_Group/0006.wav",
+     "breathy": "English/EN-Alto-2/Breathy/Love Me Like You Do/Breathy_Group/0006.wav"
+    },
+    {
+     "song": "Love Story",
+     "index": "0000",
+     "control": "English/EN-Alto-2/Breathy/Love Story/Control_Group/0000.wav",
+     "breathy": "English/EN-Alto-2/Breathy/Love Story/Breathy_Group/0000.wav"
+    },
+    {
+     "song": "My Heart Will Go On",
+     "index": "0000",
+     "control": "English/EN-Alto-2/Breathy/My Heart Will Go On/Control_Group/0000.wav",
+     "breathy": "English/EN-Alto-2/Breathy/My Heart Will Go On/Breathy_Group/0000.wav"
+    },
+    {
+     "song": "My Heart Will Go On",
+     "index": "0004",
+     "control": "English/EN-Alto-2/Breathy/My Heart Will Go On/Control_Group/0004.wav",
+     "breathy": "English/EN-Alto-2/Breathy/My Heart Will Go On/Breathy_Group/0004.wav"
+    },
+    {
+     "song": "My Heart Will Go On",
+     "index": "0008",
+     "control": "English/EN-Alto-2/Breathy/My Heart Will Go On/Control_Group/0008.wav",
+     "breathy": "English/EN-Alto-2/Breathy/My Heart Will Go On/Breathy_Group/0008.wav"
+    },
+    {
+     "song": "My Love",
+     "index": "0001",
+     "control": "English/EN-Alto-2/Breathy/My Love/Control_Group/0001.wav",
+     "breathy": "English/EN-Alto-2/Breathy/My Love/Breathy_Group/0001.wav"
+    },
+    {
+     "song": "My Love",
+     "index": "0004",
+     "control": "English/EN-Alto-2/Breathy/My Love/Control_Group/0004.wav",
+     "breathy": "English/EN-Alto-2/Breathy/My Love/Breathy_Group/0004.wav"
+    },
+    {
+     "song": "My Love",
+     "index": "0008",
+     "control": "English/EN-Alto-2/Breathy/My Love/Control_Group/0008.wav",
+     "breathy": "English/EN-Alto-2/Breathy/My Love/Breathy_Group/0008.wav"
+    },
+    {
+     "song": "Safe and Sound",
+     "index": "0003",
+     "control": "English/EN-Alto-2/Breathy/Safe and Sound/Control_Group/0003.wav",
+     "breathy": "English/EN-Alto-2/Breathy/Safe and Sound/Breathy_Group/0003.wav"
+    },
+    {
+     "song": "Someone Like You",
+     "index": "0001",
+     "control": "English/EN-Alto-2/Breathy/Someone Like You/Control_Group/0001.wav",
+     "breathy": "English/EN-Alto-2/Breathy/Someone Like You/Breathy_Group/0001.wav"
+    },
+    {
+     "song": "Someone Like You",
+     "index": "0005",
+     "control": "English/EN-Alto-2/Breathy/Someone Like You/Control_Group/0005.wav",
+     "breathy": "English/EN-Alto-2/Breathy/Someone Like You/Breathy_Group/0005.wav"
+    },
+    {
+     "song": "Someone Like You",
+     "index": "0008",
+     "control": "English/EN-Alto-2/Breathy/Someone Like You/Control_Group/0008.wav",
+     "breathy": "English/EN-Alto-2/Breathy/Someone Like You/Breathy_Group/0008.wav"
+    },
+    {
+     "song": "Someone Like You",
+     "index": "0011",
+     "control": "English/EN-Alto-2/Breathy/Someone Like You/Control_Group/0011.wav",
+     "breathy": "English/EN-Alto-2/Breathy/Someone Like You/Breathy_Group/0011.wav"
+    },
+    {
+     "song": "Someone You Loved",
+     "index": "0003",
+     "control": "English/EN-Alto-2/Breathy/Someone You Loved/Control_Group/0003.wav",
+     "breathy": "English/EN-Alto-2/Breathy/Someone You Loved/Breathy_Group/0003.wav"
+    },
+    {
+     "song": "What Are Words",
+     "index": "0000",
+     "control": "English/EN-Alto-2/Breathy/What Are Words/Control_Group/0000.wav",
+     "breathy": "English/EN-Alto-2/Breathy/What Are Words/Breathy_Group/0000.wav"
+    },
+    {
+     "song": "What Are Words",
+     "index": "0005",
+     "control": "English/EN-Alto-2/Breathy/What Are Words/Control_Group/0005.wav",
+     "breathy": "English/EN-Alto-2/Breathy/What Are Words/Breathy_Group/0005.wav"
+    },
+    {
+     "song": "Yesterday Once More",
+     "index": "0001",
+     "control": "English/EN-Alto-2/Breathy/Yesterday Once More/Control_Group/0001.wav",
+     "breathy": "English/EN-Alto-2/Breathy/Yesterday Once More/Breathy_Group/0001.wav"
+    },
+    {
+     "song": "Yesterday Once More",
+     "index": "0004",
+     "control": "English/EN-Alto-2/Breathy/Yesterday Once More/Control_Group/0004.wav",
+     "breathy": "English/EN-Alto-2/Breathy/Yesterday Once More/Breathy_Group/0004.wav"
+    },
+    {
+     "song": "Young And Beautiful",
+     "index": "0000",
+     "control": "English/EN-Alto-2/Breathy/Young And Beautiful/Control_Group/0000.wav",
+     "breathy": "English/EN-Alto-2/Breathy/Young And Beautiful/Breathy_Group/0000.wav"
+    }
+   ]
+  },
+  "EN-Tenor-1": {
+   "reference_song": "All I Ask",
+   "reference": [
+    "English/EN-Tenor-1/Breathy/All I Ask/Control_Group/0000.wav",
+    "English/EN-Tenor-1/Breathy/All I Ask/Control_Group/0001.wav"
+   ],
+   "pairs": [
+    {
+     "song": "Always Remember Us This Way",
+     "index": "0000",
+     "control": "English/EN-Tenor-1/Breathy/Always Remember Us This Way/Control_Group/0000.wav",
+     "breathy": "English/EN-Tenor-1/Breathy/Always Remember Us This Way/Breathy_Group/0000.wav"
+    },
+    {
+     "song": "Always Remember Us This Way",
+     "index": "0003",
+     "control": "English/EN-Tenor-1/Breathy/Always Remember Us This Way/Control_Group/0003.wav",
+     "breathy": "English/EN-Tenor-1/Breathy/Always Remember Us This Way/Breathy_Group/0003.wav"
+    },
+    {
+     "song": "Always Remember Us This Way",
+     "index": "0007",
+     "control": "English/EN-Tenor-1/Breathy/Always Remember Us This Way/Control_Group/0007.wav",
+     "breathy": "English/EN-Tenor-1/Breathy/Always Remember Us This Way/Breathy_Group/0007.wav"
+    },
+    {
+     "song": "Always Remember Us This Way",
+     "index": "0011",
+     "control": "English/EN-Tenor-1/Breathy/Always Remember Us This Way/Control_Group/0011.wav",
+     "breathy": "English/EN-Tenor-1/Breathy/Always Remember Us This Way/Breathy_Group/0011.wav"
+    },
+    {
+     "song": "Enchanted",
+     "index": "0001",
+     "control": "English/EN-Tenor-1/Breathy/Enchanted/Control_Group/0001.wav",
+     "breathy": "English/EN-Tenor-1/Breathy/Enchanted/Breathy_Group/0001.wav"
+    },
+    {
+     "song": "Enchanted",
+     "index": "0005",
+     "control": "English/EN-Tenor-1/Breathy/Enchanted/Control_Group/0005.wav",
+     "breathy": "English/EN-Tenor-1/Breathy/Enchanted/Breathy_Group/0005.wav"
+    },
+    {
+     "song": "I Knew You Were Trouble",
+     "index": "0001",
+     "control": "English/EN-Tenor-1/Breathy/I Knew You Were Trouble/Control_Group/0001.wav",
+     "breathy": "English/EN-Tenor-1/Breathy/I Knew You Were Trouble/Breathy_Group/0001.wav"
+    },
+    {
+     "song": "I Knew You Were Trouble",
+     "index": "0005",
+     "control": "English/EN-Tenor-1/Breathy/I Knew You Were Trouble/Control_Group/0005.wav",
+     "breathy": "English/EN-Tenor-1/Breathy/I Knew You Were Trouble/Breathy_Group/0005.wav"
+    },
+    {
+     "song": "Long Live",
+     "index": "0000",
+     "control": "English/EN-Tenor-1/Breathy/Long Live/Control_Group/0000.wav",
+     "breathy": "English/EN-Tenor-1/Breathy/Long Live/Breathy_Group/0000.wav"
+    },
+    {
+     "song": "Long Live",
+     "index": "0004",
+     "control": "English/EN-Tenor-1/Breathy/Long Live/Control_Group/0004.wav",
+     "breathy": "English/EN-Tenor-1/Breathy/Long Live/Breathy_Group/0004.wav"
+    },
+    {
+     "song": "Long Live",
+     "index": "0008",
+     "control": "English/EN-Tenor-1/Breathy/Long Live/Control_Group/0008.wav",
+     "breathy": "English/EN-Tenor-1/Breathy/Long Live/Breathy_Group/0008.wav"
+    },
+    {
+     "song": "Million Reasons",
+     "index": "0000",
+     "control": "English/EN-Tenor-1/Breathy/Million Reasons/Control_Group/0000.wav",
+     "breathy": "English/EN-Tenor-1/Breathy/Million Reasons/Breathy_Group/0000.wav"
+    },
+    {
+     "song": "Million Reasons",
+     "index": "0004",
+     "control": "English/EN-Tenor-1/Breathy/Million Reasons/Control_Group/0004.wav",
+     "breathy": "English/EN-Tenor-1/Breathy/Million Reasons/Breathy_Group/0004.wav"
+    },
+    {
+     "song": "Million Reasons",
+     "index": "0008",
+     "control": "English/EN-Tenor-1/Breathy/Million Reasons/Control_Group/0008.wav",
+     "breathy": "English/EN-Tenor-1/Breathy/Million Reasons/Breathy_Group/0008.wav"
+    },
+    {
+     "song": "Rolling in the Deep",
+     "index": "0003",
+     "control": "English/EN-Tenor-1/Breathy/Rolling in the Deep/Control_Group/0003.wav",
+     "breathy": "English/EN-Tenor-1/Breathy/Rolling in the Deep/Breathy_Group/0003.wav"
+    },
+    {
+     "song": "Shallow",
+     "index": "0000",
+     "control": "English/EN-Tenor-1/Breathy/Shallow/Control_Group/0000.wav",
+     "breathy": "English/EN-Tenor-1/Breathy/Shallow/Breathy_Group/0000.wav"
+    },
+    {
+     "song": "Shallow",
+     "index": "0004",
+     "control": "English/EN-Tenor-1/Breathy/Shallow/Control_Group/0004.wav",
+     "breathy": "English/EN-Tenor-1/Breathy/Shallow/Breathy_Group/0004.wav"
+    },
+    {
+     "song": "Shallow",
+     "index": "0009",
+     "control": "English/EN-Tenor-1/Breathy/Shallow/Control_Group/0009.wav",
+     "breathy": "English/EN-Tenor-1/Breathy/Shallow/Breathy_Group/0009.wav"
+    },
+    {
+     "song": "Shallow",
+     "index": "0013",
+     "control": "English/EN-Tenor-1/Breathy/Shallow/Control_Group/0013.wav",
+     "breathy": "English/EN-Tenor-1/Breathy/Shallow/Breathy_Group/0013.wav"
+    },
+    {
+     "song": "Someone Like You",
+     "index": "0002",
+     "control": "English/EN-Tenor-1/Breathy/Someone Like You/Control_Group/0002.wav",
+     "breathy": "English/EN-Tenor-1/Breathy/Someone Like You/Breathy_Group/0002.wav"
+    },
+    {
+     "song": "Someone Like You",
+     "index": "0006",
+     "control": "English/EN-Tenor-1/Breathy/Someone Like You/Control_Group/0006.wav",
+     "breathy": "English/EN-Tenor-1/Breathy/Someone Like You/Breathy_Group/0006.wav"
+    },
+    {
+     "song": "Stay",
+     "index": "0003",
+     "control": "English/EN-Tenor-1/Breathy/Stay/Control_Group/0003.wav",
+     "breathy": "English/EN-Tenor-1/Breathy/Stay/Breathy_Group/0003.wav"
+    },
+    {
+     "song": "Stay",
+     "index": "0007",
+     "control": "English/EN-Tenor-1/Breathy/Stay/Control_Group/0007.wav",
+     "breathy": "English/EN-Tenor-1/Breathy/Stay/Breathy_Group/0007.wav"
+    },
+    {
+     "song": "What Was I Made For？",
+     "index": "0000",
+     "control": "English/EN-Tenor-1/Breathy/What Was I Made For？/Control_Group/0000.wav",
+     "breathy": "English/EN-Tenor-1/Breathy/What Was I Made For？/Breathy_Group/0000.wav"
+    },
+    {
+     "song": "What Was I Made For？",
+     "index": "0004",
+     "control": "English/EN-Tenor-1/Breathy/What Was I Made For？/Control_Group/0004.wav",
+     "breathy": "English/EN-Tenor-1/Breathy/What Was I Made For？/Breathy_Group/0004.wav"
+    },
+    {
+     "song": "What Was I Made For？",
+     "index": "0008",
+     "control": "English/EN-Tenor-1/Breathy/What Was I Made For？/Control_Group/0008.wav",
+     "breathy": "English/EN-Tenor-1/Breathy/What Was I Made For？/Breathy_Group/0008.wav"
+    },
+    {
+     "song": "What Was I Made For？",
+     "index": "0012",
+     "control": "English/EN-Tenor-1/Breathy/What Was I Made For？/Control_Group/0012.wav",
+     "breathy": "English/EN-Tenor-1/Breathy/What Was I Made For？/Breathy_Group/0012.wav"
+    },
+    {
+     "song": "You Belong With Me",
+     "index": "0002",
+     "control": "English/EN-Tenor-1/Breathy/You Belong With Me/Control_Group/0002.wav",
+     "breathy": "English/EN-Tenor-1/Breathy/You Belong With Me/Breathy_Group/0002.wav"
+    },
+    {
+     "song": "You Belong With Me",
+     "index": "0006",
+     "control": "English/EN-Tenor-1/Breathy/You Belong With Me/Control_Group/0006.wav",
+     "breathy": "English/EN-Tenor-1/Breathy/You Belong With Me/Breathy_Group/0006.wav"
+    },
+    {
+     "song": "You Belong With Me",
+     "index": "0010",
+     "control": "English/EN-Tenor-1/Breathy/You Belong With Me/Control_Group/0010.wav",
+     "breathy": "English/EN-Tenor-1/Breathy/You Belong With Me/Breathy_Group/0010.wav"
+    }
+   ]
+  }
+ }
+}

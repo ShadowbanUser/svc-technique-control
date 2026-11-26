@@ -1,0 +1,752 @@
+trial,part,condition,technique,strength,target,source_excerpt,singer,calibration,question,answer,count,n_answers
+E01,II (matched equaliser),adapter,breathy,1.0,f9,dona,,False,difference,only on close listening,12,20
+E01,II (matched equaliser),adapter,breathy,1.0,f9,dona,,False,difference,clear,6,20
+E01,II (matched equaliser),adapter,breathy,1.0,f9,dona,,False,difference,cannot hear a difference,2,20
+E01,II (matched equaliser),adapter,breathy,1.0,f9,dona,,False,more_technique,neural,12,20
+E01,II (matched equaliser),adapter,breathy,1.0,f9,dona,,False,more_technique,eq,4,20
+E01,II (matched equaliser),adapter,breathy,1.0,f9,dona,,False,more_technique,cannot tell,3,20
+E01,II (matched equaliser),adapter,breathy,1.0,f9,dona,,False,more_technique,both,1,20
+E01,II (matched equaliser),adapter,breathy,1.0,f9,dona,,False,quality_eq,clean,19,20
+E01,II (matched equaliser),adapter,breathy,1.0,f9,dona,,False,quality_eq,slight noise or artefacts,1,20
+E01,II (matched equaliser),adapter,breathy,1.0,f9,dona,,False,quality_neural,clean,15,20
+E01,II (matched equaliser),adapter,breathy,1.0,f9,dona,,False,quality_neural,slight noise or artefacts,5,20
+E01,II (matched equaliser),adapter,breathy,1.0,f9,dona,,False,would_use,neural,7,20
+E01,II (matched equaliser),adapter,breathy,1.0,f9,dona,,False,would_use,eq,5,20
+E01,II (matched equaliser),adapter,breathy,1.0,f9,dona,,False,would_use,neither,5,20
+E01,II (matched equaliser),adapter,breathy,1.0,f9,dona,,False,would_use,either,3,20
+E02,II (matched equaliser),adapter,piano,1.0,f9,row,,False,difference,clear,11,20
+E02,II (matched equaliser),adapter,piano,1.0,f9,row,,False,difference,only on close listening,8,20
+E02,II (matched equaliser),adapter,piano,1.0,f9,row,,False,difference,cannot hear a difference,1,20
+E02,II (matched equaliser),adapter,piano,1.0,f9,row,,False,more_technique,neural,16,20
+E02,II (matched equaliser),adapter,piano,1.0,f9,row,,False,more_technique,cannot tell,2,20
+E02,II (matched equaliser),adapter,piano,1.0,f9,row,,False,more_technique,neither,1,20
+E02,II (matched equaliser),adapter,piano,1.0,f9,row,,False,more_technique,eq,1,20
+E02,II (matched equaliser),adapter,piano,1.0,f9,row,,False,quality_eq,clean,15,20
+E02,II (matched equaliser),adapter,piano,1.0,f9,row,,False,quality_eq,slight noise or artefacts,5,20
+E02,II (matched equaliser),adapter,piano,1.0,f9,row,,False,quality_neural,clean,15,20
+E02,II (matched equaliser),adapter,piano,1.0,f9,row,,False,quality_neural,slight noise or artefacts,5,20
+E02,II (matched equaliser),adapter,piano,1.0,f9,row,,False,would_use,neural,11,20
+E02,II (matched equaliser),adapter,piano,1.0,f9,row,,False,would_use,neither,6,20
+E02,II (matched equaliser),adapter,piano,1.0,f9,row,,False,would_use,either,3,20
+E08,II (matched equaliser),adapter,belt,1.0,f9,row,,False,difference,cannot hear a difference,11,20
+E08,II (matched equaliser),adapter,belt,1.0,f9,row,,False,difference,only on close listening,7,20
+E08,II (matched equaliser),adapter,belt,1.0,f9,row,,False,difference,clear,2,20
+E08,II (matched equaliser),adapter,belt,1.0,f9,row,,False,more_technique,neither,9,20
+E08,II (matched equaliser),adapter,belt,1.0,f9,row,,False,more_technique,neural,7,20
+E08,II (matched equaliser),adapter,belt,1.0,f9,row,,False,more_technique,both,3,20
+E08,II (matched equaliser),adapter,belt,1.0,f9,row,,False,more_technique,eq,1,20
+E08,II (matched equaliser),adapter,belt,1.0,f9,row,,False,quality_eq,slight noise or artefacts,13,20
+E08,II (matched equaliser),adapter,belt,1.0,f9,row,,False,quality_eq,clean,7,20
+E08,II (matched equaliser),adapter,belt,1.0,f9,row,,False,quality_neural,slight noise or artefacts,14,20
+E08,II (matched equaliser),adapter,belt,1.0,f9,row,,False,quality_neural,clean,6,20
+E08,II (matched equaliser),adapter,belt,1.0,f9,row,,False,would_use,neither,10,20
+E08,II (matched equaliser),adapter,belt,1.0,f9,row,,False,would_use,neural,5,20
+E08,II (matched equaliser),adapter,belt,1.0,f9,row,,False,would_use,either,5,20
+E18,II (matched equaliser),guidance,vocal_fry,4.0,f3,dona,,False,difference,clear,13,20
+E18,II (matched equaliser),guidance,vocal_fry,4.0,f3,dona,,False,difference,only on close listening,7,20
+E18,II (matched equaliser),guidance,vocal_fry,4.0,f3,dona,,False,more_technique,neural,13,19
+E18,II (matched equaliser),guidance,vocal_fry,4.0,f3,dona,,False,more_technique,neither,5,19
+E18,II (matched equaliser),guidance,vocal_fry,4.0,f3,dona,,False,more_technique,eq,1,19
+E18,II (matched equaliser),guidance,vocal_fry,4.0,f3,dona,,False,quality_eq,slight noise or artefacts,12,20
+E18,II (matched equaliser),guidance,vocal_fry,4.0,f3,dona,,False,quality_eq,clean,8,20
+E18,II (matched equaliser),guidance,vocal_fry,4.0,f3,dona,,False,quality_neural,slight noise or artefacts,17,20
+E18,II (matched equaliser),guidance,vocal_fry,4.0,f3,dona,,False,quality_neural,clear distortion,2,20
+E18,II (matched equaliser),guidance,vocal_fry,4.0,f3,dona,,False,quality_neural,clean,1,20
+E18,II (matched equaliser),guidance,vocal_fry,4.0,f3,dona,,False,would_use,neural,10,20
+E18,II (matched equaliser),guidance,vocal_fry,4.0,f3,dona,,False,would_use,neither,7,20
+E18,II (matched equaliser),guidance,vocal_fry,4.0,f3,dona,,False,would_use,eq,2,20
+E18,II (matched equaliser),guidance,vocal_fry,4.0,f3,dona,,False,would_use,either,1,20
+E21,II (matched equaliser),guidance,breathy,4.0,f9,dona,,False,difference,only on close listening,12,20
+E21,II (matched equaliser),guidance,breathy,4.0,f9,dona,,False,difference,clear,5,20
+E21,II (matched equaliser),guidance,breathy,4.0,f9,dona,,False,difference,cannot hear a difference,3,20
+E21,II (matched equaliser),guidance,breathy,4.0,f9,dona,,False,more_technique,neural,11,20
+E21,II (matched equaliser),guidance,breathy,4.0,f9,dona,,False,more_technique,both,6,20
+E21,II (matched equaliser),guidance,breathy,4.0,f9,dona,,False,more_technique,cannot tell,2,20
+E21,II (matched equaliser),guidance,breathy,4.0,f9,dona,,False,more_technique,eq,1,20
+E21,II (matched equaliser),guidance,breathy,4.0,f9,dona,,False,quality_eq,clean,18,20
+E21,II (matched equaliser),guidance,breathy,4.0,f9,dona,,False,quality_eq,slight noise or artefacts,2,20
+E21,II (matched equaliser),guidance,breathy,4.0,f9,dona,,False,quality_neural,clean,15,20
+E21,II (matched equaliser),guidance,breathy,4.0,f9,dona,,False,quality_neural,slight noise or artefacts,5,20
+E21,II (matched equaliser),guidance,breathy,4.0,f9,dona,,False,would_use,neural,12,20
+E21,II (matched equaliser),guidance,breathy,4.0,f9,dona,,False,would_use,either,5,20
+E21,II (matched equaliser),guidance,breathy,4.0,f9,dona,,False,would_use,eq,2,20
+E21,II (matched equaliser),guidance,breathy,4.0,f9,dona,,False,would_use,neither,1,20
+E26,II (matched equaliser),adapter,vocal_fry,0.6,f9,row,,False,difference,clear,17,20
+E26,II (matched equaliser),adapter,vocal_fry,0.6,f9,row,,False,difference,only on close listening,3,20
+E26,II (matched equaliser),adapter,vocal_fry,0.6,f9,row,,False,more_technique,neural,15,20
+E26,II (matched equaliser),adapter,vocal_fry,0.6,f9,row,,False,more_technique,eq,3,20
+E26,II (matched equaliser),adapter,vocal_fry,0.6,f9,row,,False,more_technique,cannot tell,1,20
+E26,II (matched equaliser),adapter,vocal_fry,0.6,f9,row,,False,more_technique,neither,1,20
+E26,II (matched equaliser),adapter,vocal_fry,0.6,f9,row,,False,quality_eq,clean,16,20
+E26,II (matched equaliser),adapter,vocal_fry,0.6,f9,row,,False,quality_eq,slight noise or artefacts,4,20
+E26,II (matched equaliser),adapter,vocal_fry,0.6,f9,row,,False,quality_neural,slight noise or artefacts,14,20
+E26,II (matched equaliser),adapter,vocal_fry,0.6,f9,row,,False,quality_neural,clean,5,20
+E26,II (matched equaliser),adapter,vocal_fry,0.6,f9,row,,False,quality_neural,clear distortion,1,20
+E26,II (matched equaliser),adapter,vocal_fry,0.6,f9,row,,False,would_use,neural,8,20
+E26,II (matched equaliser),adapter,vocal_fry,0.6,f9,row,,False,would_use,neither,5,20
+E26,II (matched equaliser),adapter,vocal_fry,0.6,f9,row,,False,would_use,eq,5,20
+E26,II (matched equaliser),adapter,vocal_fry,0.6,f9,row,,False,would_use,either,2,20
+E32,II (matched equaliser),adapter,belt,1.0,f3,row,,False,difference,cannot hear a difference,10,20
+E32,II (matched equaliser),adapter,belt,1.0,f3,row,,False,difference,only on close listening,10,20
+E32,II (matched equaliser),adapter,belt,1.0,f3,row,,False,more_technique,neural,6,20
+E32,II (matched equaliser),adapter,belt,1.0,f3,row,,False,more_technique,neither,5,20
+E32,II (matched equaliser),adapter,belt,1.0,f3,row,,False,more_technique,cannot tell,5,20
+E32,II (matched equaliser),adapter,belt,1.0,f3,row,,False,more_technique,both,4,20
+E32,II (matched equaliser),adapter,belt,1.0,f3,row,,False,quality_eq,slight noise or artefacts,11,20
+E32,II (matched equaliser),adapter,belt,1.0,f3,row,,False,quality_eq,clean,9,20
+E32,II (matched equaliser),adapter,belt,1.0,f3,row,,False,quality_neural,slight noise or artefacts,13,20
+E32,II (matched equaliser),adapter,belt,1.0,f3,row,,False,quality_neural,clean,7,20
+E32,II (matched equaliser),adapter,belt,1.0,f3,row,,False,would_use,neither,11,20
+E32,II (matched equaliser),adapter,belt,1.0,f3,row,,False,would_use,either,7,20
+E32,II (matched equaliser),adapter,belt,1.0,f3,row,,False,would_use,neural,2,20
+E35,II (matched equaliser),catch,belt,1.0,f3,dona,,True,difference,cannot hear a difference,18,20
+E35,II (matched equaliser),catch,belt,1.0,f3,dona,,True,difference,only on close listening,2,20
+E35,II (matched equaliser),catch,belt,1.0,f3,dona,,True,more_technique,both,10,20
+E35,II (matched equaliser),catch,belt,1.0,f3,dona,,True,more_technique,neither,7,20
+E35,II (matched equaliser),catch,belt,1.0,f3,dona,,True,more_technique,cannot tell,3,20
+E35,II (matched equaliser),catch,belt,1.0,f3,dona,,True,quality_eq,slight noise or artefacts,12,20
+E35,II (matched equaliser),catch,belt,1.0,f3,dona,,True,quality_eq,clean,8,20
+E35,II (matched equaliser),catch,belt,1.0,f3,dona,,True,quality_neural,slight noise or artefacts,12,20
+E35,II (matched equaliser),catch,belt,1.0,f3,dona,,True,quality_neural,clean,8,20
+E35,II (matched equaliser),catch,belt,1.0,f3,dona,,True,would_use,either,13,20
+E35,II (matched equaliser),catch,belt,1.0,f3,dona,,True,would_use,neither,7,20
+E37,II (matched equaliser),adapter,vocal_fry,0.6,f3,row,,False,difference,only on close listening,16,20
+E37,II (matched equaliser),adapter,vocal_fry,0.6,f3,row,,False,difference,cannot hear a difference,3,20
+E37,II (matched equaliser),adapter,vocal_fry,0.6,f3,row,,False,difference,clear,1,20
+E37,II (matched equaliser),adapter,vocal_fry,0.6,f3,row,,False,more_technique,neural,13,20
+E37,II (matched equaliser),adapter,vocal_fry,0.6,f3,row,,False,more_technique,cannot tell,4,20
+E37,II (matched equaliser),adapter,vocal_fry,0.6,f3,row,,False,more_technique,eq,3,20
+E37,II (matched equaliser),adapter,vocal_fry,0.6,f3,row,,False,quality_eq,clean,17,20
+E37,II (matched equaliser),adapter,vocal_fry,0.6,f3,row,,False,quality_eq,slight noise or artefacts,3,20
+E37,II (matched equaliser),adapter,vocal_fry,0.6,f3,row,,False,quality_neural,slight noise or artefacts,13,20
+E37,II (matched equaliser),adapter,vocal_fry,0.6,f3,row,,False,quality_neural,clean,6,20
+E37,II (matched equaliser),adapter,vocal_fry,0.6,f3,row,,False,quality_neural,clear distortion,1,20
+E37,II (matched equaliser),adapter,vocal_fry,0.6,f3,row,,False,would_use,neither,8,20
+E37,II (matched equaliser),adapter,vocal_fry,0.6,f3,row,,False,would_use,neural,5,20
+E37,II (matched equaliser),adapter,vocal_fry,0.6,f3,row,,False,would_use,either,4,20
+E37,II (matched equaliser),adapter,vocal_fry,0.6,f3,row,,False,would_use,eq,3,20
+E38,II (matched equaliser),adapter,breathy,1.0,f3,dona,,False,difference,only on close listening,12,20
+E38,II (matched equaliser),adapter,breathy,1.0,f3,dona,,False,difference,cannot hear a difference,7,20
+E38,II (matched equaliser),adapter,breathy,1.0,f3,dona,,False,difference,clear,1,20
+E38,II (matched equaliser),adapter,breathy,1.0,f3,dona,,False,more_technique,neural,11,20
+E38,II (matched equaliser),adapter,breathy,1.0,f3,dona,,False,more_technique,cannot tell,6,20
+E38,II (matched equaliser),adapter,breathy,1.0,f3,dona,,False,more_technique,eq,2,20
+E38,II (matched equaliser),adapter,breathy,1.0,f3,dona,,False,more_technique,neither,1,20
+E38,II (matched equaliser),adapter,breathy,1.0,f3,dona,,False,quality_eq,clean,17,20
+E38,II (matched equaliser),adapter,breathy,1.0,f3,dona,,False,quality_eq,slight noise or artefacts,3,20
+E38,II (matched equaliser),adapter,breathy,1.0,f3,dona,,False,quality_neural,clean,17,20
+E38,II (matched equaliser),adapter,breathy,1.0,f3,dona,,False,quality_neural,slight noise or artefacts,3,20
+E38,II (matched equaliser),adapter,breathy,1.0,f3,dona,,False,would_use,neither,8,20
+E38,II (matched equaliser),adapter,breathy,1.0,f3,dona,,False,would_use,neural,7,20
+E38,II (matched equaliser),adapter,breathy,1.0,f3,dona,,False,would_use,either,4,20
+E38,II (matched equaliser),adapter,breathy,1.0,f3,dona,,False,would_use,eq,1,20
+E42,II (matched equaliser),adapter,forte,1.0,f9,dona,,False,difference,only on close listening,12,20
+E42,II (matched equaliser),adapter,forte,1.0,f9,dona,,False,difference,clear,6,20
+E42,II (matched equaliser),adapter,forte,1.0,f9,dona,,False,difference,cannot hear a difference,2,20
+E42,II (matched equaliser),adapter,forte,1.0,f9,dona,,False,more_technique,neural,15,20
+E42,II (matched equaliser),adapter,forte,1.0,f9,dona,,False,more_technique,cannot tell,3,20
+E42,II (matched equaliser),adapter,forte,1.0,f9,dona,,False,more_technique,eq,1,20
+E42,II (matched equaliser),adapter,forte,1.0,f9,dona,,False,more_technique,neither,1,20
+E42,II (matched equaliser),adapter,forte,1.0,f9,dona,,False,quality_eq,clean,16,20
+E42,II (matched equaliser),adapter,forte,1.0,f9,dona,,False,quality_eq,slight noise or artefacts,4,20
+E42,II (matched equaliser),adapter,forte,1.0,f9,dona,,False,quality_neural,clean,13,20
+E42,II (matched equaliser),adapter,forte,1.0,f9,dona,,False,quality_neural,slight noise or artefacts,7,20
+E42,II (matched equaliser),adapter,forte,1.0,f9,dona,,False,would_use,neural,9,20
+E42,II (matched equaliser),adapter,forte,1.0,f9,dona,,False,would_use,either,4,20
+E42,II (matched equaliser),adapter,forte,1.0,f9,dona,,False,would_use,eq,4,20
+E42,II (matched equaliser),adapter,forte,1.0,f9,dona,,False,would_use,neither,3,20
+E44,II (matched equaliser),adapter,piano,1.0,f3,row,,False,difference,only on close listening,14,20
+E44,II (matched equaliser),adapter,piano,1.0,f3,row,,False,difference,cannot hear a difference,3,20
+E44,II (matched equaliser),adapter,piano,1.0,f3,row,,False,difference,clear,3,20
+E44,II (matched equaliser),adapter,piano,1.0,f3,row,,False,more_technique,neural,15,20
+E44,II (matched equaliser),adapter,piano,1.0,f3,row,,False,more_technique,cannot tell,3,20
+E44,II (matched equaliser),adapter,piano,1.0,f3,row,,False,more_technique,eq,1,20
+E44,II (matched equaliser),adapter,piano,1.0,f3,row,,False,more_technique,both,1,20
+E44,II (matched equaliser),adapter,piano,1.0,f3,row,,False,quality_eq,clean,18,20
+E44,II (matched equaliser),adapter,piano,1.0,f3,row,,False,quality_eq,slight noise or artefacts,2,20
+E44,II (matched equaliser),adapter,piano,1.0,f3,row,,False,quality_neural,clean,18,20
+E44,II (matched equaliser),adapter,piano,1.0,f3,row,,False,quality_neural,slight noise or artefacts,2,20
+E44,II (matched equaliser),adapter,piano,1.0,f3,row,,False,would_use,neither,9,20
+E44,II (matched equaliser),adapter,piano,1.0,f3,row,,False,would_use,neural,6,20
+E44,II (matched equaliser),adapter,piano,1.0,f3,row,,False,would_use,either,5,20
+E46,II (matched equaliser),catch,forte,1.0,f9,row,,True,difference,cannot hear a difference,19,20
+E46,II (matched equaliser),catch,forte,1.0,f9,row,,True,difference,only on close listening,1,20
+E46,II (matched equaliser),catch,forte,1.0,f9,row,,True,more_technique,both,16,20
+E46,II (matched equaliser),catch,forte,1.0,f9,row,,True,more_technique,cannot tell,3,20
+E46,II (matched equaliser),catch,forte,1.0,f9,row,,True,more_technique,neither,1,20
+E46,II (matched equaliser),catch,forte,1.0,f9,row,,True,quality_eq,slight noise or artefacts,10,20
+E46,II (matched equaliser),catch,forte,1.0,f9,row,,True,quality_eq,clean,10,20
+E46,II (matched equaliser),catch,forte,1.0,f9,row,,True,quality_neural,slight noise or artefacts,10,20
+E46,II (matched equaliser),catch,forte,1.0,f9,row,,True,quality_neural,clean,10,20
+E46,II (matched equaliser),catch,forte,1.0,f9,row,,True,would_use,either,11,20
+E46,II (matched equaliser),catch,forte,1.0,f9,row,,True,would_use,neither,9,20
+E48,II (matched equaliser),adapter,forte,1.0,f3,dona,,False,difference,clear,10,20
+E48,II (matched equaliser),adapter,forte,1.0,f3,dona,,False,difference,only on close listening,9,20
+E48,II (matched equaliser),adapter,forte,1.0,f3,dona,,False,difference,cannot hear a difference,1,20
+E48,II (matched equaliser),adapter,forte,1.0,f3,dona,,False,more_technique,neural,19,20
+E48,II (matched equaliser),adapter,forte,1.0,f3,dona,,False,more_technique,cannot tell,1,20
+E48,II (matched equaliser),adapter,forte,1.0,f3,dona,,False,quality_eq,clean,10,20
+E48,II (matched equaliser),adapter,forte,1.0,f3,dona,,False,quality_eq,slight noise or artefacts,10,20
+E48,II (matched equaliser),adapter,forte,1.0,f3,dona,,False,quality_neural,clean,16,20
+E48,II (matched equaliser),adapter,forte,1.0,f3,dona,,False,quality_neural,slight noise or artefacts,4,20
+E48,II (matched equaliser),adapter,forte,1.0,f3,dona,,False,would_use,neural,14,20
+E48,II (matched equaliser),adapter,forte,1.0,f3,dona,,False,would_use,neither,4,20
+E48,II (matched equaliser),adapter,forte,1.0,f3,dona,,False,would_use,either,2,20
+I03,I (identification),source,vocal_fry,,f9,,female1,False,change,rough or creaky,10,20
+I03,I (identification),source,vocal_fry,,f9,,female1,False,change,breathier,7,20
+I03,I (identification),source,vocal_fry,,f9,,female1,False,change,another change of technique,2,20
+I03,I (identification),source,vocal_fry,,f9,,female1,False,change,softer or lighter,1,20
+I03,I (identification),source,vocal_fry,,f9,,female1,False,noticeable,clear,20,20
+I03,I (identification),source,vocal_fry,,f9,,female1,False,quality,clear distortion,18,20
+I03,I (identification),source,vocal_fry,,f9,,female1,False,quality,slight noise or artefacts,2,20
+I03,I (identification),source,vocal_fry,,f9,,female1,False,same_singer,different,8,20
+I03,I (identification),source,vocal_fry,,f9,,female1,False,same_singer,somewhat different,7,20
+I03,I (identification),source,vocal_fry,,f9,,female1,False,same_singer,same singer,5,20
+I03,I (identification),source,vocal_fry,,f9,,female1,False,would_use,no,20,20
+I04,I (identification),source,piano,,f9,,female1,False,change,softer or lighter,9,20
+I04,I (identification),source,piano,,f9,,female1,False,change,another change of technique,8,20
+I04,I (identification),source,piano,,f9,,female1,False,change,post-processing or an added effect,2,20
+I04,I (identification),source,piano,,f9,,female1,False,change,breathier,1,20
+I04,I (identification),source,piano,,f9,,female1,False,noticeable,clear,20,20
+I04,I (identification),source,piano,,f9,,female1,False,quality,clean,12,20
+I04,I (identification),source,piano,,f9,,female1,False,quality,slight noise or artefacts,7,20
+I04,I (identification),source,piano,,f9,,female1,False,quality,clear distortion,1,20
+I04,I (identification),source,piano,,f9,,female1,False,same_singer,somewhat different,13,20
+I04,I (identification),source,piano,,f9,,female1,False,same_singer,same singer,6,20
+I04,I (identification),source,piano,,f9,,female1,False,same_singer,different,1,20
+I04,I (identification),source,piano,,f9,,female1,False,would_use,no,10,20
+I04,I (identification),source,piano,,f9,,female1,False,would_use,acceptable,9,20
+I04,I (identification),source,piano,,f9,,female1,False,would_use,yes,1,20
+I05,I (identification),guidance,forte,4.0,f9,dona,,False,change,post-processing or an added effect,11,20
+I05,I (identification),guidance,forte,4.0,f9,dona,,False,change,fuller or stronger,7,20
+I05,I (identification),guidance,forte,4.0,f9,dona,,False,change,brighter or more shouted,2,20
+I05,I (identification),guidance,forte,4.0,f9,dona,,False,noticeable,clear,16,20
+I05,I (identification),guidance,forte,4.0,f9,dona,,False,noticeable,only on close listening,4,20
+I05,I (identification),guidance,forte,4.0,f9,dona,,False,quality,clean,10,20
+I05,I (identification),guidance,forte,4.0,f9,dona,,False,quality,slight noise or artefacts,10,20
+I05,I (identification),guidance,forte,4.0,f9,dona,,False,same_singer,same singer,17,20
+I05,I (identification),guidance,forte,4.0,f9,dona,,False,same_singer,somewhat different,3,20
+I05,I (identification),guidance,forte,4.0,f9,dona,,False,would_use,no,8,20
+I05,I (identification),guidance,forte,4.0,f9,dona,,False,would_use,acceptable,7,20
+I05,I (identification),guidance,forte,4.0,f9,dona,,False,would_use,yes,5,20
+I06,I (identification),adapter,breathy,1.0,f3,row,,False,change,breathier,9,20
+I06,I (identification),adapter,breathy,1.0,f3,row,,False,change,softer or lighter,5,20
+I06,I (identification),adapter,breathy,1.0,f3,row,,False,change,rough or creaky,3,20
+I06,I (identification),adapter,breathy,1.0,f3,row,,False,change,post-processing or an added effect,3,20
+I06,I (identification),adapter,breathy,1.0,f3,row,,False,noticeable,only on close listening,12,20
+I06,I (identification),adapter,breathy,1.0,f3,row,,False,noticeable,clear,7,20
+I06,I (identification),adapter,breathy,1.0,f3,row,,False,noticeable,cannot hear a difference,1,20
+I06,I (identification),adapter,breathy,1.0,f3,row,,False,quality,clean,14,20
+I06,I (identification),adapter,breathy,1.0,f3,row,,False,quality,slight noise or artefacts,6,20
+I06,I (identification),adapter,breathy,1.0,f3,row,,False,same_singer,same singer,16,20
+I06,I (identification),adapter,breathy,1.0,f3,row,,False,same_singer,somewhat different,4,20
+I06,I (identification),adapter,breathy,1.0,f3,row,,False,would_use,acceptable,9,20
+I06,I (identification),adapter,breathy,1.0,f3,row,,False,would_use,yes,6,20
+I06,I (identification),adapter,breathy,1.0,f3,row,,False,would_use,no,5,20
+I07,I (identification),adapter,vocal_fry,0.6,f9,row,,False,change,rough or creaky,16,20
+I07,I (identification),adapter,vocal_fry,0.6,f9,row,,False,change,another change of technique,1,20
+I07,I (identification),adapter,vocal_fry,0.6,f9,row,,False,change,breathier,1,20
+I07,I (identification),adapter,vocal_fry,0.6,f9,row,,False,change,no change,1,20
+I07,I (identification),adapter,vocal_fry,0.6,f9,row,,False,change,post-processing or an added effect,1,20
+I07,I (identification),adapter,vocal_fry,0.6,f9,row,,False,noticeable,clear,19,20
+I07,I (identification),adapter,vocal_fry,0.6,f9,row,,False,noticeable,only on close listening,1,20
+I07,I (identification),adapter,vocal_fry,0.6,f9,row,,False,quality,slight noise or artefacts,10,20
+I07,I (identification),adapter,vocal_fry,0.6,f9,row,,False,quality,clear distortion,7,20
+I07,I (identification),adapter,vocal_fry,0.6,f9,row,,False,quality,clean,3,20
+I07,I (identification),adapter,vocal_fry,0.6,f9,row,,False,same_singer,same singer,9,20
+I07,I (identification),adapter,vocal_fry,0.6,f9,row,,False,same_singer,somewhat different,8,20
+I07,I (identification),adapter,vocal_fry,0.6,f9,row,,False,same_singer,different,3,20
+I07,I (identification),adapter,vocal_fry,0.6,f9,row,,False,would_use,no,14,20
+I07,I (identification),adapter,vocal_fry,0.6,f9,row,,False,would_use,acceptable,6,20
+I09,I (identification),real,piano,,,,male9,False,change,softer or lighter,9,20
+I09,I (identification),real,piano,,,,male9,False,change,another change of technique,4,20
+I09,I (identification),real,piano,,,,male9,False,change,breathier,3,20
+I09,I (identification),real,piano,,,,male9,False,change,post-processing or an added effect,1,20
+I09,I (identification),real,piano,,,,male9,False,change,a different singer,1,20
+I09,I (identification),real,piano,,,,male9,False,change,brighter or more shouted,1,20
+I09,I (identification),real,piano,,,,male9,False,change,no change,1,20
+I09,I (identification),real,piano,,,,male9,False,noticeable,clear,18,20
+I09,I (identification),real,piano,,,,male9,False,noticeable,only on close listening,1,20
+I09,I (identification),real,piano,,,,male9,False,noticeable,cannot hear a difference,1,20
+I09,I (identification),real,piano,,,,male9,False,quality,clean,15,20
+I09,I (identification),real,piano,,,,male9,False,quality,slight noise or artefacts,5,20
+I09,I (identification),real,piano,,,,male9,False,same_singer,somewhat different,10,20
+I09,I (identification),real,piano,,,,male9,False,same_singer,same singer,5,20
+I09,I (identification),real,piano,,,,male9,False,same_singer,different,5,20
+I09,I (identification),real,piano,,,,male9,False,would_use,acceptable,9,20
+I09,I (identification),real,piano,,,,male9,False,would_use,no,7,20
+I09,I (identification),real,piano,,,,male9,False,would_use,yes,4,20
+I10,I (identification),adapter,forte,1.0,f9,dona,,False,change,fuller or stronger,11,20
+I10,I (identification),adapter,forte,1.0,f9,dona,,False,change,brighter or more shouted,5,20
+I10,I (identification),adapter,forte,1.0,f9,dona,,False,change,another change of technique,2,20
+I10,I (identification),adapter,forte,1.0,f9,dona,,False,change,rough or creaky,1,20
+I10,I (identification),adapter,forte,1.0,f9,dona,,False,change,post-processing or an added effect,1,20
+I10,I (identification),adapter,forte,1.0,f9,dona,,False,noticeable,clear,14,20
+I10,I (identification),adapter,forte,1.0,f9,dona,,False,noticeable,only on close listening,6,20
+I10,I (identification),adapter,forte,1.0,f9,dona,,False,quality,slight noise or artefacts,15,20
+I10,I (identification),adapter,forte,1.0,f9,dona,,False,quality,clean,5,20
+I10,I (identification),adapter,forte,1.0,f9,dona,,False,same_singer,somewhat different,11,20
+I10,I (identification),adapter,forte,1.0,f9,dona,,False,same_singer,same singer,8,20
+I10,I (identification),adapter,forte,1.0,f9,dona,,False,same_singer,different,1,20
+I10,I (identification),adapter,forte,1.0,f9,dona,,False,would_use,acceptable,11,20
+I10,I (identification),adapter,forte,1.0,f9,dona,,False,would_use,yes,6,20
+I10,I (identification),adapter,forte,1.0,f9,dona,,False,would_use,no,3,20
+I11,I (identification),adapter,forte,1.0,f3,row,,False,change,fuller or stronger,12,20
+I11,I (identification),adapter,forte,1.0,f3,row,,False,change,post-processing or an added effect,3,20
+I11,I (identification),adapter,forte,1.0,f3,row,,False,change,another change of technique,2,20
+I11,I (identification),adapter,forte,1.0,f3,row,,False,change,rough or creaky,1,20
+I11,I (identification),adapter,forte,1.0,f3,row,,False,change,no change,1,20
+I11,I (identification),adapter,forte,1.0,f3,row,,False,change,brighter or more shouted,1,20
+I11,I (identification),adapter,forte,1.0,f3,row,,False,noticeable,only on close listening,11,19
+I11,I (identification),adapter,forte,1.0,f3,row,,False,noticeable,clear,7,19
+I11,I (identification),adapter,forte,1.0,f3,row,,False,noticeable,cannot hear a difference,1,19
+I11,I (identification),adapter,forte,1.0,f3,row,,False,quality,slight noise or artefacts,14,20
+I11,I (identification),adapter,forte,1.0,f3,row,,False,quality,clean,6,20
+I11,I (identification),adapter,forte,1.0,f3,row,,False,same_singer,same singer,17,20
+I11,I (identification),adapter,forte,1.0,f3,row,,False,same_singer,somewhat different,3,20
+I11,I (identification),adapter,forte,1.0,f3,row,,False,would_use,acceptable,12,20
+I11,I (identification),adapter,forte,1.0,f3,row,,False,would_use,no,5,20
+I11,I (identification),adapter,forte,1.0,f3,row,,False,would_use,yes,3,20
+I12,I (identification),adapter,piano,1.0,f9,dona,,False,change,no change,6,20
+I12,I (identification),adapter,piano,1.0,f9,dona,,False,change,softer or lighter,4,20
+I12,I (identification),adapter,piano,1.0,f9,dona,,False,change,post-processing or an added effect,4,20
+I12,I (identification),adapter,piano,1.0,f9,dona,,False,change,fuller or stronger,3,20
+I12,I (identification),adapter,piano,1.0,f9,dona,,False,change,rough or creaky,1,20
+I12,I (identification),adapter,piano,1.0,f9,dona,,False,change,another change of technique,1,20
+I12,I (identification),adapter,piano,1.0,f9,dona,,False,change,breathier,1,20
+I12,I (identification),adapter,piano,1.0,f9,dona,,False,noticeable,only on close listening,8,20
+I12,I (identification),adapter,piano,1.0,f9,dona,,False,noticeable,cannot hear a difference,7,20
+I12,I (identification),adapter,piano,1.0,f9,dona,,False,noticeable,clear,5,20
+I12,I (identification),adapter,piano,1.0,f9,dona,,False,quality,clean,14,20
+I12,I (identification),adapter,piano,1.0,f9,dona,,False,quality,slight noise or artefacts,6,20
+I12,I (identification),adapter,piano,1.0,f9,dona,,False,same_singer,same singer,17,20
+I12,I (identification),adapter,piano,1.0,f9,dona,,False,same_singer,somewhat different,3,20
+I12,I (identification),adapter,piano,1.0,f9,dona,,False,would_use,no,12,20
+I12,I (identification),adapter,piano,1.0,f9,dona,,False,would_use,yes,5,20
+I12,I (identification),adapter,piano,1.0,f9,dona,,False,would_use,acceptable,3,20
+I13,I (identification),adapter,belt,1.0,f3,dona,,False,change,brighter or more shouted,12,20
+I13,I (identification),adapter,belt,1.0,f3,dona,,False,change,post-processing or an added effect,6,20
+I13,I (identification),adapter,belt,1.0,f3,dona,,False,change,breathier,1,20
+I13,I (identification),adapter,belt,1.0,f3,dona,,False,change,a different singer,1,20
+I13,I (identification),adapter,belt,1.0,f3,dona,,False,noticeable,clear,20,20
+I13,I (identification),adapter,belt,1.0,f3,dona,,False,quality,slight noise or artefacts,13,20
+I13,I (identification),adapter,belt,1.0,f3,dona,,False,quality,clean,7,20
+I13,I (identification),adapter,belt,1.0,f3,dona,,False,same_singer,same singer,14,20
+I13,I (identification),adapter,belt,1.0,f3,dona,,False,same_singer,somewhat different,5,20
+I13,I (identification),adapter,belt,1.0,f3,dona,,False,same_singer,different,1,20
+I13,I (identification),adapter,belt,1.0,f3,dona,,False,would_use,acceptable,10,20
+I13,I (identification),adapter,belt,1.0,f3,dona,,False,would_use,no,7,20
+I13,I (identification),adapter,belt,1.0,f3,dona,,False,would_use,yes,3,20
+I14,I (identification),guidance,belt,4.0,f3,dona,,False,change,brighter or more shouted,11,20
+I14,I (identification),guidance,belt,4.0,f3,dona,,False,change,post-processing or an added effect,3,20
+I14,I (identification),guidance,belt,4.0,f3,dona,,False,change,another change of technique,3,20
+I14,I (identification),guidance,belt,4.0,f3,dona,,False,change,a different singer,2,20
+I14,I (identification),guidance,belt,4.0,f3,dona,,False,change,rough or creaky,1,20
+I14,I (identification),guidance,belt,4.0,f3,dona,,False,noticeable,clear,19,20
+I14,I (identification),guidance,belt,4.0,f3,dona,,False,noticeable,only on close listening,1,20
+I14,I (identification),guidance,belt,4.0,f3,dona,,False,quality,slight noise or artefacts,17,20
+I14,I (identification),guidance,belt,4.0,f3,dona,,False,quality,clear distortion,2,20
+I14,I (identification),guidance,belt,4.0,f3,dona,,False,quality,clean,1,20
+I14,I (identification),guidance,belt,4.0,f3,dona,,False,same_singer,somewhat different,9,20
+I14,I (identification),guidance,belt,4.0,f3,dona,,False,same_singer,same singer,6,20
+I14,I (identification),guidance,belt,4.0,f3,dona,,False,same_singer,different,5,20
+I14,I (identification),guidance,belt,4.0,f3,dona,,False,would_use,acceptable,10,20
+I14,I (identification),guidance,belt,4.0,f3,dona,,False,would_use,no,9,20
+I14,I (identification),guidance,belt,4.0,f3,dona,,False,would_use,yes,1,20
+I15,I (identification),real,belt,,,,female3,False,change,brighter or more shouted,13,20
+I15,I (identification),real,belt,,,,female3,False,change,a different singer,3,20
+I15,I (identification),real,belt,,,,female3,False,change,breathier,1,20
+I15,I (identification),real,belt,,,,female3,False,change,post-processing or an added effect,1,20
+I15,I (identification),real,belt,,,,female3,False,change,fuller or stronger,1,20
+I15,I (identification),real,belt,,,,female3,False,change,another change of technique,1,20
+I15,I (identification),real,belt,,,,female3,False,noticeable,clear,19,20
+I15,I (identification),real,belt,,,,female3,False,noticeable,only on close listening,1,20
+I15,I (identification),real,belt,,,,female3,False,quality,clean,10,20
+I15,I (identification),real,belt,,,,female3,False,quality,slight noise or artefacts,7,20
+I15,I (identification),real,belt,,,,female3,False,quality,clear distortion,3,20
+I15,I (identification),real,belt,,,,female3,False,same_singer,somewhat different,12,20
+I15,I (identification),real,belt,,,,female3,False,same_singer,different,4,20
+I15,I (identification),real,belt,,,,female3,False,same_singer,same singer,4,20
+I15,I (identification),real,belt,,,,female3,False,would_use,acceptable,11,20
+I15,I (identification),real,belt,,,,female3,False,would_use,no,8,20
+I15,I (identification),real,belt,,,,female3,False,would_use,yes,1,20
+I16,I (identification),adapter,vocal_fry,0.6,f3,dona,,False,change,no change,13,20
+I16,I (identification),adapter,vocal_fry,0.6,f3,dona,,False,change,rough or creaky,6,20
+I16,I (identification),adapter,vocal_fry,0.6,f3,dona,,False,change,a different singer,1,20
+I16,I (identification),adapter,vocal_fry,0.6,f3,dona,,False,noticeable,cannot hear a difference,13,20
+I16,I (identification),adapter,vocal_fry,0.6,f3,dona,,False,noticeable,only on close listening,6,20
+I16,I (identification),adapter,vocal_fry,0.6,f3,dona,,False,noticeable,clear,1,20
+I16,I (identification),adapter,vocal_fry,0.6,f3,dona,,False,quality,slight noise or artefacts,11,20
+I16,I (identification),adapter,vocal_fry,0.6,f3,dona,,False,quality,clean,9,20
+I16,I (identification),adapter,vocal_fry,0.6,f3,dona,,False,same_singer,same singer,18,20
+I16,I (identification),adapter,vocal_fry,0.6,f3,dona,,False,same_singer,different,1,20
+I16,I (identification),adapter,vocal_fry,0.6,f3,dona,,False,same_singer,somewhat different,1,20
+I16,I (identification),adapter,vocal_fry,0.6,f3,dona,,False,would_use,no,15,20
+I16,I (identification),adapter,vocal_fry,0.6,f3,dona,,False,would_use,yes,3,20
+I16,I (identification),adapter,vocal_fry,0.6,f3,dona,,False,would_use,acceptable,2,20
+I17,I (identification),source,belt,,f9,,female1,False,change,no change,9,20
+I17,I (identification),source,belt,,f9,,female1,False,change,brighter or more shouted,4,20
+I17,I (identification),source,belt,,f9,,female1,False,change,softer or lighter,3,20
+I17,I (identification),source,belt,,f9,,female1,False,change,another change of technique,2,20
+I17,I (identification),source,belt,,f9,,female1,False,change,fuller or stronger,1,20
+I17,I (identification),source,belt,,f9,,female1,False,change,post-processing or an added effect,1,20
+I17,I (identification),source,belt,,f9,,female1,False,noticeable,only on close listening,11,20
+I17,I (identification),source,belt,,f9,,female1,False,noticeable,cannot hear a difference,8,20
+I17,I (identification),source,belt,,f9,,female1,False,noticeable,clear,1,20
+I17,I (identification),source,belt,,f9,,female1,False,quality,clean,19,20
+I17,I (identification),source,belt,,f9,,female1,False,quality,slight noise or artefacts,1,20
+I17,I (identification),source,belt,,f9,,female1,False,same_singer,same singer,17,20
+I17,I (identification),source,belt,,f9,,female1,False,same_singer,somewhat different,3,20
+I17,I (identification),source,belt,,f9,,female1,False,would_use,no,12,20
+I17,I (identification),source,belt,,f9,,female1,False,would_use,yes,4,20
+I17,I (identification),source,belt,,f9,,female1,False,would_use,acceptable,4,20
+I19,I (identification),adapter,piano,1.0,f3,dona,,False,change,no change,7,20
+I19,I (identification),adapter,piano,1.0,f3,dona,,False,change,fuller or stronger,5,20
+I19,I (identification),adapter,piano,1.0,f3,dona,,False,change,softer or lighter,4,20
+I19,I (identification),adapter,piano,1.0,f3,dona,,False,change,post-processing or an added effect,1,20
+I19,I (identification),adapter,piano,1.0,f3,dona,,False,change,a different singer,1,20
+I19,I (identification),adapter,piano,1.0,f3,dona,,False,change,rough or creaky,1,20
+I19,I (identification),adapter,piano,1.0,f3,dona,,False,change,another change of technique,1,20
+I19,I (identification),adapter,piano,1.0,f3,dona,,False,noticeable,only on close listening,10,20
+I19,I (identification),adapter,piano,1.0,f3,dona,,False,noticeable,cannot hear a difference,8,20
+I19,I (identification),adapter,piano,1.0,f3,dona,,False,noticeable,clear,2,20
+I19,I (identification),adapter,piano,1.0,f3,dona,,False,quality,clean,17,20
+I19,I (identification),adapter,piano,1.0,f3,dona,,False,quality,slight noise or artefacts,3,20
+I19,I (identification),adapter,piano,1.0,f3,dona,,False,same_singer,same singer,19,20
+I19,I (identification),adapter,piano,1.0,f3,dona,,False,same_singer,different,1,20
+I19,I (identification),adapter,piano,1.0,f3,dona,,False,would_use,no,12,20
+I19,I (identification),adapter,piano,1.0,f3,dona,,False,would_use,yes,6,20
+I19,I (identification),adapter,piano,1.0,f3,dona,,False,would_use,acceptable,2,20
+I20,I (identification),real,vocal_fry,,,,female3,False,change,rough or creaky,18,20
+I20,I (identification),real,vocal_fry,,,,female3,False,change,a different singer,2,20
+I20,I (identification),real,vocal_fry,,,,female3,False,noticeable,clear,20,20
+I20,I (identification),real,vocal_fry,,,,female3,False,quality,clear distortion,19,19
+I20,I (identification),real,vocal_fry,,,,female3,False,same_singer,different,13,20
+I20,I (identification),real,vocal_fry,,,,female3,False,same_singer,somewhat different,6,20
+I20,I (identification),real,vocal_fry,,,,female3,False,same_singer,same singer,1,20
+I20,I (identification),real,vocal_fry,,,,female3,False,would_use,no,20,20
+I22,I (identification),real,breathy,,,,male9,False,change,breathier,11,20
+I22,I (identification),real,breathy,,,,male9,False,change,softer or lighter,5,20
+I22,I (identification),real,breathy,,,,male9,False,change,no change,2,20
+I22,I (identification),real,breathy,,,,male9,False,change,another change of technique,1,20
+I22,I (identification),real,breathy,,,,male9,False,change,post-processing or an added effect,1,20
+I22,I (identification),real,breathy,,,,male9,False,noticeable,clear,12,20
+I22,I (identification),real,breathy,,,,male9,False,noticeable,only on close listening,6,20
+I22,I (identification),real,breathy,,,,male9,False,noticeable,cannot hear a difference,2,20
+I22,I (identification),real,breathy,,,,male9,False,quality,clean,16,20
+I22,I (identification),real,breathy,,,,male9,False,quality,slight noise or artefacts,4,20
+I22,I (identification),real,breathy,,,,male9,False,same_singer,same singer,12,20
+I22,I (identification),real,breathy,,,,male9,False,same_singer,somewhat different,8,20
+I22,I (identification),real,breathy,,,,male9,False,would_use,acceptable,11,20
+I22,I (identification),real,breathy,,,,male9,False,would_use,no,6,20
+I22,I (identification),real,breathy,,,,male9,False,would_use,yes,3,20
+I23,I (identification),guidance,breathy,4.0,f3,row,,False,change,breathier,10,20
+I23,I (identification),guidance,breathy,4.0,f3,row,,False,change,softer or lighter,3,20
+I23,I (identification),guidance,breathy,4.0,f3,row,,False,change,no change,3,20
+I23,I (identification),guidance,breathy,4.0,f3,row,,False,change,a different singer,2,20
+I23,I (identification),guidance,breathy,4.0,f3,row,,False,change,post-processing or an added effect,1,20
+I23,I (identification),guidance,breathy,4.0,f3,row,,False,change,rough or creaky,1,20
+I23,I (identification),guidance,breathy,4.0,f3,row,,False,noticeable,only on close listening,11,20
+I23,I (identification),guidance,breathy,4.0,f3,row,,False,noticeable,clear,6,20
+I23,I (identification),guidance,breathy,4.0,f3,row,,False,noticeable,cannot hear a difference,3,20
+I23,I (identification),guidance,breathy,4.0,f3,row,,False,quality,clean,16,20
+I23,I (identification),guidance,breathy,4.0,f3,row,,False,quality,slight noise or artefacts,4,20
+I23,I (identification),guidance,breathy,4.0,f3,row,,False,same_singer,same singer,14,20
+I23,I (identification),guidance,breathy,4.0,f3,row,,False,same_singer,somewhat different,5,20
+I23,I (identification),guidance,breathy,4.0,f3,row,,False,same_singer,different,1,20
+I23,I (identification),guidance,breathy,4.0,f3,row,,False,would_use,acceptable,11,20
+I23,I (identification),guidance,breathy,4.0,f3,row,,False,would_use,yes,5,20
+I23,I (identification),guidance,breathy,4.0,f3,row,,False,would_use,no,4,20
+I24,I (identification),adapter,forte,1.0,f9,row,,False,change,fuller or stronger,14,20
+I24,I (identification),adapter,forte,1.0,f9,row,,False,change,another change of technique,3,20
+I24,I (identification),adapter,forte,1.0,f9,row,,False,change,post-processing or an added effect,2,20
+I24,I (identification),adapter,forte,1.0,f9,row,,False,change,breathier,1,20
+I24,I (identification),adapter,forte,1.0,f9,row,,False,noticeable,clear,15,20
+I24,I (identification),adapter,forte,1.0,f9,row,,False,noticeable,only on close listening,5,20
+I24,I (identification),adapter,forte,1.0,f9,row,,False,quality,slight noise or artefacts,10,20
+I24,I (identification),adapter,forte,1.0,f9,row,,False,quality,clean,10,20
+I24,I (identification),adapter,forte,1.0,f9,row,,False,same_singer,same singer,13,20
+I24,I (identification),adapter,forte,1.0,f9,row,,False,same_singer,somewhat different,7,20
+I24,I (identification),adapter,forte,1.0,f9,row,,False,would_use,yes,8,20
+I24,I (identification),adapter,forte,1.0,f9,row,,False,would_use,acceptable,7,20
+I24,I (identification),adapter,forte,1.0,f9,row,,False,would_use,no,5,20
+I25,I (identification),adapter,piano,1.0,f9,row,,False,change,softer or lighter,7,20
+I25,I (identification),adapter,piano,1.0,f9,row,,False,change,fuller or stronger,5,20
+I25,I (identification),adapter,piano,1.0,f9,row,,False,change,another change of technique,4,20
+I25,I (identification),adapter,piano,1.0,f9,row,,False,change,breathier,2,20
+I25,I (identification),adapter,piano,1.0,f9,row,,False,change,a different singer,1,20
+I25,I (identification),adapter,piano,1.0,f9,row,,False,change,no change,1,20
+I25,I (identification),adapter,piano,1.0,f9,row,,False,noticeable,clear,10,20
+I25,I (identification),adapter,piano,1.0,f9,row,,False,noticeable,only on close listening,9,20
+I25,I (identification),adapter,piano,1.0,f9,row,,False,noticeable,cannot hear a difference,1,20
+I25,I (identification),adapter,piano,1.0,f9,row,,False,quality,clean,18,20
+I25,I (identification),adapter,piano,1.0,f9,row,,False,quality,slight noise or artefacts,2,20
+I25,I (identification),adapter,piano,1.0,f9,row,,False,same_singer,somewhat different,11,20
+I25,I (identification),adapter,piano,1.0,f9,row,,False,same_singer,same singer,9,20
+I25,I (identification),adapter,piano,1.0,f9,row,,False,would_use,acceptable,10,20
+I25,I (identification),adapter,piano,1.0,f9,row,,False,would_use,no,8,20
+I25,I (identification),adapter,piano,1.0,f9,row,,False,would_use,yes,2,20
+I27,I (identification),source,breathy,,f9,,female1,False,change,no change,10,20
+I27,I (identification),source,breathy,,f9,,female1,False,change,breathier,4,20
+I27,I (identification),source,breathy,,f9,,female1,False,change,another change of technique,3,20
+I27,I (identification),source,breathy,,f9,,female1,False,change,softer or lighter,2,20
+I27,I (identification),source,breathy,,f9,,female1,False,change,fuller or stronger,1,20
+I27,I (identification),source,breathy,,f9,,female1,False,noticeable,cannot hear a difference,10,20
+I27,I (identification),source,breathy,,f9,,female1,False,noticeable,only on close listening,9,20
+I27,I (identification),source,breathy,,f9,,female1,False,noticeable,clear,1,20
+I27,I (identification),source,breathy,,f9,,female1,False,quality,clean,17,20
+I27,I (identification),source,breathy,,f9,,female1,False,quality,slight noise or artefacts,3,20
+I27,I (identification),source,breathy,,f9,,female1,False,same_singer,same singer,18,20
+I27,I (identification),source,breathy,,f9,,female1,False,same_singer,somewhat different,2,20
+I27,I (identification),source,breathy,,f9,,female1,False,would_use,no,15,20
+I27,I (identification),source,breathy,,f9,,female1,False,would_use,acceptable,3,20
+I27,I (identification),source,breathy,,f9,,female1,False,would_use,yes,2,20
+I28,I (identification),real,belt,,,,male9,False,change,a different singer,20,20
+I28,I (identification),real,belt,,,,male9,False,noticeable,clear,20,20
+I28,I (identification),real,belt,,,,male9,False,quality,slight noise or artefacts,12,20
+I28,I (identification),real,belt,,,,male9,False,quality,clean,8,20
+I28,I (identification),real,belt,,,,male9,False,same_singer,different,20,20
+I28,I (identification),real,belt,,,,male9,False,would_use,no,10,20
+I28,I (identification),real,belt,,,,male9,False,would_use,acceptable,5,20
+I28,I (identification),real,belt,,,,male9,False,would_use,yes,5,20
+I29,I (identification),real,breathy,,,,female3,False,change,breathier,13,20
+I29,I (identification),real,breathy,,,,female3,False,change,softer or lighter,6,20
+I29,I (identification),real,breathy,,,,female3,False,change,a different singer,1,20
+I29,I (identification),real,breathy,,,,female3,False,noticeable,clear,14,20
+I29,I (identification),real,breathy,,,,female3,False,noticeable,only on close listening,6,20
+I29,I (identification),real,breathy,,,,female3,False,quality,clean,13,20
+I29,I (identification),real,breathy,,,,female3,False,quality,slight noise or artefacts,7,20
+I29,I (identification),real,breathy,,,,female3,False,same_singer,same singer,13,20
+I29,I (identification),real,breathy,,,,female3,False,same_singer,somewhat different,5,20
+I29,I (identification),real,breathy,,,,female3,False,same_singer,different,2,20
+I29,I (identification),real,breathy,,,,female3,False,would_use,acceptable,14,20
+I29,I (identification),real,breathy,,,,female3,False,would_use,yes,4,20
+I29,I (identification),real,breathy,,,,female3,False,would_use,no,2,20
+I30,I (identification),adapter,belt,1.0,f9,row,,False,change,brighter or more shouted,12,20
+I30,I (identification),adapter,belt,1.0,f9,row,,False,change,post-processing or an added effect,6,20
+I30,I (identification),adapter,belt,1.0,f9,row,,False,change,fuller or stronger,1,20
+I30,I (identification),adapter,belt,1.0,f9,row,,False,change,rough or creaky,1,20
+I30,I (identification),adapter,belt,1.0,f9,row,,False,noticeable,clear,20,20
+I30,I (identification),adapter,belt,1.0,f9,row,,False,quality,slight noise or artefacts,13,20
+I30,I (identification),adapter,belt,1.0,f9,row,,False,quality,clean,7,20
+I30,I (identification),adapter,belt,1.0,f9,row,,False,same_singer,same singer,10,20
+I30,I (identification),adapter,belt,1.0,f9,row,,False,same_singer,somewhat different,10,20
+I30,I (identification),adapter,belt,1.0,f9,row,,False,would_use,acceptable,13,20
+I30,I (identification),adapter,belt,1.0,f9,row,,False,would_use,no,6,20
+I30,I (identification),adapter,belt,1.0,f9,row,,False,would_use,yes,1,20
+I31,I (identification),adapter,vocal_fry,0.5,f9,dona,,False,change,no change,8,20
+I31,I (identification),adapter,vocal_fry,0.5,f9,dona,,False,change,rough or creaky,6,20
+I31,I (identification),adapter,vocal_fry,0.5,f9,dona,,False,change,post-processing or an added effect,3,20
+I31,I (identification),adapter,vocal_fry,0.5,f9,dona,,False,change,breathier,1,20
+I31,I (identification),adapter,vocal_fry,0.5,f9,dona,,False,change,brighter or more shouted,1,20
+I31,I (identification),adapter,vocal_fry,0.5,f9,dona,,False,change,fuller or stronger,1,20
+I31,I (identification),adapter,vocal_fry,0.5,f9,dona,,False,noticeable,only on close listening,11,20
+I31,I (identification),adapter,vocal_fry,0.5,f9,dona,,False,noticeable,cannot hear a difference,8,20
+I31,I (identification),adapter,vocal_fry,0.5,f9,dona,,False,noticeable,clear,1,20
+I31,I (identification),adapter,vocal_fry,0.5,f9,dona,,False,quality,slight noise or artefacts,14,20
+I31,I (identification),adapter,vocal_fry,0.5,f9,dona,,False,quality,clean,6,20
+I31,I (identification),adapter,vocal_fry,0.5,f9,dona,,False,same_singer,same singer,19,20
+I31,I (identification),adapter,vocal_fry,0.5,f9,dona,,False,same_singer,somewhat different,1,20
+I31,I (identification),adapter,vocal_fry,0.5,f9,dona,,False,would_use,no,14,20
+I31,I (identification),adapter,vocal_fry,0.5,f9,dona,,False,would_use,yes,3,20
+I31,I (identification),adapter,vocal_fry,0.5,f9,dona,,False,would_use,acceptable,3,20
+I33,I (identification),adapter,vocal_fry,0.5,f3,row,,False,change,no change,11,20
+I33,I (identification),adapter,vocal_fry,0.5,f3,row,,False,change,rough or creaky,7,20
+I33,I (identification),adapter,vocal_fry,0.5,f3,row,,False,change,breathier,2,20
+I33,I (identification),adapter,vocal_fry,0.5,f3,row,,False,noticeable,cannot hear a difference,11,20
+I33,I (identification),adapter,vocal_fry,0.5,f3,row,,False,noticeable,only on close listening,8,20
+I33,I (identification),adapter,vocal_fry,0.5,f3,row,,False,noticeable,clear,1,20
+I33,I (identification),adapter,vocal_fry,0.5,f3,row,,False,quality,clean,11,20
+I33,I (identification),adapter,vocal_fry,0.5,f3,row,,False,quality,slight noise or artefacts,9,20
+I33,I (identification),adapter,vocal_fry,0.5,f3,row,,False,same_singer,same singer,18,20
+I33,I (identification),adapter,vocal_fry,0.5,f3,row,,False,same_singer,somewhat different,2,20
+I33,I (identification),adapter,vocal_fry,0.5,f3,row,,False,would_use,no,15,20
+I33,I (identification),adapter,vocal_fry,0.5,f3,row,,False,would_use,acceptable,4,20
+I33,I (identification),adapter,vocal_fry,0.5,f3,row,,False,would_use,yes,1,20
+I34,I (identification),real,piano,,,,female3,False,change,another change of technique,11,20
+I34,I (identification),real,piano,,,,female3,False,change,softer or lighter,4,20
+I34,I (identification),real,piano,,,,female3,False,change,fuller or stronger,3,20
+I34,I (identification),real,piano,,,,female3,False,change,breathier,1,20
+I34,I (identification),real,piano,,,,female3,False,change,post-processing or an added effect,1,20
+I34,I (identification),real,piano,,,,female3,False,noticeable,clear,18,20
+I34,I (identification),real,piano,,,,female3,False,noticeable,only on close listening,2,20
+I34,I (identification),real,piano,,,,female3,False,quality,clean,16,20
+I34,I (identification),real,piano,,,,female3,False,quality,slight noise or artefacts,3,20
+I34,I (identification),real,piano,,,,female3,False,quality,clear distortion,1,20
+I34,I (identification),real,piano,,,,female3,False,same_singer,somewhat different,12,20
+I34,I (identification),real,piano,,,,female3,False,same_singer,same singer,8,20
+I34,I (identification),real,piano,,,,female3,False,would_use,no,10,20
+I34,I (identification),real,piano,,,,female3,False,would_use,acceptable,7,20
+I34,I (identification),real,piano,,,,female3,False,would_use,yes,3,20
+I36,I (identification),adapter,belt,1.0,f9,dona,,False,change,brighter or more shouted,9,20
+I36,I (identification),adapter,belt,1.0,f9,dona,,False,change,post-processing or an added effect,4,20
+I36,I (identification),adapter,belt,1.0,f9,dona,,False,change,fuller or stronger,3,20
+I36,I (identification),adapter,belt,1.0,f9,dona,,False,change,a different singer,2,20
+I36,I (identification),adapter,belt,1.0,f9,dona,,False,change,another change of technique,1,20
+I36,I (identification),adapter,belt,1.0,f9,dona,,False,change,breathier,1,20
+I36,I (identification),adapter,belt,1.0,f9,dona,,False,noticeable,clear,19,20
+I36,I (identification),adapter,belt,1.0,f9,dona,,False,noticeable,only on close listening,1,20
+I36,I (identification),adapter,belt,1.0,f9,dona,,False,quality,slight noise or artefacts,11,20
+I36,I (identification),adapter,belt,1.0,f9,dona,,False,quality,clean,9,20
+I36,I (identification),adapter,belt,1.0,f9,dona,,False,same_singer,same singer,9,20
+I36,I (identification),adapter,belt,1.0,f9,dona,,False,same_singer,somewhat different,9,20
+I36,I (identification),adapter,belt,1.0,f9,dona,,False,same_singer,different,2,20
+I36,I (identification),adapter,belt,1.0,f9,dona,,False,would_use,acceptable,10,20
+I36,I (identification),adapter,belt,1.0,f9,dona,,False,would_use,no,6,20
+I36,I (identification),adapter,belt,1.0,f9,dona,,False,would_use,yes,4,20
+I39,I (identification),adapter,breathy,0.8,f3,dona,,False,change,no change,10,20
+I39,I (identification),adapter,breathy,0.8,f3,dona,,False,change,breathier,5,20
+I39,I (identification),adapter,breathy,0.8,f3,dona,,False,change,softer or lighter,3,20
+I39,I (identification),adapter,breathy,0.8,f3,dona,,False,change,post-processing or an added effect,1,20
+I39,I (identification),adapter,breathy,0.8,f3,dona,,False,change,rough or creaky,1,20
+I39,I (identification),adapter,breathy,0.8,f3,dona,,False,noticeable,only on close listening,10,20
+I39,I (identification),adapter,breathy,0.8,f3,dona,,False,noticeable,cannot hear a difference,9,20
+I39,I (identification),adapter,breathy,0.8,f3,dona,,False,noticeable,clear,1,20
+I39,I (identification),adapter,breathy,0.8,f3,dona,,False,quality,clean,17,20
+I39,I (identification),adapter,breathy,0.8,f3,dona,,False,quality,slight noise or artefacts,3,20
+I39,I (identification),adapter,breathy,0.8,f3,dona,,False,same_singer,same singer,18,20
+I39,I (identification),adapter,breathy,0.8,f3,dona,,False,same_singer,somewhat different,2,20
+I39,I (identification),adapter,breathy,0.8,f3,dona,,False,would_use,no,14,20
+I39,I (identification),adapter,breathy,0.8,f3,dona,,False,would_use,yes,3,20
+I39,I (identification),adapter,breathy,0.8,f3,dona,,False,would_use,acceptable,3,20
+I40,I (identification),adapter,forte,1.0,f3,dona,,False,change,fuller or stronger,17,20
+I40,I (identification),adapter,forte,1.0,f3,dona,,False,change,a different singer,1,20
+I40,I (identification),adapter,forte,1.0,f3,dona,,False,change,another change of technique,1,20
+I40,I (identification),adapter,forte,1.0,f3,dona,,False,change,brighter or more shouted,1,20
+I40,I (identification),adapter,forte,1.0,f3,dona,,False,noticeable,clear,19,20
+I40,I (identification),adapter,forte,1.0,f3,dona,,False,noticeable,only on close listening,1,20
+I40,I (identification),adapter,forte,1.0,f3,dona,,False,quality,clean,10,20
+I40,I (identification),adapter,forte,1.0,f3,dona,,False,quality,slight noise or artefacts,10,20
+I40,I (identification),adapter,forte,1.0,f3,dona,,False,same_singer,same singer,10,20
+I40,I (identification),adapter,forte,1.0,f3,dona,,False,same_singer,somewhat different,9,20
+I40,I (identification),adapter,forte,1.0,f3,dona,,False,same_singer,different,1,20
+I40,I (identification),adapter,forte,1.0,f3,dona,,False,would_use,acceptable,13,20
+I40,I (identification),adapter,forte,1.0,f3,dona,,False,would_use,yes,5,20
+I40,I (identification),adapter,forte,1.0,f3,dona,,False,would_use,no,2,20
+I41,I (identification),adapter,breathy,1.0,f9,dona,,False,change,breathier,12,20
+I41,I (identification),adapter,breathy,1.0,f9,dona,,False,change,softer or lighter,3,20
+I41,I (identification),adapter,breathy,1.0,f9,dona,,False,change,rough or creaky,2,20
+I41,I (identification),adapter,breathy,1.0,f9,dona,,False,change,post-processing or an added effect,2,20
+I41,I (identification),adapter,breathy,1.0,f9,dona,,False,change,a different singer,1,20
+I41,I (identification),adapter,breathy,1.0,f9,dona,,False,noticeable,clear,17,20
+I41,I (identification),adapter,breathy,1.0,f9,dona,,False,noticeable,only on close listening,3,20
+I41,I (identification),adapter,breathy,1.0,f9,dona,,False,quality,slight noise or artefacts,14,20
+I41,I (identification),adapter,breathy,1.0,f9,dona,,False,quality,clean,6,20
+I41,I (identification),adapter,breathy,1.0,f9,dona,,False,same_singer,same singer,10,20
+I41,I (identification),adapter,breathy,1.0,f9,dona,,False,same_singer,somewhat different,9,20
+I41,I (identification),adapter,breathy,1.0,f9,dona,,False,same_singer,different,1,20
+I41,I (identification),adapter,breathy,1.0,f9,dona,,False,would_use,no,9,20
+I41,I (identification),adapter,breathy,1.0,f9,dona,,False,would_use,acceptable,7,20
+I41,I (identification),adapter,breathy,1.0,f9,dona,,False,would_use,yes,4,20
+I43,I (identification),adapter,belt,1.0,f3,row,,False,change,brighter or more shouted,11,20
+I43,I (identification),adapter,belt,1.0,f3,row,,False,change,post-processing or an added effect,3,20
+I43,I (identification),adapter,belt,1.0,f3,row,,False,change,a different singer,2,20
+I43,I (identification),adapter,belt,1.0,f3,row,,False,change,rough or creaky,2,20
+I43,I (identification),adapter,belt,1.0,f3,row,,False,change,breathier,1,20
+I43,I (identification),adapter,belt,1.0,f3,row,,False,change,fuller or stronger,1,20
+I43,I (identification),adapter,belt,1.0,f3,row,,False,noticeable,clear,17,20
+I43,I (identification),adapter,belt,1.0,f3,row,,False,noticeable,only on close listening,3,20
+I43,I (identification),adapter,belt,1.0,f3,row,,False,quality,slight noise or artefacts,16,20
+I43,I (identification),adapter,belt,1.0,f3,row,,False,quality,clean,4,20
+I43,I (identification),adapter,belt,1.0,f3,row,,False,same_singer,same singer,11,20
+I43,I (identification),adapter,belt,1.0,f3,row,,False,same_singer,somewhat different,8,20
+I43,I (identification),adapter,belt,1.0,f3,row,,False,same_singer,different,1,20
+I43,I (identification),adapter,belt,1.0,f3,row,,False,would_use,no,9,20
+I43,I (identification),adapter,belt,1.0,f3,row,,False,would_use,acceptable,8,20
+I43,I (identification),adapter,belt,1.0,f3,row,,False,would_use,yes,3,20
+I45,I (identification),real,forte,,,,female3,False,change,another change of technique,11,20
+I45,I (identification),real,forte,,,,female3,False,change,fuller or stronger,4,20
+I45,I (identification),real,forte,,,,female3,False,change,softer or lighter,2,20
+I45,I (identification),real,forte,,,,female3,False,change,breathier,2,20
+I45,I (identification),real,forte,,,,female3,False,change,post-processing or an added effect,1,20
+I45,I (identification),real,forte,,,,female3,False,noticeable,clear,19,20
+I45,I (identification),real,forte,,,,female3,False,noticeable,only on close listening,1,20
+I45,I (identification),real,forte,,,,female3,False,quality,clean,11,20
+I45,I (identification),real,forte,,,,female3,False,quality,slight noise or artefacts,9,20
+I45,I (identification),real,forte,,,,female3,False,same_singer,somewhat different,11,20
+I45,I (identification),real,forte,,,,female3,False,same_singer,same singer,9,20
+I45,I (identification),real,forte,,,,female3,False,would_use,no,16,20
+I45,I (identification),real,forte,,,,female3,False,would_use,acceptable,3,20
+I45,I (identification),real,forte,,,,female3,False,would_use,yes,1,20
+I47,I (identification),source,forte,,f9,,female1,False,change,another change of technique,7,20
+I47,I (identification),source,forte,,f9,,female1,False,change,fuller or stronger,6,20
+I47,I (identification),source,forte,,f9,,female1,False,change,breathier,4,20
+I47,I (identification),source,forte,,f9,,female1,False,change,softer or lighter,2,20
+I47,I (identification),source,forte,,f9,,female1,False,change,post-processing or an added effect,1,20
+I47,I (identification),source,forte,,f9,,female1,False,noticeable,clear,19,20
+I47,I (identification),source,forte,,f9,,female1,False,noticeable,only on close listening,1,20
+I47,I (identification),source,forte,,f9,,female1,False,quality,clean,11,20
+I47,I (identification),source,forte,,f9,,female1,False,quality,slight noise or artefacts,6,20
+I47,I (identification),source,forte,,f9,,female1,False,quality,clear distortion,3,20
+I47,I (identification),source,forte,,f9,,female1,False,same_singer,somewhat different,10,20
+I47,I (identification),source,forte,,f9,,female1,False,same_singer,same singer,9,20
+I47,I (identification),source,forte,,f9,,female1,False,same_singer,different,1,20
+I47,I (identification),source,forte,,f9,,female1,False,would_use,no,16,20
+I47,I (identification),source,forte,,f9,,female1,False,would_use,acceptable,3,20
+I47,I (identification),source,forte,,f9,,female1,False,would_use,yes,1,20
+I49,I (identification),real,vocal_fry,,,,male9,False,change,a different singer,20,20
+I49,I (identification),real,vocal_fry,,,,male9,False,noticeable,clear,20,20
+I49,I (identification),real,vocal_fry,,,,male9,False,quality,clean,13,20
+I49,I (identification),real,vocal_fry,,,,male9,False,quality,slight noise or artefacts,6,20
+I49,I (identification),real,vocal_fry,,,,male9,False,quality,clear distortion,1,20
+I49,I (identification),real,vocal_fry,,,,male9,False,same_singer,different,20,20
+I49,I (identification),real,vocal_fry,,,,male9,False,would_use,no,10,20
+I49,I (identification),real,vocal_fry,,,,male9,False,would_use,yes,6,20
+I49,I (identification),real,vocal_fry,,,,male9,False,would_use,acceptable,4,20
+I50,I (identification),guidance,vocal_fry,4.0,f9,row,,False,change,rough or creaky,10,20
+I50,I (identification),guidance,vocal_fry,4.0,f9,row,,False,change,post-processing or an added effect,7,20
+I50,I (identification),guidance,vocal_fry,4.0,f9,row,,False,change,brighter or more shouted,3,20
+I50,I (identification),guidance,vocal_fry,4.0,f9,row,,False,noticeable,clear,19,20
+I50,I (identification),guidance,vocal_fry,4.0,f9,row,,False,noticeable,only on close listening,1,20
+I50,I (identification),guidance,vocal_fry,4.0,f9,row,,False,quality,slight noise or artefacts,16,20
+I50,I (identification),guidance,vocal_fry,4.0,f9,row,,False,quality,clean,4,20
+I50,I (identification),guidance,vocal_fry,4.0,f9,row,,False,same_singer,same singer,10,20
+I50,I (identification),guidance,vocal_fry,4.0,f9,row,,False,same_singer,somewhat different,7,20
+I50,I (identification),guidance,vocal_fry,4.0,f9,row,,False,same_singer,different,3,20
+I50,I (identification),guidance,vocal_fry,4.0,f9,row,,False,would_use,acceptable,13,20
+I50,I (identification),guidance,vocal_fry,4.0,f9,row,,False,would_use,no,5,20
+I50,I (identification),guidance,vocal_fry,4.0,f9,row,,False,would_use,yes,2,20
+I51,I (identification),adapter,breathy,0.8,f9,row,,False,change,breathier,13,20
+I51,I (identification),adapter,breathy,0.8,f9,row,,False,change,softer or lighter,5,20
+I51,I (identification),adapter,breathy,0.8,f9,row,,False,change,post-processing or an added effect,1,20
+I51,I (identification),adapter,breathy,0.8,f9,row,,False,change,another change of technique,1,20
+I51,I (identification),adapter,breathy,0.8,f9,row,,False,noticeable,clear,15,20
+I51,I (identification),adapter,breathy,0.8,f9,row,,False,noticeable,only on close listening,5,20
+I51,I (identification),adapter,breathy,0.8,f9,row,,False,quality,slight noise or artefacts,11,20
+I51,I (identification),adapter,breathy,0.8,f9,row,,False,quality,clean,8,20
+I51,I (identification),adapter,breathy,0.8,f9,row,,False,quality,clear distortion,1,20
+I51,I (identification),adapter,breathy,0.8,f9,row,,False,same_singer,same singer,15,20
+I51,I (identification),adapter,breathy,0.8,f9,row,,False,same_singer,somewhat different,5,20
+I51,I (identification),adapter,breathy,0.8,f9,row,,False,would_use,acceptable,10,20
+I51,I (identification),adapter,breathy,0.8,f9,row,,False,would_use,no,6,20
+I51,I (identification),adapter,breathy,0.8,f9,row,,False,would_use,yes,4,20
+I52,I (identification),real,forte,,,,male9,False,change,no change,7,20
+I52,I (identification),real,forte,,,,male9,False,change,another change of technique,5,20
+I52,I (identification),real,forte,,,,male9,False,change,fuller or stronger,5,20
+I52,I (identification),real,forte,,,,male9,False,change,post-processing or an added effect,2,20
+I52,I (identification),real,forte,,,,male9,False,change,breathier,1,20
+I52,I (identification),real,forte,,,,male9,False,noticeable,clear,9,20
+I52,I (identification),real,forte,,,,male9,False,noticeable,only on close listening,7,20
+I52,I (identification),real,forte,,,,male9,False,noticeable,cannot hear a difference,4,20
+I52,I (identification),real,forte,,,,male9,False,quality,clean,15,20
+I52,I (identification),real,forte,,,,male9,False,quality,slight noise or artefacts,5,20
+I52,I (identification),real,forte,,,,male9,False,same_singer,same singer,14,20
+I52,I (identification),real,forte,,,,male9,False,same_singer,somewhat different,6,20
+I52,I (identification),real,forte,,,,male9,False,would_use,no,14,20
+I52,I (identification),real,forte,,,,male9,False,would_use,acceptable,4,20
+I52,I (identification),real,forte,,,,male9,False,would_use,yes,2,20
+I53,I (identification),adapter,piano,1.0,f3,row,,False,change,softer or lighter,7,20
+I53,I (identification),adapter,piano,1.0,f3,row,,False,change,no change,6,20
+I53,I (identification),adapter,piano,1.0,f3,row,,False,change,breathier,2,20
+I53,I (identification),adapter,piano,1.0,f3,row,,False,change,another change of technique,2,20
+I53,I (identification),adapter,piano,1.0,f3,row,,False,change,fuller or stronger,2,20
+I53,I (identification),adapter,piano,1.0,f3,row,,False,change,brighter or more shouted,1,20
+I53,I (identification),adapter,piano,1.0,f3,row,,False,noticeable,only on close listening,13,20
+I53,I (identification),adapter,piano,1.0,f3,row,,False,noticeable,cannot hear a difference,6,20
+I53,I (identification),adapter,piano,1.0,f3,row,,False,noticeable,clear,1,20
+I53,I (identification),adapter,piano,1.0,f3,row,,False,quality,clean,15,20
+I53,I (identification),adapter,piano,1.0,f3,row,,False,quality,slight noise or artefacts,5,20
+I53,I (identification),adapter,piano,1.0,f3,row,,False,same_singer,same singer,20,20
+I53,I (identification),adapter,piano,1.0,f3,row,,False,would_use,no,8,20
+I53,I (identification),adapter,piano,1.0,f3,row,,False,would_use,yes,6,20
+I53,I (identification),adapter,piano,1.0,f3,row,,False,would_use,acceptable,6,20

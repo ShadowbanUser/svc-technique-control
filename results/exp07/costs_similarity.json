@@ -1,0 +1,9317 @@
+[
+{
+"singer": "female1",
+"sid": "scales_a",
+"condition": "base",
+"method": "base",
+"label": null,
+"strength": null,
+"similarity": 0.6815335750579834
+},
+{
+"singer": "female1",
+"sid": "scales_a",
+"condition": "ad_breathy_a1",
+"method": "adapter",
+"label": "breathy",
+"strength": 1.0,
+"similarity": 0.630488395690918
+},
+{
+"singer": "female1",
+"sid": "scales_a",
+"condition": "ad_breathy_a0.5",
+"method": "adapter",
+"label": "breathy",
+"strength": 0.5,
+"similarity": 0.6739962100982666
+},
+{
+"singer": "female1",
+"sid": "scales_a",
+"condition": "eqmatch_breathy",
+"method": "eqmatch",
+"label": "breathy",
+"strength": null,
+"similarity": 0.673759400844574
+},
+{
+"singer": "female1",
+"sid": "scales_a",
+"condition": "ad_belt_a1",
+"method": "adapter",
+"label": "belt",
+"strength": 1.0,
+"similarity": 0.6751723885536194
+},
+{
+"singer": "female1",
+"sid": "scales_a",
+"condition": "ad_belt_a0.5",
+"method": "adapter",
+"label": "belt",
+"strength": 0.5,
+"similarity": 0.6902641654014587
+},
+{
+"singer": "female1",
+"sid": "scales_a",
+"condition": "eqmatch_belt",
+"method": "eqmatch",
+"label": "belt",
+"strength": null,
+"similarity": 0.6918259263038635
+},
+{
+"singer": "female1",
+"sid": "scales_a",
+"condition": "ad_vocal_fry_a1",
+"method": "adapter",
+"label": "vocal_fry",
+"strength": 1.0,
+"similarity": 0.6480109095573425
+},
+{
+"singer": "female1",
+"sid": "scales_a",
+"condition": "ad_vocal_fry_a0.5",
+"method": "adapter",
+"label": "vocal_fry",
+"strength": 0.5,
+"similarity": 0.6677646636962891
+},
+{
+"singer": "female1",
+"sid": "scales_a",
+"condition": "eqmatch_vocal_fry",
+"method": "eqmatch",
+"label": "vocal_fry",
+"strength": null,
+"similarity": 0.6673122644424438
+},
+{
+"singer": "female1",
+"sid": "scales_a",
+"condition": "ad_forte_a1",
+"method": "adapter",
+"label": "forte",
+"strength": 1.0,
+"similarity": 0.6384716033935547
+},
+{
+"singer": "female1",
+"sid": "scales_a",
+"condition": "ad_forte_a0.5",
+"method": "adapter",
+"label": "forte",
+"strength": 0.5,
+"similarity": 0.681681752204895
+},
+{
+"singer": "female1",
+"sid": "scales_a",
+"condition": "eqmatch_forte",
+"method": "eqmatch",
+"label": "forte",
+"strength": null,
+"similarity": 0.6767792701721191
+},
+{
+"singer": "female1",
+"sid": "scales_a",
+"condition": "ad_piano_a1",
+"method": "adapter",
+"label": "piano",
+"strength": 1.0,
+"similarity": 0.6301961541175842
+},
+{
+"singer": "female1",
+"sid": "scales_a",
+"condition": "ad_piano_a0.5",
+"method": "adapter",
+"label": "piano",
+"strength": 0.5,
+"similarity": 0.6962893605232239
+},
+{
+"singer": "female1",
+"sid": "scales_a",
+"condition": "eqmatch_piano",
+"method": "eqmatch",
+"label": "piano",
+"strength": null,
+"similarity": 0.6804095506668091
+},
+{
+"singer": "female1",
+"sid": "scales_a",
+"condition": "carried_breathy",
+"method": "carried",
+"label": "breathy",
+"strength": null,
+"similarity": 0.6835060119628906
+},
+{
+"singer": "female1",
+"sid": "scales_a",
+"condition": "carried_belt",
+"method": "carried",
+"label": "belt",
+"strength": null,
+"similarity": 0.6741862297058105
+},
+{
+"singer": "female1",
+"sid": "scales_a",
+"condition": "carried_vocal_fry",
+"method": "carried",
+"label": "vocal_fry",
+"strength": null,
+"similarity": 0.6605923771858215
+},
+{
+"singer": "female1",
+"sid": "scales_a",
+"condition": "carried_forte",
+"method": "carried",
+"label": "forte",
+"strength": null,
+"similarity": 0.5738173127174377
+},
+{
+"singer": "female1",
+"sid": "scales_a",
+"condition": "carried_piano",
+"method": "carried",
+"label": "piano",
+"strength": null,
+"similarity": 0.6529716849327087
+},
+{
+"singer": "female1",
+"sid": "scales_e",
+"condition": "base",
+"method": "base",
+"label": null,
+"strength": null,
+"similarity": 0.7213202714920044
+},
+{
+"singer": "female1",
+"sid": "scales_e",
+"condition": "ad_breathy_a1",
+"method": "adapter",
+"label": "breathy",
+"strength": 1.0,
+"similarity": 0.636427640914917
+},
+{
+"singer": "female1",
+"sid": "scales_e",
+"condition": "ad_breathy_a0.5",
+"method": "adapter",
+"label": "breathy",
+"strength": 0.5,
+"similarity": 0.6833420395851135
+},
+{
+"singer": "female1",
+"sid": "scales_e",
+"condition": "eqmatch_breathy",
+"method": "eqmatch",
+"label": "breathy",
+"strength": null,
+"similarity": 0.6965740919113159
+},
+{
+"singer": "female1",
+"sid": "scales_e",
+"condition": "ad_belt_a1",
+"method": "adapter",
+"label": "belt",
+"strength": 1.0,
+"similarity": 0.6769042611122131
+},
+{
+"singer": "female1",
+"sid": "scales_e",
+"condition": "ad_belt_a0.5",
+"method": "adapter",
+"label": "belt",
+"strength": 0.5,
+"similarity": 0.707960307598114
+},
+{
+"singer": "female1",
+"sid": "scales_e",
+"condition": "eqmatch_belt",
+"method": "eqmatch",
+"label": "belt",
+"strength": null,
+"similarity": 0.7201986312866211
+},
+{
+"singer": "female1",
+"sid": "scales_e",
+"condition": "ad_vocal_fry_a1",
+"method": "adapter",
+"label": "vocal_fry",
+"strength": 1.0,
+"similarity": 0.6377861499786377
+},
+{
+"singer": "female1",
+"sid": "scales_e",
+"condition": "ad_vocal_fry_a0.5",
+"method": "adapter",
+"label": "vocal_fry",
+"strength": 0.5,
+"similarity": 0.6764714121818542
+},
+{
+"singer": "female1",
+"sid": "scales_e",
+"condition": "eqmatch_vocal_fry",
+"method": "eqmatch",
+"label": "vocal_fry",
+"strength": null,
+"similarity": 0.6803904175758362
+},
+{
+"singer": "female1",
+"sid": "scales_e",
+"condition": "ad_forte_a1",
+"method": "adapter",
+"label": "forte",
+"strength": 1.0,
+"similarity": 0.6486942172050476
+},
+{
+"singer": "female1",
+"sid": "scales_e",
+"condition": "ad_forte_a0.5",
+"method": "adapter",
+"label": "forte",
+"strength": 0.5,
+"similarity": 0.6731517910957336
+},
+{
+"singer": "female1",
+"sid": "scales_e",
+"condition": "eqmatch_forte",
+"method": "eqmatch",
+"label": "forte",
+"strength": null,
+"similarity": 0.7306464314460754
+},
+{
+"singer": "female1",
+"sid": "scales_e",
+"condition": "ad_piano_a1",
+"method": "adapter",
+"label": "piano",
+"strength": 1.0,
+"similarity": 0.6307350397109985
+},
+{
+"singer": "female1",
+"sid": "scales_e",
+"condition": "ad_piano_a0.5",
+"method": "adapter",
+"label": "piano",
+"strength": 0.5,
+"similarity": 0.6848601698875427
+},
+{
+"singer": "female1",
+"sid": "scales_e",
+"condition": "eqmatch_piano",
+"method": "eqmatch",
+"label": "piano",
+"strength": null,
+"similarity": 0.7179495692253113
+},
+{
+"singer": "female1",
+"sid": "scales_e",
+"condition": "carried_breathy",
+"method": "carried",
+"label": "breathy",
+"strength": null,
+"similarity": 0.6408422589302063
+},
+{
+"singer": "female1",
+"sid": "scales_e",
+"condition": "carried_belt",
+"method": "carried",
+"label": "belt",
+"strength": null,
+"similarity": 0.715778112411499
+},
+{
+"singer": "female1",
+"sid": "scales_e",
+"condition": "carried_vocal_fry",
+"method": "carried",
+"label": "vocal_fry",
+"strength": null,
+"similarity": 0.7153960466384888
+},
+{
+"singer": "female1",
+"sid": "scales_e",
+"condition": "carried_forte",
+"method": "carried",
+"label": "forte",
+"strength": null,
+"similarity": 0.588511049747467
+},
+{
+"singer": "female1",
+"sid": "scales_e",
+"condition": "carried_piano",
+"method": "carried",
+"label": "piano",
+"strength": null,
+"similarity": 0.5779058933258057
+},
+{
+"singer": "female1",
+"sid": "scales_i",
+"condition": "base",
+"method": "base",
+"label": null,
+"strength": null,
+"similarity": 0.6484478712081909
+},
+{
+"singer": "female1",
+"sid": "scales_i",
+"condition": "ad_breathy_a1",
+"method": "adapter",
+"label": "breathy",
+"strength": 1.0,
+"similarity": 0.6018543243408203
+},
+{
+"singer": "female1",
+"sid": "scales_i",
+"condition": "ad_breathy_a0.5",
+"method": "adapter",
+"label": "breathy",
+"strength": 0.5,
+"similarity": 0.6297905445098877
+},
+{
+"singer": "female1",
+"sid": "scales_i",
+"condition": "eqmatch_breathy",
+"method": "eqmatch",
+"label": "breathy",
+"strength": null,
+"similarity": 0.6346292495727539
+},
+{
+"singer": "female1",
+"sid": "scales_i",
+"condition": "ad_belt_a1",
+"method": "adapter",
+"label": "belt",
+"strength": 1.0,
+"similarity": 0.5921156406402588
+},
+{
+"singer": "female1",
+"sid": "scales_i",
+"condition": "ad_belt_a0.5",
+"method": "adapter",
+"label": "belt",
+"strength": 0.5,
+"similarity": 0.6142629384994507
+},
+{
+"singer": "female1",
+"sid": "scales_i",
+"condition": "eqmatch_belt",
+"method": "eqmatch",
+"label": "belt",
+"strength": null,
+"similarity": 0.6618669033050537
+},
+{
+"singer": "female1",
+"sid": "scales_i",
+"condition": "ad_vocal_fry_a1",
+"method": "adapter",
+"label": "vocal_fry",
+"strength": 1.0,
+"similarity": 0.6110111474990845
+},
+{
+"singer": "female1",
+"sid": "scales_i",
+"condition": "ad_vocal_fry_a0.5",
+"method": "adapter",
+"label": "vocal_fry",
+"strength": 0.5,
+"similarity": 0.6367411613464355
+},
+{
+"singer": "female1",
+"sid": "scales_i",
+"condition": "eqmatch_vocal_fry",
+"method": "eqmatch",
+"label": "vocal_fry",
+"strength": null,
+"similarity": 0.6430706977844238
+},
+{
+"singer": "female1",
+"sid": "scales_i",
+"condition": "ad_forte_a1",
+"method": "adapter",
+"label": "forte",
+"strength": 1.0,
+"similarity": 0.6253814101219177
+},
+{
+"singer": "female1",
+"sid": "scales_i",
+"condition": "ad_forte_a0.5",
+"method": "adapter",
+"label": "forte",
+"strength": 0.5,
+"similarity": 0.6760222911834717
+},
+{
+"singer": "female1",
+"sid": "scales_i",
+"condition": "eqmatch_forte",
+"method": "eqmatch",
+"label": "forte",
+"strength": null,
+"similarity": 0.65677809715271
+},
+{
+"singer": "female1",
+"sid": "scales_i",
+"condition": "ad_piano_a1",
+"method": "adapter",
+"label": "piano",
+"strength": 1.0,
+"similarity": 0.6220133900642395
+},
+{
+"singer": "female1",
+"sid": "scales_i",
+"condition": "ad_piano_a0.5",
+"method": "adapter",
+"label": "piano",
+"strength": 0.5,
+"similarity": 0.6582627892494202
+},
+{
+"singer": "female1",
+"sid": "scales_i",
+"condition": "eqmatch_piano",
+"method": "eqmatch",
+"label": "piano",
+"strength": null,
+"similarity": 0.657477617263794
+},
+{
+"singer": "female1",
+"sid": "scales_i",
+"condition": "carried_breathy",
+"method": "carried",
+"label": "breathy",
+"strength": null,
+"similarity": 0.6760846376419067
+},
+{
+"singer": "female1",
+"sid": "scales_i",
+"condition": "carried_belt",
+"method": "carried",
+"label": "belt",
+"strength": null,
+"similarity": 0.6637061834335327
+},
+{
+"singer": "female1",
+"sid": "scales_i",
+"condition": "carried_vocal_fry",
+"method": "carried",
+"label": "vocal_fry",
+"strength": null,
+"similarity": 0.6613979935646057
+},
+{
+"singer": "female1",
+"sid": "scales_i",
+"condition": "carried_forte",
+"method": "carried",
+"label": "forte",
+"strength": null,
+"similarity": 0.6030499935150146
+},
+{
+"singer": "female1",
+"sid": "scales_i",
+"condition": "carried_piano",
+"method": "carried",
+"label": "piano",
+"strength": null,
+"similarity": 0.584845781326294
+},
+{
+"singer": "female1",
+"sid": "scales_o",
+"condition": "base",
+"method": "base",
+"label": null,
+"strength": null,
+"similarity": 0.6934859752655029
+},
+{
+"singer": "female1",
+"sid": "scales_o",
+"condition": "ad_breathy_a1",
+"method": "adapter",
+"label": "breathy",
+"strength": 1.0,
+"similarity": 0.6449803709983826
+},
+{
+"singer": "female1",
+"sid": "scales_o",
+"condition": "ad_breathy_a0.5",
+"method": "adapter",
+"label": "breathy",
+"strength": 0.5,
+"similarity": 0.6878693699836731
+},
+{
+"singer": "female1",
+"sid": "scales_o",
+"condition": "eqmatch_breathy",
+"method": "eqmatch",
+"label": "breathy",
+"strength": null,
+"similarity": 0.6819231510162354
+},
+{
+"singer": "female1",
+"sid": "scales_o",
+"condition": "ad_belt_a1",
+"method": "adapter",
+"label": "belt",
+"strength": 1.0,
+"similarity": 0.6700323820114136
+},
+{
+"singer": "female1",
+"sid": "scales_o",
+"condition": "ad_belt_a0.5",
+"method": "adapter",
+"label": "belt",
+"strength": 0.5,
+"similarity": 0.6921008825302124
+},
+{
+"singer": "female1",
+"sid": "scales_o",
+"condition": "eqmatch_belt",
+"method": "eqmatch",
+"label": "belt",
+"strength": null,
+"similarity": 0.7013458013534546
+},
+{
+"singer": "female1",
+"sid": "scales_o",
+"condition": "ad_vocal_fry_a1",
+"method": "adapter",
+"label": "vocal_fry",
+"strength": 1.0,
+"similarity": 0.6369147896766663
+},
+{
+"singer": "female1",
+"sid": "scales_o",
+"condition": "ad_vocal_fry_a0.5",
+"method": "adapter",
+"label": "vocal_fry",
+"strength": 0.5,
+"similarity": 0.6783269643783569
+},
+{
+"singer": "female1",
+"sid": "scales_o",
+"condition": "eqmatch_vocal_fry",
+"method": "eqmatch",
+"label": "vocal_fry",
+"strength": null,
+"similarity": 0.6787534952163696
+},
+{
+"singer": "female1",
+"sid": "scales_o",
+"condition": "ad_forte_a1",
+"method": "adapter",
+"label": "forte",
+"strength": 1.0,
+"similarity": 0.6463508605957031
+},
+{
+"singer": "female1",
+"sid": "scales_o",
+"condition": "ad_forte_a0.5",
+"method": "adapter",
+"label": "forte",
+"strength": 0.5,
+"similarity": 0.6950997114181519
+},
+{
+"singer": "female1",
+"sid": "scales_o",
+"condition": "eqmatch_forte",
+"method": "eqmatch",
+"label": "forte",
+"strength": null,
+"similarity": 0.6998838186264038
+},
+{
+"singer": "female1",
+"sid": "scales_o",
+"condition": "ad_piano_a1",
+"method": "adapter",
+"label": "piano",
+"strength": 1.0,
+"similarity": 0.6269251704216003
+},
+{
+"singer": "female1",
+"sid": "scales_o",
+"condition": "ad_piano_a0.5",
+"method": "adapter",
+"label": "piano",
+"strength": 0.5,
+"similarity": 0.6899272799491882
+},
+{
+"singer": "female1",
+"sid": "scales_o",
+"condition": "eqmatch_piano",
+"method": "eqmatch",
+"label": "piano",
+"strength": null,
+"similarity": 0.686621904373169
+},
+{
+"singer": "female1",
+"sid": "scales_o",
+"condition": "carried_breathy",
+"method": "carried",
+"label": "breathy",
+"strength": null,
+"similarity": 0.6643523573875427
+},
+{
+"singer": "female1",
+"sid": "scales_o",
+"condition": "carried_belt",
+"method": "carried",
+"label": "belt",
+"strength": null,
+"similarity": 0.6792504191398621
+},
+{
+"singer": "female1",
+"sid": "scales_o",
+"condition": "carried_vocal_fry",
+"method": "carried",
+"label": "vocal_fry",
+"strength": null,
+"similarity": 0.6326960921287537
+},
+{
+"singer": "female1",
+"sid": "scales_o",
+"condition": "carried_forte",
+"method": "carried",
+"label": "forte",
+"strength": null,
+"similarity": 0.6168647408485413
+},
+{
+"singer": "female1",
+"sid": "scales_o",
+"condition": "carried_piano",
+"method": "carried",
+"label": "piano",
+"strength": null,
+"similarity": 0.6412757635116577
+},
+{
+"singer": "female1",
+"sid": "scales_u",
+"condition": "base",
+"method": "base",
+"label": null,
+"strength": null,
+"similarity": 0.649605929851532
+},
+{
+"singer": "female1",
+"sid": "scales_u",
+"condition": "ad_breathy_a1",
+"method": "adapter",
+"label": "breathy",
+"strength": 1.0,
+"similarity": 0.6439390778541565
+},
+{
+"singer": "female1",
+"sid": "scales_u",
+"condition": "ad_breathy_a0.5",
+"method": "adapter",
+"label": "breathy",
+"strength": 0.5,
+"similarity": 0.6378136277198792
+},
+{
+"singer": "female1",
+"sid": "scales_u",
+"condition": "eqmatch_breathy",
+"method": "eqmatch",
+"label": "breathy",
+"strength": null,
+"similarity": 0.6576313972473145
+},
+{
+"singer": "female1",
+"sid": "scales_u",
+"condition": "ad_belt_a1",
+"method": "adapter",
+"label": "belt",
+"strength": 1.0,
+"similarity": 0.6715384721755981
+},
+{
+"singer": "female1",
+"sid": "scales_u",
+"condition": "ad_belt_a0.5",
+"method": "adapter",
+"label": "belt",
+"strength": 0.5,
+"similarity": 0.6708315014839172
+},
+{
+"singer": "female1",
+"sid": "scales_u",
+"condition": "eqmatch_belt",
+"method": "eqmatch",
+"label": "belt",
+"strength": null,
+"similarity": 0.6657797694206238
+},
+{
+"singer": "female1",
+"sid": "scales_u",
+"condition": "ad_vocal_fry_a1",
+"method": "adapter",
+"label": "vocal_fry",
+"strength": 1.0,
+"similarity": 0.5948809385299683
+},
+{
+"singer": "female1",
+"sid": "scales_u",
+"condition": "ad_vocal_fry_a0.5",
+"method": "adapter",
+"label": "vocal_fry",
+"strength": 0.5,
+"similarity": 0.6538350582122803
+},
+{
+"singer": "female1",
+"sid": "scales_u",
+"condition": "eqmatch_vocal_fry",
+"method": "eqmatch",
+"label": "vocal_fry",
+"strength": null,
+"similarity": 0.6430486440658569
+},
+{
+"singer": "female1",
+"sid": "scales_u",
+"condition": "ad_forte_a1",
+"method": "adapter",
+"label": "forte",
+"strength": 1.0,
+"similarity": 0.6157134771347046
+},
+{
+"singer": "female1",
+"sid": "scales_u",
+"condition": "ad_forte_a0.5",
+"method": "adapter",
+"label": "forte",
+"strength": 0.5,
+"similarity": 0.6503938436508179
+},
+{
+"singer": "female1",
+"sid": "scales_u",
+"condition": "eqmatch_forte",
+"method": "eqmatch",
+"label": "forte",
+"strength": null,
+"similarity": 0.6511539220809937
+},
+{
+"singer": "female1",
+"sid": "scales_u",
+"condition": "ad_piano_a1",
+"method": "adapter",
+"label": "piano",
+"strength": 1.0,
+"similarity": 0.6030314564704895
+},
+{
+"singer": "female1",
+"sid": "scales_u",
+"condition": "ad_piano_a0.5",
+"method": "adapter",
+"label": "piano",
+"strength": 0.5,
+"similarity": 0.6421506404876709
+},
+{
+"singer": "female1",
+"sid": "scales_u",
+"condition": "eqmatch_piano",
+"method": "eqmatch",
+"label": "piano",
+"strength": null,
+"similarity": 0.6499652862548828
+},
+{
+"singer": "female1",
+"sid": "scales_u",
+"condition": "carried_breathy",
+"method": "carried",
+"label": "breathy",
+"strength": null,
+"similarity": 0.671514630317688
+},
+{
+"singer": "female1",
+"sid": "scales_u",
+"condition": "carried_belt",
+"method": "carried",
+"label": "belt",
+"strength": null,
+"similarity": 0.6354974508285522
+},
+{
+"singer": "female1",
+"sid": "scales_u",
+"condition": "carried_vocal_fry",
+"method": "carried",
+"label": "vocal_fry",
+"strength": null,
+"similarity": 0.5951870679855347
+},
+{
+"singer": "female1",
+"sid": "scales_u",
+"condition": "carried_forte",
+"method": "carried",
+"label": "forte",
+"strength": null,
+"similarity": 0.6167640686035156
+},
+{
+"singer": "female1",
+"sid": "scales_u",
+"condition": "carried_piano",
+"method": "carried",
+"label": "piano",
+"strength": null,
+"similarity": 0.6532285213470459
+},
+{
+"singer": "female1",
+"sid": "arpeggios_a",
+"condition": "base",
+"method": "base",
+"label": null,
+"strength": null,
+"similarity": 0.6582608819007874
+},
+{
+"singer": "female1",
+"sid": "arpeggios_a",
+"condition": "ad_breathy_a1",
+"method": "adapter",
+"label": "breathy",
+"strength": 1.0,
+"similarity": 0.6507361531257629
+},
+{
+"singer": "female1",
+"sid": "arpeggios_a",
+"condition": "ad_breathy_a0.5",
+"method": "adapter",
+"label": "breathy",
+"strength": 0.5,
+"similarity": 0.6679531335830688
+},
+{
+"singer": "female1",
+"sid": "arpeggios_a",
+"condition": "eqmatch_breathy",
+"method": "eqmatch",
+"label": "breathy",
+"strength": null,
+"similarity": 0.6657352447509766
+},
+{
+"singer": "female1",
+"sid": "arpeggios_a",
+"condition": "ad_belt_a1",
+"method": "adapter",
+"label": "belt",
+"strength": 1.0,
+"similarity": 0.6622684597969055
+},
+{
+"singer": "female1",
+"sid": "arpeggios_a",
+"condition": "ad_belt_a0.5",
+"method": "adapter",
+"label": "belt",
+"strength": 0.5,
+"similarity": 0.6699987649917603
+},
+{
+"singer": "female1",
+"sid": "arpeggios_a",
+"condition": "eqmatch_belt",
+"method": "eqmatch",
+"label": "belt",
+"strength": null,
+"similarity": 0.6744699478149414
+},
+{
+"singer": "female1",
+"sid": "arpeggios_a",
+"condition": "ad_vocal_fry_a1",
+"method": "adapter",
+"label": "vocal_fry",
+"strength": 1.0,
+"similarity": 0.652246356010437
+},
+{
+"singer": "female1",
+"sid": "arpeggios_a",
+"condition": "ad_vocal_fry_a0.5",
+"method": "adapter",
+"label": "vocal_fry",
+"strength": 0.5,
+"similarity": 0.6539233326911926
+},
+{
+"singer": "female1",
+"sid": "arpeggios_a",
+"condition": "eqmatch_vocal_fry",
+"method": "eqmatch",
+"label": "vocal_fry",
+"strength": null,
+"similarity": 0.6513080596923828
+},
+{
+"singer": "female1",
+"sid": "arpeggios_a",
+"condition": "ad_forte_a1",
+"method": "adapter",
+"label": "forte",
+"strength": 1.0,
+"similarity": 0.5726819038391113
+},
+{
+"singer": "female1",
+"sid": "arpeggios_a",
+"condition": "ad_forte_a0.5",
+"method": "adapter",
+"label": "forte",
+"strength": 0.5,
+"similarity": 0.6270437836647034
+},
+{
+"singer": "female1",
+"sid": "arpeggios_a",
+"condition": "eqmatch_forte",
+"method": "eqmatch",
+"label": "forte",
+"strength": null,
+"similarity": 0.6379244327545166
+},
+{
+"singer": "female1",
+"sid": "arpeggios_a",
+"condition": "ad_piano_a1",
+"method": "adapter",
+"label": "piano",
+"strength": 1.0,
+"similarity": 0.5801516771316528
+},
+{
+"singer": "female1",
+"sid": "arpeggios_a",
+"condition": "ad_piano_a0.5",
+"method": "adapter",
+"label": "piano",
+"strength": 0.5,
+"similarity": 0.6278437972068787
+},
+{
+"singer": "female1",
+"sid": "arpeggios_a",
+"condition": "eqmatch_piano",
+"method": "eqmatch",
+"label": "piano",
+"strength": null,
+"similarity": 0.6530409455299377
+},
+{
+"singer": "female1",
+"sid": "arpeggios_a",
+"condition": "carried_breathy",
+"method": "carried",
+"label": "breathy",
+"strength": null,
+"similarity": 0.6547132730484009
+},
+{
+"singer": "female1",
+"sid": "arpeggios_a",
+"condition": "carried_belt",
+"method": "carried",
+"label": "belt",
+"strength": null,
+"similarity": 0.6716020703315735
+},
+{
+"singer": "female1",
+"sid": "arpeggios_a",
+"condition": "carried_forte",
+"method": "carried",
+"label": "forte",
+"strength": null,
+"similarity": 0.5134029984474182
+},
+{
+"singer": "female1",
+"sid": "arpeggios_a",
+"condition": "carried_piano",
+"method": "carried",
+"label": "piano",
+"strength": null,
+"similarity": 0.5219780802726746
+},
+{
+"singer": "female1",
+"sid": "arpeggios_e",
+"condition": "base",
+"method": "base",
+"label": null,
+"strength": null,
+"similarity": 0.6540791988372803
+},
+{
+"singer": "female1",
+"sid": "arpeggios_e",
+"condition": "ad_breathy_a1",
+"method": "adapter",
+"label": "breathy",
+"strength": 1.0,
+"similarity": 0.5902993083000183
+},
+{
+"singer": "female1",
+"sid": "arpeggios_e",
+"condition": "ad_breathy_a0.5",
+"method": "adapter",
+"label": "breathy",
+"strength": 0.5,
+"similarity": 0.6282624006271362
+},
+{
+"singer": "female1",
+"sid": "arpeggios_e",
+"condition": "eqmatch_breathy",
+"method": "eqmatch",
+"label": "breathy",
+"strength": null,
+"similarity": 0.6428459286689758
+},
+{
+"singer": "female1",
+"sid": "arpeggios_e",
+"condition": "ad_belt_a1",
+"method": "adapter",
+"label": "belt",
+"strength": 1.0,
+"similarity": 0.555892825126648
+},
+{
+"singer": "female1",
+"sid": "arpeggios_e",
+"condition": "ad_belt_a0.5",
+"method": "adapter",
+"label": "belt",
+"strength": 0.5,
+"similarity": 0.6031035780906677
+},
+{
+"singer": "female1",
+"sid": "arpeggios_e",
+"condition": "eqmatch_belt",
+"method": "eqmatch",
+"label": "belt",
+"strength": null,
+"similarity": 0.6494434475898743
+},
+{
+"singer": "female1",
+"sid": "arpeggios_e",
+"condition": "ad_vocal_fry_a1",
+"method": "adapter",
+"label": "vocal_fry",
+"strength": 1.0,
+"similarity": 0.5898426175117493
+},
+{
+"singer": "female1",
+"sid": "arpeggios_e",
+"condition": "ad_vocal_fry_a0.5",
+"method": "adapter",
+"label": "vocal_fry",
+"strength": 0.5,
+"similarity": 0.6043626070022583
+},
+{
+"singer": "female1",
+"sid": "arpeggios_e",
+"condition": "eqmatch_vocal_fry",
+"method": "eqmatch",
+"label": "vocal_fry",
+"strength": null,
+"similarity": 0.5957983136177063
+},
+{
+"singer": "female1",
+"sid": "arpeggios_e",
+"condition": "ad_forte_a1",
+"method": "adapter",
+"label": "forte",
+"strength": 1.0,
+"similarity": 0.5253130793571472
+},
+{
+"singer": "female1",
+"sid": "arpeggios_e",
+"condition": "ad_forte_a0.5",
+"method": "adapter",
+"label": "forte",
+"strength": 0.5,
+"similarity": 0.6112281084060669
+},
+{
+"singer": "female1",
+"sid": "arpeggios_e",
+"condition": "eqmatch_forte",
+"method": "eqmatch",
+"label": "forte",
+"strength": null,
+"similarity": 0.655637264251709
+},
+{
+"singer": "female1",
+"sid": "arpeggios_e",
+"condition": "ad_piano_a1",
+"method": "adapter",
+"label": "piano",
+"strength": 1.0,
+"similarity": 0.49137070775032043
+},
+{
+"singer": "female1",
+"sid": "arpeggios_e",
+"condition": "ad_piano_a0.5",
+"method": "adapter",
+"label": "piano",
+"strength": 0.5,
+"similarity": 0.6120036244392395
+},
+{
+"singer": "female1",
+"sid": "arpeggios_e",
+"condition": "eqmatch_piano",
+"method": "eqmatch",
+"label": "piano",
+"strength": null,
+"similarity": 0.6318111419677734
+},
+{
+"singer": "female1",
+"sid": "arpeggios_e",
+"condition": "carried_breathy",
+"method": "carried",
+"label": "breathy",
+"strength": null,
+"similarity": 0.6851274967193604
+},
+{
+"singer": "female1",
+"sid": "arpeggios_e",
+"condition": "carried_belt",
+"method": "carried",
+"label": "belt",
+"strength": null,
+"similarity": 0.656481146812439
+},
+{
+"singer": "female1",
+"sid": "arpeggios_e",
+"condition": "carried_vocal_fry",
+"method": "carried",
+"label": "vocal_fry",
+"strength": null,
+"similarity": 0.4490766227245331
+},
+{
+"singer": "female1",
+"sid": "arpeggios_e",
+"condition": "carried_forte",
+"method": "carried",
+"label": "forte",
+"strength": null,
+"similarity": 0.4972612261772156
+},
+{
+"singer": "female1",
+"sid": "arpeggios_e",
+"condition": "carried_piano",
+"method": "carried",
+"label": "piano",
+"strength": null,
+"similarity": 0.4951068162918091
+},
+{
+"singer": "female1",
+"sid": "arpeggios_i",
+"condition": "base",
+"method": "base",
+"label": null,
+"strength": null,
+"similarity": 0.6841034293174744
+},
+{
+"singer": "female1",
+"sid": "arpeggios_i",
+"condition": "ad_breathy_a1",
+"method": "adapter",
+"label": "breathy",
+"strength": 1.0,
+"similarity": 0.612196147441864
+},
+{
+"singer": "female1",
+"sid": "arpeggios_i",
+"condition": "ad_breathy_a0.5",
+"method": "adapter",
+"label": "breathy",
+"strength": 0.5,
+"similarity": 0.6563995480537415
+},
+{
+"singer": "female1",
+"sid": "arpeggios_i",
+"condition": "eqmatch_breathy",
+"method": "eqmatch",
+"label": "breathy",
+"strength": null,
+"similarity": 0.6313778758049011
+},
+{
+"singer": "female1",
+"sid": "arpeggios_i",
+"condition": "ad_belt_a1",
+"method": "adapter",
+"label": "belt",
+"strength": 1.0,
+"similarity": 0.6066004037857056
+},
+{
+"singer": "female1",
+"sid": "arpeggios_i",
+"condition": "ad_belt_a0.5",
+"method": "adapter",
+"label": "belt",
+"strength": 0.5,
+"similarity": 0.6478127241134644
+},
+{
+"singer": "female1",
+"sid": "arpeggios_i",
+"condition": "eqmatch_belt",
+"method": "eqmatch",
+"label": "belt",
+"strength": null,
+"similarity": 0.6547338962554932
+},
+{
+"singer": "female1",
+"sid": "arpeggios_i",
+"condition": "ad_vocal_fry_a1",
+"method": "adapter",
+"label": "vocal_fry",
+"strength": 1.0,
+"similarity": 0.5878372192382812
+},
+{
+"singer": "female1",
+"sid": "arpeggios_i",
+"condition": "ad_vocal_fry_a0.5",
+"method": "adapter",
+"label": "vocal_fry",
+"strength": 0.5,
+"similarity": 0.6506580114364624
+},
+{
+"singer": "female1",
+"sid": "arpeggios_i",
+"condition": "eqmatch_vocal_fry",
+"method": "eqmatch",
+"label": "vocal_fry",
+"strength": null,
+"similarity": 0.645556628704071
+},
+{
+"singer": "female1",
+"sid": "arpeggios_i",
+"condition": "ad_forte_a1",
+"method": "adapter",
+"label": "forte",
+"strength": 1.0,
+"similarity": 0.5556421279907227
+},
+{
+"singer": "female1",
+"sid": "arpeggios_i",
+"condition": "ad_forte_a0.5",
+"method": "adapter",
+"label": "forte",
+"strength": 0.5,
+"similarity": 0.673458456993103
+},
+{
+"singer": "female1",
+"sid": "arpeggios_i",
+"condition": "eqmatch_forte",
+"method": "eqmatch",
+"label": "forte",
+"strength": null,
+"similarity": 0.6577786803245544
+},
+{
+"singer": "female1",
+"sid": "arpeggios_i",
+"condition": "ad_piano_a1",
+"method": "adapter",
+"label": "piano",
+"strength": 1.0,
+"similarity": 0.5383208990097046
+},
+{
+"singer": "female1",
+"sid": "arpeggios_i",
+"condition": "ad_piano_a0.5",
+"method": "adapter",
+"label": "piano",
+"strength": 0.5,
+"similarity": 0.664873480796814
+},
+{
+"singer": "female1",
+"sid": "arpeggios_i",
+"condition": "eqmatch_piano",
+"method": "eqmatch",
+"label": "piano",
+"strength": null,
+"similarity": 0.6569591164588928
+},
+{
+"singer": "female1",
+"sid": "arpeggios_i",
+"condition": "carried_breathy",
+"method": "carried",
+"label": "breathy",
+"strength": null,
+"similarity": 0.5664620399475098
+},
+{
+"singer": "female1",
+"sid": "arpeggios_i",
+"condition": "carried_belt",
+"method": "carried",
+"label": "belt",
+"strength": null,
+"similarity": 0.5917018055915833
+},
+{
+"singer": "female1",
+"sid": "arpeggios_i",
+"condition": "carried_vocal_fry",
+"method": "carried",
+"label": "vocal_fry",
+"strength": null,
+"similarity": 0.2631392180919647
+},
+{
+"singer": "female1",
+"sid": "arpeggios_i",
+"condition": "carried_forte",
+"method": "carried",
+"label": "forte",
+"strength": null,
+"similarity": 0.48386329412460327
+},
+{
+"singer": "female1",
+"sid": "arpeggios_i",
+"condition": "carried_piano",
+"method": "carried",
+"label": "piano",
+"strength": null,
+"similarity": 0.5001781582832336
+},
+{
+"singer": "female1",
+"sid": "arpeggios_o",
+"condition": "base",
+"method": "base",
+"label": null,
+"strength": null,
+"similarity": 0.6489397287368774
+},
+{
+"singer": "female1",
+"sid": "arpeggios_o",
+"condition": "ad_breathy_a1",
+"method": "adapter",
+"label": "breathy",
+"strength": 1.0,
+"similarity": 0.65777188539505
+},
+{
+"singer": "female1",
+"sid": "arpeggios_o",
+"condition": "ad_breathy_a0.5",
+"method": "adapter",
+"label": "breathy",
+"strength": 0.5,
+"similarity": 0.6660734415054321
+},
+{
+"singer": "female1",
+"sid": "arpeggios_o",
+"condition": "eqmatch_breathy",
+"method": "eqmatch",
+"label": "breathy",
+"strength": null,
+"similarity": 0.6466279029846191
+},
+{
+"singer": "female1",
+"sid": "arpeggios_o",
+"condition": "ad_belt_a1",
+"method": "adapter",
+"label": "belt",
+"strength": 1.0,
+"similarity": 0.6485666036605835
+},
+{
+"singer": "female1",
+"sid": "arpeggios_o",
+"condition": "ad_belt_a0.5",
+"method": "adapter",
+"label": "belt",
+"strength": 0.5,
+"similarity": 0.655760645866394
+},
+{
+"singer": "female1",
+"sid": "arpeggios_o",
+"condition": "eqmatch_belt",
+"method": "eqmatch",
+"label": "belt",
+"strength": null,
+"similarity": 0.6456660628318787
+},
+{
+"singer": "female1",
+"sid": "arpeggios_o",
+"condition": "ad_vocal_fry_a1",
+"method": "adapter",
+"label": "vocal_fry",
+"strength": 1.0,
+"similarity": 0.633283257484436
+},
+{
+"singer": "female1",
+"sid": "arpeggios_o",
+"condition": "ad_vocal_fry_a0.5",
+"method": "adapter",
+"label": "vocal_fry",
+"strength": 0.5,
+"similarity": 0.6625494360923767
+},
+{
+"singer": "female1",
+"sid": "arpeggios_o",
+"condition": "eqmatch_vocal_fry",
+"method": "eqmatch",
+"label": "vocal_fry",
+"strength": null,
+"similarity": 0.610702395439148
+},
+{
+"singer": "female1",
+"sid": "arpeggios_o",
+"condition": "ad_forte_a1",
+"method": "adapter",
+"label": "forte",
+"strength": 1.0,
+"similarity": 0.5484421253204346
+},
+{
+"singer": "female1",
+"sid": "arpeggios_o",
+"condition": "ad_forte_a0.5",
+"method": "adapter",
+"label": "forte",
+"strength": 0.5,
+"similarity": 0.6458184123039246
+},
+{
+"singer": "female1",
+"sid": "arpeggios_o",
+"condition": "eqmatch_forte",
+"method": "eqmatch",
+"label": "forte",
+"strength": null,
+"similarity": 0.6487759351730347
+},
+{
+"singer": "female1",
+"sid": "arpeggios_o",
+"condition": "ad_piano_a1",
+"method": "adapter",
+"label": "piano",
+"strength": 1.0,
+"similarity": 0.5711815357208252
+},
+{
+"singer": "female1",
+"sid": "arpeggios_o",
+"condition": "ad_piano_a0.5",
+"method": "adapter",
+"label": "piano",
+"strength": 0.5,
+"similarity": 0.6697299480438232
+},
+{
+"singer": "female1",
+"sid": "arpeggios_o",
+"condition": "eqmatch_piano",
+"method": "eqmatch",
+"label": "piano",
+"strength": null,
+"similarity": 0.6379319429397583
+},
+{
+"singer": "female1",
+"sid": "arpeggios_o",
+"condition": "carried_breathy",
+"method": "carried",
+"label": "breathy",
+"strength": null,
+"similarity": 0.6593413949012756
+},
+{
+"singer": "female1",
+"sid": "arpeggios_o",
+"condition": "carried_belt",
+"method": "carried",
+"label": "belt",
+"strength": null,
+"similarity": 0.6470184922218323
+},
+{
+"singer": "female1",
+"sid": "arpeggios_o",
+"condition": "carried_forte",
+"method": "carried",
+"label": "forte",
+"strength": null,
+"similarity": 0.5844829678535461
+},
+{
+"singer": "female1",
+"sid": "arpeggios_o",
+"condition": "carried_piano",
+"method": "carried",
+"label": "piano",
+"strength": null,
+"similarity": 0.6186364889144897
+},
+{
+"singer": "female1",
+"sid": "arpeggios_u",
+"condition": "base",
+"method": "base",
+"label": null,
+"strength": null,
+"similarity": 0.6476249098777771
+},
+{
+"singer": "female1",
+"sid": "arpeggios_u",
+"condition": "ad_breathy_a1",
+"method": "adapter",
+"label": "breathy",
+"strength": 1.0,
+"similarity": 0.587113082408905
+},
+{
+"singer": "female1",
+"sid": "arpeggios_u",
+"condition": "ad_breathy_a0.5",
+"method": "adapter",
+"label": "breathy",
+"strength": 0.5,
+"similarity": 0.6518675088882446
+},
+{
+"singer": "female1",
+"sid": "arpeggios_u",
+"condition": "eqmatch_breathy",
+"method": "eqmatch",
+"label": "breathy",
+"strength": null,
+"similarity": 0.6399014592170715
+},
+{
+"singer": "female1",
+"sid": "arpeggios_u",
+"condition": "ad_belt_a1",
+"method": "adapter",
+"label": "belt",
+"strength": 1.0,
+"similarity": 0.6244577169418335
+},
+{
+"singer": "female1",
+"sid": "arpeggios_u",
+"condition": "ad_belt_a0.5",
+"method": "adapter",
+"label": "belt",
+"strength": 0.5,
+"similarity": 0.6557031273841858
+},
+{
+"singer": "female1",
+"sid": "arpeggios_u",
+"condition": "eqmatch_belt",
+"method": "eqmatch",
+"label": "belt",
+"strength": null,
+"similarity": 0.645338773727417
+},
+{
+"singer": "female1",
+"sid": "arpeggios_u",
+"condition": "ad_vocal_fry_a1",
+"method": "adapter",
+"label": "vocal_fry",
+"strength": 1.0,
+"similarity": 0.5813870429992676
+},
+{
+"singer": "female1",
+"sid": "arpeggios_u",
+"condition": "ad_vocal_fry_a0.5",
+"method": "adapter",
+"label": "vocal_fry",
+"strength": 0.5,
+"similarity": 0.6260461807250977
+},
+{
+"singer": "female1",
+"sid": "arpeggios_u",
+"condition": "eqmatch_vocal_fry",
+"method": "eqmatch",
+"label": "vocal_fry",
+"strength": null,
+"similarity": 0.6302366256713867
+},
+{
+"singer": "female1",
+"sid": "arpeggios_u",
+"condition": "ad_forte_a1",
+"method": "adapter",
+"label": "forte",
+"strength": 1.0,
+"similarity": 0.5685116648674011
+},
+{
+"singer": "female1",
+"sid": "arpeggios_u",
+"condition": "ad_forte_a0.5",
+"method": "adapter",
+"label": "forte",
+"strength": 0.5,
+"similarity": 0.6347227096557617
+},
+{
+"singer": "female1",
+"sid": "arpeggios_u",
+"condition": "eqmatch_forte",
+"method": "eqmatch",
+"label": "forte",
+"strength": null,
+"similarity": 0.634419322013855
+},
+{
+"singer": "female1",
+"sid": "arpeggios_u",
+"condition": "ad_piano_a1",
+"method": "adapter",
+"label": "piano",
+"strength": 1.0,
+"similarity": 0.5206281542778015
+},
+{
+"singer": "female1",
+"sid": "arpeggios_u",
+"condition": "ad_piano_a0.5",
+"method": "adapter",
+"label": "piano",
+"strength": 0.5,
+"similarity": 0.6208648681640625
+},
+{
+"singer": "female1",
+"sid": "arpeggios_u",
+"condition": "eqmatch_piano",
+"method": "eqmatch",
+"label": "piano",
+"strength": null,
+"similarity": 0.6253713369369507
+},
+{
+"singer": "female1",
+"sid": "arpeggios_u",
+"condition": "carried_breathy",
+"method": "carried",
+"label": "breathy",
+"strength": null,
+"similarity": 0.5849200487136841
+},
+{
+"singer": "female1",
+"sid": "arpeggios_u",
+"condition": "carried_belt",
+"method": "carried",
+"label": "belt",
+"strength": null,
+"similarity": 0.6574864983558655
+},
+{
+"singer": "female1",
+"sid": "arpeggios_u",
+"condition": "carried_forte",
+"method": "carried",
+"label": "forte",
+"strength": null,
+"similarity": 0.5712583065032959
+},
+{
+"singer": "female1",
+"sid": "arpeggios_u",
+"condition": "carried_piano",
+"method": "carried",
+"label": "piano",
+"strength": null,
+"similarity": 0.5614805817604065
+},
+{
+"singer": "female3",
+"sid": "scales_a",
+"condition": "base",
+"method": "base",
+"label": null,
+"strength": null,
+"similarity": 0.8244510293006897
+},
+{
+"singer": "female3",
+"sid": "scales_a",
+"condition": "ad_breathy_a1",
+"method": "adapter",
+"label": "breathy",
+"strength": 1.0,
+"similarity": 0.773499608039856
+},
+{
+"singer": "female3",
+"sid": "scales_a",
+"condition": "ad_breathy_a0.5",
+"method": "adapter",
+"label": "breathy",
+"strength": 0.5,
+"similarity": 0.8039300441741943
+},
+{
+"singer": "female3",
+"sid": "scales_a",
+"condition": "eqmatch_breathy",
+"method": "eqmatch",
+"label": "breathy",
+"strength": null,
+"similarity": 0.8057635426521301
+},
+{
+"singer": "female3",
+"sid": "scales_a",
+"condition": "ad_belt_a1",
+"method": "adapter",
+"label": "belt",
+"strength": 1.0,
+"similarity": 0.7832654118537903
+},
+{
+"singer": "female3",
+"sid": "scales_a",
+"condition": "ad_belt_a0.5",
+"method": "adapter",
+"label": "belt",
+"strength": 0.5,
+"similarity": 0.8189426064491272
+},
+{
+"singer": "female3",
+"sid": "scales_a",
+"condition": "eqmatch_belt",
+"method": "eqmatch",
+"label": "belt",
+"strength": null,
+"similarity": 0.8143140077590942
+},
+{
+"singer": "female3",
+"sid": "scales_a",
+"condition": "ad_vocal_fry_a1",
+"method": "adapter",
+"label": "vocal_fry",
+"strength": 1.0,
+"similarity": 0.7444421052932739
+},
+{
+"singer": "female3",
+"sid": "scales_a",
+"condition": "ad_vocal_fry_a0.5",
+"method": "adapter",
+"label": "vocal_fry",
+"strength": 0.5,
+"similarity": 0.8002219796180725
+},
+{
+"singer": "female3",
+"sid": "scales_a",
+"condition": "eqmatch_vocal_fry",
+"method": "eqmatch",
+"label": "vocal_fry",
+"strength": null,
+"similarity": 0.7949078679084778
+},
+{
+"singer": "female3",
+"sid": "scales_a",
+"condition": "ad_forte_a1",
+"method": "adapter",
+"label": "forte",
+"strength": 1.0,
+"similarity": 0.7742652297019958
+},
+{
+"singer": "female3",
+"sid": "scales_a",
+"condition": "ad_forte_a0.5",
+"method": "adapter",
+"label": "forte",
+"strength": 0.5,
+"similarity": 0.8250085115432739
+},
+{
+"singer": "female3",
+"sid": "scales_a",
+"condition": "eqmatch_forte",
+"method": "eqmatch",
+"label": "forte",
+"strength": null,
+"similarity": 0.8178014755249023
+},
+{
+"singer": "female3",
+"sid": "scales_a",
+"condition": "ad_piano_a1",
+"method": "adapter",
+"label": "piano",
+"strength": 1.0,
+"similarity": 0.7596288323402405
+},
+{
+"singer": "female3",
+"sid": "scales_a",
+"condition": "ad_piano_a0.5",
+"method": "adapter",
+"label": "piano",
+"strength": 0.5,
+"similarity": 0.7951685786247253
+},
+{
+"singer": "female3",
+"sid": "scales_a",
+"condition": "eqmatch_piano",
+"method": "eqmatch",
+"label": "piano",
+"strength": null,
+"similarity": 0.8179178237915039
+},
+{
+"singer": "female3",
+"sid": "scales_a",
+"condition": "carried_breathy",
+"method": "carried",
+"label": "breathy",
+"strength": null,
+"similarity": 0.7638978958129883
+},
+{
+"singer": "female3",
+"sid": "scales_a",
+"condition": "carried_vocal_fry",
+"method": "carried",
+"label": "vocal_fry",
+"strength": null,
+"similarity": 0.5874329805374146
+},
+{
+"singer": "female3",
+"sid": "scales_a",
+"condition": "carried_forte",
+"method": "carried",
+"label": "forte",
+"strength": null,
+"similarity": 0.7178018093109131
+},
+{
+"singer": "female3",
+"sid": "scales_a",
+"condition": "carried_piano",
+"method": "carried",
+"label": "piano",
+"strength": null,
+"similarity": 0.7063003182411194
+},
+{
+"singer": "female3",
+"sid": "scales_e",
+"condition": "base",
+"method": "base",
+"label": null,
+"strength": null,
+"similarity": 0.8278481364250183
+},
+{
+"singer": "female3",
+"sid": "scales_e",
+"condition": "ad_breathy_a1",
+"method": "adapter",
+"label": "breathy",
+"strength": 1.0,
+"similarity": 0.7201956510543823
+},
+{
+"singer": "female3",
+"sid": "scales_e",
+"condition": "ad_breathy_a0.5",
+"method": "adapter",
+"label": "breathy",
+"strength": 0.5,
+"similarity": 0.7629609704017639
+},
+{
+"singer": "female3",
+"sid": "scales_e",
+"condition": "eqmatch_breathy",
+"method": "eqmatch",
+"label": "breathy",
+"strength": null,
+"similarity": 0.7809361219406128
+},
+{
+"singer": "female3",
+"sid": "scales_e",
+"condition": "ad_belt_a1",
+"method": "adapter",
+"label": "belt",
+"strength": 1.0,
+"similarity": 0.7821708917617798
+},
+{
+"singer": "female3",
+"sid": "scales_e",
+"condition": "ad_belt_a0.5",
+"method": "adapter",
+"label": "belt",
+"strength": 0.5,
+"similarity": 0.7485195398330688
+},
+{
+"singer": "female3",
+"sid": "scales_e",
+"condition": "eqmatch_belt",
+"method": "eqmatch",
+"label": "belt",
+"strength": null,
+"similarity": 0.8032767176628113
+},
+{
+"singer": "female3",
+"sid": "scales_e",
+"condition": "ad_vocal_fry_a1",
+"method": "adapter",
+"label": "vocal_fry",
+"strength": 1.0,
+"similarity": 0.6857019662857056
+},
+{
+"singer": "female3",
+"sid": "scales_e",
+"condition": "ad_vocal_fry_a0.5",
+"method": "adapter",
+"label": "vocal_fry",
+"strength": 0.5,
+"similarity": 0.7501065135002136
+},
+{
+"singer": "female3",
+"sid": "scales_e",
+"condition": "eqmatch_vocal_fry",
+"method": "eqmatch",
+"label": "vocal_fry",
+"strength": null,
+"similarity": 0.7627828121185303
+},
+{
+"singer": "female3",
+"sid": "scales_e",
+"condition": "ad_forte_a1",
+"method": "adapter",
+"label": "forte",
+"strength": 1.0,
+"similarity": 0.7533055543899536
+},
+{
+"singer": "female3",
+"sid": "scales_e",
+"condition": "ad_forte_a0.5",
+"method": "adapter",
+"label": "forte",
+"strength": 0.5,
+"similarity": 0.7758159637451172
+},
+{
+"singer": "female3",
+"sid": "scales_e",
+"condition": "eqmatch_forte",
+"method": "eqmatch",
+"label": "forte",
+"strength": null,
+"similarity": 0.8090812563896179
+},
+{
+"singer": "female3",
+"sid": "scales_e",
+"condition": "ad_piano_a1",
+"method": "adapter",
+"label": "piano",
+"strength": 1.0,
+"similarity": 0.7434256076812744
+},
+{
+"singer": "female3",
+"sid": "scales_e",
+"condition": "ad_piano_a0.5",
+"method": "adapter",
+"label": "piano",
+"strength": 0.5,
+"similarity": 0.7854928970336914
+},
+{
+"singer": "female3",
+"sid": "scales_e",
+"condition": "eqmatch_piano",
+"method": "eqmatch",
+"label": "piano",
+"strength": null,
+"similarity": 0.806976318359375
+},
+{
+"singer": "female3",
+"sid": "scales_e",
+"condition": "carried_breathy",
+"method": "carried",
+"label": "breathy",
+"strength": null,
+"similarity": 0.7958982586860657
+},
+{
+"singer": "female3",
+"sid": "scales_e",
+"condition": "carried_vocal_fry",
+"method": "carried",
+"label": "vocal_fry",
+"strength": null,
+"similarity": 0.6904162764549255
+},
+{
+"singer": "female3",
+"sid": "scales_e",
+"condition": "carried_forte",
+"method": "carried",
+"label": "forte",
+"strength": null,
+"similarity": 0.6954108476638794
+},
+{
+"singer": "female3",
+"sid": "scales_e",
+"condition": "carried_piano",
+"method": "carried",
+"label": "piano",
+"strength": null,
+"similarity": 0.6925516724586487
+},
+{
+"singer": "female3",
+"sid": "scales_i",
+"condition": "base",
+"method": "base",
+"label": null,
+"strength": null,
+"similarity": 0.8216296434402466
+},
+{
+"singer": "female3",
+"sid": "scales_i",
+"condition": "ad_breathy_a1",
+"method": "adapter",
+"label": "breathy",
+"strength": 1.0,
+"similarity": 0.6785891056060791
+},
+{
+"singer": "female3",
+"sid": "scales_i",
+"condition": "ad_breathy_a0.5",
+"method": "adapter",
+"label": "breathy",
+"strength": 0.5,
+"similarity": 0.7808393239974976
+},
+{
+"singer": "female3",
+"sid": "scales_i",
+"condition": "eqmatch_breathy",
+"method": "eqmatch",
+"label": "breathy",
+"strength": null,
+"similarity": 0.7804359197616577
+},
+{
+"singer": "female3",
+"sid": "scales_i",
+"condition": "ad_belt_a1",
+"method": "adapter",
+"label": "belt",
+"strength": 1.0,
+"similarity": 0.8018489480018616
+},
+{
+"singer": "female3",
+"sid": "scales_i",
+"condition": "ad_belt_a0.5",
+"method": "adapter",
+"label": "belt",
+"strength": 0.5,
+"similarity": 0.7981142401695251
+},
+{
+"singer": "female3",
+"sid": "scales_i",
+"condition": "eqmatch_belt",
+"method": "eqmatch",
+"label": "belt",
+"strength": null,
+"similarity": 0.823769211769104
+},
+{
+"singer": "female3",
+"sid": "scales_i",
+"condition": "ad_vocal_fry_a1",
+"method": "adapter",
+"label": "vocal_fry",
+"strength": 1.0,
+"similarity": 0.7144259214401245
+},
+{
+"singer": "female3",
+"sid": "scales_i",
+"condition": "ad_vocal_fry_a0.5",
+"method": "adapter",
+"label": "vocal_fry",
+"strength": 0.5,
+"similarity": 0.7527884840965271
+},
+{
+"singer": "female3",
+"sid": "scales_i",
+"condition": "eqmatch_vocal_fry",
+"method": "eqmatch",
+"label": "vocal_fry",
+"strength": null,
+"similarity": 0.7768360376358032
+},
+{
+"singer": "female3",
+"sid": "scales_i",
+"condition": "ad_forte_a1",
+"method": "adapter",
+"label": "forte",
+"strength": 1.0,
+"similarity": 0.7437448501586914
+},
+{
+"singer": "female3",
+"sid": "scales_i",
+"condition": "ad_forte_a0.5",
+"method": "adapter",
+"label": "forte",
+"strength": 0.5,
+"similarity": 0.804695188999176
+},
+{
+"singer": "female3",
+"sid": "scales_i",
+"condition": "eqmatch_forte",
+"method": "eqmatch",
+"label": "forte",
+"strength": null,
+"similarity": 0.8220806121826172
+},
+{
+"singer": "female3",
+"sid": "scales_i",
+"condition": "ad_piano_a1",
+"method": "adapter",
+"label": "piano",
+"strength": 1.0,
+"similarity": 0.7321250438690186
+},
+{
+"singer": "female3",
+"sid": "scales_i",
+"condition": "ad_piano_a0.5",
+"method": "adapter",
+"label": "piano",
+"strength": 0.5,
+"similarity": 0.7938593626022339
+},
+{
+"singer": "female3",
+"sid": "scales_i",
+"condition": "eqmatch_piano",
+"method": "eqmatch",
+"label": "piano",
+"strength": null,
+"similarity": 0.8230984210968018
+},
+{
+"singer": "female3",
+"sid": "scales_i",
+"condition": "carried_breathy",
+"method": "carried",
+"label": "breathy",
+"strength": null,
+"similarity": 0.8006259202957153
+},
+{
+"singer": "female3",
+"sid": "scales_i",
+"condition": "carried_belt",
+"method": "carried",
+"label": "belt",
+"strength": null,
+"similarity": 0.755038857460022
+},
+{
+"singer": "female3",
+"sid": "scales_i",
+"condition": "carried_vocal_fry",
+"method": "carried",
+"label": "vocal_fry",
+"strength": null,
+"similarity": 0.8117295503616333
+},
+{
+"singer": "female3",
+"sid": "scales_i",
+"condition": "carried_forte",
+"method": "carried",
+"label": "forte",
+"strength": null,
+"similarity": 0.7253426909446716
+},
+{
+"singer": "female3",
+"sid": "scales_i",
+"condition": "carried_piano",
+"method": "carried",
+"label": "piano",
+"strength": null,
+"similarity": 0.7254883050918579
+},
+{
+"singer": "female3",
+"sid": "scales_o",
+"condition": "base",
+"method": "base",
+"label": null,
+"strength": null,
+"similarity": 0.7148337364196777
+},
+{
+"singer": "female3",
+"sid": "scales_o",
+"condition": "ad_breathy_a1",
+"method": "adapter",
+"label": "breathy",
+"strength": 1.0,
+"similarity": 0.7481986284255981
+},
+{
+"singer": "female3",
+"sid": "scales_o",
+"condition": "ad_breathy_a0.5",
+"method": "adapter",
+"label": "breathy",
+"strength": 0.5,
+"similarity": 0.7635836005210876
+},
+{
+"singer": "female3",
+"sid": "scales_o",
+"condition": "eqmatch_breathy",
+"method": "eqmatch",
+"label": "breathy",
+"strength": null,
+"similarity": 0.775497317314148
+},
+{
+"singer": "female3",
+"sid": "scales_o",
+"condition": "ad_belt_a1",
+"method": "adapter",
+"label": "belt",
+"strength": 1.0,
+"similarity": 0.793652355670929
+},
+{
+"singer": "female3",
+"sid": "scales_o",
+"condition": "ad_belt_a0.5",
+"method": "adapter",
+"label": "belt",
+"strength": 0.5,
+"similarity": 0.7845960259437561
+},
+{
+"singer": "female3",
+"sid": "scales_o",
+"condition": "eqmatch_belt",
+"method": "eqmatch",
+"label": "belt",
+"strength": null,
+"similarity": 0.7113292217254639
+},
+{
+"singer": "female3",
+"sid": "scales_o",
+"condition": "ad_vocal_fry_a1",
+"method": "adapter",
+"label": "vocal_fry",
+"strength": 1.0,
+"similarity": 0.6779633164405823
+},
+{
+"singer": "female3",
+"sid": "scales_o",
+"condition": "ad_vocal_fry_a0.5",
+"method": "adapter",
+"label": "vocal_fry",
+"strength": 0.5,
+"similarity": 0.7386763691902161
+},
+{
+"singer": "female3",
+"sid": "scales_o",
+"condition": "eqmatch_vocal_fry",
+"method": "eqmatch",
+"label": "vocal_fry",
+"strength": null,
+"similarity": 0.7866185903549194
+},
+{
+"singer": "female3",
+"sid": "scales_o",
+"condition": "ad_forte_a1",
+"method": "adapter",
+"label": "forte",
+"strength": 1.0,
+"similarity": 0.7599619626998901
+},
+{
+"singer": "female3",
+"sid": "scales_o",
+"condition": "ad_forte_a0.5",
+"method": "adapter",
+"label": "forte",
+"strength": 0.5,
+"similarity": 0.7289912700653076
+},
+{
+"singer": "female3",
+"sid": "scales_o",
+"condition": "eqmatch_forte",
+"method": "eqmatch",
+"label": "forte",
+"strength": null,
+"similarity": 0.7207913994789124
+},
+{
+"singer": "female3",
+"sid": "scales_o",
+"condition": "ad_piano_a1",
+"method": "adapter",
+"label": "piano",
+"strength": 1.0,
+"similarity": 0.6966217756271362
+},
+{
+"singer": "female3",
+"sid": "scales_o",
+"condition": "ad_piano_a0.5",
+"method": "adapter",
+"label": "piano",
+"strength": 0.5,
+"similarity": 0.7517942190170288
+},
+{
+"singer": "female3",
+"sid": "scales_o",
+"condition": "eqmatch_piano",
+"method": "eqmatch",
+"label": "piano",
+"strength": null,
+"similarity": 0.7090272903442383
+},
+{
+"singer": "female3",
+"sid": "scales_o",
+"condition": "carried_breathy",
+"method": "carried",
+"label": "breathy",
+"strength": null,
+"similarity": 0.7331749796867371
+},
+{
+"singer": "female3",
+"sid": "scales_o",
+"condition": "carried_vocal_fry",
+"method": "carried",
+"label": "vocal_fry",
+"strength": null,
+"similarity": 0.5847868323326111
+},
+{
+"singer": "female3",
+"sid": "scales_o",
+"condition": "carried_forte",
+"method": "carried",
+"label": "forte",
+"strength": null,
+"similarity": 0.7129676342010498
+},
+{
+"singer": "female3",
+"sid": "scales_o",
+"condition": "carried_piano",
+"method": "carried",
+"label": "piano",
+"strength": null,
+"similarity": 0.7010166645050049
+},
+{
+"singer": "female3",
+"sid": "scales_u",
+"condition": "base",
+"method": "base",
+"label": null,
+"strength": null,
+"similarity": 0.7599899768829346
+},
+{
+"singer": "female3",
+"sid": "scales_u",
+"condition": "ad_breathy_a1",
+"method": "adapter",
+"label": "breathy",
+"strength": 1.0,
+"similarity": 0.6911340951919556
+},
+{
+"singer": "female3",
+"sid": "scales_u",
+"condition": "ad_breathy_a0.5",
+"method": "adapter",
+"label": "breathy",
+"strength": 0.5,
+"similarity": 0.7228856086730957
+},
+{
+"singer": "female3",
+"sid": "scales_u",
+"condition": "eqmatch_breathy",
+"method": "eqmatch",
+"label": "breathy",
+"strength": null,
+"similarity": 0.7522718906402588
+},
+{
+"singer": "female3",
+"sid": "scales_u",
+"condition": "ad_belt_a1",
+"method": "adapter",
+"label": "belt",
+"strength": 1.0,
+"similarity": 0.8148561120033264
+},
+{
+"singer": "female3",
+"sid": "scales_u",
+"condition": "ad_belt_a0.5",
+"method": "adapter",
+"label": "belt",
+"strength": 0.5,
+"similarity": 0.7816184759140015
+},
+{
+"singer": "female3",
+"sid": "scales_u",
+"condition": "eqmatch_belt",
+"method": "eqmatch",
+"label": "belt",
+"strength": null,
+"similarity": 0.7759654521942139
+},
+{
+"singer": "female3",
+"sid": "scales_u",
+"condition": "ad_vocal_fry_a1",
+"method": "adapter",
+"label": "vocal_fry",
+"strength": 1.0,
+"similarity": 0.5946677923202515
+},
+{
+"singer": "female3",
+"sid": "scales_u",
+"condition": "ad_vocal_fry_a0.5",
+"method": "adapter",
+"label": "vocal_fry",
+"strength": 0.5,
+"similarity": 0.7097188234329224
+},
+{
+"singer": "female3",
+"sid": "scales_u",
+"condition": "eqmatch_vocal_fry",
+"method": "eqmatch",
+"label": "vocal_fry",
+"strength": null,
+"similarity": 0.7280887961387634
+},
+{
+"singer": "female3",
+"sid": "scales_u",
+"condition": "ad_forte_a1",
+"method": "adapter",
+"label": "forte",
+"strength": 1.0,
+"similarity": 0.6781808137893677
+},
+{
+"singer": "female3",
+"sid": "scales_u",
+"condition": "ad_forte_a0.5",
+"method": "adapter",
+"label": "forte",
+"strength": 0.5,
+"similarity": 0.7641727924346924
+},
+{
+"singer": "female3",
+"sid": "scales_u",
+"condition": "eqmatch_forte",
+"method": "eqmatch",
+"label": "forte",
+"strength": null,
+"similarity": 0.7699893116950989
+},
+{
+"singer": "female3",
+"sid": "scales_u",
+"condition": "ad_piano_a1",
+"method": "adapter",
+"label": "piano",
+"strength": 1.0,
+"similarity": 0.7082104682922363
+},
+{
+"singer": "female3",
+"sid": "scales_u",
+"condition": "ad_piano_a0.5",
+"method": "adapter",
+"label": "piano",
+"strength": 0.5,
+"similarity": 0.7699233889579773
+},
+{
+"singer": "female3",
+"sid": "scales_u",
+"condition": "eqmatch_piano",
+"method": "eqmatch",
+"label": "piano",
+"strength": null,
+"similarity": 0.7576865553855896
+},
+{
+"singer": "female3",
+"sid": "scales_u",
+"condition": "carried_breathy",
+"method": "carried",
+"label": "breathy",
+"strength": null,
+"similarity": 0.72626131772995
+},
+{
+"singer": "female3",
+"sid": "scales_u",
+"condition": "carried_belt",
+"method": "carried",
+"label": "belt",
+"strength": null,
+"similarity": 0.7698026895523071
+},
+{
+"singer": "female3",
+"sid": "scales_u",
+"condition": "carried_vocal_fry",
+"method": "carried",
+"label": "vocal_fry",
+"strength": null,
+"similarity": 0.8137868642807007
+},
+{
+"singer": "female3",
+"sid": "scales_u",
+"condition": "carried_forte",
+"method": "carried",
+"label": "forte",
+"strength": null,
+"similarity": 0.7105386257171631
+},
+{
+"singer": "female3",
+"sid": "scales_u",
+"condition": "carried_piano",
+"method": "carried",
+"label": "piano",
+"strength": null,
+"similarity": 0.7144523859024048
+},
+{
+"singer": "female3",
+"sid": "arpeggios_a",
+"condition": "base",
+"method": "base",
+"label": null,
+"strength": null,
+"similarity": 0.7704466581344604
+},
+{
+"singer": "female3",
+"sid": "arpeggios_a",
+"condition": "ad_breathy_a1",
+"method": "adapter",
+"label": "breathy",
+"strength": 1.0,
+"similarity": 0.7669459581375122
+},
+{
+"singer": "female3",
+"sid": "arpeggios_a",
+"condition": "ad_breathy_a0.5",
+"method": "adapter",
+"label": "breathy",
+"strength": 0.5,
+"similarity": 0.782178521156311
+},
+{
+"singer": "female3",
+"sid": "arpeggios_a",
+"condition": "eqmatch_breathy",
+"method": "eqmatch",
+"label": "breathy",
+"strength": null,
+"similarity": 0.7658588886260986
+},
+{
+"singer": "female3",
+"sid": "arpeggios_a",
+"condition": "ad_belt_a1",
+"method": "adapter",
+"label": "belt",
+"strength": 1.0,
+"similarity": 0.716895341873169
+},
+{
+"singer": "female3",
+"sid": "arpeggios_a",
+"condition": "ad_belt_a0.5",
+"method": "adapter",
+"label": "belt",
+"strength": 0.5,
+"similarity": 0.7883899807929993
+},
+{
+"singer": "female3",
+"sid": "arpeggios_a",
+"condition": "eqmatch_belt",
+"method": "eqmatch",
+"label": "belt",
+"strength": null,
+"similarity": 0.725766658782959
+},
+{
+"singer": "female3",
+"sid": "arpeggios_a",
+"condition": "ad_vocal_fry_a1",
+"method": "adapter",
+"label": "vocal_fry",
+"strength": 1.0,
+"similarity": 0.6805829405784607
+},
+{
+"singer": "female3",
+"sid": "arpeggios_a",
+"condition": "ad_vocal_fry_a0.5",
+"method": "adapter",
+"label": "vocal_fry",
+"strength": 0.5,
+"similarity": 0.7875273823738098
+},
+{
+"singer": "female3",
+"sid": "arpeggios_a",
+"condition": "eqmatch_vocal_fry",
+"method": "eqmatch",
+"label": "vocal_fry",
+"strength": null,
+"similarity": 0.783022403717041
+},
+{
+"singer": "female3",
+"sid": "arpeggios_a",
+"condition": "ad_forte_a1",
+"method": "adapter",
+"label": "forte",
+"strength": 1.0,
+"similarity": 0.7127894163131714
+},
+{
+"singer": "female3",
+"sid": "arpeggios_a",
+"condition": "ad_forte_a0.5",
+"method": "adapter",
+"label": "forte",
+"strength": 0.5,
+"similarity": 0.8029784560203552
+},
+{
+"singer": "female3",
+"sid": "arpeggios_a",
+"condition": "eqmatch_forte",
+"method": "eqmatch",
+"label": "forte",
+"strength": null,
+"similarity": 0.7350111603736877
+},
+{
+"singer": "female3",
+"sid": "arpeggios_a",
+"condition": "ad_piano_a1",
+"method": "adapter",
+"label": "piano",
+"strength": 1.0,
+"similarity": 0.7701954245567322
+},
+{
+"singer": "female3",
+"sid": "arpeggios_a",
+"condition": "ad_piano_a0.5",
+"method": "adapter",
+"label": "piano",
+"strength": 0.5,
+"similarity": 0.8108565211296082
+},
+{
+"singer": "female3",
+"sid": "arpeggios_a",
+"condition": "eqmatch_piano",
+"method": "eqmatch",
+"label": "piano",
+"strength": null,
+"similarity": 0.7774865627288818
+},
+{
+"singer": "female3",
+"sid": "arpeggios_a",
+"condition": "carried_breathy",
+"method": "carried",
+"label": "breathy",
+"strength": null,
+"similarity": 0.7492430806159973
+},
+{
+"singer": "female3",
+"sid": "arpeggios_a",
+"condition": "carried_vocal_fry",
+"method": "carried",
+"label": "vocal_fry",
+"strength": null,
+"similarity": 0.6247876882553101
+},
+{
+"singer": "female3",
+"sid": "arpeggios_a",
+"condition": "carried_forte",
+"method": "carried",
+"label": "forte",
+"strength": null,
+"similarity": 0.679115891456604
+},
+{
+"singer": "female3",
+"sid": "arpeggios_a",
+"condition": "carried_piano",
+"method": "carried",
+"label": "piano",
+"strength": null,
+"similarity": 0.6761665940284729
+},
+{
+"singer": "female3",
+"sid": "arpeggios_e",
+"condition": "base",
+"method": "base",
+"label": null,
+"strength": null,
+"similarity": 0.761143684387207
+},
+{
+"singer": "female3",
+"sid": "arpeggios_e",
+"condition": "ad_breathy_a1",
+"method": "adapter",
+"label": "breathy",
+"strength": 1.0,
+"similarity": 0.765312671661377
+},
+{
+"singer": "female3",
+"sid": "arpeggios_e",
+"condition": "ad_breathy_a0.5",
+"method": "adapter",
+"label": "breathy",
+"strength": 0.5,
+"similarity": 0.7645916938781738
+},
+{
+"singer": "female3",
+"sid": "arpeggios_e",
+"condition": "eqmatch_breathy",
+"method": "eqmatch",
+"label": "breathy",
+"strength": null,
+"similarity": 0.7381042242050171
+},
+{
+"singer": "female3",
+"sid": "arpeggios_e",
+"condition": "ad_belt_a1",
+"method": "adapter",
+"label": "belt",
+"strength": 1.0,
+"similarity": 0.7874905467033386
+},
+{
+"singer": "female3",
+"sid": "arpeggios_e",
+"condition": "ad_belt_a0.5",
+"method": "adapter",
+"label": "belt",
+"strength": 0.5,
+"similarity": 0.7567130923271179
+},
+{
+"singer": "female3",
+"sid": "arpeggios_e",
+"condition": "eqmatch_belt",
+"method": "eqmatch",
+"label": "belt",
+"strength": null,
+"similarity": 0.7409011125564575
+},
+{
+"singer": "female3",
+"sid": "arpeggios_e",
+"condition": "ad_vocal_fry_a1",
+"method": "adapter",
+"label": "vocal_fry",
+"strength": 1.0,
+"similarity": 0.7244194746017456
+},
+{
+"singer": "female3",
+"sid": "arpeggios_e",
+"condition": "ad_vocal_fry_a0.5",
+"method": "adapter",
+"label": "vocal_fry",
+"strength": 0.5,
+"similarity": 0.7336729764938354
+},
+{
+"singer": "female3",
+"sid": "arpeggios_e",
+"condition": "eqmatch_vocal_fry",
+"method": "eqmatch",
+"label": "vocal_fry",
+"strength": null,
+"similarity": 0.7028051018714905
+},
+{
+"singer": "female3",
+"sid": "arpeggios_e",
+"condition": "ad_forte_a1",
+"method": "adapter",
+"label": "forte",
+"strength": 1.0,
+"similarity": 0.7758024334907532
+},
+{
+"singer": "female3",
+"sid": "arpeggios_e",
+"condition": "ad_forte_a0.5",
+"method": "adapter",
+"label": "forte",
+"strength": 0.5,
+"similarity": 0.7430644631385803
+},
+{
+"singer": "female3",
+"sid": "arpeggios_e",
+"condition": "eqmatch_forte",
+"method": "eqmatch",
+"label": "forte",
+"strength": null,
+"similarity": 0.745473325252533
+},
+{
+"singer": "female3",
+"sid": "arpeggios_e",
+"condition": "ad_piano_a1",
+"method": "adapter",
+"label": "piano",
+"strength": 1.0,
+"similarity": 0.7659294009208679
+},
+{
+"singer": "female3",
+"sid": "arpeggios_e",
+"condition": "ad_piano_a0.5",
+"method": "adapter",
+"label": "piano",
+"strength": 0.5,
+"similarity": 0.742167592048645
+},
+{
+"singer": "female3",
+"sid": "arpeggios_e",
+"condition": "eqmatch_piano",
+"method": "eqmatch",
+"label": "piano",
+"strength": null,
+"similarity": 0.7510819435119629
+},
+{
+"singer": "female3",
+"sid": "arpeggios_e",
+"condition": "carried_breathy",
+"method": "carried",
+"label": "breathy",
+"strength": null,
+"similarity": 0.7913078665733337
+},
+{
+"singer": "female3",
+"sid": "arpeggios_e",
+"condition": "carried_vocal_fry",
+"method": "carried",
+"label": "vocal_fry",
+"strength": null,
+"similarity": 0.6649461388587952
+},
+{
+"singer": "female3",
+"sid": "arpeggios_e",
+"condition": "carried_forte",
+"method": "carried",
+"label": "forte",
+"strength": null,
+"similarity": 0.6152191162109375
+},
+{
+"singer": "female3",
+"sid": "arpeggios_e",
+"condition": "carried_piano",
+"method": "carried",
+"label": "piano",
+"strength": null,
+"similarity": 0.6343814134597778
+},
+{
+"singer": "female3",
+"sid": "arpeggios_i",
+"condition": "base",
+"method": "base",
+"label": null,
+"strength": null,
+"similarity": 0.7272987365722656
+},
+{
+"singer": "female3",
+"sid": "arpeggios_i",
+"condition": "ad_breathy_a1",
+"method": "adapter",
+"label": "breathy",
+"strength": 1.0,
+"similarity": 0.6894797682762146
+},
+{
+"singer": "female3",
+"sid": "arpeggios_i",
+"condition": "ad_breathy_a0.5",
+"method": "adapter",
+"label": "breathy",
+"strength": 0.5,
+"similarity": 0.7297714352607727
+},
+{
+"singer": "female3",
+"sid": "arpeggios_i",
+"condition": "eqmatch_breathy",
+"method": "eqmatch",
+"label": "breathy",
+"strength": null,
+"similarity": 0.7121990323066711
+},
+{
+"singer": "female3",
+"sid": "arpeggios_i",
+"condition": "ad_belt_a1",
+"method": "adapter",
+"label": "belt",
+"strength": 1.0,
+"similarity": 0.7432929873466492
+},
+{
+"singer": "female3",
+"sid": "arpeggios_i",
+"condition": "ad_belt_a0.5",
+"method": "adapter",
+"label": "belt",
+"strength": 0.5,
+"similarity": 0.698148787021637
+},
+{
+"singer": "female3",
+"sid": "arpeggios_i",
+"condition": "eqmatch_belt",
+"method": "eqmatch",
+"label": "belt",
+"strength": null,
+"similarity": 0.6947134733200073
+},
+{
+"singer": "female3",
+"sid": "arpeggios_i",
+"condition": "ad_vocal_fry_a1",
+"method": "adapter",
+"label": "vocal_fry",
+"strength": 1.0,
+"similarity": 0.7181516885757446
+},
+{
+"singer": "female3",
+"sid": "arpeggios_i",
+"condition": "ad_vocal_fry_a0.5",
+"method": "adapter",
+"label": "vocal_fry",
+"strength": 0.5,
+"similarity": 0.7022757530212402
+},
+{
+"singer": "female3",
+"sid": "arpeggios_i",
+"condition": "eqmatch_vocal_fry",
+"method": "eqmatch",
+"label": "vocal_fry",
+"strength": null,
+"similarity": 0.7114346027374268
+},
+{
+"singer": "female3",
+"sid": "arpeggios_i",
+"condition": "ad_forte_a1",
+"method": "adapter",
+"label": "forte",
+"strength": 1.0,
+"similarity": 0.6923553943634033
+},
+{
+"singer": "female3",
+"sid": "arpeggios_i",
+"condition": "ad_forte_a0.5",
+"method": "adapter",
+"label": "forte",
+"strength": 0.5,
+"similarity": 0.6820602416992188
+},
+{
+"singer": "female3",
+"sid": "arpeggios_i",
+"condition": "eqmatch_forte",
+"method": "eqmatch",
+"label": "forte",
+"strength": null,
+"similarity": 0.6933287382125854
+},
+{
+"singer": "female3",
+"sid": "arpeggios_i",
+"condition": "ad_piano_a1",
+"method": "adapter",
+"label": "piano",
+"strength": 1.0,
+"similarity": 0.7168207764625549
+},
+{
+"singer": "female3",
+"sid": "arpeggios_i",
+"condition": "ad_piano_a0.5",
+"method": "adapter",
+"label": "piano",
+"strength": 0.5,
+"similarity": 0.732194185256958
+},
+{
+"singer": "female3",
+"sid": "arpeggios_i",
+"condition": "eqmatch_piano",
+"method": "eqmatch",
+"label": "piano",
+"strength": null,
+"similarity": 0.7197694778442383
+},
+{
+"singer": "female3",
+"sid": "arpeggios_i",
+"condition": "carried_breathy",
+"method": "carried",
+"label": "breathy",
+"strength": null,
+"similarity": 0.7128244042396545
+},
+{
+"singer": "female3",
+"sid": "arpeggios_i",
+"condition": "carried_vocal_fry",
+"method": "carried",
+"label": "vocal_fry",
+"strength": null,
+"similarity": 0.7271750569343567
+},
+{
+"singer": "female3",
+"sid": "arpeggios_i",
+"condition": "carried_forte",
+"method": "carried",
+"label": "forte",
+"strength": null,
+"similarity": 0.6085951924324036
+},
+{
+"singer": "female3",
+"sid": "arpeggios_i",
+"condition": "carried_piano",
+"method": "carried",
+"label": "piano",
+"strength": null,
+"similarity": 0.6051260232925415
+},
+{
+"singer": "female3",
+"sid": "arpeggios_o",
+"condition": "base",
+"method": "base",
+"label": null,
+"strength": null,
+"similarity": 0.7369154691696167
+},
+{
+"singer": "female3",
+"sid": "arpeggios_o",
+"condition": "ad_breathy_a1",
+"method": "adapter",
+"label": "breathy",
+"strength": 1.0,
+"similarity": 0.749535083770752
+},
+{
+"singer": "female3",
+"sid": "arpeggios_o",
+"condition": "ad_breathy_a0.5",
+"method": "adapter",
+"label": "breathy",
+"strength": 0.5,
+"similarity": 0.7408413887023926
+},
+{
+"singer": "female3",
+"sid": "arpeggios_o",
+"condition": "eqmatch_breathy",
+"method": "eqmatch",
+"label": "breathy",
+"strength": null,
+"similarity": 0.7876110672950745
+},
+{
+"singer": "female3",
+"sid": "arpeggios_o",
+"condition": "ad_belt_a1",
+"method": "adapter",
+"label": "belt",
+"strength": 1.0,
+"similarity": 0.7906189560890198
+},
+{
+"singer": "female3",
+"sid": "arpeggios_o",
+"condition": "ad_belt_a0.5",
+"method": "adapter",
+"label": "belt",
+"strength": 0.5,
+"similarity": 0.7709128856658936
+},
+{
+"singer": "female3",
+"sid": "arpeggios_o",
+"condition": "eqmatch_belt",
+"method": "eqmatch",
+"label": "belt",
+"strength": null,
+"similarity": 0.7426344156265259
+},
+{
+"singer": "female3",
+"sid": "arpeggios_o",
+"condition": "ad_vocal_fry_a1",
+"method": "adapter",
+"label": "vocal_fry",
+"strength": 1.0,
+"similarity": 0.7326231598854065
+},
+{
+"singer": "female3",
+"sid": "arpeggios_o",
+"condition": "ad_vocal_fry_a0.5",
+"method": "adapter",
+"label": "vocal_fry",
+"strength": 0.5,
+"similarity": 0.7279161214828491
+},
+{
+"singer": "female3",
+"sid": "arpeggios_o",
+"condition": "eqmatch_vocal_fry",
+"method": "eqmatch",
+"label": "vocal_fry",
+"strength": null,
+"similarity": 0.7920157313346863
+},
+{
+"singer": "female3",
+"sid": "arpeggios_o",
+"condition": "ad_forte_a1",
+"method": "adapter",
+"label": "forte",
+"strength": 1.0,
+"similarity": 0.7349414229393005
+},
+{
+"singer": "female3",
+"sid": "arpeggios_o",
+"condition": "ad_forte_a0.5",
+"method": "adapter",
+"label": "forte",
+"strength": 0.5,
+"similarity": 0.7500270009040833
+},
+{
+"singer": "female3",
+"sid": "arpeggios_o",
+"condition": "eqmatch_forte",
+"method": "eqmatch",
+"label": "forte",
+"strength": null,
+"similarity": 0.7363438606262207
+},
+{
+"singer": "female3",
+"sid": "arpeggios_o",
+"condition": "ad_piano_a1",
+"method": "adapter",
+"label": "piano",
+"strength": 1.0,
+"similarity": 0.6954785585403442
+},
+{
+"singer": "female3",
+"sid": "arpeggios_o",
+"condition": "ad_piano_a0.5",
+"method": "adapter",
+"label": "piano",
+"strength": 0.5,
+"similarity": 0.7461975812911987
+},
+{
+"singer": "female3",
+"sid": "arpeggios_o",
+"condition": "eqmatch_piano",
+"method": "eqmatch",
+"label": "piano",
+"strength": null,
+"similarity": 0.7371857166290283
+},
+{
+"singer": "female3",
+"sid": "arpeggios_o",
+"condition": "carried_breathy",
+"method": "carried",
+"label": "breathy",
+"strength": null,
+"similarity": 0.7248308658599854
+},
+{
+"singer": "female3",
+"sid": "arpeggios_o",
+"condition": "carried_vocal_fry",
+"method": "carried",
+"label": "vocal_fry",
+"strength": null,
+"similarity": 0.6931806802749634
+},
+{
+"singer": "female3",
+"sid": "arpeggios_o",
+"condition": "carried_forte",
+"method": "carried",
+"label": "forte",
+"strength": null,
+"similarity": 0.6489247679710388
+},
+{
+"singer": "female3",
+"sid": "arpeggios_o",
+"condition": "carried_piano",
+"method": "carried",
+"label": "piano",
+"strength": null,
+"similarity": 0.5906574130058289
+},
+{
+"singer": "female3",
+"sid": "arpeggios_u",
+"condition": "base",
+"method": "base",
+"label": null,
+"strength": null,
+"similarity": 0.6168772578239441
+},
+{
+"singer": "female3",
+"sid": "arpeggios_u",
+"condition": "ad_breathy_a1",
+"method": "adapter",
+"label": "breathy",
+"strength": 1.0,
+"similarity": 0.6774697303771973
+},
+{
+"singer": "female3",
+"sid": "arpeggios_u",
+"condition": "ad_breathy_a0.5",
+"method": "adapter",
+"label": "breathy",
+"strength": 0.5,
+"similarity": 0.7169100642204285
+},
+{
+"singer": "female3",
+"sid": "arpeggios_u",
+"condition": "eqmatch_breathy",
+"method": "eqmatch",
+"label": "breathy",
+"strength": null,
+"similarity": 0.7571405172348022
+},
+{
+"singer": "female3",
+"sid": "arpeggios_u",
+"condition": "ad_belt_a1",
+"method": "adapter",
+"label": "belt",
+"strength": 1.0,
+"similarity": 0.7233262062072754
+},
+{
+"singer": "female3",
+"sid": "arpeggios_u",
+"condition": "ad_belt_a0.5",
+"method": "adapter",
+"label": "belt",
+"strength": 0.5,
+"similarity": 0.6337022185325623
+},
+{
+"singer": "female3",
+"sid": "arpeggios_u",
+"condition": "eqmatch_belt",
+"method": "eqmatch",
+"label": "belt",
+"strength": null,
+"similarity": 0.6143721342086792
+},
+{
+"singer": "female3",
+"sid": "arpeggios_u",
+"condition": "ad_vocal_fry_a1",
+"method": "adapter",
+"label": "vocal_fry",
+"strength": 1.0,
+"similarity": 0.6972935795783997
+},
+{
+"singer": "female3",
+"sid": "arpeggios_u",
+"condition": "ad_vocal_fry_a0.5",
+"method": "adapter",
+"label": "vocal_fry",
+"strength": 0.5,
+"similarity": 0.6941014528274536
+},
+{
+"singer": "female3",
+"sid": "arpeggios_u",
+"condition": "eqmatch_vocal_fry",
+"method": "eqmatch",
+"label": "vocal_fry",
+"strength": null,
+"similarity": 0.7461870908737183
+},
+{
+"singer": "female3",
+"sid": "arpeggios_u",
+"condition": "ad_forte_a1",
+"method": "adapter",
+"label": "forte",
+"strength": 1.0,
+"similarity": 0.6580044031143188
+},
+{
+"singer": "female3",
+"sid": "arpeggios_u",
+"condition": "ad_forte_a0.5",
+"method": "adapter",
+"label": "forte",
+"strength": 0.5,
+"similarity": 0.6975637674331665
+},
+{
+"singer": "female3",
+"sid": "arpeggios_u",
+"condition": "eqmatch_forte",
+"method": "eqmatch",
+"label": "forte",
+"strength": null,
+"similarity": 0.6261190176010132
+},
+{
+"singer": "female3",
+"sid": "arpeggios_u",
+"condition": "ad_piano_a1",
+"method": "adapter",
+"label": "piano",
+"strength": 1.0,
+"similarity": 0.6428070068359375
+},
+{
+"singer": "female3",
+"sid": "arpeggios_u",
+"condition": "ad_piano_a0.5",
+"method": "adapter",
+"label": "piano",
+"strength": 0.5,
+"similarity": 0.6939927339553833
+},
+{
+"singer": "female3",
+"sid": "arpeggios_u",
+"condition": "eqmatch_piano",
+"method": "eqmatch",
+"label": "piano",
+"strength": null,
+"similarity": 0.6643270254135132
+},
+{
+"singer": "female3",
+"sid": "arpeggios_u",
+"condition": "carried_breathy",
+"method": "carried",
+"label": "breathy",
+"strength": null,
+"similarity": 0.746652364730835
+},
+{
+"singer": "female3",
+"sid": "arpeggios_u",
+"condition": "carried_vocal_fry",
+"method": "carried",
+"label": "vocal_fry",
+"strength": null,
+"similarity": 0.7669681906700134
+},
+{
+"singer": "female3",
+"sid": "arpeggios_u",
+"condition": "carried_forte",
+"method": "carried",
+"label": "forte",
+"strength": null,
+"similarity": 0.5911410450935364
+},
+{
+"singer": "female3",
+"sid": "arpeggios_u",
+"condition": "carried_piano",
+"method": "carried",
+"label": "piano",
+"strength": null,
+"similarity": 0.6217237710952759
+},
+{
+"singer": "female9",
+"sid": "scales_a",
+"condition": "base",
+"method": "base",
+"label": null,
+"strength": null,
+"similarity": 0.7388038635253906
+},
+{
+"singer": "female9",
+"sid": "scales_a",
+"condition": "ad_breathy_a1",
+"method": "adapter",
+"label": "breathy",
+"strength": 1.0,
+"similarity": 0.6669524312019348
+},
+{
+"singer": "female9",
+"sid": "scales_a",
+"condition": "ad_breathy_a0.5",
+"method": "adapter",
+"label": "breathy",
+"strength": 0.5,
+"similarity": 0.6672700047492981
+},
+{
+"singer": "female9",
+"sid": "scales_a",
+"condition": "eqmatch_breathy",
+"method": "eqmatch",
+"label": "breathy",
+"strength": null,
+"similarity": 0.6960669755935669
+},
+{
+"singer": "female9",
+"sid": "scales_a",
+"condition": "ad_belt_a1",
+"method": "adapter",
+"label": "belt",
+"strength": 1.0,
+"similarity": 0.604581356048584
+},
+{
+"singer": "female9",
+"sid": "scales_a",
+"condition": "ad_belt_a0.5",
+"method": "adapter",
+"label": "belt",
+"strength": 0.5,
+"similarity": 0.6435037851333618
+},
+{
+"singer": "female9",
+"sid": "scales_a",
+"condition": "eqmatch_belt",
+"method": "eqmatch",
+"label": "belt",
+"strength": null,
+"similarity": 0.7213706374168396
+},
+{
+"singer": "female9",
+"sid": "scales_a",
+"condition": "ad_vocal_fry_a1",
+"method": "adapter",
+"label": "vocal_fry",
+"strength": 1.0,
+"similarity": 0.5753017067909241
+},
+{
+"singer": "female9",
+"sid": "scales_a",
+"condition": "ad_vocal_fry_a0.5",
+"method": "adapter",
+"label": "vocal_fry",
+"strength": 0.5,
+"similarity": 0.616117537021637
+},
+{
+"singer": "female9",
+"sid": "scales_a",
+"condition": "eqmatch_vocal_fry",
+"method": "eqmatch",
+"label": "vocal_fry",
+"strength": null,
+"similarity": 0.7013142108917236
+},
+{
+"singer": "female9",
+"sid": "scales_a",
+"condition": "ad_forte_a1",
+"method": "adapter",
+"label": "forte",
+"strength": 1.0,
+"similarity": 0.6421625018119812
+},
+{
+"singer": "female9",
+"sid": "scales_a",
+"condition": "ad_forte_a0.5",
+"method": "adapter",
+"label": "forte",
+"strength": 0.5,
+"similarity": 0.6434568762779236
+},
+{
+"singer": "female9",
+"sid": "scales_a",
+"condition": "eqmatch_forte",
+"method": "eqmatch",
+"label": "forte",
+"strength": null,
+"similarity": 0.7405868768692017
+},
+{
+"singer": "female9",
+"sid": "scales_a",
+"condition": "ad_piano_a1",
+"method": "adapter",
+"label": "piano",
+"strength": 1.0,
+"similarity": 0.652638852596283
+},
+{
+"singer": "female9",
+"sid": "scales_a",
+"condition": "ad_piano_a0.5",
+"method": "adapter",
+"label": "piano",
+"strength": 0.5,
+"similarity": 0.656293511390686
+},
+{
+"singer": "female9",
+"sid": "scales_a",
+"condition": "eqmatch_piano",
+"method": "eqmatch",
+"label": "piano",
+"strength": null,
+"similarity": 0.7184051871299744
+},
+{
+"singer": "female9",
+"sid": "scales_a",
+"condition": "carried_breathy",
+"method": "carried",
+"label": "breathy",
+"strength": null,
+"similarity": 0.677333414554596
+},
+{
+"singer": "female9",
+"sid": "scales_a",
+"condition": "carried_belt",
+"method": "carried",
+"label": "belt",
+"strength": null,
+"similarity": 0.6215512752532959
+},
+{
+"singer": "female9",
+"sid": "scales_a",
+"condition": "carried_vocal_fry",
+"method": "carried",
+"label": "vocal_fry",
+"strength": null,
+"similarity": 0.6400755047798157
+},
+{
+"singer": "female9",
+"sid": "scales_a",
+"condition": "carried_forte",
+"method": "carried",
+"label": "forte",
+"strength": null,
+"similarity": 0.6047536730766296
+},
+{
+"singer": "female9",
+"sid": "scales_a",
+"condition": "carried_piano",
+"method": "carried",
+"label": "piano",
+"strength": null,
+"similarity": 0.6463800668716431
+},
+{
+"singer": "female9",
+"sid": "scales_e",
+"condition": "base",
+"method": "base",
+"label": null,
+"strength": null,
+"similarity": 0.6809972524642944
+},
+{
+"singer": "female9",
+"sid": "scales_e",
+"condition": "ad_breathy_a1",
+"method": "adapter",
+"label": "breathy",
+"strength": 1.0,
+"similarity": 0.5999625325202942
+},
+{
+"singer": "female9",
+"sid": "scales_e",
+"condition": "ad_breathy_a0.5",
+"method": "adapter",
+"label": "breathy",
+"strength": 0.5,
+"similarity": 0.6044479012489319
+},
+{
+"singer": "female9",
+"sid": "scales_e",
+"condition": "eqmatch_breathy",
+"method": "eqmatch",
+"label": "breathy",
+"strength": null,
+"similarity": 0.651160478591919
+},
+{
+"singer": "female9",
+"sid": "scales_e",
+"condition": "ad_belt_a1",
+"method": "adapter",
+"label": "belt",
+"strength": 1.0,
+"similarity": 0.6438168883323669
+},
+{
+"singer": "female9",
+"sid": "scales_e",
+"condition": "ad_belt_a0.5",
+"method": "adapter",
+"label": "belt",
+"strength": 0.5,
+"similarity": 0.6518996357917786
+},
+{
+"singer": "female9",
+"sid": "scales_e",
+"condition": "eqmatch_belt",
+"method": "eqmatch",
+"label": "belt",
+"strength": null,
+"similarity": 0.6856321096420288
+},
+{
+"singer": "female9",
+"sid": "scales_e",
+"condition": "ad_vocal_fry_a1",
+"method": "adapter",
+"label": "vocal_fry",
+"strength": 1.0,
+"similarity": 0.6552075147628784
+},
+{
+"singer": "female9",
+"sid": "scales_e",
+"condition": "ad_vocal_fry_a0.5",
+"method": "adapter",
+"label": "vocal_fry",
+"strength": 0.5,
+"similarity": 0.6041266322135925
+},
+{
+"singer": "female9",
+"sid": "scales_e",
+"condition": "eqmatch_vocal_fry",
+"method": "eqmatch",
+"label": "vocal_fry",
+"strength": null,
+"similarity": 0.6273595690727234
+},
+{
+"singer": "female9",
+"sid": "scales_e",
+"condition": "ad_forte_a1",
+"method": "adapter",
+"label": "forte",
+"strength": 1.0,
+"similarity": 0.6498569846153259
+},
+{
+"singer": "female9",
+"sid": "scales_e",
+"condition": "ad_forte_a0.5",
+"method": "adapter",
+"label": "forte",
+"strength": 0.5,
+"similarity": 0.6617920398712158
+},
+{
+"singer": "female9",
+"sid": "scales_e",
+"condition": "eqmatch_forte",
+"method": "eqmatch",
+"label": "forte",
+"strength": null,
+"similarity": 0.6646267771720886
+},
+{
+"singer": "female9",
+"sid": "scales_e",
+"condition": "ad_piano_a1",
+"method": "adapter",
+"label": "piano",
+"strength": 1.0,
+"similarity": 0.6331180334091187
+},
+{
+"singer": "female9",
+"sid": "scales_e",
+"condition": "ad_piano_a0.5",
+"method": "adapter",
+"label": "piano",
+"strength": 0.5,
+"similarity": 0.6157244443893433
+},
+{
+"singer": "female9",
+"sid": "scales_e",
+"condition": "eqmatch_piano",
+"method": "eqmatch",
+"label": "piano",
+"strength": null,
+"similarity": 0.6592863202095032
+},
+{
+"singer": "female9",
+"sid": "scales_e",
+"condition": "carried_breathy",
+"method": "carried",
+"label": "breathy",
+"strength": null,
+"similarity": 0.6276969909667969
+},
+{
+"singer": "female9",
+"sid": "scales_e",
+"condition": "carried_belt",
+"method": "carried",
+"label": "belt",
+"strength": null,
+"similarity": 0.6277675032615662
+},
+{
+"singer": "female9",
+"sid": "scales_e",
+"condition": "carried_vocal_fry",
+"method": "carried",
+"label": "vocal_fry",
+"strength": null,
+"similarity": 0.6940621137619019
+},
+{
+"singer": "female9",
+"sid": "scales_e",
+"condition": "carried_forte",
+"method": "carried",
+"label": "forte",
+"strength": null,
+"similarity": 0.5605856776237488
+},
+{
+"singer": "female9",
+"sid": "scales_e",
+"condition": "carried_piano",
+"method": "carried",
+"label": "piano",
+"strength": null,
+"similarity": 0.5369715690612793
+},
+{
+"singer": "female9",
+"sid": "scales_i",
+"condition": "base",
+"method": "base",
+"label": null,
+"strength": null,
+"similarity": 0.6256356239318848
+},
+{
+"singer": "female9",
+"sid": "scales_i",
+"condition": "ad_breathy_a1",
+"method": "adapter",
+"label": "breathy",
+"strength": 1.0,
+"similarity": 0.5909467935562134
+},
+{
+"singer": "female9",
+"sid": "scales_i",
+"condition": "ad_breathy_a0.5",
+"method": "adapter",
+"label": "breathy",
+"strength": 0.5,
+"similarity": 0.6256598830223083
+},
+{
+"singer": "female9",
+"sid": "scales_i",
+"condition": "eqmatch_breathy",
+"method": "eqmatch",
+"label": "breathy",
+"strength": null,
+"similarity": 0.621035099029541
+},
+{
+"singer": "female9",
+"sid": "scales_i",
+"condition": "ad_belt_a1",
+"method": "adapter",
+"label": "belt",
+"strength": 1.0,
+"similarity": 0.6094633936882019
+},
+{
+"singer": "female9",
+"sid": "scales_i",
+"condition": "ad_belt_a0.5",
+"method": "adapter",
+"label": "belt",
+"strength": 0.5,
+"similarity": 0.6317372918128967
+},
+{
+"singer": "female9",
+"sid": "scales_i",
+"condition": "eqmatch_belt",
+"method": "eqmatch",
+"label": "belt",
+"strength": null,
+"similarity": 0.6171408891677856
+},
+{
+"singer": "female9",
+"sid": "scales_i",
+"condition": "ad_vocal_fry_a1",
+"method": "adapter",
+"label": "vocal_fry",
+"strength": 1.0,
+"similarity": 0.6309179663658142
+},
+{
+"singer": "female9",
+"sid": "scales_i",
+"condition": "ad_vocal_fry_a0.5",
+"method": "adapter",
+"label": "vocal_fry",
+"strength": 0.5,
+"similarity": 0.6367590427398682
+},
+{
+"singer": "female9",
+"sid": "scales_i",
+"condition": "eqmatch_vocal_fry",
+"method": "eqmatch",
+"label": "vocal_fry",
+"strength": null,
+"similarity": 0.621346652507782
+},
+{
+"singer": "female9",
+"sid": "scales_i",
+"condition": "ad_forte_a1",
+"method": "adapter",
+"label": "forte",
+"strength": 1.0,
+"similarity": 0.5946409702301025
+},
+{
+"singer": "female9",
+"sid": "scales_i",
+"condition": "ad_forte_a0.5",
+"method": "adapter",
+"label": "forte",
+"strength": 0.5,
+"similarity": 0.6130498647689819
+},
+{
+"singer": "female9",
+"sid": "scales_i",
+"condition": "eqmatch_forte",
+"method": "eqmatch",
+"label": "forte",
+"strength": null,
+"similarity": 0.6191227436065674
+},
+{
+"singer": "female9",
+"sid": "scales_i",
+"condition": "ad_piano_a1",
+"method": "adapter",
+"label": "piano",
+"strength": 1.0,
+"similarity": 0.651692271232605
+},
+{
+"singer": "female9",
+"sid": "scales_i",
+"condition": "ad_piano_a0.5",
+"method": "adapter",
+"label": "piano",
+"strength": 0.5,
+"similarity": 0.6502537131309509
+},
+{
+"singer": "female9",
+"sid": "scales_i",
+"condition": "eqmatch_piano",
+"method": "eqmatch",
+"label": "piano",
+"strength": null,
+"similarity": 0.6277386546134949
+},
+{
+"singer": "female9",
+"sid": "scales_i",
+"condition": "carried_breathy",
+"method": "carried",
+"label": "breathy",
+"strength": null,
+"similarity": 0.638181209564209
+},
+{
+"singer": "female9",
+"sid": "scales_i",
+"condition": "carried_belt",
+"method": "carried",
+"label": "belt",
+"strength": null,
+"similarity": 0.6262434124946594
+},
+{
+"singer": "female9",
+"sid": "scales_i",
+"condition": "carried_vocal_fry",
+"method": "carried",
+"label": "vocal_fry",
+"strength": null,
+"similarity": 0.7394537329673767
+},
+{
+"singer": "female9",
+"sid": "scales_i",
+"condition": "carried_forte",
+"method": "carried",
+"label": "forte",
+"strength": null,
+"similarity": 0.5743962526321411
+},
+{
+"singer": "female9",
+"sid": "scales_i",
+"condition": "carried_piano",
+"method": "carried",
+"label": "piano",
+"strength": null,
+"similarity": 0.5708010792732239
+},
+{
+"singer": "female9",
+"sid": "scales_o",
+"condition": "base",
+"method": "base",
+"label": null,
+"strength": null,
+"similarity": 0.7120378017425537
+},
+{
+"singer": "female9",
+"sid": "scales_o",
+"condition": "ad_breathy_a1",
+"method": "adapter",
+"label": "breathy",
+"strength": 1.0,
+"similarity": 0.6055032014846802
+},
+{
+"singer": "female9",
+"sid": "scales_o",
+"condition": "ad_breathy_a0.5",
+"method": "adapter",
+"label": "breathy",
+"strength": 0.5,
+"similarity": 0.6590837240219116
+},
+{
+"singer": "female9",
+"sid": "scales_o",
+"condition": "eqmatch_breathy",
+"method": "eqmatch",
+"label": "breathy",
+"strength": null,
+"similarity": 0.6558732390403748
+},
+{
+"singer": "female9",
+"sid": "scales_o",
+"condition": "ad_belt_a1",
+"method": "adapter",
+"label": "belt",
+"strength": 1.0,
+"similarity": 0.6940085291862488
+},
+{
+"singer": "female9",
+"sid": "scales_o",
+"condition": "ad_belt_a0.5",
+"method": "adapter",
+"label": "belt",
+"strength": 0.5,
+"similarity": 0.6886053681373596
+},
+{
+"singer": "female9",
+"sid": "scales_o",
+"condition": "eqmatch_belt",
+"method": "eqmatch",
+"label": "belt",
+"strength": null,
+"similarity": 0.7091819047927856
+},
+{
+"singer": "female9",
+"sid": "scales_o",
+"condition": "ad_vocal_fry_a1",
+"method": "adapter",
+"label": "vocal_fry",
+"strength": 1.0,
+"similarity": 0.6558282971382141
+},
+{
+"singer": "female9",
+"sid": "scales_o",
+"condition": "ad_vocal_fry_a0.5",
+"method": "adapter",
+"label": "vocal_fry",
+"strength": 0.5,
+"similarity": 0.6822019815444946
+},
+{
+"singer": "female9",
+"sid": "scales_o",
+"condition": "eqmatch_vocal_fry",
+"method": "eqmatch",
+"label": "vocal_fry",
+"strength": null,
+"similarity": 0.6503537893295288
+},
+{
+"singer": "female9",
+"sid": "scales_o",
+"condition": "ad_forte_a1",
+"method": "adapter",
+"label": "forte",
+"strength": 1.0,
+"similarity": 0.6273458003997803
+},
+{
+"singer": "female9",
+"sid": "scales_o",
+"condition": "ad_forte_a0.5",
+"method": "adapter",
+"label": "forte",
+"strength": 0.5,
+"similarity": 0.6943727135658264
+},
+{
+"singer": "female9",
+"sid": "scales_o",
+"condition": "eqmatch_forte",
+"method": "eqmatch",
+"label": "forte",
+"strength": null,
+"similarity": 0.7098957300186157
+},
+{
+"singer": "female9",
+"sid": "scales_o",
+"condition": "ad_piano_a1",
+"method": "adapter",
+"label": "piano",
+"strength": 1.0,
+"similarity": 0.6298445463180542
+},
+{
+"singer": "female9",
+"sid": "scales_o",
+"condition": "ad_piano_a0.5",
+"method": "adapter",
+"label": "piano",
+"strength": 0.5,
+"similarity": 0.6994613409042358
+},
+{
+"singer": "female9",
+"sid": "scales_o",
+"condition": "eqmatch_piano",
+"method": "eqmatch",
+"label": "piano",
+"strength": null,
+"similarity": 0.6882538199424744
+},
+{
+"singer": "female9",
+"sid": "scales_o",
+"condition": "carried_breathy",
+"method": "carried",
+"label": "breathy",
+"strength": null,
+"similarity": 0.7260842323303223
+},
+{
+"singer": "female9",
+"sid": "scales_o",
+"condition": "carried_belt",
+"method": "carried",
+"label": "belt",
+"strength": null,
+"similarity": 0.6871265172958374
+},
+{
+"singer": "female9",
+"sid": "scales_o",
+"condition": "carried_vocal_fry",
+"method": "carried",
+"label": "vocal_fry",
+"strength": null,
+"similarity": 0.6919578909873962
+},
+{
+"singer": "female9",
+"sid": "scales_o",
+"condition": "carried_piano",
+"method": "carried",
+"label": "piano",
+"strength": null,
+"similarity": 0.6647412180900574
+},
+{
+"singer": "female9",
+"sid": "scales_u",
+"condition": "base",
+"method": "base",
+"label": null,
+"strength": null,
+"similarity": 0.7007505893707275
+},
+{
+"singer": "female9",
+"sid": "scales_u",
+"condition": "ad_breathy_a1",
+"method": "adapter",
+"label": "breathy",
+"strength": 1.0,
+"similarity": 0.6170318126678467
+},
+{
+"singer": "female9",
+"sid": "scales_u",
+"condition": "ad_breathy_a0.5",
+"method": "adapter",
+"label": "breathy",
+"strength": 0.5,
+"similarity": 0.6157211661338806
+},
+{
+"singer": "female9",
+"sid": "scales_u",
+"condition": "eqmatch_breathy",
+"method": "eqmatch",
+"label": "breathy",
+"strength": null,
+"similarity": 0.6108196973800659
+},
+{
+"singer": "female9",
+"sid": "scales_u",
+"condition": "ad_belt_a1",
+"method": "adapter",
+"label": "belt",
+"strength": 1.0,
+"similarity": 0.6695854663848877
+},
+{
+"singer": "female9",
+"sid": "scales_u",
+"condition": "ad_belt_a0.5",
+"method": "adapter",
+"label": "belt",
+"strength": 0.5,
+"similarity": 0.6274513006210327
+},
+{
+"singer": "female9",
+"sid": "scales_u",
+"condition": "eqmatch_belt",
+"method": "eqmatch",
+"label": "belt",
+"strength": null,
+"similarity": 0.6895066499710083
+},
+{
+"singer": "female9",
+"sid": "scales_u",
+"condition": "ad_vocal_fry_a1",
+"method": "adapter",
+"label": "vocal_fry",
+"strength": 1.0,
+"similarity": 0.6745895147323608
+},
+{
+"singer": "female9",
+"sid": "scales_u",
+"condition": "ad_vocal_fry_a0.5",
+"method": "adapter",
+"label": "vocal_fry",
+"strength": 0.5,
+"similarity": 0.6484019756317139
+},
+{
+"singer": "female9",
+"sid": "scales_u",
+"condition": "eqmatch_vocal_fry",
+"method": "eqmatch",
+"label": "vocal_fry",
+"strength": null,
+"similarity": 0.6183348298072815
+},
+{
+"singer": "female9",
+"sid": "scales_u",
+"condition": "ad_forte_a1",
+"method": "adapter",
+"label": "forte",
+"strength": 1.0,
+"similarity": 0.5680845975875854
+},
+{
+"singer": "female9",
+"sid": "scales_u",
+"condition": "ad_forte_a0.5",
+"method": "adapter",
+"label": "forte",
+"strength": 0.5,
+"similarity": 0.6300858855247498
+},
+{
+"singer": "female9",
+"sid": "scales_u",
+"condition": "eqmatch_forte",
+"method": "eqmatch",
+"label": "forte",
+"strength": null,
+"similarity": 0.6803925037384033
+},
+{
+"singer": "female9",
+"sid": "scales_u",
+"condition": "ad_piano_a1",
+"method": "adapter",
+"label": "piano",
+"strength": 1.0,
+"similarity": 0.6602281332015991
+},
+{
+"singer": "female9",
+"sid": "scales_u",
+"condition": "ad_piano_a0.5",
+"method": "adapter",
+"label": "piano",
+"strength": 0.5,
+"similarity": 0.6606988310813904
+},
+{
+"singer": "female9",
+"sid": "scales_u",
+"condition": "eqmatch_piano",
+"method": "eqmatch",
+"label": "piano",
+"strength": null,
+"similarity": 0.6876854300498962
+},
+{
+"singer": "female9",
+"sid": "scales_u",
+"condition": "carried_breathy",
+"method": "carried",
+"label": "breathy",
+"strength": null,
+"similarity": 0.6907007694244385
+},
+{
+"singer": "female9",
+"sid": "scales_u",
+"condition": "carried_belt",
+"method": "carried",
+"label": "belt",
+"strength": null,
+"similarity": 0.6213369369506836
+},
+{
+"singer": "female9",
+"sid": "scales_u",
+"condition": "carried_vocal_fry",
+"method": "carried",
+"label": "vocal_fry",
+"strength": null,
+"similarity": 0.6948547959327698
+},
+{
+"singer": "female9",
+"sid": "scales_u",
+"condition": "carried_piano",
+"method": "carried",
+"label": "piano",
+"strength": null,
+"similarity": 0.6446309685707092
+},
+{
+"singer": "female9",
+"sid": "arpeggios_a",
+"condition": "base",
+"method": "base",
+"label": null,
+"strength": null,
+"similarity": 0.7069710493087769
+},
+{
+"singer": "female9",
+"sid": "arpeggios_a",
+"condition": "ad_breathy_a1",
+"method": "adapter",
+"label": "breathy",
+"strength": 1.0,
+"similarity": 0.6858937740325928
+},
+{
+"singer": "female9",
+"sid": "arpeggios_a",
+"condition": "ad_breathy_a0.5",
+"method": "adapter",
+"label": "breathy",
+"strength": 0.5,
+"similarity": 0.6579129099845886
+},
+{
+"singer": "female9",
+"sid": "arpeggios_a",
+"condition": "eqmatch_breathy",
+"method": "eqmatch",
+"label": "breathy",
+"strength": null,
+"similarity": 0.6985953450202942
+},
+{
+"singer": "female9",
+"sid": "arpeggios_a",
+"condition": "ad_belt_a1",
+"method": "adapter",
+"label": "belt",
+"strength": 1.0,
+"similarity": 0.6374090909957886
+},
+{
+"singer": "female9",
+"sid": "arpeggios_a",
+"condition": "ad_belt_a0.5",
+"method": "adapter",
+"label": "belt",
+"strength": 0.5,
+"similarity": 0.7066574096679688
+},
+{
+"singer": "female9",
+"sid": "arpeggios_a",
+"condition": "eqmatch_belt",
+"method": "eqmatch",
+"label": "belt",
+"strength": null,
+"similarity": 0.7095866203308105
+},
+{
+"singer": "female9",
+"sid": "arpeggios_a",
+"condition": "ad_vocal_fry_a1",
+"method": "adapter",
+"label": "vocal_fry",
+"strength": 1.0,
+"similarity": 0.6239832639694214
+},
+{
+"singer": "female9",
+"sid": "arpeggios_a",
+"condition": "ad_vocal_fry_a0.5",
+"method": "adapter",
+"label": "vocal_fry",
+"strength": 0.5,
+"similarity": 0.6585176587104797
+},
+{
+"singer": "female9",
+"sid": "arpeggios_a",
+"condition": "eqmatch_vocal_fry",
+"method": "eqmatch",
+"label": "vocal_fry",
+"strength": null,
+"similarity": 0.652999222278595
+},
+{
+"singer": "female9",
+"sid": "arpeggios_a",
+"condition": "ad_forte_a1",
+"method": "adapter",
+"label": "forte",
+"strength": 1.0,
+"similarity": 0.6091901063919067
+},
+{
+"singer": "female9",
+"sid": "arpeggios_a",
+"condition": "ad_forte_a0.5",
+"method": "adapter",
+"label": "forte",
+"strength": 0.5,
+"similarity": 0.6954946517944336
+},
+{
+"singer": "female9",
+"sid": "arpeggios_a",
+"condition": "eqmatch_forte",
+"method": "eqmatch",
+"label": "forte",
+"strength": null,
+"similarity": 0.6961154937744141
+},
+{
+"singer": "female9",
+"sid": "arpeggios_a",
+"condition": "ad_piano_a1",
+"method": "adapter",
+"label": "piano",
+"strength": 1.0,
+"similarity": 0.6449858546257019
+},
+{
+"singer": "female9",
+"sid": "arpeggios_a",
+"condition": "ad_piano_a0.5",
+"method": "adapter",
+"label": "piano",
+"strength": 0.5,
+"similarity": 0.6611872911453247
+},
+{
+"singer": "female9",
+"sid": "arpeggios_a",
+"condition": "eqmatch_piano",
+"method": "eqmatch",
+"label": "piano",
+"strength": null,
+"similarity": 0.6875375509262085
+},
+{
+"singer": "female9",
+"sid": "arpeggios_a",
+"condition": "carried_breathy",
+"method": "carried",
+"label": "breathy",
+"strength": null,
+"similarity": 0.6732797622680664
+},
+{
+"singer": "female9",
+"sid": "arpeggios_a",
+"condition": "carried_belt",
+"method": "carried",
+"label": "belt",
+"strength": null,
+"similarity": 0.5624184012413025
+},
+{
+"singer": "female9",
+"sid": "arpeggios_a",
+"condition": "carried_vocal_fry",
+"method": "carried",
+"label": "vocal_fry",
+"strength": null,
+"similarity": 0.5141979455947876
+},
+{
+"singer": "female9",
+"sid": "arpeggios_a",
+"condition": "carried_forte",
+"method": "carried",
+"label": "forte",
+"strength": null,
+"similarity": 0.5105957388877869
+},
+{
+"singer": "female9",
+"sid": "arpeggios_a",
+"condition": "carried_piano",
+"method": "carried",
+"label": "piano",
+"strength": null,
+"similarity": 0.6402523517608643
+},
+{
+"singer": "female9",
+"sid": "arpeggios_e",
+"condition": "base",
+"method": "base",
+"label": null,
+"strength": null,
+"similarity": 0.678774893283844
+},
+{
+"singer": "female9",
+"sid": "arpeggios_e",
+"condition": "ad_breathy_a1",
+"method": "adapter",
+"label": "breathy",
+"strength": 1.0,
+"similarity": 0.6060340404510498
+},
+{
+"singer": "female9",
+"sid": "arpeggios_e",
+"condition": "ad_breathy_a0.5",
+"method": "adapter",
+"label": "breathy",
+"strength": 0.5,
+"similarity": 0.5919918417930603
+},
+{
+"singer": "female9",
+"sid": "arpeggios_e",
+"condition": "eqmatch_breathy",
+"method": "eqmatch",
+"label": "breathy",
+"strength": null,
+"similarity": 0.6630741953849792
+},
+{
+"singer": "female9",
+"sid": "arpeggios_e",
+"condition": "ad_belt_a1",
+"method": "adapter",
+"label": "belt",
+"strength": 1.0,
+"similarity": 0.6273286938667297
+},
+{
+"singer": "female9",
+"sid": "arpeggios_e",
+"condition": "ad_belt_a0.5",
+"method": "adapter",
+"label": "belt",
+"strength": 0.5,
+"similarity": 0.6302533149719238
+},
+{
+"singer": "female9",
+"sid": "arpeggios_e",
+"condition": "eqmatch_belt",
+"method": "eqmatch",
+"label": "belt",
+"strength": null,
+"similarity": 0.6734368801116943
+},
+{
+"singer": "female9",
+"sid": "arpeggios_e",
+"condition": "ad_vocal_fry_a1",
+"method": "adapter",
+"label": "vocal_fry",
+"strength": 1.0,
+"similarity": 0.5537179708480835
+},
+{
+"singer": "female9",
+"sid": "arpeggios_e",
+"condition": "ad_vocal_fry_a0.5",
+"method": "adapter",
+"label": "vocal_fry",
+"strength": 0.5,
+"similarity": 0.551880419254303
+},
+{
+"singer": "female9",
+"sid": "arpeggios_e",
+"condition": "eqmatch_vocal_fry",
+"method": "eqmatch",
+"label": "vocal_fry",
+"strength": null,
+"similarity": 0.5770502090454102
+},
+{
+"singer": "female9",
+"sid": "arpeggios_e",
+"condition": "ad_forte_a1",
+"method": "adapter",
+"label": "forte",
+"strength": 1.0,
+"similarity": 0.5908900499343872
+},
+{
+"singer": "female9",
+"sid": "arpeggios_e",
+"condition": "ad_forte_a0.5",
+"method": "adapter",
+"label": "forte",
+"strength": 0.5,
+"similarity": 0.5831538438796997
+},
+{
+"singer": "female9",
+"sid": "arpeggios_e",
+"condition": "eqmatch_forte",
+"method": "eqmatch",
+"label": "forte",
+"strength": null,
+"similarity": 0.6273777484893799
+},
+{
+"singer": "female9",
+"sid": "arpeggios_e",
+"condition": "ad_piano_a1",
+"method": "adapter",
+"label": "piano",
+"strength": 1.0,
+"similarity": 0.6035054922103882
+},
+{
+"singer": "female9",
+"sid": "arpeggios_e",
+"condition": "ad_piano_a0.5",
+"method": "adapter",
+"label": "piano",
+"strength": 0.5,
+"similarity": 0.6161671876907349
+},
+{
+"singer": "female9",
+"sid": "arpeggios_e",
+"condition": "eqmatch_piano",
+"method": "eqmatch",
+"label": "piano",
+"strength": null,
+"similarity": 0.6377347111701965
+},
+{
+"singer": "female9",
+"sid": "arpeggios_e",
+"condition": "carried_breathy",
+"method": "carried",
+"label": "breathy",
+"strength": null,
+"similarity": 0.6826803684234619
+},
+{
+"singer": "female9",
+"sid": "arpeggios_e",
+"condition": "carried_belt",
+"method": "carried",
+"label": "belt",
+"strength": null,
+"similarity": 0.7165278196334839
+},
+{
+"singer": "female9",
+"sid": "arpeggios_e",
+"condition": "carried_vocal_fry",
+"method": "carried",
+"label": "vocal_fry",
+"strength": null,
+"similarity": 0.6761942505836487
+},
+{
+"singer": "female9",
+"sid": "arpeggios_e",
+"condition": "carried_forte",
+"method": "carried",
+"label": "forte",
+"strength": null,
+"similarity": 0.6052595973014832
+},
+{
+"singer": "female9",
+"sid": "arpeggios_e",
+"condition": "carried_piano",
+"method": "carried",
+"label": "piano",
+"strength": null,
+"similarity": 0.5882002115249634
+},
+{
+"singer": "female9",
+"sid": "arpeggios_i",
+"condition": "base",
+"method": "base",
+"label": null,
+"strength": null,
+"similarity": 0.6655095815658569
+},
+{
+"singer": "female9",
+"sid": "arpeggios_i",
+"condition": "ad_breathy_a1",
+"method": "adapter",
+"label": "breathy",
+"strength": 1.0,
+"similarity": 0.5853928327560425
+},
+{
+"singer": "female9",
+"sid": "arpeggios_i",
+"condition": "ad_breathy_a0.5",
+"method": "adapter",
+"label": "breathy",
+"strength": 0.5,
+"similarity": 0.5863837599754333
+},
+{
+"singer": "female9",
+"sid": "arpeggios_i",
+"condition": "eqmatch_breathy",
+"method": "eqmatch",
+"label": "breathy",
+"strength": null,
+"similarity": 0.6373836994171143
+},
+{
+"singer": "female9",
+"sid": "arpeggios_i",
+"condition": "ad_belt_a1",
+"method": "adapter",
+"label": "belt",
+"strength": 1.0,
+"similarity": 0.6624304056167603
+},
+{
+"singer": "female9",
+"sid": "arpeggios_i",
+"condition": "ad_belt_a0.5",
+"method": "adapter",
+"label": "belt",
+"strength": 0.5,
+"similarity": 0.6536264419555664
+},
+{
+"singer": "female9",
+"sid": "arpeggios_i",
+"condition": "eqmatch_belt",
+"method": "eqmatch",
+"label": "belt",
+"strength": null,
+"similarity": 0.6692594885826111
+},
+{
+"singer": "female9",
+"sid": "arpeggios_i",
+"condition": "ad_vocal_fry_a1",
+"method": "adapter",
+"label": "vocal_fry",
+"strength": 1.0,
+"similarity": 0.622366189956665
+},
+{
+"singer": "female9",
+"sid": "arpeggios_i",
+"condition": "ad_vocal_fry_a0.5",
+"method": "adapter",
+"label": "vocal_fry",
+"strength": 0.5,
+"similarity": 0.5783767700195312
+},
+{
+"singer": "female9",
+"sid": "arpeggios_i",
+"condition": "eqmatch_vocal_fry",
+"method": "eqmatch",
+"label": "vocal_fry",
+"strength": null,
+"similarity": 0.6412141919136047
+},
+{
+"singer": "female9",
+"sid": "arpeggios_i",
+"condition": "ad_forte_a1",
+"method": "adapter",
+"label": "forte",
+"strength": 1.0,
+"similarity": 0.6005534529685974
+},
+{
+"singer": "female9",
+"sid": "arpeggios_i",
+"condition": "ad_forte_a0.5",
+"method": "adapter",
+"label": "forte",
+"strength": 0.5,
+"similarity": 0.649940013885498
+},
+{
+"singer": "female9",
+"sid": "arpeggios_i",
+"condition": "eqmatch_forte",
+"method": "eqmatch",
+"label": "forte",
+"strength": null,
+"similarity": 0.6792173981666565
+},
+{
+"singer": "female9",
+"sid": "arpeggios_i",
+"condition": "ad_piano_a1",
+"method": "adapter",
+"label": "piano",
+"strength": 1.0,
+"similarity": 0.6284804940223694
+},
+{
+"singer": "female9",
+"sid": "arpeggios_i",
+"condition": "ad_piano_a0.5",
+"method": "adapter",
+"label": "piano",
+"strength": 0.5,
+"similarity": 0.642732560634613
+},
+{
+"singer": "female9",
+"sid": "arpeggios_i",
+"condition": "eqmatch_piano",
+"method": "eqmatch",
+"label": "piano",
+"strength": null,
+"similarity": 0.6646651029586792
+},
+{
+"singer": "female9",
+"sid": "arpeggios_i",
+"condition": "carried_breathy",
+"method": "carried",
+"label": "breathy",
+"strength": null,
+"similarity": 0.6732988953590393
+},
+{
+"singer": "female9",
+"sid": "arpeggios_i",
+"condition": "carried_belt",
+"method": "carried",
+"label": "belt",
+"strength": null,
+"similarity": 0.6738549470901489
+},
+{
+"singer": "female9",
+"sid": "arpeggios_i",
+"condition": "carried_vocal_fry",
+"method": "carried",
+"label": "vocal_fry",
+"strength": null,
+"similarity": 0.7091898918151855
+},
+{
+"singer": "female9",
+"sid": "arpeggios_i",
+"condition": "carried_forte",
+"method": "carried",
+"label": "forte",
+"strength": null,
+"similarity": 0.5242711901664734
+},
+{
+"singer": "female9",
+"sid": "arpeggios_i",
+"condition": "carried_piano",
+"method": "carried",
+"label": "piano",
+"strength": null,
+"similarity": 0.5545401573181152
+},
+{
+"singer": "female9",
+"sid": "arpeggios_o",
+"condition": "base",
+"method": "base",
+"label": null,
+"strength": null,
+"similarity": 0.7127012014389038
+},
+{
+"singer": "female9",
+"sid": "arpeggios_o",
+"condition": "ad_breathy_a1",
+"method": "adapter",
+"label": "breathy",
+"strength": 1.0,
+"similarity": 0.6662072539329529
+},
+{
+"singer": "female9",
+"sid": "arpeggios_o",
+"condition": "ad_breathy_a0.5",
+"method": "adapter",
+"label": "breathy",
+"strength": 0.5,
+"similarity": 0.6651003360748291
+},
+{
+"singer": "female9",
+"sid": "arpeggios_o",
+"condition": "eqmatch_breathy",
+"method": "eqmatch",
+"label": "breathy",
+"strength": null,
+"similarity": 0.6296685934066772
+},
+{
+"singer": "female9",
+"sid": "arpeggios_o",
+"condition": "ad_belt_a1",
+"method": "adapter",
+"label": "belt",
+"strength": 1.0,
+"similarity": 0.7593636512756348
+},
+{
+"singer": "female9",
+"sid": "arpeggios_o",
+"condition": "ad_belt_a0.5",
+"method": "adapter",
+"label": "belt",
+"strength": 0.5,
+"similarity": 0.6942588090896606
+},
+{
+"singer": "female9",
+"sid": "arpeggios_o",
+"condition": "eqmatch_belt",
+"method": "eqmatch",
+"label": "belt",
+"strength": null,
+"similarity": 0.6924723982810974
+},
+{
+"singer": "female9",
+"sid": "arpeggios_o",
+"condition": "ad_vocal_fry_a1",
+"method": "adapter",
+"label": "vocal_fry",
+"strength": 1.0,
+"similarity": 0.6067348718643188
+},
+{
+"singer": "female9",
+"sid": "arpeggios_o",
+"condition": "ad_vocal_fry_a0.5",
+"method": "adapter",
+"label": "vocal_fry",
+"strength": 0.5,
+"similarity": 0.6959520578384399
+},
+{
+"singer": "female9",
+"sid": "arpeggios_o",
+"condition": "eqmatch_vocal_fry",
+"method": "eqmatch",
+"label": "vocal_fry",
+"strength": null,
+"similarity": 0.6380938291549683
+},
+{
+"singer": "female9",
+"sid": "arpeggios_o",
+"condition": "ad_forte_a1",
+"method": "adapter",
+"label": "forte",
+"strength": 1.0,
+"similarity": 0.6831167936325073
+},
+{
+"singer": "female9",
+"sid": "arpeggios_o",
+"condition": "ad_forte_a0.5",
+"method": "adapter",
+"label": "forte",
+"strength": 0.5,
+"similarity": 0.6778483390808105
+},
+{
+"singer": "female9",
+"sid": "arpeggios_o",
+"condition": "eqmatch_forte",
+"method": "eqmatch",
+"label": "forte",
+"strength": null,
+"similarity": 0.6912018060684204
+},
+{
+"singer": "female9",
+"sid": "arpeggios_o",
+"condition": "ad_piano_a1",
+"method": "adapter",
+"label": "piano",
+"strength": 1.0,
+"similarity": 0.6282402873039246
+},
+{
+"singer": "female9",
+"sid": "arpeggios_o",
+"condition": "ad_piano_a0.5",
+"method": "adapter",
+"label": "piano",
+"strength": 0.5,
+"similarity": 0.6843013763427734
+},
+{
+"singer": "female9",
+"sid": "arpeggios_o",
+"condition": "eqmatch_piano",
+"method": "eqmatch",
+"label": "piano",
+"strength": null,
+"similarity": 0.6959424614906311
+},
+{
+"singer": "female9",
+"sid": "arpeggios_o",
+"condition": "carried_breathy",
+"method": "carried",
+"label": "breathy",
+"strength": null,
+"similarity": 0.7599509358406067
+},
+{
+"singer": "female9",
+"sid": "arpeggios_o",
+"condition": "carried_belt",
+"method": "carried",
+"label": "belt",
+"strength": null,
+"similarity": 0.665668249130249
+},
+{
+"singer": "female9",
+"sid": "arpeggios_o",
+"condition": "carried_forte",
+"method": "carried",
+"label": "forte",
+"strength": null,
+"similarity": 0.6460416913032532
+},
+{
+"singer": "female9",
+"sid": "arpeggios_o",
+"condition": "carried_piano",
+"method": "carried",
+"label": "piano",
+"strength": null,
+"similarity": 0.6298267245292664
+},
+{
+"singer": "female9",
+"sid": "arpeggios_u",
+"condition": "base",
+"method": "base",
+"label": null,
+"strength": null,
+"similarity": 0.7136523127555847
+},
+{
+"singer": "female9",
+"sid": "arpeggios_u",
+"condition": "ad_breathy_a1",
+"method": "adapter",
+"label": "breathy",
+"strength": 1.0,
+"similarity": 0.6847951412200928
+},
+{
+"singer": "female9",
+"sid": "arpeggios_u",
+"condition": "ad_breathy_a0.5",
+"method": "adapter",
+"label": "breathy",
+"strength": 0.5,
+"similarity": 0.6968282461166382
+},
+{
+"singer": "female9",
+"sid": "arpeggios_u",
+"condition": "eqmatch_breathy",
+"method": "eqmatch",
+"label": "breathy",
+"strength": null,
+"similarity": 0.663040041923523
+},
+{
+"singer": "female9",
+"sid": "arpeggios_u",
+"condition": "ad_belt_a1",
+"method": "adapter",
+"label": "belt",
+"strength": 1.0,
+"similarity": 0.7155200242996216
+},
+{
+"singer": "female9",
+"sid": "arpeggios_u",
+"condition": "ad_belt_a0.5",
+"method": "adapter",
+"label": "belt",
+"strength": 0.5,
+"similarity": 0.6949551701545715
+},
+{
+"singer": "female9",
+"sid": "arpeggios_u",
+"condition": "eqmatch_belt",
+"method": "eqmatch",
+"label": "belt",
+"strength": null,
+"similarity": 0.7193527221679688
+},
+{
+"singer": "female9",
+"sid": "arpeggios_u",
+"condition": "ad_vocal_fry_a1",
+"method": "adapter",
+"label": "vocal_fry",
+"strength": 1.0,
+"similarity": 0.627053439617157
+},
+{
+"singer": "female9",
+"sid": "arpeggios_u",
+"condition": "ad_vocal_fry_a0.5",
+"method": "adapter",
+"label": "vocal_fry",
+"strength": 0.5,
+"similarity": 0.7020628452301025
+},
+{
+"singer": "female9",
+"sid": "arpeggios_u",
+"condition": "eqmatch_vocal_fry",
+"method": "eqmatch",
+"label": "vocal_fry",
+"strength": null,
+"similarity": 0.6862804293632507
+},
+{
+"singer": "female9",
+"sid": "arpeggios_u",
+"condition": "ad_forte_a1",
+"method": "adapter",
+"label": "forte",
+"strength": 1.0,
+"similarity": 0.6463881134986877
+},
+{
+"singer": "female9",
+"sid": "arpeggios_u",
+"condition": "ad_forte_a0.5",
+"method": "adapter",
+"label": "forte",
+"strength": 0.5,
+"similarity": 0.6989514827728271
+},
+{
+"singer": "female9",
+"sid": "arpeggios_u",
+"condition": "eqmatch_forte",
+"method": "eqmatch",
+"label": "forte",
+"strength": null,
+"similarity": 0.701850175857544
+},
+{
+"singer": "female9",
+"sid": "arpeggios_u",
+"condition": "ad_piano_a1",
+"method": "adapter",
+"label": "piano",
+"strength": 1.0,
+"similarity": 0.6062542796134949
+},
+{
+"singer": "female9",
+"sid": "arpeggios_u",
+"condition": "ad_piano_a0.5",
+"method": "adapter",
+"label": "piano",
+"strength": 0.5,
+"similarity": 0.7234041094779968
+},
+{
+"singer": "female9",
+"sid": "arpeggios_u",
+"condition": "eqmatch_piano",
+"method": "eqmatch",
+"label": "piano",
+"strength": null,
+"similarity": 0.6867449283599854
+},
+{
+"singer": "female9",
+"sid": "arpeggios_u",
+"condition": "carried_breathy",
+"method": "carried",
+"label": "breathy",
+"strength": null,
+"similarity": 0.7596642374992371
+},
+{
+"singer": "female9",
+"sid": "arpeggios_u",
+"condition": "carried_belt",
+"method": "carried",
+"label": "belt",
+"strength": null,
+"similarity": 0.7468103766441345
+},
+{
+"singer": "female9",
+"sid": "arpeggios_u",
+"condition": "carried_vocal_fry",
+"method": "carried",
+"label": "vocal_fry",
+"strength": null,
+"similarity": 0.7129473090171814
+},
+{
+"singer": "female9",
+"sid": "arpeggios_u",
+"condition": "carried_forte",
+"method": "carried",
+"label": "forte",
+"strength": null,
+"similarity": 0.568928062915802
+},
+{
+"singer": "female9",
+"sid": "arpeggios_u",
+"condition": "carried_piano",
+"method": "carried",
+"label": "piano",
+"strength": null,
+"similarity": 0.655344545841217
+},
+{
+"singer": "male3",
+"sid": "scales_a",
+"condition": "base",
+"method": "base",
+"label": null,
+"strength": null,
+"similarity": 0.7811345458030701
+},
+{
+"singer": "male3",
+"sid": "scales_a",
+"condition": "ad_breathy_a1",
+"method": "adapter",
+"label": "breathy",
+"strength": 1.0,
+"similarity": 0.7788372039794922
+},
+{
+"singer": "male3",
+"sid": "scales_a",
+"condition": "ad_breathy_a0.5",
+"method": "adapter",
+"label": "breathy",
+"strength": 0.5,
+"similarity": 0.807677149772644
+},
+{
+"singer": "male3",
+"sid": "scales_a",
+"condition": "eqmatch_breathy",
+"method": "eqmatch",
+"label": "breathy",
+"strength": null,
+"similarity": 0.7638520002365112
+},
+{
+"singer": "male3",
+"sid": "scales_a",
+"condition": "ad_belt_a1",
+"method": "adapter",
+"label": "belt",
+"strength": 1.0,
+"similarity": 0.6938247084617615
+},
+{
+"singer": "male3",
+"sid": "scales_a",
+"condition": "ad_belt_a0.5",
+"method": "adapter",
+"label": "belt",
+"strength": 0.5,
+"similarity": 0.7599970698356628
+},
+{
+"singer": "male3",
+"sid": "scales_a",
+"condition": "eqmatch_belt",
+"method": "eqmatch",
+"label": "belt",
+"strength": null,
+"similarity": 0.7185467481613159
+},
+{
+"singer": "male3",
+"sid": "scales_a",
+"condition": "ad_vocal_fry_a1",
+"method": "adapter",
+"label": "vocal_fry",
+"strength": 1.0,
+"similarity": 0.7451525330543518
+},
+{
+"singer": "male3",
+"sid": "scales_a",
+"condition": "ad_vocal_fry_a0.5",
+"method": "adapter",
+"label": "vocal_fry",
+"strength": 0.5,
+"similarity": 0.7967310547828674
+},
+{
+"singer": "male3",
+"sid": "scales_a",
+"condition": "eqmatch_vocal_fry",
+"method": "eqmatch",
+"label": "vocal_fry",
+"strength": null,
+"similarity": 0.7594096660614014
+},
+{
+"singer": "male3",
+"sid": "scales_a",
+"condition": "ad_forte_a1",
+"method": "adapter",
+"label": "forte",
+"strength": 1.0,
+"similarity": 0.7172363996505737
+},
+{
+"singer": "male3",
+"sid": "scales_a",
+"condition": "ad_forte_a0.5",
+"method": "adapter",
+"label": "forte",
+"strength": 0.5,
+"similarity": 0.7711654901504517
+},
+{
+"singer": "male3",
+"sid": "scales_a",
+"condition": "eqmatch_forte",
+"method": "eqmatch",
+"label": "forte",
+"strength": null,
+"similarity": 0.7330299019813538
+},
+{
+"singer": "male3",
+"sid": "scales_a",
+"condition": "ad_piano_a1",
+"method": "adapter",
+"label": "piano",
+"strength": 1.0,
+"similarity": 0.7948121428489685
+},
+{
+"singer": "male3",
+"sid": "scales_a",
+"condition": "ad_piano_a0.5",
+"method": "adapter",
+"label": "piano",
+"strength": 0.5,
+"similarity": 0.7995678782463074
+},
+{
+"singer": "male3",
+"sid": "scales_a",
+"condition": "eqmatch_piano",
+"method": "eqmatch",
+"label": "piano",
+"strength": null,
+"similarity": 0.7649953365325928
+},
+{
+"singer": "male3",
+"sid": "scales_a",
+"condition": "carried_breathy",
+"method": "carried",
+"label": "breathy",
+"strength": null,
+"similarity": 0.7360077500343323
+},
+{
+"singer": "male3",
+"sid": "scales_a",
+"condition": "carried_belt",
+"method": "carried",
+"label": "belt",
+"strength": null,
+"similarity": 0.7130992412567139
+},
+{
+"singer": "male3",
+"sid": "scales_a",
+"condition": "carried_vocal_fry",
+"method": "carried",
+"label": "vocal_fry",
+"strength": null,
+"similarity": 0.6841157078742981
+},
+{
+"singer": "male3",
+"sid": "scales_a",
+"condition": "carried_forte",
+"method": "carried",
+"label": "forte",
+"strength": null,
+"similarity": 0.7218058705329895
+},
+{
+"singer": "male3",
+"sid": "scales_a",
+"condition": "carried_piano",
+"method": "carried",
+"label": "piano",
+"strength": null,
+"similarity": 0.7384737730026245
+},
+{
+"singer": "male3",
+"sid": "scales_e",
+"condition": "base",
+"method": "base",
+"label": null,
+"strength": null,
+"similarity": 0.7590333223342896
+},
+{
+"singer": "male3",
+"sid": "scales_e",
+"condition": "ad_breathy_a1",
+"method": "adapter",
+"label": "breathy",
+"strength": 1.0,
+"similarity": 0.7695501446723938
+},
+{
+"singer": "male3",
+"sid": "scales_e",
+"condition": "ad_breathy_a0.5",
+"method": "adapter",
+"label": "breathy",
+"strength": 0.5,
+"similarity": 0.7954774498939514
+},
+{
+"singer": "male3",
+"sid": "scales_e",
+"condition": "eqmatch_breathy",
+"method": "eqmatch",
+"label": "breathy",
+"strength": null,
+"similarity": 0.775535523891449
+},
+{
+"singer": "male3",
+"sid": "scales_e",
+"condition": "ad_belt_a1",
+"method": "adapter",
+"label": "belt",
+"strength": 1.0,
+"similarity": 0.7812039852142334
+},
+{
+"singer": "male3",
+"sid": "scales_e",
+"condition": "ad_belt_a0.5",
+"method": "adapter",
+"label": "belt",
+"strength": 0.5,
+"similarity": 0.8044553399085999
+},
+{
+"singer": "male3",
+"sid": "scales_e",
+"condition": "eqmatch_belt",
+"method": "eqmatch",
+"label": "belt",
+"strength": null,
+"similarity": 0.7879679203033447
+},
+{
+"singer": "male3",
+"sid": "scales_e",
+"condition": "ad_vocal_fry_a1",
+"method": "adapter",
+"label": "vocal_fry",
+"strength": 1.0,
+"similarity": 0.7406954169273376
+},
+{
+"singer": "male3",
+"sid": "scales_e",
+"condition": "ad_vocal_fry_a0.5",
+"method": "adapter",
+"label": "vocal_fry",
+"strength": 0.5,
+"similarity": 0.7914040684700012
+},
+{
+"singer": "male3",
+"sid": "scales_e",
+"condition": "eqmatch_vocal_fry",
+"method": "eqmatch",
+"label": "vocal_fry",
+"strength": null,
+"similarity": 0.765616774559021
+},
+{
+"singer": "male3",
+"sid": "scales_e",
+"condition": "ad_forte_a1",
+"method": "adapter",
+"label": "forte",
+"strength": 1.0,
+"similarity": 0.749752402305603
+},
+{
+"singer": "male3",
+"sid": "scales_e",
+"condition": "ad_forte_a0.5",
+"method": "adapter",
+"label": "forte",
+"strength": 0.5,
+"similarity": 0.7822796106338501
+},
+{
+"singer": "male3",
+"sid": "scales_e",
+"condition": "eqmatch_forte",
+"method": "eqmatch",
+"label": "forte",
+"strength": null,
+"similarity": 0.789512038230896
+},
+{
+"singer": "male3",
+"sid": "scales_e",
+"condition": "ad_piano_a1",
+"method": "adapter",
+"label": "piano",
+"strength": 1.0,
+"similarity": 0.7645279765129089
+},
+{
+"singer": "male3",
+"sid": "scales_e",
+"condition": "ad_piano_a0.5",
+"method": "adapter",
+"label": "piano",
+"strength": 0.5,
+"similarity": 0.775239884853363
+},
+{
+"singer": "male3",
+"sid": "scales_e",
+"condition": "eqmatch_piano",
+"method": "eqmatch",
+"label": "piano",
+"strength": null,
+"similarity": 0.7725504636764526
+},
+{
+"singer": "male3",
+"sid": "scales_e",
+"condition": "carried_breathy",
+"method": "carried",
+"label": "breathy",
+"strength": null,
+"similarity": 0.7088078260421753
+},
+{
+"singer": "male3",
+"sid": "scales_e",
+"condition": "carried_belt",
+"method": "carried",
+"label": "belt",
+"strength": null,
+"similarity": 0.7142506837844849
+},
+{
+"singer": "male3",
+"sid": "scales_e",
+"condition": "carried_vocal_fry",
+"method": "carried",
+"label": "vocal_fry",
+"strength": null,
+"similarity": 0.5332752466201782
+},
+{
+"singer": "male3",
+"sid": "scales_e",
+"condition": "carried_forte",
+"method": "carried",
+"label": "forte",
+"strength": null,
+"similarity": 0.6414198875427246
+},
+{
+"singer": "male3",
+"sid": "scales_e",
+"condition": "carried_piano",
+"method": "carried",
+"label": "piano",
+"strength": null,
+"similarity": 0.6891015768051147
+},
+{
+"singer": "male3",
+"sid": "scales_i",
+"condition": "base",
+"method": "base",
+"label": null,
+"strength": null,
+"similarity": 0.7531884908676147
+},
+{
+"singer": "male3",
+"sid": "scales_i",
+"condition": "ad_breathy_a1",
+"method": "adapter",
+"label": "breathy",
+"strength": 1.0,
+"similarity": 0.7430532574653625
+},
+{
+"singer": "male3",
+"sid": "scales_i",
+"condition": "ad_breathy_a0.5",
+"method": "adapter",
+"label": "breathy",
+"strength": 0.5,
+"similarity": 0.763724148273468
+},
+{
+"singer": "male3",
+"sid": "scales_i",
+"condition": "eqmatch_breathy",
+"method": "eqmatch",
+"label": "breathy",
+"strength": null,
+"similarity": 0.7463784217834473
+},
+{
+"singer": "male3",
+"sid": "scales_i",
+"condition": "ad_belt_a1",
+"method": "adapter",
+"label": "belt",
+"strength": 1.0,
+"similarity": 0.7200498580932617
+},
+{
+"singer": "male3",
+"sid": "scales_i",
+"condition": "ad_belt_a0.5",
+"method": "adapter",
+"label": "belt",
+"strength": 0.5,
+"similarity": 0.7417166829109192
+},
+{
+"singer": "male3",
+"sid": "scales_i",
+"condition": "eqmatch_belt",
+"method": "eqmatch",
+"label": "belt",
+"strength": null,
+"similarity": 0.7338783144950867
+},
+{
+"singer": "male3",
+"sid": "scales_i",
+"condition": "ad_vocal_fry_a1",
+"method": "adapter",
+"label": "vocal_fry",
+"strength": 1.0,
+"similarity": 0.7397672533988953
+},
+{
+"singer": "male3",
+"sid": "scales_i",
+"condition": "ad_vocal_fry_a0.5",
+"method": "adapter",
+"label": "vocal_fry",
+"strength": 0.5,
+"similarity": 0.7589159607887268
+},
+{
+"singer": "male3",
+"sid": "scales_i",
+"condition": "eqmatch_vocal_fry",
+"method": "eqmatch",
+"label": "vocal_fry",
+"strength": null,
+"similarity": 0.7379267811775208
+},
+{
+"singer": "male3",
+"sid": "scales_i",
+"condition": "ad_forte_a1",
+"method": "adapter",
+"label": "forte",
+"strength": 1.0,
+"similarity": 0.7846415042877197
+},
+{
+"singer": "male3",
+"sid": "scales_i",
+"condition": "ad_forte_a0.5",
+"method": "adapter",
+"label": "forte",
+"strength": 0.5,
+"similarity": 0.7834829092025757
+},
+{
+"singer": "male3",
+"sid": "scales_i",
+"condition": "eqmatch_forte",
+"method": "eqmatch",
+"label": "forte",
+"strength": null,
+"similarity": 0.7747657299041748
+},
+{
+"singer": "male3",
+"sid": "scales_i",
+"condition": "ad_piano_a1",
+"method": "adapter",
+"label": "piano",
+"strength": 1.0,
+"similarity": 0.7105792760848999
+},
+{
+"singer": "male3",
+"sid": "scales_i",
+"condition": "ad_piano_a0.5",
+"method": "adapter",
+"label": "piano",
+"strength": 0.5,
+"similarity": 0.7161239981651306
+},
+{
+"singer": "male3",
+"sid": "scales_i",
+"condition": "eqmatch_piano",
+"method": "eqmatch",
+"label": "piano",
+"strength": null,
+"similarity": 0.748153030872345
+},
+{
+"singer": "male3",
+"sid": "scales_i",
+"condition": "carried_breathy",
+"method": "carried",
+"label": "breathy",
+"strength": null,
+"similarity": 0.7077724933624268
+},
+{
+"singer": "male3",
+"sid": "scales_i",
+"condition": "carried_belt",
+"method": "carried",
+"label": "belt",
+"strength": null,
+"similarity": 0.6163021326065063
+},
+{
+"singer": "male3",
+"sid": "scales_i",
+"condition": "carried_vocal_fry",
+"method": "carried",
+"label": "vocal_fry",
+"strength": null,
+"similarity": 0.5284258127212524
+},
+{
+"singer": "male3",
+"sid": "scales_i",
+"condition": "carried_forte",
+"method": "carried",
+"label": "forte",
+"strength": null,
+"similarity": 0.7166812419891357
+},
+{
+"singer": "male3",
+"sid": "scales_i",
+"condition": "carried_piano",
+"method": "carried",
+"label": "piano",
+"strength": null,
+"similarity": 0.6802937984466553
+},
+{
+"singer": "male3",
+"sid": "scales_o",
+"condition": "base",
+"method": "base",
+"label": null,
+"strength": null,
+"similarity": 0.7861833572387695
+},
+{
+"singer": "male3",
+"sid": "scales_o",
+"condition": "ad_breathy_a1",
+"method": "adapter",
+"label": "breathy",
+"strength": 1.0,
+"similarity": 0.766981303691864
+},
+{
+"singer": "male3",
+"sid": "scales_o",
+"condition": "ad_breathy_a0.5",
+"method": "adapter",
+"label": "breathy",
+"strength": 0.5,
+"similarity": 0.8194500803947449
+},
+{
+"singer": "male3",
+"sid": "scales_o",
+"condition": "eqmatch_breathy",
+"method": "eqmatch",
+"label": "breathy",
+"strength": null,
+"similarity": 0.7643219828605652
+},
+{
+"singer": "male3",
+"sid": "scales_o",
+"condition": "ad_belt_a1",
+"method": "adapter",
+"label": "belt",
+"strength": 1.0,
+"similarity": 0.7313656806945801
+},
+{
+"singer": "male3",
+"sid": "scales_o",
+"condition": "ad_belt_a0.5",
+"method": "adapter",
+"label": "belt",
+"strength": 0.5,
+"similarity": 0.7723812460899353
+},
+{
+"singer": "male3",
+"sid": "scales_o",
+"condition": "eqmatch_belt",
+"method": "eqmatch",
+"label": "belt",
+"strength": null,
+"similarity": 0.767941415309906
+},
+{
+"singer": "male3",
+"sid": "scales_o",
+"condition": "ad_vocal_fry_a1",
+"method": "adapter",
+"label": "vocal_fry",
+"strength": 1.0,
+"similarity": 0.7151962518692017
+},
+{
+"singer": "male3",
+"sid": "scales_o",
+"condition": "ad_vocal_fry_a0.5",
+"method": "adapter",
+"label": "vocal_fry",
+"strength": 0.5,
+"similarity": 0.8202301859855652
+},
+{
+"singer": "male3",
+"sid": "scales_o",
+"condition": "eqmatch_vocal_fry",
+"method": "eqmatch",
+"label": "vocal_fry",
+"strength": null,
+"similarity": 0.7610942125320435
+},
+{
+"singer": "male3",
+"sid": "scales_o",
+"condition": "ad_forte_a1",
+"method": "adapter",
+"label": "forte",
+"strength": 1.0,
+"similarity": 0.7448991537094116
+},
+{
+"singer": "male3",
+"sid": "scales_o",
+"condition": "ad_forte_a0.5",
+"method": "adapter",
+"label": "forte",
+"strength": 0.5,
+"similarity": 0.7931751608848572
+},
+{
+"singer": "male3",
+"sid": "scales_o",
+"condition": "eqmatch_forte",
+"method": "eqmatch",
+"label": "forte",
+"strength": null,
+"similarity": 0.7669851183891296
+},
+{
+"singer": "male3",
+"sid": "scales_o",
+"condition": "ad_piano_a1",
+"method": "adapter",
+"label": "piano",
+"strength": 1.0,
+"similarity": 0.7142980694770813
+},
+{
+"singer": "male3",
+"sid": "scales_o",
+"condition": "ad_piano_a0.5",
+"method": "adapter",
+"label": "piano",
+"strength": 0.5,
+"similarity": 0.8044910430908203
+},
+{
+"singer": "male3",
+"sid": "scales_o",
+"condition": "eqmatch_piano",
+"method": "eqmatch",
+"label": "piano",
+"strength": null,
+"similarity": 0.7565963864326477
+},
+{
+"singer": "male3",
+"sid": "scales_o",
+"condition": "carried_breathy",
+"method": "carried",
+"label": "breathy",
+"strength": null,
+"similarity": 0.7050521373748779
+},
+{
+"singer": "male3",
+"sid": "scales_o",
+"condition": "carried_belt",
+"method": "carried",
+"label": "belt",
+"strength": null,
+"similarity": 0.7339805960655212
+},
+{
+"singer": "male3",
+"sid": "scales_o",
+"condition": "carried_vocal_fry",
+"method": "carried",
+"label": "vocal_fry",
+"strength": null,
+"similarity": 0.6378570199012756
+},
+{
+"singer": "male3",
+"sid": "scales_o",
+"condition": "carried_forte",
+"method": "carried",
+"label": "forte",
+"strength": null,
+"similarity": 0.7451671957969666
+},
+{
+"singer": "male3",
+"sid": "scales_o",
+"condition": "carried_piano",
+"method": "carried",
+"label": "piano",
+"strength": null,
+"similarity": 0.6638256311416626
+},
+{
+"singer": "male3",
+"sid": "scales_u",
+"condition": "base",
+"method": "base",
+"label": null,
+"strength": null,
+"similarity": 0.8286952972412109
+},
+{
+"singer": "male3",
+"sid": "scales_u",
+"condition": "ad_breathy_a1",
+"method": "adapter",
+"label": "breathy",
+"strength": 1.0,
+"similarity": 0.7271843552589417
+},
+{
+"singer": "male3",
+"sid": "scales_u",
+"condition": "ad_breathy_a0.5",
+"method": "adapter",
+"label": "breathy",
+"strength": 0.5,
+"similarity": 0.6836650371551514
+},
+{
+"singer": "male3",
+"sid": "scales_u",
+"condition": "eqmatch_breathy",
+"method": "eqmatch",
+"label": "breathy",
+"strength": null,
+"similarity": 0.7985873818397522
+},
+{
+"singer": "male3",
+"sid": "scales_u",
+"condition": "ad_belt_a1",
+"method": "adapter",
+"label": "belt",
+"strength": 1.0,
+"similarity": 0.7942806482315063
+},
+{
+"singer": "male3",
+"sid": "scales_u",
+"condition": "ad_belt_a0.5",
+"method": "adapter",
+"label": "belt",
+"strength": 0.5,
+"similarity": 0.8364455699920654
+},
+{
+"singer": "male3",
+"sid": "scales_u",
+"condition": "eqmatch_belt",
+"method": "eqmatch",
+"label": "belt",
+"strength": null,
+"similarity": 0.8278297185897827
+},
+{
+"singer": "male3",
+"sid": "scales_u",
+"condition": "ad_vocal_fry_a1",
+"method": "adapter",
+"label": "vocal_fry",
+"strength": 1.0,
+"similarity": 0.6716386675834656
+},
+{
+"singer": "male3",
+"sid": "scales_u",
+"condition": "ad_vocal_fry_a0.5",
+"method": "adapter",
+"label": "vocal_fry",
+"strength": 0.5,
+"similarity": 0.7527444362640381
+},
+{
+"singer": "male3",
+"sid": "scales_u",
+"condition": "eqmatch_vocal_fry",
+"method": "eqmatch",
+"label": "vocal_fry",
+"strength": null,
+"similarity": 0.8258101940155029
+},
+{
+"singer": "male3",
+"sid": "scales_u",
+"condition": "ad_forte_a1",
+"method": "adapter",
+"label": "forte",
+"strength": 1.0,
+"similarity": 0.7288554906845093
+},
+{
+"singer": "male3",
+"sid": "scales_u",
+"condition": "ad_forte_a0.5",
+"method": "adapter",
+"label": "forte",
+"strength": 0.5,
+"similarity": 0.8139452338218689
+},
+{
+"singer": "male3",
+"sid": "scales_u",
+"condition": "eqmatch_forte",
+"method": "eqmatch",
+"label": "forte",
+"strength": null,
+"similarity": 0.8323408365249634
+},
+{
+"singer": "male3",
+"sid": "scales_u",
+"condition": "ad_piano_a1",
+"method": "adapter",
+"label": "piano",
+"strength": 1.0,
+"similarity": 0.6368043422698975
+},
+{
+"singer": "male3",
+"sid": "scales_u",
+"condition": "ad_piano_a0.5",
+"method": "adapter",
+"label": "piano",
+"strength": 0.5,
+"similarity": 0.7018033862113953
+},
+{
+"singer": "male3",
+"sid": "scales_u",
+"condition": "eqmatch_piano",
+"method": "eqmatch",
+"label": "piano",
+"strength": null,
+"similarity": 0.8117676973342896
+},
+{
+"singer": "male3",
+"sid": "scales_u",
+"condition": "carried_breathy",
+"method": "carried",
+"label": "breathy",
+"strength": null,
+"similarity": 0.608980119228363
+},
+{
+"singer": "male3",
+"sid": "scales_u",
+"condition": "carried_belt",
+"method": "carried",
+"label": "belt",
+"strength": null,
+"similarity": 0.7395139336585999
+},
+{
+"singer": "male3",
+"sid": "scales_u",
+"condition": "carried_vocal_fry",
+"method": "carried",
+"label": "vocal_fry",
+"strength": null,
+"similarity": 0.5592379570007324
+},
+{
+"singer": "male3",
+"sid": "scales_u",
+"condition": "carried_forte",
+"method": "carried",
+"label": "forte",
+"strength": null,
+"similarity": 0.6194100975990295
+},
+{
+"singer": "male3",
+"sid": "scales_u",
+"condition": "carried_piano",
+"method": "carried",
+"label": "piano",
+"strength": null,
+"similarity": 0.7321386337280273
+},
+{
+"singer": "male3",
+"sid": "arpeggios_a",
+"condition": "base",
+"method": "base",
+"label": null,
+"strength": null,
+"similarity": 0.6870102286338806
+},
+{
+"singer": "male3",
+"sid": "arpeggios_a",
+"condition": "ad_breathy_a1",
+"method": "adapter",
+"label": "breathy",
+"strength": 1.0,
+"similarity": 0.6912775039672852
+},
+{
+"singer": "male3",
+"sid": "arpeggios_a",
+"condition": "ad_breathy_a0.5",
+"method": "adapter",
+"label": "breathy",
+"strength": 0.5,
+"similarity": 0.6949235200881958
+},
+{
+"singer": "male3",
+"sid": "arpeggios_a",
+"condition": "eqmatch_breathy",
+"method": "eqmatch",
+"label": "breathy",
+"strength": null,
+"similarity": 0.6560065150260925
+},
+{
+"singer": "male3",
+"sid": "arpeggios_a",
+"condition": "ad_belt_a1",
+"method": "adapter",
+"label": "belt",
+"strength": 1.0,
+"similarity": 0.5835117697715759
+},
+{
+"singer": "male3",
+"sid": "arpeggios_a",
+"condition": "ad_belt_a0.5",
+"method": "adapter",
+"label": "belt",
+"strength": 0.5,
+"similarity": 0.6118358373641968
+},
+{
+"singer": "male3",
+"sid": "arpeggios_a",
+"condition": "eqmatch_belt",
+"method": "eqmatch",
+"label": "belt",
+"strength": null,
+"similarity": 0.6024007201194763
+},
+{
+"singer": "male3",
+"sid": "arpeggios_a",
+"condition": "ad_vocal_fry_a1",
+"method": "adapter",
+"label": "vocal_fry",
+"strength": 1.0,
+"similarity": 0.2893353998661041
+},
+{
+"singer": "male3",
+"sid": "arpeggios_a",
+"condition": "ad_vocal_fry_a0.5",
+"method": "adapter",
+"label": "vocal_fry",
+"strength": 0.5,
+"similarity": 0.7103114724159241
+},
+{
+"singer": "male3",
+"sid": "arpeggios_a",
+"condition": "eqmatch_vocal_fry",
+"method": "eqmatch",
+"label": "vocal_fry",
+"strength": null,
+"similarity": 0.6832869052886963
+},
+{
+"singer": "male3",
+"sid": "arpeggios_a",
+"condition": "ad_forte_a1",
+"method": "adapter",
+"label": "forte",
+"strength": 1.0,
+"similarity": 0.6025241613388062
+},
+{
+"singer": "male3",
+"sid": "arpeggios_a",
+"condition": "ad_forte_a0.5",
+"method": "adapter",
+"label": "forte",
+"strength": 0.5,
+"similarity": 0.6633971929550171
+},
+{
+"singer": "male3",
+"sid": "arpeggios_a",
+"condition": "eqmatch_forte",
+"method": "eqmatch",
+"label": "forte",
+"strength": null,
+"similarity": 0.6351860165596008
+},
+{
+"singer": "male3",
+"sid": "arpeggios_a",
+"condition": "ad_piano_a1",
+"method": "adapter",
+"label": "piano",
+"strength": 1.0,
+"similarity": 0.6280669569969177
+},
+{
+"singer": "male3",
+"sid": "arpeggios_a",
+"condition": "ad_piano_a0.5",
+"method": "adapter",
+"label": "piano",
+"strength": 0.5,
+"similarity": 0.6684685945510864
+},
+{
+"singer": "male3",
+"sid": "arpeggios_a",
+"condition": "eqmatch_piano",
+"method": "eqmatch",
+"label": "piano",
+"strength": null,
+"similarity": 0.6722468137741089
+},
+{
+"singer": "male3",
+"sid": "arpeggios_a",
+"condition": "carried_breathy",
+"method": "carried",
+"label": "breathy",
+"strength": null,
+"similarity": 0.6647129058837891
+},
+{
+"singer": "male3",
+"sid": "arpeggios_a",
+"condition": "carried_belt",
+"method": "carried",
+"label": "belt",
+"strength": null,
+"similarity": 0.7028378844261169
+},
+{
+"singer": "male3",
+"sid": "arpeggios_a",
+"condition": "carried_vocal_fry",
+"method": "carried",
+"label": "vocal_fry",
+"strength": null,
+"similarity": 0.5969393849372864
+},
+{
+"singer": "male3",
+"sid": "arpeggios_a",
+"condition": "carried_forte",
+"method": "carried",
+"label": "forte",
+"strength": null,
+"similarity": 0.693213939666748
+},
+{
+"singer": "male3",
+"sid": "arpeggios_a",
+"condition": "carried_piano",
+"method": "carried",
+"label": "piano",
+"strength": null,
+"similarity": 0.7265552878379822
+},
+{
+"singer": "male3",
+"sid": "arpeggios_e",
+"condition": "base",
+"method": "base",
+"label": null,
+"strength": null,
+"similarity": 0.7325476408004761
+},
+{
+"singer": "male3",
+"sid": "arpeggios_e",
+"condition": "ad_breathy_a1",
+"method": "adapter",
+"label": "breathy",
+"strength": 1.0,
+"similarity": 0.6716692447662354
+},
+{
+"singer": "male3",
+"sid": "arpeggios_e",
+"condition": "ad_breathy_a0.5",
+"method": "adapter",
+"label": "breathy",
+"strength": 0.5,
+"similarity": 0.7248058319091797
+},
+{
+"singer": "male3",
+"sid": "arpeggios_e",
+"condition": "eqmatch_breathy",
+"method": "eqmatch",
+"label": "breathy",
+"strength": null,
+"similarity": 0.7215667963027954
+},
+{
+"singer": "male3",
+"sid": "arpeggios_e",
+"condition": "ad_belt_a1",
+"method": "adapter",
+"label": "belt",
+"strength": 1.0,
+"similarity": 0.7139228582382202
+},
+{
+"singer": "male3",
+"sid": "arpeggios_e",
+"condition": "ad_belt_a0.5",
+"method": "adapter",
+"label": "belt",
+"strength": 0.5,
+"similarity": 0.7350044250488281
+},
+{
+"singer": "male3",
+"sid": "arpeggios_e",
+"condition": "eqmatch_belt",
+"method": "eqmatch",
+"label": "belt",
+"strength": null,
+"similarity": 0.714918315410614
+},
+{
+"singer": "male3",
+"sid": "arpeggios_e",
+"condition": "ad_vocal_fry_a1",
+"method": "adapter",
+"label": "vocal_fry",
+"strength": 1.0,
+"similarity": 0.7605229616165161
+},
+{
+"singer": "male3",
+"sid": "arpeggios_e",
+"condition": "ad_vocal_fry_a0.5",
+"method": "adapter",
+"label": "vocal_fry",
+"strength": 0.5,
+"similarity": 0.738861083984375
+},
+{
+"singer": "male3",
+"sid": "arpeggios_e",
+"condition": "eqmatch_vocal_fry",
+"method": "eqmatch",
+"label": "vocal_fry",
+"strength": null,
+"similarity": 0.7271758317947388
+},
+{
+"singer": "male3",
+"sid": "arpeggios_e",
+"condition": "ad_forte_a1",
+"method": "adapter",
+"label": "forte",
+"strength": 1.0,
+"similarity": 0.7452281713485718
+},
+{
+"singer": "male3",
+"sid": "arpeggios_e",
+"condition": "ad_forte_a0.5",
+"method": "adapter",
+"label": "forte",
+"strength": 0.5,
+"similarity": 0.7409356832504272
+},
+{
+"singer": "male3",
+"sid": "arpeggios_e",
+"condition": "eqmatch_forte",
+"method": "eqmatch",
+"label": "forte",
+"strength": null,
+"similarity": 0.7273489832878113
+},
+{
+"singer": "male3",
+"sid": "arpeggios_e",
+"condition": "ad_piano_a1",
+"method": "adapter",
+"label": "piano",
+"strength": 1.0,
+"similarity": 0.7064872980117798
+},
+{
+"singer": "male3",
+"sid": "arpeggios_e",
+"condition": "ad_piano_a0.5",
+"method": "adapter",
+"label": "piano",
+"strength": 0.5,
+"similarity": 0.7302204966545105
+},
+{
+"singer": "male3",
+"sid": "arpeggios_e",
+"condition": "eqmatch_piano",
+"method": "eqmatch",
+"label": "piano",
+"strength": null,
+"similarity": 0.731268048286438
+},
+{
+"singer": "male3",
+"sid": "arpeggios_e",
+"condition": "carried_breathy",
+"method": "carried",
+"label": "breathy",
+"strength": null,
+"similarity": 0.6869145631790161
+},
+{
+"singer": "male3",
+"sid": "arpeggios_e",
+"condition": "carried_belt",
+"method": "carried",
+"label": "belt",
+"strength": null,
+"similarity": 0.6786047220230103
+},
+{
+"singer": "male3",
+"sid": "arpeggios_e",
+"condition": "carried_vocal_fry",
+"method": "carried",
+"label": "vocal_fry",
+"strength": null,
+"similarity": 0.46450668573379517
+},
+{
+"singer": "male3",
+"sid": "arpeggios_e",
+"condition": "carried_forte",
+"method": "carried",
+"label": "forte",
+"strength": null,
+"similarity": 0.6488814949989319
+},
+{
+"singer": "male3",
+"sid": "arpeggios_e",
+"condition": "carried_piano",
+"method": "carried",
+"label": "piano",
+"strength": null,
+"similarity": 0.6237227916717529
+},
+{
+"singer": "male3",
+"sid": "arpeggios_i",
+"condition": "base",
+"method": "base",
+"label": null,
+"strength": null,
+"similarity": 0.6162614822387695
+},
+{
+"singer": "male3",
+"sid": "arpeggios_i",
+"condition": "ad_breathy_a1",
+"method": "adapter",
+"label": "breathy",
+"strength": 1.0,
+"similarity": 0.6652395725250244
+},
+{
+"singer": "male3",
+"sid": "arpeggios_i",
+"condition": "ad_breathy_a0.5",
+"method": "adapter",
+"label": "breathy",
+"strength": 0.5,
+"similarity": 0.6778159737586975
+},
+{
+"singer": "male3",
+"sid": "arpeggios_i",
+"condition": "eqmatch_breathy",
+"method": "eqmatch",
+"label": "breathy",
+"strength": null,
+"similarity": 0.5999603867530823
+},
+{
+"singer": "male3",
+"sid": "arpeggios_i",
+"condition": "ad_belt_a1",
+"method": "adapter",
+"label": "belt",
+"strength": 1.0,
+"similarity": 0.6829508543014526
+},
+{
+"singer": "male3",
+"sid": "arpeggios_i",
+"condition": "ad_belt_a0.5",
+"method": "adapter",
+"label": "belt",
+"strength": 0.5,
+"similarity": 0.6757000684738159
+},
+{
+"singer": "male3",
+"sid": "arpeggios_i",
+"condition": "eqmatch_belt",
+"method": "eqmatch",
+"label": "belt",
+"strength": null,
+"similarity": 0.5979577898979187
+},
+{
+"singer": "male3",
+"sid": "arpeggios_i",
+"condition": "ad_vocal_fry_a1",
+"method": "adapter",
+"label": "vocal_fry",
+"strength": 1.0,
+"similarity": 0.7027058601379395
+},
+{
+"singer": "male3",
+"sid": "arpeggios_i",
+"condition": "ad_vocal_fry_a0.5",
+"method": "adapter",
+"label": "vocal_fry",
+"strength": 0.5,
+"similarity": 0.6934828758239746
+},
+{
+"singer": "male3",
+"sid": "arpeggios_i",
+"condition": "eqmatch_vocal_fry",
+"method": "eqmatch",
+"label": "vocal_fry",
+"strength": null,
+"similarity": 0.6100538969039917
+},
+{
+"singer": "male3",
+"sid": "arpeggios_i",
+"condition": "ad_forte_a1",
+"method": "adapter",
+"label": "forte",
+"strength": 1.0,
+"similarity": 0.6993905305862427
+},
+{
+"singer": "male3",
+"sid": "arpeggios_i",
+"condition": "ad_forte_a0.5",
+"method": "adapter",
+"label": "forte",
+"strength": 0.5,
+"similarity": 0.6984028220176697
+},
+{
+"singer": "male3",
+"sid": "arpeggios_i",
+"condition": "eqmatch_forte",
+"method": "eqmatch",
+"label": "forte",
+"strength": null,
+"similarity": 0.5555619597434998
+},
+{
+"singer": "male3",
+"sid": "arpeggios_i",
+"condition": "ad_piano_a1",
+"method": "adapter",
+"label": "piano",
+"strength": 1.0,
+"similarity": 0.6543481945991516
+},
+{
+"singer": "male3",
+"sid": "arpeggios_i",
+"condition": "ad_piano_a0.5",
+"method": "adapter",
+"label": "piano",
+"strength": 0.5,
+"similarity": 0.6352847218513489
+},
+{
+"singer": "male3",
+"sid": "arpeggios_i",
+"condition": "eqmatch_piano",
+"method": "eqmatch",
+"label": "piano",
+"strength": null,
+"similarity": 0.5558091998100281
+},
+{
+"singer": "male3",
+"sid": "arpeggios_i",
+"condition": "carried_breathy",
+"method": "carried",
+"label": "breathy",
+"strength": null,
+"similarity": 0.6951966285705566
+},
+{
+"singer": "male3",
+"sid": "arpeggios_i",
+"condition": "carried_belt",
+"method": "carried",
+"label": "belt",
+"strength": null,
+"similarity": 0.6127248406410217
+},
+{
+"singer": "male3",
+"sid": "arpeggios_i",
+"condition": "carried_vocal_fry",
+"method": "carried",
+"label": "vocal_fry",
+"strength": null,
+"similarity": 0.3675609529018402
+},
+{
+"singer": "male3",
+"sid": "arpeggios_i",
+"condition": "carried_forte",
+"method": "carried",
+"label": "forte",
+"strength": null,
+"similarity": 0.6613993048667908
+},
+{
+"singer": "male3",
+"sid": "arpeggios_i",
+"condition": "carried_piano",
+"method": "carried",
+"label": "piano",
+"strength": null,
+"similarity": 0.5650969743728638
+},
+{
+"singer": "male3",
+"sid": "arpeggios_o",
+"condition": "base",
+"method": "base",
+"label": null,
+"strength": null,
+"similarity": 0.6941035985946655
+},
+{
+"singer": "male3",
+"sid": "arpeggios_o",
+"condition": "ad_breathy_a1",
+"method": "adapter",
+"label": "breathy",
+"strength": 1.0,
+"similarity": 0.7091087698936462
+},
+{
+"singer": "male3",
+"sid": "arpeggios_o",
+"condition": "ad_breathy_a0.5",
+"method": "adapter",
+"label": "breathy",
+"strength": 0.5,
+"similarity": 0.6750545501708984
+},
+{
+"singer": "male3",
+"sid": "arpeggios_o",
+"condition": "eqmatch_breathy",
+"method": "eqmatch",
+"label": "breathy",
+"strength": null,
+"similarity": 0.6827054619789124
+},
+{
+"singer": "male3",
+"sid": "arpeggios_o",
+"condition": "ad_belt_a1",
+"method": "adapter",
+"label": "belt",
+"strength": 1.0,
+"similarity": 0.6631110906600952
+},
+{
+"singer": "male3",
+"sid": "arpeggios_o",
+"condition": "ad_belt_a0.5",
+"method": "adapter",
+"label": "belt",
+"strength": 0.5,
+"similarity": 0.6944494247436523
+},
+{
+"singer": "male3",
+"sid": "arpeggios_o",
+"condition": "eqmatch_belt",
+"method": "eqmatch",
+"label": "belt",
+"strength": null,
+"similarity": 0.6179999113082886
+},
+{
+"singer": "male3",
+"sid": "arpeggios_o",
+"condition": "ad_vocal_fry_a1",
+"method": "adapter",
+"label": "vocal_fry",
+"strength": 1.0,
+"similarity": 0.6510953307151794
+},
+{
+"singer": "male3",
+"sid": "arpeggios_o",
+"condition": "ad_vocal_fry_a0.5",
+"method": "adapter",
+"label": "vocal_fry",
+"strength": 0.5,
+"similarity": 0.7190635800361633
+},
+{
+"singer": "male3",
+"sid": "arpeggios_o",
+"condition": "eqmatch_vocal_fry",
+"method": "eqmatch",
+"label": "vocal_fry",
+"strength": null,
+"similarity": 0.7140631675720215
+},
+{
+"singer": "male3",
+"sid": "arpeggios_o",
+"condition": "ad_forte_a1",
+"method": "adapter",
+"label": "forte",
+"strength": 1.0,
+"similarity": 0.6208004355430603
+},
+{
+"singer": "male3",
+"sid": "arpeggios_o",
+"condition": "ad_forte_a0.5",
+"method": "adapter",
+"label": "forte",
+"strength": 0.5,
+"similarity": 0.6803206205368042
+},
+{
+"singer": "male3",
+"sid": "arpeggios_o",
+"condition": "eqmatch_forte",
+"method": "eqmatch",
+"label": "forte",
+"strength": null,
+"similarity": 0.6081966161727905
+},
+{
+"singer": "male3",
+"sid": "arpeggios_o",
+"condition": "ad_piano_a1",
+"method": "adapter",
+"label": "piano",
+"strength": 1.0,
+"similarity": 0.5769432783126831
+},
+{
+"singer": "male3",
+"sid": "arpeggios_o",
+"condition": "ad_piano_a0.5",
+"method": "adapter",
+"label": "piano",
+"strength": 0.5,
+"similarity": 0.6169617772102356
+},
+{
+"singer": "male3",
+"sid": "arpeggios_o",
+"condition": "eqmatch_piano",
+"method": "eqmatch",
+"label": "piano",
+"strength": null,
+"similarity": 0.6522732377052307
+},
+{
+"singer": "male3",
+"sid": "arpeggios_o",
+"condition": "carried_breathy",
+"method": "carried",
+"label": "breathy",
+"strength": null,
+"similarity": 0.7810648679733276
+},
+{
+"singer": "male3",
+"sid": "arpeggios_o",
+"condition": "carried_belt",
+"method": "carried",
+"label": "belt",
+"strength": null,
+"similarity": 0.6947644948959351
+},
+{
+"singer": "male3",
+"sid": "arpeggios_o",
+"condition": "carried_vocal_fry",
+"method": "carried",
+"label": "vocal_fry",
+"strength": null,
+"similarity": 0.5976614952087402
+},
+{
+"singer": "male3",
+"sid": "arpeggios_o",
+"condition": "carried_forte",
+"method": "carried",
+"label": "forte",
+"strength": null,
+"similarity": 0.7052888870239258
+},
+{
+"singer": "male3",
+"sid": "arpeggios_o",
+"condition": "carried_piano",
+"method": "carried",
+"label": "piano",
+"strength": null,
+"similarity": 0.6756566166877747
+},
+{
+"singer": "male3",
+"sid": "arpeggios_u",
+"condition": "base",
+"method": "base",
+"label": null,
+"strength": null,
+"similarity": 0.7305840253829956
+},
+{
+"singer": "male3",
+"sid": "arpeggios_u",
+"condition": "ad_breathy_a1",
+"method": "adapter",
+"label": "breathy",
+"strength": 1.0,
+"similarity": 0.6696906089782715
+},
+{
+"singer": "male3",
+"sid": "arpeggios_u",
+"condition": "ad_breathy_a0.5",
+"method": "adapter",
+"label": "breathy",
+"strength": 0.5,
+"similarity": 0.7015161514282227
+},
+{
+"singer": "male3",
+"sid": "arpeggios_u",
+"condition": "eqmatch_breathy",
+"method": "eqmatch",
+"label": "breathy",
+"strength": null,
+"similarity": 0.7021245956420898
+},
+{
+"singer": "male3",
+"sid": "arpeggios_u",
+"condition": "ad_belt_a1",
+"method": "adapter",
+"label": "belt",
+"strength": 1.0,
+"similarity": 0.7318955659866333
+},
+{
+"singer": "male3",
+"sid": "arpeggios_u",
+"condition": "ad_belt_a0.5",
+"method": "adapter",
+"label": "belt",
+"strength": 0.5,
+"similarity": 0.726900041103363
+},
+{
+"singer": "male3",
+"sid": "arpeggios_u",
+"condition": "eqmatch_belt",
+"method": "eqmatch",
+"label": "belt",
+"strength": null,
+"similarity": 0.7170330286026001
+},
+{
+"singer": "male3",
+"sid": "arpeggios_u",
+"condition": "ad_vocal_fry_a1",
+"method": "adapter",
+"label": "vocal_fry",
+"strength": 1.0,
+"similarity": 0.6102526783943176
+},
+{
+"singer": "male3",
+"sid": "arpeggios_u",
+"condition": "ad_vocal_fry_a0.5",
+"method": "adapter",
+"label": "vocal_fry",
+"strength": 0.5,
+"similarity": 0.7281478047370911
+},
+{
+"singer": "male3",
+"sid": "arpeggios_u",
+"condition": "eqmatch_vocal_fry",
+"method": "eqmatch",
+"label": "vocal_fry",
+"strength": null,
+"similarity": 0.7272994518280029
+},
+{
+"singer": "male3",
+"sid": "arpeggios_u",
+"condition": "ad_forte_a1",
+"method": "adapter",
+"label": "forte",
+"strength": 1.0,
+"similarity": 0.6737286448478699
+},
+{
+"singer": "male3",
+"sid": "arpeggios_u",
+"condition": "ad_forte_a0.5",
+"method": "adapter",
+"label": "forte",
+"strength": 0.5,
+"similarity": 0.6781888604164124
+},
+{
+"singer": "male3",
+"sid": "arpeggios_u",
+"condition": "eqmatch_forte",
+"method": "eqmatch",
+"label": "forte",
+"strength": null,
+"similarity": 0.6774182319641113
+},
+{
+"singer": "male3",
+"sid": "arpeggios_u",
+"condition": "ad_piano_a1",
+"method": "adapter",
+"label": "piano",
+"strength": 1.0,
+"similarity": 0.6162158846855164
+},
+{
+"singer": "male3",
+"sid": "arpeggios_u",
+"condition": "ad_piano_a0.5",
+"method": "adapter",
+"label": "piano",
+"strength": 0.5,
+"similarity": 0.6548819541931152
+},
+{
+"singer": "male3",
+"sid": "arpeggios_u",
+"condition": "eqmatch_piano",
+"method": "eqmatch",
+"label": "piano",
+"strength": null,
+"similarity": 0.6604331135749817
+},
+{
+"singer": "male3",
+"sid": "arpeggios_u",
+"condition": "carried_breathy",
+"method": "carried",
+"label": "breathy",
+"strength": null,
+"similarity": 0.7033960223197937
+},
+{
+"singer": "male3",
+"sid": "arpeggios_u",
+"condition": "carried_belt",
+"method": "carried",
+"label": "belt",
+"strength": null,
+"similarity": 0.7617318630218506
+},
+{
+"singer": "male3",
+"sid": "arpeggios_u",
+"condition": "carried_vocal_fry",
+"method": "carried",
+"label": "vocal_fry",
+"strength": null,
+"similarity": 0.6305203437805176
+},
+{
+"singer": "male3",
+"sid": "arpeggios_u",
+"condition": "carried_forte",
+"method": "carried",
+"label": "forte",
+"strength": null,
+"similarity": 0.6395108103752136
+},
+{
+"singer": "male3",
+"sid": "arpeggios_u",
+"condition": "carried_piano",
+"method": "carried",
+"label": "piano",
+"strength": null,
+"similarity": 0.5462215542793274
+},
+{
+"singer": "male9",
+"sid": "scales_a",
+"condition": "base",
+"method": "base",
+"label": null,
+"strength": null,
+"similarity": 0.7936339378356934
+},
+{
+"singer": "male9",
+"sid": "scales_a",
+"condition": "ad_breathy_a1",
+"method": "adapter",
+"label": "breathy",
+"strength": 1.0,
+"similarity": 0.7225079536437988
+},
+{
+"singer": "male9",
+"sid": "scales_a",
+"condition": "ad_breathy_a0.5",
+"method": "adapter",
+"label": "breathy",
+"strength": 0.5,
+"similarity": 0.7457887530326843
+},
+{
+"singer": "male9",
+"sid": "scales_a",
+"condition": "eqmatch_breathy",
+"method": "eqmatch",
+"label": "breathy",
+"strength": null,
+"similarity": 0.7246909737586975
+},
+{
+"singer": "male9",
+"sid": "scales_a",
+"condition": "ad_belt_a1",
+"method": "adapter",
+"label": "belt",
+"strength": 1.0,
+"similarity": 0.6236013174057007
+},
+{
+"singer": "male9",
+"sid": "scales_a",
+"condition": "ad_belt_a0.5",
+"method": "adapter",
+"label": "belt",
+"strength": 0.5,
+"similarity": 0.7359205484390259
+},
+{
+"singer": "male9",
+"sid": "scales_a",
+"condition": "eqmatch_belt",
+"method": "eqmatch",
+"label": "belt",
+"strength": null,
+"similarity": 0.7480349540710449
+},
+{
+"singer": "male9",
+"sid": "scales_a",
+"condition": "ad_vocal_fry_a1",
+"method": "adapter",
+"label": "vocal_fry",
+"strength": 1.0,
+"similarity": 0.6427937150001526
+},
+{
+"singer": "male9",
+"sid": "scales_a",
+"condition": "ad_vocal_fry_a0.5",
+"method": "adapter",
+"label": "vocal_fry",
+"strength": 0.5,
+"similarity": 0.7080825567245483
+},
+{
+"singer": "male9",
+"sid": "scales_a",
+"condition": "eqmatch_vocal_fry",
+"method": "eqmatch",
+"label": "vocal_fry",
+"strength": null,
+"similarity": 0.6870549917221069
+},
+{
+"singer": "male9",
+"sid": "scales_a",
+"condition": "ad_forte_a1",
+"method": "adapter",
+"label": "forte",
+"strength": 1.0,
+"similarity": 0.6592265963554382
+},
+{
+"singer": "male9",
+"sid": "scales_a",
+"condition": "ad_forte_a0.5",
+"method": "adapter",
+"label": "forte",
+"strength": 0.5,
+"similarity": 0.7626878619194031
+},
+{
+"singer": "male9",
+"sid": "scales_a",
+"condition": "eqmatch_forte",
+"method": "eqmatch",
+"label": "forte",
+"strength": null,
+"similarity": 0.7697761058807373
+},
+{
+"singer": "male9",
+"sid": "scales_a",
+"condition": "ad_piano_a1",
+"method": "adapter",
+"label": "piano",
+"strength": 1.0,
+"similarity": 0.6726821064949036
+},
+{
+"singer": "male9",
+"sid": "scales_a",
+"condition": "ad_piano_a0.5",
+"method": "adapter",
+"label": "piano",
+"strength": 0.5,
+"similarity": 0.7533414363861084
+},
+{
+"singer": "male9",
+"sid": "scales_a",
+"condition": "eqmatch_piano",
+"method": "eqmatch",
+"label": "piano",
+"strength": null,
+"similarity": 0.7776870727539062
+},
+{
+"singer": "male9",
+"sid": "scales_a",
+"condition": "carried_breathy",
+"method": "carried",
+"label": "breathy",
+"strength": null,
+"similarity": 0.7636503577232361
+},
+{
+"singer": "male9",
+"sid": "scales_a",
+"condition": "carried_belt",
+"method": "carried",
+"label": "belt",
+"strength": null,
+"similarity": 0.5427932739257812
+},
+{
+"singer": "male9",
+"sid": "scales_a",
+"condition": "carried_vocal_fry",
+"method": "carried",
+"label": "vocal_fry",
+"strength": null,
+"similarity": 0.5175991654396057
+},
+{
+"singer": "male9",
+"sid": "scales_a",
+"condition": "carried_forte",
+"method": "carried",
+"label": "forte",
+"strength": null,
+"similarity": 0.7023518681526184
+},
+{
+"singer": "male9",
+"sid": "scales_a",
+"condition": "carried_piano",
+"method": "carried",
+"label": "piano",
+"strength": null,
+"similarity": 0.6771936416625977
+},
+{
+"singer": "male9",
+"sid": "scales_e",
+"condition": "base",
+"method": "base",
+"label": null,
+"strength": null,
+"similarity": 0.7895864844322205
+},
+{
+"singer": "male9",
+"sid": "scales_e",
+"condition": "ad_breathy_a1",
+"method": "adapter",
+"label": "breathy",
+"strength": 1.0,
+"similarity": 0.7388012409210205
+},
+{
+"singer": "male9",
+"sid": "scales_e",
+"condition": "ad_breathy_a0.5",
+"method": "adapter",
+"label": "breathy",
+"strength": 0.5,
+"similarity": 0.7869589924812317
+},
+{
+"singer": "male9",
+"sid": "scales_e",
+"condition": "eqmatch_breathy",
+"method": "eqmatch",
+"label": "breathy",
+"strength": null,
+"similarity": 0.7809008955955505
+},
+{
+"singer": "male9",
+"sid": "scales_e",
+"condition": "ad_belt_a1",
+"method": "adapter",
+"label": "belt",
+"strength": 1.0,
+"similarity": 0.7857903242111206
+},
+{
+"singer": "male9",
+"sid": "scales_e",
+"condition": "ad_belt_a0.5",
+"method": "adapter",
+"label": "belt",
+"strength": 0.5,
+"similarity": 0.8151659369468689
+},
+{
+"singer": "male9",
+"sid": "scales_e",
+"condition": "eqmatch_belt",
+"method": "eqmatch",
+"label": "belt",
+"strength": null,
+"similarity": 0.832936704158783
+},
+{
+"singer": "male9",
+"sid": "scales_e",
+"condition": "ad_vocal_fry_a1",
+"method": "adapter",
+"label": "vocal_fry",
+"strength": 1.0,
+"similarity": 0.6942458748817444
+},
+{
+"singer": "male9",
+"sid": "scales_e",
+"condition": "ad_vocal_fry_a0.5",
+"method": "adapter",
+"label": "vocal_fry",
+"strength": 0.5,
+"similarity": 0.8027108907699585
+},
+{
+"singer": "male9",
+"sid": "scales_e",
+"condition": "eqmatch_vocal_fry",
+"method": "eqmatch",
+"label": "vocal_fry",
+"strength": null,
+"similarity": 0.7523935437202454
+},
+{
+"singer": "male9",
+"sid": "scales_e",
+"condition": "ad_forte_a1",
+"method": "adapter",
+"label": "forte",
+"strength": 1.0,
+"similarity": 0.6914079785346985
+},
+{
+"singer": "male9",
+"sid": "scales_e",
+"condition": "ad_forte_a0.5",
+"method": "adapter",
+"label": "forte",
+"strength": 0.5,
+"similarity": 0.8033831715583801
+},
+{
+"singer": "male9",
+"sid": "scales_e",
+"condition": "eqmatch_forte",
+"method": "eqmatch",
+"label": "forte",
+"strength": null,
+"similarity": 0.830624520778656
+},
+{
+"singer": "male9",
+"sid": "scales_e",
+"condition": "ad_piano_a1",
+"method": "adapter",
+"label": "piano",
+"strength": 1.0,
+"similarity": 0.6982206106185913
+},
+{
+"singer": "male9",
+"sid": "scales_e",
+"condition": "ad_piano_a0.5",
+"method": "adapter",
+"label": "piano",
+"strength": 0.5,
+"similarity": 0.8284121751785278
+},
+{
+"singer": "male9",
+"sid": "scales_e",
+"condition": "eqmatch_piano",
+"method": "eqmatch",
+"label": "piano",
+"strength": null,
+"similarity": 0.7883890271186829
+},
+{
+"singer": "male9",
+"sid": "scales_e",
+"condition": "carried_breathy",
+"method": "carried",
+"label": "breathy",
+"strength": null,
+"similarity": 0.806666374206543
+},
+{
+"singer": "male9",
+"sid": "scales_e",
+"condition": "carried_belt",
+"method": "carried",
+"label": "belt",
+"strength": null,
+"similarity": 0.6162484884262085
+},
+{
+"singer": "male9",
+"sid": "scales_e",
+"condition": "carried_vocal_fry",
+"method": "carried",
+"label": "vocal_fry",
+"strength": null,
+"similarity": 0.5367138385772705
+},
+{
+"singer": "male9",
+"sid": "scales_e",
+"condition": "carried_forte",
+"method": "carried",
+"label": "forte",
+"strength": null,
+"similarity": 0.7722226977348328
+},
+{
+"singer": "male9",
+"sid": "scales_e",
+"condition": "carried_piano",
+"method": "carried",
+"label": "piano",
+"strength": null,
+"similarity": 0.7689372301101685
+},
+{
+"singer": "male9",
+"sid": "scales_i",
+"condition": "base",
+"method": "base",
+"label": null,
+"strength": null,
+"similarity": 0.8036074638366699
+},
+{
+"singer": "male9",
+"sid": "scales_i",
+"condition": "ad_breathy_a1",
+"method": "adapter",
+"label": "breathy",
+"strength": 1.0,
+"similarity": 0.6667851209640503
+},
+{
+"singer": "male9",
+"sid": "scales_i",
+"condition": "ad_breathy_a0.5",
+"method": "adapter",
+"label": "breathy",
+"strength": 0.5,
+"similarity": 0.7290396690368652
+},
+{
+"singer": "male9",
+"sid": "scales_i",
+"condition": "eqmatch_breathy",
+"method": "eqmatch",
+"label": "breathy",
+"strength": null,
+"similarity": 0.7966115474700928
+},
+{
+"singer": "male9",
+"sid": "scales_i",
+"condition": "ad_belt_a1",
+"method": "adapter",
+"label": "belt",
+"strength": 1.0,
+"similarity": 0.8025254011154175
+},
+{
+"singer": "male9",
+"sid": "scales_i",
+"condition": "ad_belt_a0.5",
+"method": "adapter",
+"label": "belt",
+"strength": 0.5,
+"similarity": 0.824672281742096
+},
+{
+"singer": "male9",
+"sid": "scales_i",
+"condition": "eqmatch_belt",
+"method": "eqmatch",
+"label": "belt",
+"strength": null,
+"similarity": 0.811623215675354
+},
+{
+"singer": "male9",
+"sid": "scales_i",
+"condition": "ad_vocal_fry_a1",
+"method": "adapter",
+"label": "vocal_fry",
+"strength": 1.0,
+"similarity": 0.7014707922935486
+},
+{
+"singer": "male9",
+"sid": "scales_i",
+"condition": "ad_vocal_fry_a0.5",
+"method": "adapter",
+"label": "vocal_fry",
+"strength": 0.5,
+"similarity": 0.766828179359436
+},
+{
+"singer": "male9",
+"sid": "scales_i",
+"condition": "eqmatch_vocal_fry",
+"method": "eqmatch",
+"label": "vocal_fry",
+"strength": null,
+"similarity": 0.759879469871521
+},
+{
+"singer": "male9",
+"sid": "scales_i",
+"condition": "ad_forte_a1",
+"method": "adapter",
+"label": "forte",
+"strength": 1.0,
+"similarity": 0.6754760146141052
+},
+{
+"singer": "male9",
+"sid": "scales_i",
+"condition": "ad_forte_a0.5",
+"method": "adapter",
+"label": "forte",
+"strength": 0.5,
+"similarity": 0.7811281681060791
+},
+{
+"singer": "male9",
+"sid": "scales_i",
+"condition": "eqmatch_forte",
+"method": "eqmatch",
+"label": "forte",
+"strength": null,
+"similarity": 0.817489743232727
+},
+{
+"singer": "male9",
+"sid": "scales_i",
+"condition": "ad_piano_a1",
+"method": "adapter",
+"label": "piano",
+"strength": 1.0,
+"similarity": 0.6765745282173157
+},
+{
+"singer": "male9",
+"sid": "scales_i",
+"condition": "ad_piano_a0.5",
+"method": "adapter",
+"label": "piano",
+"strength": 0.5,
+"similarity": 0.7758671045303345
+},
+{
+"singer": "male9",
+"sid": "scales_i",
+"condition": "eqmatch_piano",
+"method": "eqmatch",
+"label": "piano",
+"strength": null,
+"similarity": 0.7908385396003723
+},
+{
+"singer": "male9",
+"sid": "scales_i",
+"condition": "carried_breathy",
+"method": "carried",
+"label": "breathy",
+"strength": null,
+"similarity": 0.8300769925117493
+},
+{
+"singer": "male9",
+"sid": "scales_i",
+"condition": "carried_belt",
+"method": "carried",
+"label": "belt",
+"strength": null,
+"similarity": 0.5905625224113464
+},
+{
+"singer": "male9",
+"sid": "scales_i",
+"condition": "carried_vocal_fry",
+"method": "carried",
+"label": "vocal_fry",
+"strength": null,
+"similarity": 0.615250825881958
+},
+{
+"singer": "male9",
+"sid": "scales_i",
+"condition": "carried_forte",
+"method": "carried",
+"label": "forte",
+"strength": null,
+"similarity": 0.7787796258926392
+},
+{
+"singer": "male9",
+"sid": "scales_i",
+"condition": "carried_piano",
+"method": "carried",
+"label": "piano",
+"strength": null,
+"similarity": 0.7811283469200134
+},
+{
+"singer": "male9",
+"sid": "scales_o",
+"condition": "base",
+"method": "base",
+"label": null,
+"strength": null,
+"similarity": 0.7573496103286743
+},
+{
+"singer": "male9",
+"sid": "scales_o",
+"condition": "ad_breathy_a1",
+"method": "adapter",
+"label": "breathy",
+"strength": 1.0,
+"similarity": 0.6514284610748291
+},
+{
+"singer": "male9",
+"sid": "scales_o",
+"condition": "ad_breathy_a0.5",
+"method": "adapter",
+"label": "breathy",
+"strength": 0.5,
+"similarity": 0.6909990310668945
+},
+{
+"singer": "male9",
+"sid": "scales_o",
+"condition": "eqmatch_breathy",
+"method": "eqmatch",
+"label": "breathy",
+"strength": null,
+"similarity": 0.6978803277015686
+},
+{
+"singer": "male9",
+"sid": "scales_o",
+"condition": "ad_belt_a1",
+"method": "adapter",
+"label": "belt",
+"strength": 1.0,
+"similarity": 0.7385059595108032
+},
+{
+"singer": "male9",
+"sid": "scales_o",
+"condition": "ad_belt_a0.5",
+"method": "adapter",
+"label": "belt",
+"strength": 0.5,
+"similarity": 0.7348732352256775
+},
+{
+"singer": "male9",
+"sid": "scales_o",
+"condition": "eqmatch_belt",
+"method": "eqmatch",
+"label": "belt",
+"strength": null,
+"similarity": 0.7179321646690369
+},
+{
+"singer": "male9",
+"sid": "scales_o",
+"condition": "ad_vocal_fry_a1",
+"method": "adapter",
+"label": "vocal_fry",
+"strength": 1.0,
+"similarity": 0.6362884640693665
+},
+{
+"singer": "male9",
+"sid": "scales_o",
+"condition": "ad_vocal_fry_a0.5",
+"method": "adapter",
+"label": "vocal_fry",
+"strength": 0.5,
+"similarity": 0.7178465127944946
+},
+{
+"singer": "male9",
+"sid": "scales_o",
+"condition": "eqmatch_vocal_fry",
+"method": "eqmatch",
+"label": "vocal_fry",
+"strength": null,
+"similarity": 0.6893991231918335
+},
+{
+"singer": "male9",
+"sid": "scales_o",
+"condition": "ad_forte_a1",
+"method": "adapter",
+"label": "forte",
+"strength": 1.0,
+"similarity": 0.7065810561180115
+},
+{
+"singer": "male9",
+"sid": "scales_o",
+"condition": "ad_forte_a0.5",
+"method": "adapter",
+"label": "forte",
+"strength": 0.5,
+"similarity": 0.7726629972457886
+},
+{
+"singer": "male9",
+"sid": "scales_o",
+"condition": "eqmatch_forte",
+"method": "eqmatch",
+"label": "forte",
+"strength": null,
+"similarity": 0.7612097263336182
+},
+{
+"singer": "male9",
+"sid": "scales_o",
+"condition": "ad_piano_a1",
+"method": "adapter",
+"label": "piano",
+"strength": 1.0,
+"similarity": 0.6628738045692444
+},
+{
+"singer": "male9",
+"sid": "scales_o",
+"condition": "ad_piano_a0.5",
+"method": "adapter",
+"label": "piano",
+"strength": 0.5,
+"similarity": 0.7540802955627441
+},
+{
+"singer": "male9",
+"sid": "scales_o",
+"condition": "eqmatch_piano",
+"method": "eqmatch",
+"label": "piano",
+"strength": null,
+"similarity": 0.7655697464942932
+},
+{
+"singer": "male9",
+"sid": "scales_o",
+"condition": "carried_breathy",
+"method": "carried",
+"label": "breathy",
+"strength": null,
+"similarity": 0.7760111093521118
+},
+{
+"singer": "male9",
+"sid": "scales_o",
+"condition": "carried_belt",
+"method": "carried",
+"label": "belt",
+"strength": null,
+"similarity": 0.5548363924026489
+},
+{
+"singer": "male9",
+"sid": "scales_o",
+"condition": "carried_vocal_fry",
+"method": "carried",
+"label": "vocal_fry",
+"strength": null,
+"similarity": 0.6039268970489502
+},
+{
+"singer": "male9",
+"sid": "scales_o",
+"condition": "carried_forte",
+"method": "carried",
+"label": "forte",
+"strength": null,
+"similarity": 0.6692301034927368
+},
+{
+"singer": "male9",
+"sid": "scales_o",
+"condition": "carried_piano",
+"method": "carried",
+"label": "piano",
+"strength": null,
+"similarity": 0.7074338793754578
+},
+{
+"singer": "male9",
+"sid": "scales_u",
+"condition": "base",
+"method": "base",
+"label": null,
+"strength": null,
+"similarity": 0.8220494985580444
+},
+{
+"singer": "male9",
+"sid": "scales_u",
+"condition": "ad_breathy_a1",
+"method": "adapter",
+"label": "breathy",
+"strength": 1.0,
+"similarity": 0.7050132155418396
+},
+{
+"singer": "male9",
+"sid": "scales_u",
+"condition": "ad_breathy_a0.5",
+"method": "adapter",
+"label": "breathy",
+"strength": 0.5,
+"similarity": 0.7342441082000732
+},
+{
+"singer": "male9",
+"sid": "scales_u",
+"condition": "eqmatch_breathy",
+"method": "eqmatch",
+"label": "breathy",
+"strength": null,
+"similarity": 0.7649753093719482
+},
+{
+"singer": "male9",
+"sid": "scales_u",
+"condition": "ad_belt_a1",
+"method": "adapter",
+"label": "belt",
+"strength": 1.0,
+"similarity": 0.7863487005233765
+},
+{
+"singer": "male9",
+"sid": "scales_u",
+"condition": "ad_belt_a0.5",
+"method": "adapter",
+"label": "belt",
+"strength": 0.5,
+"similarity": 0.8407185673713684
+},
+{
+"singer": "male9",
+"sid": "scales_u",
+"condition": "eqmatch_belt",
+"method": "eqmatch",
+"label": "belt",
+"strength": null,
+"similarity": 0.8439397215843201
+},
+{
+"singer": "male9",
+"sid": "scales_u",
+"condition": "ad_vocal_fry_a1",
+"method": "adapter",
+"label": "vocal_fry",
+"strength": 1.0,
+"similarity": 0.7419434189796448
+},
+{
+"singer": "male9",
+"sid": "scales_u",
+"condition": "ad_vocal_fry_a0.5",
+"method": "adapter",
+"label": "vocal_fry",
+"strength": 0.5,
+"similarity": 0.7752557992935181
+},
+{
+"singer": "male9",
+"sid": "scales_u",
+"condition": "eqmatch_vocal_fry",
+"method": "eqmatch",
+"label": "vocal_fry",
+"strength": null,
+"similarity": 0.7822170257568359
+},
+{
+"singer": "male9",
+"sid": "scales_u",
+"condition": "ad_forte_a1",
+"method": "adapter",
+"label": "forte",
+"strength": 1.0,
+"similarity": 0.767040491104126
+},
+{
+"singer": "male9",
+"sid": "scales_u",
+"condition": "ad_forte_a0.5",
+"method": "adapter",
+"label": "forte",
+"strength": 0.5,
+"similarity": 0.8372671604156494
+},
+{
+"singer": "male9",
+"sid": "scales_u",
+"condition": "eqmatch_forte",
+"method": "eqmatch",
+"label": "forte",
+"strength": null,
+"similarity": 0.8238041996955872
+},
+{
+"singer": "male9",
+"sid": "scales_u",
+"condition": "ad_piano_a1",
+"method": "adapter",
+"label": "piano",
+"strength": 1.0,
+"similarity": 0.7254610061645508
+},
+{
+"singer": "male9",
+"sid": "scales_u",
+"condition": "ad_piano_a0.5",
+"method": "adapter",
+"label": "piano",
+"strength": 0.5,
+"similarity": 0.8140395879745483
+},
+{
+"singer": "male9",
+"sid": "scales_u",
+"condition": "eqmatch_piano",
+"method": "eqmatch",
+"label": "piano",
+"strength": null,
+"similarity": 0.8056325316429138
+},
+{
+"singer": "male9",
+"sid": "scales_u",
+"condition": "carried_breathy",
+"method": "carried",
+"label": "breathy",
+"strength": null,
+"similarity": 0.7879565954208374
+},
+{
+"singer": "male9",
+"sid": "scales_u",
+"condition": "carried_belt",
+"method": "carried",
+"label": "belt",
+"strength": null,
+"similarity": 0.6297231912612915
+},
+{
+"singer": "male9",
+"sid": "scales_u",
+"condition": "carried_vocal_fry",
+"method": "carried",
+"label": "vocal_fry",
+"strength": null,
+"similarity": 0.59601229429245
+},
+{
+"singer": "male9",
+"sid": "scales_u",
+"condition": "carried_forte",
+"method": "carried",
+"label": "forte",
+"strength": null,
+"similarity": 0.7520807981491089
+},
+{
+"singer": "male9",
+"sid": "scales_u",
+"condition": "carried_piano",
+"method": "carried",
+"label": "piano",
+"strength": null,
+"similarity": 0.7640331387519836
+},
+{
+"singer": "male9",
+"sid": "arpeggios_a",
+"condition": "base",
+"method": "base",
+"label": null,
+"strength": null,
+"similarity": 0.7181963324546814
+},
+{
+"singer": "male9",
+"sid": "arpeggios_a",
+"condition": "ad_breathy_a1",
+"method": "adapter",
+"label": "breathy",
+"strength": 1.0,
+"similarity": 0.6530908942222595
+},
+{
+"singer": "male9",
+"sid": "arpeggios_a",
+"condition": "ad_breathy_a0.5",
+"method": "adapter",
+"label": "breathy",
+"strength": 0.5,
+"similarity": 0.6583614349365234
+},
+{
+"singer": "male9",
+"sid": "arpeggios_a",
+"condition": "eqmatch_breathy",
+"method": "eqmatch",
+"label": "breathy",
+"strength": null,
+"similarity": 0.6693341732025146
+},
+{
+"singer": "male9",
+"sid": "arpeggios_a",
+"condition": "ad_belt_a1",
+"method": "adapter",
+"label": "belt",
+"strength": 1.0,
+"similarity": 0.6008425951004028
+},
+{
+"singer": "male9",
+"sid": "arpeggios_a",
+"condition": "ad_belt_a0.5",
+"method": "adapter",
+"label": "belt",
+"strength": 0.5,
+"similarity": 0.6971176266670227
+},
+{
+"singer": "male9",
+"sid": "arpeggios_a",
+"condition": "eqmatch_belt",
+"method": "eqmatch",
+"label": "belt",
+"strength": null,
+"similarity": 0.7419962286949158
+},
+{
+"singer": "male9",
+"sid": "arpeggios_a",
+"condition": "ad_vocal_fry_a1",
+"method": "adapter",
+"label": "vocal_fry",
+"strength": 1.0,
+"similarity": 0.7097549438476562
+},
+{
+"singer": "male9",
+"sid": "arpeggios_a",
+"condition": "ad_vocal_fry_a0.5",
+"method": "adapter",
+"label": "vocal_fry",
+"strength": 0.5,
+"similarity": 0.6539661288261414
+},
+{
+"singer": "male9",
+"sid": "arpeggios_a",
+"condition": "eqmatch_vocal_fry",
+"method": "eqmatch",
+"label": "vocal_fry",
+"strength": null,
+"similarity": 0.6425714492797852
+},
+{
+"singer": "male9",
+"sid": "arpeggios_a",
+"condition": "ad_forte_a1",
+"method": "adapter",
+"label": "forte",
+"strength": 1.0,
+"similarity": 0.6384349465370178
+},
+{
+"singer": "male9",
+"sid": "arpeggios_a",
+"condition": "ad_forte_a0.5",
+"method": "adapter",
+"label": "forte",
+"strength": 0.5,
+"similarity": 0.7049784660339355
+},
+{
+"singer": "male9",
+"sid": "arpeggios_a",
+"condition": "eqmatch_forte",
+"method": "eqmatch",
+"label": "forte",
+"strength": null,
+"similarity": 0.7439450621604919
+},
+{
+"singer": "male9",
+"sid": "arpeggios_a",
+"condition": "ad_piano_a1",
+"method": "adapter",
+"label": "piano",
+"strength": 1.0,
+"similarity": 0.6848618984222412
+},
+{
+"singer": "male9",
+"sid": "arpeggios_a",
+"condition": "ad_piano_a0.5",
+"method": "adapter",
+"label": "piano",
+"strength": 0.5,
+"similarity": 0.6971633434295654
+},
+{
+"singer": "male9",
+"sid": "arpeggios_a",
+"condition": "eqmatch_piano",
+"method": "eqmatch",
+"label": "piano",
+"strength": null,
+"similarity": 0.7086787223815918
+},
+{
+"singer": "male9",
+"sid": "arpeggios_a",
+"condition": "carried_breathy",
+"method": "carried",
+"label": "breathy",
+"strength": null,
+"similarity": 0.796815037727356
+},
+{
+"singer": "male9",
+"sid": "arpeggios_a",
+"condition": "carried_belt",
+"method": "carried",
+"label": "belt",
+"strength": null,
+"similarity": 0.3797786831855774
+},
+{
+"singer": "male9",
+"sid": "arpeggios_a",
+"condition": "carried_vocal_fry",
+"method": "carried",
+"label": "vocal_fry",
+"strength": null,
+"similarity": 0.5825072526931763
+},
+{
+"singer": "male9",
+"sid": "arpeggios_a",
+"condition": "carried_forte",
+"method": "carried",
+"label": "forte",
+"strength": null,
+"similarity": 0.7140064239501953
+},
+{
+"singer": "male9",
+"sid": "arpeggios_a",
+"condition": "carried_piano",
+"method": "carried",
+"label": "piano",
+"strength": null,
+"similarity": 0.7847069501876831
+},
+{
+"singer": "male9",
+"sid": "arpeggios_e",
+"condition": "base",
+"method": "base",
+"label": null,
+"strength": null,
+"similarity": 0.8112422227859497
+},
+{
+"singer": "male9",
+"sid": "arpeggios_e",
+"condition": "ad_breathy_a1",
+"method": "adapter",
+"label": "breathy",
+"strength": 1.0,
+"similarity": 0.6684569120407104
+},
+{
+"singer": "male9",
+"sid": "arpeggios_e",
+"condition": "ad_breathy_a0.5",
+"method": "adapter",
+"label": "breathy",
+"strength": 0.5,
+"similarity": 0.7010365724563599
+},
+{
+"singer": "male9",
+"sid": "arpeggios_e",
+"condition": "eqmatch_breathy",
+"method": "eqmatch",
+"label": "breathy",
+"strength": null,
+"similarity": 0.7563747763633728
+},
+{
+"singer": "male9",
+"sid": "arpeggios_e",
+"condition": "ad_belt_a1",
+"method": "adapter",
+"label": "belt",
+"strength": 1.0,
+"similarity": 0.7556869983673096
+},
+{
+"singer": "male9",
+"sid": "arpeggios_e",
+"condition": "ad_belt_a0.5",
+"method": "adapter",
+"label": "belt",
+"strength": 0.5,
+"similarity": 0.744675874710083
+},
+{
+"singer": "male9",
+"sid": "arpeggios_e",
+"condition": "eqmatch_belt",
+"method": "eqmatch",
+"label": "belt",
+"strength": null,
+"similarity": 0.7805162072181702
+},
+{
+"singer": "male9",
+"sid": "arpeggios_e",
+"condition": "ad_vocal_fry_a1",
+"method": "adapter",
+"label": "vocal_fry",
+"strength": 1.0,
+"similarity": 0.622565746307373
+},
+{
+"singer": "male9",
+"sid": "arpeggios_e",
+"condition": "ad_vocal_fry_a0.5",
+"method": "adapter",
+"label": "vocal_fry",
+"strength": 0.5,
+"similarity": 0.6913847923278809
+},
+{
+"singer": "male9",
+"sid": "arpeggios_e",
+"condition": "eqmatch_vocal_fry",
+"method": "eqmatch",
+"label": "vocal_fry",
+"strength": null,
+"similarity": 0.725298285484314
+},
+{
+"singer": "male9",
+"sid": "arpeggios_e",
+"condition": "ad_forte_a1",
+"method": "adapter",
+"label": "forte",
+"strength": 1.0,
+"similarity": 0.6271861791610718
+},
+{
+"singer": "male9",
+"sid": "arpeggios_e",
+"condition": "ad_forte_a0.5",
+"method": "adapter",
+"label": "forte",
+"strength": 0.5,
+"similarity": 0.7398534417152405
+},
+{
+"singer": "male9",
+"sid": "arpeggios_e",
+"condition": "eqmatch_forte",
+"method": "eqmatch",
+"label": "forte",
+"strength": null,
+"similarity": 0.7845850586891174
+},
+{
+"singer": "male9",
+"sid": "arpeggios_e",
+"condition": "ad_piano_a1",
+"method": "adapter",
+"label": "piano",
+"strength": 1.0,
+"similarity": 0.6585220098495483
+},
+{
+"singer": "male9",
+"sid": "arpeggios_e",
+"condition": "ad_piano_a0.5",
+"method": "adapter",
+"label": "piano",
+"strength": 0.5,
+"similarity": 0.71844083070755
+},
+{
+"singer": "male9",
+"sid": "arpeggios_e",
+"condition": "eqmatch_piano",
+"method": "eqmatch",
+"label": "piano",
+"strength": null,
+"similarity": 0.7547520399093628
+},
+{
+"singer": "male9",
+"sid": "arpeggios_e",
+"condition": "carried_breathy",
+"method": "carried",
+"label": "breathy",
+"strength": null,
+"similarity": 0.7907787561416626
+},
+{
+"singer": "male9",
+"sid": "arpeggios_e",
+"condition": "carried_vocal_fry",
+"method": "carried",
+"label": "vocal_fry",
+"strength": null,
+"similarity": 0.5485464334487915
+},
+{
+"singer": "male9",
+"sid": "arpeggios_e",
+"condition": "carried_forte",
+"method": "carried",
+"label": "forte",
+"strength": null,
+"similarity": 0.6593221426010132
+},
+{
+"singer": "male9",
+"sid": "arpeggios_e",
+"condition": "carried_piano",
+"method": "carried",
+"label": "piano",
+"strength": null,
+"similarity": 0.7419061660766602
+},
+{
+"singer": "male9",
+"sid": "arpeggios_i",
+"condition": "base",
+"method": "base",
+"label": null,
+"strength": null,
+"similarity": 0.7766334414482117
+},
+{
+"singer": "male9",
+"sid": "arpeggios_i",
+"condition": "ad_breathy_a1",
+"method": "adapter",
+"label": "breathy",
+"strength": 1.0,
+"similarity": 0.7436667680740356
+},
+{
+"singer": "male9",
+"sid": "arpeggios_i",
+"condition": "ad_breathy_a0.5",
+"method": "adapter",
+"label": "breathy",
+"strength": 0.5,
+"similarity": 0.7884224653244019
+},
+{
+"singer": "male9",
+"sid": "arpeggios_i",
+"condition": "eqmatch_breathy",
+"method": "eqmatch",
+"label": "breathy",
+"strength": null,
+"similarity": 0.7867956757545471
+},
+{
+"singer": "male9",
+"sid": "arpeggios_i",
+"condition": "ad_belt_a1",
+"method": "adapter",
+"label": "belt",
+"strength": 1.0,
+"similarity": 0.7821103930473328
+},
+{
+"singer": "male9",
+"sid": "arpeggios_i",
+"condition": "ad_belt_a0.5",
+"method": "adapter",
+"label": "belt",
+"strength": 0.5,
+"similarity": 0.8091790080070496
+},
+{
+"singer": "male9",
+"sid": "arpeggios_i",
+"condition": "eqmatch_belt",
+"method": "eqmatch",
+"label": "belt",
+"strength": null,
+"similarity": 0.793741762638092
+},
+{
+"singer": "male9",
+"sid": "arpeggios_i",
+"condition": "ad_vocal_fry_a1",
+"method": "adapter",
+"label": "vocal_fry",
+"strength": 1.0,
+"similarity": 0.6715462803840637
+},
+{
+"singer": "male9",
+"sid": "arpeggios_i",
+"condition": "ad_vocal_fry_a0.5",
+"method": "adapter",
+"label": "vocal_fry",
+"strength": 0.5,
+"similarity": 0.7680994272232056
+},
+{
+"singer": "male9",
+"sid": "arpeggios_i",
+"condition": "eqmatch_vocal_fry",
+"method": "eqmatch",
+"label": "vocal_fry",
+"strength": null,
+"similarity": 0.7602496147155762
+},
+{
+"singer": "male9",
+"sid": "arpeggios_i",
+"condition": "ad_forte_a1",
+"method": "adapter",
+"label": "forte",
+"strength": 1.0,
+"similarity": 0.6485709547996521
+},
+{
+"singer": "male9",
+"sid": "arpeggios_i",
+"condition": "ad_forte_a0.5",
+"method": "adapter",
+"label": "forte",
+"strength": 0.5,
+"similarity": 0.7876874804496765
+},
+{
+"singer": "male9",
+"sid": "arpeggios_i",
+"condition": "eqmatch_forte",
+"method": "eqmatch",
+"label": "forte",
+"strength": null,
+"similarity": 0.7792215943336487
+},
+{
+"singer": "male9",
+"sid": "arpeggios_i",
+"condition": "ad_piano_a1",
+"method": "adapter",
+"label": "piano",
+"strength": 1.0,
+"similarity": 0.6890801191329956
+},
+{
+"singer": "male9",
+"sid": "arpeggios_i",
+"condition": "ad_piano_a0.5",
+"method": "adapter",
+"label": "piano",
+"strength": 0.5,
+"similarity": 0.7630679607391357
+},
+{
+"singer": "male9",
+"sid": "arpeggios_i",
+"condition": "eqmatch_piano",
+"method": "eqmatch",
+"label": "piano",
+"strength": null,
+"similarity": 0.7737962007522583
+},
+{
+"singer": "male9",
+"sid": "arpeggios_i",
+"condition": "carried_breathy",
+"method": "carried",
+"label": "breathy",
+"strength": null,
+"similarity": 0.7816931009292603
+},
+{
+"singer": "male9",
+"sid": "arpeggios_i",
+"condition": "carried_belt",
+"method": "carried",
+"label": "belt",
+"strength": null,
+"similarity": 0.5313770771026611
+},
+{
+"singer": "male9",
+"sid": "arpeggios_i",
+"condition": "carried_vocal_fry",
+"method": "carried",
+"label": "vocal_fry",
+"strength": null,
+"similarity": 0.5545275211334229
+},
+{
+"singer": "male9",
+"sid": "arpeggios_i",
+"condition": "carried_forte",
+"method": "carried",
+"label": "forte",
+"strength": null,
+"similarity": 0.6892723441123962
+},
+{
+"singer": "male9",
+"sid": "arpeggios_i",
+"condition": "carried_piano",
+"method": "carried",
+"label": "piano",
+"strength": null,
+"similarity": 0.7411504983901978
+},
+{
+"singer": "male9",
+"sid": "arpeggios_o",
+"condition": "base",
+"method": "base",
+"label": null,
+"strength": null,
+"similarity": 0.7614059448242188
+},
+{
+"singer": "male9",
+"sid": "arpeggios_o",
+"condition": "ad_breathy_a1",
+"method": "adapter",
+"label": "breathy",
+"strength": 1.0,
+"similarity": 0.667418897151947
+},
+{
+"singer": "male9",
+"sid": "arpeggios_o",
+"condition": "ad_breathy_a0.5",
+"method": "adapter",
+"label": "breathy",
+"strength": 0.5,
+"similarity": 0.7160443663597107
+},
+{
+"singer": "male9",
+"sid": "arpeggios_o",
+"condition": "eqmatch_breathy",
+"method": "eqmatch",
+"label": "breathy",
+"strength": null,
+"similarity": 0.7543531060218811
+},
+{
+"singer": "male9",
+"sid": "arpeggios_o",
+"condition": "ad_belt_a1",
+"method": "adapter",
+"label": "belt",
+"strength": 1.0,
+"similarity": 0.6068089008331299
+},
+{
+"singer": "male9",
+"sid": "arpeggios_o",
+"condition": "ad_belt_a0.5",
+"method": "adapter",
+"label": "belt",
+"strength": 0.5,
+"similarity": 0.7004323601722717
+},
+{
+"singer": "male9",
+"sid": "arpeggios_o",
+"condition": "eqmatch_belt",
+"method": "eqmatch",
+"label": "belt",
+"strength": null,
+"similarity": 0.7701117396354675
+},
+{
+"singer": "male9",
+"sid": "arpeggios_o",
+"condition": "ad_vocal_fry_a1",
+"method": "adapter",
+"label": "vocal_fry",
+"strength": 1.0,
+"similarity": 0.6567379236221313
+},
+{
+"singer": "male9",
+"sid": "arpeggios_o",
+"condition": "ad_vocal_fry_a0.5",
+"method": "adapter",
+"label": "vocal_fry",
+"strength": 0.5,
+"similarity": 0.7201754450798035
+},
+{
+"singer": "male9",
+"sid": "arpeggios_o",
+"condition": "eqmatch_vocal_fry",
+"method": "eqmatch",
+"label": "vocal_fry",
+"strength": null,
+"similarity": 0.7482266426086426
+},
+{
+"singer": "male9",
+"sid": "arpeggios_o",
+"condition": "ad_forte_a1",
+"method": "adapter",
+"label": "forte",
+"strength": 1.0,
+"similarity": 0.6517617106437683
+},
+{
+"singer": "male9",
+"sid": "arpeggios_o",
+"condition": "ad_forte_a0.5",
+"method": "adapter",
+"label": "forte",
+"strength": 0.5,
+"similarity": 0.7219505906105042
+},
+{
+"singer": "male9",
+"sid": "arpeggios_o",
+"condition": "eqmatch_forte",
+"method": "eqmatch",
+"label": "forte",
+"strength": null,
+"similarity": 0.7812823057174683
+},
+{
+"singer": "male9",
+"sid": "arpeggios_o",
+"condition": "ad_piano_a1",
+"method": "adapter",
+"label": "piano",
+"strength": 1.0,
+"similarity": 0.6585839986801147
+},
+{
+"singer": "male9",
+"sid": "arpeggios_o",
+"condition": "ad_piano_a0.5",
+"method": "adapter",
+"label": "piano",
+"strength": 0.5,
+"similarity": 0.7157994508743286
+},
+{
+"singer": "male9",
+"sid": "arpeggios_o",
+"condition": "eqmatch_piano",
+"method": "eqmatch",
+"label": "piano",
+"strength": null,
+"similarity": 0.7709943652153015
+},
+{
+"singer": "male9",
+"sid": "arpeggios_o",
+"condition": "carried_breathy",
+"method": "carried",
+"label": "breathy",
+"strength": null,
+"similarity": 0.765129566192627
+},
+{
+"singer": "male9",
+"sid": "arpeggios_o",
+"condition": "carried_belt",
+"method": "carried",
+"label": "belt",
+"strength": null,
+"similarity": 0.5252383947372437
+},
+{
+"singer": "male9",
+"sid": "arpeggios_o",
+"condition": "carried_vocal_fry",
+"method": "carried",
+"label": "vocal_fry",
+"strength": null,
+"similarity": 0.5292367339134216
+},
+{
+"singer": "male9",
+"sid": "arpeggios_o",
+"condition": "carried_forte",
+"method": "carried",
+"label": "forte",
+"strength": null,
+"similarity": 0.7360531687736511
+},
+{
+"singer": "male9",
+"sid": "arpeggios_o",
+"condition": "carried_piano",
+"method": "carried",
+"label": "piano",
+"strength": null,
+"similarity": 0.7210856080055237
+},
+{
+"singer": "male9",
+"sid": "arpeggios_u",
+"condition": "base",
+"method": "base",
+"label": null,
+"strength": null,
+"similarity": 0.7651673555374146
+},
+{
+"singer": "male9",
+"sid": "arpeggios_u",
+"condition": "ad_breathy_a1",
+"method": "adapter",
+"label": "breathy",
+"strength": 1.0,
+"similarity": 0.7159814834594727
+},
+{
+"singer": "male9",
+"sid": "arpeggios_u",
+"condition": "ad_breathy_a0.5",
+"method": "adapter",
+"label": "breathy",
+"strength": 0.5,
+"similarity": 0.7101570963859558
+},
+{
+"singer": "male9",
+"sid": "arpeggios_u",
+"condition": "eqmatch_breathy",
+"method": "eqmatch",
+"label": "breathy",
+"strength": null,
+"similarity": 0.7470155954360962
+},
+{
+"singer": "male9",
+"sid": "arpeggios_u",
+"condition": "ad_belt_a1",
+"method": "adapter",
+"label": "belt",
+"strength": 1.0,
+"similarity": 0.7043522000312805
+},
+{
+"singer": "male9",
+"sid": "arpeggios_u",
+"condition": "ad_belt_a0.5",
+"method": "adapter",
+"label": "belt",
+"strength": 0.5,
+"similarity": 0.8070641756057739
+},
+{
+"singer": "male9",
+"sid": "arpeggios_u",
+"condition": "eqmatch_belt",
+"method": "eqmatch",
+"label": "belt",
+"strength": null,
+"similarity": 0.8110954761505127
+},
+{
+"singer": "male9",
+"sid": "arpeggios_u",
+"condition": "ad_vocal_fry_a1",
+"method": "adapter",
+"label": "vocal_fry",
+"strength": 1.0,
+"similarity": 0.6802976131439209
+},
+{
+"singer": "male9",
+"sid": "arpeggios_u",
+"condition": "ad_vocal_fry_a0.5",
+"method": "adapter",
+"label": "vocal_fry",
+"strength": 0.5,
+"similarity": 0.7381097674369812
+},
+{
+"singer": "male9",
+"sid": "arpeggios_u",
+"condition": "eqmatch_vocal_fry",
+"method": "eqmatch",
+"label": "vocal_fry",
+"strength": null,
+"similarity": 0.7634485363960266
+},
+{
+"singer": "male9",
+"sid": "arpeggios_u",
+"condition": "ad_forte_a1",
+"method": "adapter",
+"label": "forte",
+"strength": 1.0,
+"similarity": 0.691343367099762
+},
+{
+"singer": "male9",
+"sid": "arpeggios_u",
+"condition": "ad_forte_a0.5",
+"method": "adapter",
+"label": "forte",
+"strength": 0.5,
+"similarity": 0.7878870964050293
+},
+{
+"singer": "male9",
+"sid": "arpeggios_u",
+"condition": "eqmatch_forte",
+"method": "eqmatch",
+"label": "forte",
+"strength": null,
+"similarity": 0.8051121234893799
+},
+{
+"singer": "male9",
+"sid": "arpeggios_u",
+"condition": "ad_piano_a1",
+"method": "adapter",
+"label": "piano",
+"strength": 1.0,
+"similarity": 0.7151916027069092
+},
+{
+"singer": "male9",
+"sid": "arpeggios_u",
+"condition": "ad_piano_a0.5",
+"method": "adapter",
+"label": "piano",
+"strength": 0.5,
+"similarity": 0.7527687549591064
+},
+{
+"singer": "male9",
+"sid": "arpeggios_u",
+"condition": "eqmatch_piano",
+"method": "eqmatch",
+"label": "piano",
+"strength": null,
+"similarity": 0.766568124294281
+},
+{
+"singer": "male9",
+"sid": "arpeggios_u",
+"condition": "carried_breathy",
+"method": "carried",
+"label": "breathy",
+"strength": null,
+"similarity": 0.7592976093292236
+},
+{
+"singer": "male9",
+"sid": "arpeggios_u",
+"condition": "carried_belt",
+"method": "carried",
+"label": "belt",
+"strength": null,
+"similarity": 0.5433463454246521
+},
+{
+"singer": "male9",
+"sid": "arpeggios_u",
+"condition": "carried_vocal_fry",
+"method": "carried",
+"label": "vocal_fry",
+"strength": null,
+"similarity": 0.5927191972732544
+},
+{
+"singer": "male9",
+"sid": "arpeggios_u",
+"condition": "carried_forte",
+"method": "carried",
+"label": "forte",
+"strength": null,
+"similarity": 0.7680433988571167
+},
+{
+"singer": "male9",
+"sid": "arpeggios_u",
+"condition": "carried_piano",
+"method": "carried",
+"label": "piano",
+"strength": null,
+"similarity": 0.7721735239028931
+}
+]

@@ -1,0 +1,371 @@
+{
+ "status": "completed",
+ "items": 90,
+ "rows": 1080,
+ "errors": 0,
+ "convert_minutes": 72.72255448333333,
+ "results": {
+  "raw": {
+   "breathy": {
+    "real_straight": {
+     "mean": 7.2266575576778385,
+     "n": 90,
+     "per_singer": {
+      "EN-Alto-1": 6.611042801891703,
+      "EN-Alto-2": 6.659102339061083,
+      "EN-Tenor-1": 8.409827532080733
+     }
+    },
+    "real_straight_oracleeq": {
+     "mean": 7.135173479637198,
+     "n": 90,
+     "per_singer": {
+      "EN-Alto-1": 6.550319246967137,
+      "EN-Alto-2": 6.876998194682738,
+      "EN-Tenor-1": 7.97820299726172
+     }
+    },
+    "base": {
+     "mean": 8.053061765317068,
+     "n": 90,
+     "per_singer": {
+      "EN-Alto-1": 7.835978325695937,
+      "EN-Alto-2": 7.36474352352124,
+      "EN-Tenor-1": 8.958463446734028
+     }
+    },
+    "static_bound": {
+     "mean": 7.0677597214285015,
+     "n": 90,
+     "per_singer": {
+      "EN-Alto-1": 6.768144796857682,
+      "EN-Alto-2": 6.52466586326416,
+      "EN-Tenor-1": 7.910468504163661
+     }
+    },
+    "adapter_a1": {
+     "mean": 8.104027621112195,
+     "n": 90,
+     "per_singer": {
+      "EN-Alto-1": 8.218435810880182,
+      "EN-Alto-2": 7.315244341775786,
+      "EN-Tenor-1": 8.77840271068062
+     }
+    },
+    "adapter_a0.5": {
+     "mean": 8.064822491049709,
+     "n": 90,
+     "per_singer": {
+      "EN-Alto-1": 7.934400238834246,
+      "EN-Alto-2": 7.418262178322528,
+      "EN-Tenor-1": 8.841805055992353
+     }
+    },
+    "eqmatch": {
+     "mean": 8.099884962593407,
+     "n": 90,
+     "per_singer": {
+      "EN-Alto-1": 7.925380143908496,
+      "EN-Alto-2": 7.499795344919549,
+      "EN-Tenor-1": 8.874479398952177
+     }
+    },
+    "oracleeq": {
+     "mean": 7.775058025441637,
+     "n": 90,
+     "per_singer": {
+      "EN-Alto-1": 7.235860349417741,
+      "EN-Alto-2": 7.306075465781555,
+      "EN-Tenor-1": 8.783238261125616
+     }
+    },
+    "carried": {
+     "mean": 6.50641649120703,
+     "n": 90,
+     "per_singer": {
+      "EN-Alto-1": 6.478222259880995,
+      "EN-Alto-2": 6.047376994495896,
+      "EN-Tenor-1": 6.9936502192441985
+     }
+    },
+    "adapter_wrong_labels": {
+     "mean": 9.066447179983092,
+     "n": 90,
+     "per_singer": {
+      "EN-Alto-1": 9.2279127347596,
+      "EN-Alto-2": 8.093690563908343,
+      "EN-Tenor-1": 9.877738241281328
+     }
+    }
+   },
+   "belt": {},
+   "vocal_fry": {},
+   "forte": {},
+   "piano": {}
+  },
+  "cmn": {
+   "breathy": {
+    "real_straight": {
+     "mean": 6.619275002222414,
+     "n": 90,
+     "per_singer": {
+      "EN-Alto-1": 6.12576593834061,
+      "EN-Alto-2": 6.232634942792841,
+      "EN-Tenor-1": 7.49942412553379
+     }
+    },
+    "real_straight_oracleeq": {
+     "mean": 6.564502608067912,
+     "n": 90,
+     "per_singer": {
+      "EN-Alto-1": 6.102490829566884,
+      "EN-Alto-2": 6.221759439972066,
+      "EN-Tenor-1": 7.369257554664788
+     }
+    },
+    "base": {
+     "mean": 7.0677597214285015,
+     "n": 90,
+     "per_singer": {
+      "EN-Alto-1": 6.768144796857682,
+      "EN-Alto-2": 6.52466586326416,
+      "EN-Tenor-1": 7.910468504163661
+     }
+    },
+    "static_bound": {
+     "mean": 7.0677597214285015,
+     "n": 90,
+     "per_singer": {
+      "EN-Alto-1": 6.768144796857682,
+      "EN-Alto-2": 6.52466586326416,
+      "EN-Tenor-1": 7.910468504163661
+     }
+    },
+    "adapter_a1": {
+     "mean": 7.056704219889367,
+     "n": 90,
+     "per_singer": {
+      "EN-Alto-1": 6.823907860246394,
+      "EN-Alto-2": 6.468679597683392,
+      "EN-Tenor-1": 7.877525201738319
+     }
+    },
+    "adapter_a0.5": {
+     "mean": 7.004328081927157,
+     "n": 90,
+     "per_singer": {
+      "EN-Alto-1": 6.703249741022271,
+      "EN-Alto-2": 6.450600510016882,
+      "EN-Tenor-1": 7.85913399474232
+     }
+    },
+    "eqmatch": {
+     "mean": 7.06147100493405,
+     "n": 90,
+     "per_singer": {
+      "EN-Alto-1": 6.764966472536727,
+      "EN-Alto-2": 6.538749191521499,
+      "EN-Tenor-1": 7.880697350743919
+     }
+    },
+    "oracleeq": {
+     "mean": 6.961477109087104,
+     "n": 90,
+     "per_singer": {
+      "EN-Alto-1": 6.642865942782122,
+      "EN-Alto-2": 6.471618470791037,
+      "EN-Tenor-1": 7.769946913688155
+     }
+    },
+    "carried": {
+     "mean": 5.370681448689509,
+     "n": 90,
+     "per_singer": {
+      "EN-Alto-1": 5.17151685111405,
+      "EN-Alto-2": 5.12882777965909,
+      "EN-Tenor-1": 5.811699715295388
+     }
+    },
+    "adapter_wrong_labels": {
+     "mean": 7.443792433088599,
+     "n": 90,
+     "per_singer": {
+      "EN-Alto-1": 7.189995484107039,
+      "EN-Alto-2": 6.821358348282459,
+      "EN-Tenor-1": 8.320023466876293
+     }
+    }
+   },
+   "belt": {},
+   "vocal_fry": {},
+   "forte": {},
+   "piano": {}
+  },
+  "label_confusion": {
+   "d_raw": {
+    "mean_distance": {
+     "breathy": {
+      "breathy": 8.104027621112195,
+      "belt": 9.694665486311258,
+      "vocal_fry": 8.638106371900971,
+      "forte": 9.38240418305035,
+      "piano": 8.550612678669786
+     },
+     "belt": {
+      "breathy": null,
+      "belt": null,
+      "vocal_fry": null,
+      "forte": null,
+      "piano": null
+     },
+     "vocal_fry": {
+      "breathy": null,
+      "belt": null,
+      "vocal_fry": null,
+      "forte": null,
+      "piano": null
+     },
+     "forte": {
+      "breathy": null,
+      "belt": null,
+      "vocal_fry": null,
+      "forte": null,
+      "piano": null
+     },
+     "piano": {
+      "breathy": null,
+      "belt": null,
+      "vocal_fry": null,
+      "forte": null,
+      "piano": null
+     }
+    },
+    "closest_label_counts": {
+     "breathy": {
+      "breathy": 86,
+      "belt": 0,
+      "vocal_fry": 2,
+      "forte": 0,
+      "piano": 2,
+      "n": 90
+     },
+     "belt": {
+      "breathy": 0,
+      "belt": 0,
+      "vocal_fry": 0,
+      "forte": 0,
+      "piano": 0,
+      "n": 0
+     },
+     "vocal_fry": {
+      "breathy": 0,
+      "belt": 0,
+      "vocal_fry": 0,
+      "forte": 0,
+      "piano": 0,
+      "n": 0
+     },
+     "forte": {
+      "breathy": 0,
+      "belt": 0,
+      "vocal_fry": 0,
+      "forte": 0,
+      "piano": 0,
+      "n": 0
+     },
+     "piano": {
+      "breathy": 0,
+      "belt": 0,
+      "vocal_fry": 0,
+      "forte": 0,
+      "piano": 0,
+      "n": 0
+     }
+    }
+   },
+   "d_cmn": {
+    "mean_distance": {
+     "breathy": {
+      "breathy": 7.056704219889367,
+      "belt": 7.611334229983104,
+      "vocal_fry": 7.306770395224126,
+      "forte": 7.516998013449262,
+      "piano": 7.340067093697898
+     },
+     "belt": {
+      "breathy": null,
+      "belt": null,
+      "vocal_fry": null,
+      "forte": null,
+      "piano": null
+     },
+     "vocal_fry": {
+      "breathy": null,
+      "belt": null,
+      "vocal_fry": null,
+      "forte": null,
+      "piano": null
+     },
+     "forte": {
+      "breathy": null,
+      "belt": null,
+      "vocal_fry": null,
+      "forte": null,
+      "piano": null
+     },
+     "piano": {
+      "breathy": null,
+      "belt": null,
+      "vocal_fry": null,
+      "forte": null,
+      "piano": null
+     }
+    },
+    "closest_label_counts": {
+     "breathy": {
+      "breathy": 86,
+      "belt": 0,
+      "vocal_fry": 3,
+      "forte": 0,
+      "piano": 1,
+      "n": 90
+     },
+     "belt": {
+      "breathy": 0,
+      "belt": 0,
+      "vocal_fry": 0,
+      "forte": 0,
+      "piano": 0,
+      "n": 0
+     },
+     "vocal_fry": {
+      "breathy": 0,
+      "belt": 0,
+      "vocal_fry": 0,
+      "forte": 0,
+      "piano": 0,
+      "n": 0
+     },
+     "forte": {
+      "breathy": 0,
+      "belt": 0,
+      "vocal_fry": 0,
+      "forte": 0,
+      "piano": 0,
+      "n": 0
+     },
+     "piano": {
+      "breathy": 0,
+      "belt": 0,
+      "vocal_fry": 0,
+      "forte": 0,
+      "piano": 0,
+      "n": 0
+     }
+    }
+   }
+  },
+  "notes": "static_bound = D_cmn(base, truth), the smallest raw distance any fixed per-band gain on the base output could reach; compare it with the raw distance of the other conditions."
+ },
+ "gpu_peak_allocated_gib": 2.491244316101074
+}

@@ -1,0 +1,923 @@
+{
+ "level_dbfs": -26.0,
+ "trials": [
+  {
+   "id": "E01",
+   "type": "E",
+   "condition": "adapter",
+   "catch": false,
+   "technique": "breathy",
+   "strength": 1.0,
+   "target": "f9",
+   "source": "dona",
+   "files": {
+    "base": "21586.wav",
+    "A": "64150.wav",
+    "B": "16545.wav"
+   },
+   "sources": {
+    "base": "results/exp04/eval/wav/f9_dona_base.wav",
+    "A": "results/exp04/eval/wav/f9_dona_breathy_a1.wav",
+    "B": "results/exp04/eval/wav/f9_dona_breathy_eqmatch_a1.wav"
+   }
+  },
+  {
+   "id": "E02",
+   "type": "E",
+   "condition": "adapter",
+   "catch": false,
+   "technique": "piano",
+   "strength": 1.0,
+   "target": "f9",
+   "source": "row",
+   "files": {
+    "base": "33788.wav",
+    "A": "59408.wav",
+    "B": "67943.wav"
+   },
+   "sources": {
+    "base": "results/exp04/eval/wav/f9_row_base.wav",
+    "A": "results/exp04/eval/wav/f9_row_piano_a1.wav",
+    "B": "results/exp04/eval/wav/f9_row_piano_eqmatch_a1.wav"
+   }
+  },
+  {
+   "id": "I03",
+   "type": "I",
+   "condition": "source",
+   "technique": "vocal_fry",
+   "singer": "female1",
+   "target": "f9",
+   "files": {
+    "base": "64180.wav",
+    "S": "49347.wav"
+   },
+   "sources": {
+    "base": "results/listening_main/work/converted_female1_straight_to_f9.wav",
+    "S": "results/listening_main/work/converted_female1_vocal_fry_to_f9.wav"
+   }
+  },
+  {
+   "id": "I04",
+   "type": "I",
+   "condition": "source",
+   "technique": "piano",
+   "singer": "female1",
+   "target": "f9",
+   "files": {
+    "base": "64180.wav",
+    "S": "52874.wav"
+   },
+   "sources": {
+    "base": "results/listening_main/work/converted_female1_straight_to_f9.wav",
+    "S": "results/listening_main/work/converted_female1_slow_piano_to_f9.wav"
+   }
+  },
+  {
+   "id": "I05",
+   "type": "I",
+   "condition": "guidance",
+   "technique": "forte",
+   "strength": 4.0,
+   "target": "f9",
+   "source": "dona",
+   "files": {
+    "base": "21586.wav",
+    "S": "34280.wav"
+   },
+   "sources": {
+    "base": "results/exp04/eval/wav/f9_dona_base.wav",
+    "S": "results/exp03/wav/f9_dona_forte_cgm_w4.wav"
+   }
+  },
+  {
+   "id": "I06",
+   "type": "I",
+   "condition": "adapter",
+   "technique": "breathy",
+   "strength": 1.0,
+   "target": "f3",
+   "source": "row",
+   "files": {
+    "base": "17774.wav",
+    "S": "95533.wav"
+   },
+   "sources": {
+    "base": "results/exp04/eval/wav/f3_row_base.wav",
+    "S": "results/exp04/eval/wav/f3_row_breathy_a1.wav"
+   }
+  },
+  {
+   "id": "I07",
+   "type": "I",
+   "condition": "adapter",
+   "technique": "vocal_fry",
+   "strength": 0.6,
+   "target": "f9",
+   "source": "row",
+   "files": {
+    "base": "33788.wav",
+    "S": "75383.wav"
+   },
+   "sources": {
+    "base": "results/exp04/eval/wav/f9_row_base.wav",
+    "S": "results/exp05/sweep/wav/f9_row_vocal_fry_a0.6.wav"
+   }
+  },
+  {
+   "id": "E08",
+   "type": "E",
+   "condition": "adapter",
+   "catch": false,
+   "technique": "belt",
+   "strength": 1.0,
+   "target": "f9",
+   "source": "row",
+   "files": {
+    "base": "33788.wav",
+    "A": "15242.wav",
+    "B": "58667.wav"
+   },
+   "sources": {
+    "base": "results/exp04/eval/wav/f9_row_base.wav",
+    "A": "results/exp04/eval/wav/f9_row_belt_a1.wav",
+    "B": "results/exp04/eval/wav/f9_row_belt_eqmatch_a1.wav"
+   }
+  },
+  {
+   "id": "I09",
+   "type": "I",
+   "condition": "real",
+   "technique": "piano",
+   "singer": "male9",
+   "files": {
+    "base": "16363.wav",
+    "S": "27249.wav"
+   },
+   "sources": {
+    "base": "results/listening_main/work/real_male9_straight.wav",
+    "S": "results/listening_main/work/real_male9_slow_piano.wav"
+   }
+  },
+  {
+   "id": "I10",
+   "type": "I",
+   "condition": "adapter",
+   "technique": "forte",
+   "strength": 1.0,
+   "target": "f9",
+   "source": "dona",
+   "files": {
+    "base": "21586.wav",
+    "S": "39852.wav"
+   },
+   "sources": {
+    "base": "results/exp04/eval/wav/f9_dona_base.wav",
+    "S": "results/exp04/eval/wav/f9_dona_forte_a1.wav"
+   }
+  },
+  {
+   "id": "I11",
+   "type": "I",
+   "condition": "adapter",
+   "technique": "forte",
+   "strength": 1.0,
+   "target": "f3",
+   "source": "row",
+   "files": {
+    "base": "17774.wav",
+    "S": "25726.wav"
+   },
+   "sources": {
+    "base": "results/exp04/eval/wav/f3_row_base.wav",
+    "S": "results/exp04/eval/wav/f3_row_forte_a1.wav"
+   }
+  },
+  {
+   "id": "I12",
+   "type": "I",
+   "condition": "adapter",
+   "technique": "piano",
+   "strength": 1.0,
+   "target": "f9",
+   "source": "dona",
+   "files": {
+    "base": "21586.wav",
+    "S": "34685.wav"
+   },
+   "sources": {
+    "base": "results/exp04/eval/wav/f9_dona_base.wav",
+    "S": "results/exp04/eval/wav/f9_dona_piano_a1.wav"
+   }
+  },
+  {
+   "id": "I13",
+   "type": "I",
+   "condition": "adapter",
+   "technique": "belt",
+   "strength": 1.0,
+   "target": "f3",
+   "source": "dona",
+   "files": {
+    "base": "97023.wav",
+    "S": "67783.wav"
+   },
+   "sources": {
+    "base": "results/exp04/eval/wav/f3_dona_base.wav",
+    "S": "results/exp04/eval/wav/f3_dona_belt_a1.wav"
+   }
+  },
+  {
+   "id": "I14",
+   "type": "I",
+   "condition": "guidance",
+   "technique": "belt",
+   "strength": 4.0,
+   "target": "f3",
+   "source": "dona",
+   "files": {
+    "base": "97023.wav",
+    "S": "67736.wav"
+   },
+   "sources": {
+    "base": "results/exp04/eval/wav/f3_dona_base.wav",
+    "S": "results/exp03/wav/f3_dona_belt_cgm_w4.wav"
+   }
+  },
+  {
+   "id": "I15",
+   "type": "I",
+   "condition": "real",
+   "technique": "belt",
+   "singer": "female3",
+   "files": {
+    "base": "35691.wav",
+    "S": "65970.wav"
+   },
+   "sources": {
+    "base": "results/listening_main/work/real_female3_straight.wav",
+    "S": "results/listening_main/work/real_female3_belt.wav"
+   }
+  },
+  {
+   "id": "I16",
+   "type": "I",
+   "condition": "adapter",
+   "technique": "vocal_fry",
+   "strength": 0.6,
+   "target": "f3",
+   "source": "dona",
+   "files": {
+    "base": "97023.wav",
+    "S": "24339.wav"
+   },
+   "sources": {
+    "base": "results/exp04/eval/wav/f3_dona_base.wav",
+    "S": "results/exp05/sweep/wav/f3_dona_vocal_fry_a0.6.wav"
+   }
+  },
+  {
+   "id": "I17",
+   "type": "I",
+   "condition": "source",
+   "technique": "belt",
+   "singer": "female1",
+   "target": "f9",
+   "files": {
+    "base": "64180.wav",
+    "S": "56244.wav"
+   },
+   "sources": {
+    "base": "results/listening_main/work/converted_female1_straight_to_f9.wav",
+    "S": "results/listening_main/work/converted_female1_belt_to_f9.wav"
+   }
+  },
+  {
+   "id": "E18",
+   "type": "E",
+   "condition": "guidance",
+   "catch": false,
+   "technique": "vocal_fry",
+   "strength": 4.0,
+   "target": "f3",
+   "source": "dona",
+   "files": {
+    "base": "97023.wav",
+    "A": "63668.wav",
+    "B": "61407.wav"
+   },
+   "sources": {
+    "base": "results/exp04/eval/wav/f3_dona_base.wav",
+    "A": "results/exp03/wav/f3_dona_fry_cgm_w4.wav",
+    "B": "results/exp03/wav/f3_dona_fry_eqmatch_cgm_w4.wav"
+   }
+  },
+  {
+   "id": "I19",
+   "type": "I",
+   "condition": "adapter",
+   "technique": "piano",
+   "strength": 1.0,
+   "target": "f3",
+   "source": "dona",
+   "files": {
+    "base": "97023.wav",
+    "S": "17473.wav"
+   },
+   "sources": {
+    "base": "results/exp04/eval/wav/f3_dona_base.wav",
+    "S": "results/exp04/eval/wav/f3_dona_piano_a1.wav"
+   }
+  },
+  {
+   "id": "I20",
+   "type": "I",
+   "condition": "real",
+   "technique": "vocal_fry",
+   "singer": "female3",
+   "files": {
+    "base": "35691.wav",
+    "S": "39361.wav"
+   },
+   "sources": {
+    "base": "results/listening_main/work/real_female3_straight.wav",
+    "S": "results/listening_main/work/real_female3_vocal_fry.wav"
+   }
+  },
+  {
+   "id": "E21",
+   "type": "E",
+   "condition": "guidance",
+   "catch": false,
+   "technique": "breathy",
+   "strength": 4.0,
+   "target": "f9",
+   "source": "dona",
+   "files": {
+    "base": "21586.wav",
+    "A": "89118.wav",
+    "B": "89654.wav"
+   },
+   "sources": {
+    "base": "results/exp04/eval/wav/f9_dona_base.wav",
+    "A": "results/exp03/wav/f9_dona_breathy_cgm_w4.wav",
+    "B": "results/exp03/wav/f9_dona_breathy_eqmatch_cgm_w4.wav"
+   }
+  },
+  {
+   "id": "I22",
+   "type": "I",
+   "condition": "real",
+   "technique": "breathy",
+   "singer": "male9",
+   "files": {
+    "base": "16363.wav",
+    "S": "15362.wav"
+   },
+   "sources": {
+    "base": "results/listening_main/work/real_male9_straight.wav",
+    "S": "results/listening_main/work/real_male9_breathy.wav"
+   }
+  },
+  {
+   "id": "I23",
+   "type": "I",
+   "condition": "guidance",
+   "technique": "breathy",
+   "strength": 4.0,
+   "target": "f3",
+   "source": "row",
+   "files": {
+    "base": "17774.wav",
+    "S": "57543.wav"
+   },
+   "sources": {
+    "base": "results/exp04/eval/wav/f3_row_base.wav",
+    "S": "results/exp03/wav/f3_row_breathy_cgm_w4.wav"
+   }
+  },
+  {
+   "id": "I24",
+   "type": "I",
+   "condition": "adapter",
+   "technique": "forte",
+   "strength": 1.0,
+   "target": "f9",
+   "source": "row",
+   "files": {
+    "base": "33788.wav",
+    "S": "91843.wav"
+   },
+   "sources": {
+    "base": "results/exp04/eval/wav/f9_row_base.wav",
+    "S": "results/exp04/eval/wav/f9_row_forte_a1.wav"
+   }
+  },
+  {
+   "id": "I25",
+   "type": "I",
+   "condition": "adapter",
+   "technique": "piano",
+   "strength": 1.0,
+   "target": "f9",
+   "source": "row",
+   "files": {
+    "base": "33788.wav",
+    "S": "59408.wav"
+   },
+   "sources": {
+    "base": "results/exp04/eval/wav/f9_row_base.wav",
+    "S": "results/exp04/eval/wav/f9_row_piano_a1.wav"
+   }
+  },
+  {
+   "id": "E26",
+   "type": "E",
+   "condition": "adapter",
+   "catch": false,
+   "technique": "vocal_fry",
+   "strength": 0.6,
+   "target": "f9",
+   "source": "row",
+   "files": {
+    "base": "33788.wav",
+    "A": "75383.wav",
+    "B": "35336.wav"
+   },
+   "sources": {
+    "base": "results/exp04/eval/wav/f9_row_base.wav",
+    "A": "results/exp05/sweep/wav/f9_row_vocal_fry_a0.6.wav",
+    "B": "results/listening_main/work/eqmatch_f9_row_vocal_fry_a0.6.wav"
+   }
+  },
+  {
+   "id": "I27",
+   "type": "I",
+   "condition": "source",
+   "technique": "breathy",
+   "singer": "female1",
+   "target": "f9",
+   "files": {
+    "base": "64180.wav",
+    "S": "25696.wav"
+   },
+   "sources": {
+    "base": "results/listening_main/work/converted_female1_straight_to_f9.wav",
+    "S": "results/listening_main/work/converted_female1_breathy_to_f9.wav"
+   }
+  },
+  {
+   "id": "I28",
+   "type": "I",
+   "condition": "real",
+   "technique": "belt",
+   "singer": "male9",
+   "files": {
+    "base": "16363.wav",
+    "S": "18208.wav"
+   },
+   "sources": {
+    "base": "results/listening_main/work/real_male9_straight.wav",
+    "S": "results/listening_main/work/real_male9_belt.wav"
+   }
+  },
+  {
+   "id": "I29",
+   "type": "I",
+   "condition": "real",
+   "technique": "breathy",
+   "singer": "female3",
+   "files": {
+    "base": "35691.wav",
+    "S": "72274.wav"
+   },
+   "sources": {
+    "base": "results/listening_main/work/real_female3_straight.wav",
+    "S": "results/listening_main/work/real_female3_breathy.wav"
+   }
+  },
+  {
+   "id": "I30",
+   "type": "I",
+   "condition": "adapter",
+   "technique": "belt",
+   "strength": 1.0,
+   "target": "f9",
+   "source": "row",
+   "files": {
+    "base": "33788.wav",
+    "S": "15242.wav"
+   },
+   "sources": {
+    "base": "results/exp04/eval/wav/f9_row_base.wav",
+    "S": "results/exp04/eval/wav/f9_row_belt_a1.wav"
+   }
+  },
+  {
+   "id": "I31",
+   "type": "I",
+   "condition": "adapter",
+   "technique": "vocal_fry",
+   "strength": 0.5,
+   "target": "f9",
+   "source": "dona",
+   "files": {
+    "base": "21586.wav",
+    "S": "71324.wav"
+   },
+   "sources": {
+    "base": "results/exp04/eval/wav/f9_dona_base.wav",
+    "S": "results/exp04/eval/wav/f9_dona_vocal_fry_a0.5.wav"
+   }
+  },
+  {
+   "id": "E32",
+   "type": "E",
+   "condition": "adapter",
+   "catch": false,
+   "technique": "belt",
+   "strength": 1.0,
+   "target": "f3",
+   "source": "row",
+   "files": {
+    "base": "17774.wav",
+    "A": "79617.wav",
+    "B": "65736.wav"
+   },
+   "sources": {
+    "base": "results/exp04/eval/wav/f3_row_base.wav",
+    "A": "results/exp04/eval/wav/f3_row_belt_a1.wav",
+    "B": "results/exp04/eval/wav/f3_row_belt_eqmatch_a1.wav"
+   }
+  },
+  {
+   "id": "I33",
+   "type": "I",
+   "condition": "adapter",
+   "technique": "vocal_fry",
+   "strength": 0.5,
+   "target": "f3",
+   "source": "row",
+   "files": {
+    "base": "17774.wav",
+    "S": "95445.wav"
+   },
+   "sources": {
+    "base": "results/exp04/eval/wav/f3_row_base.wav",
+    "S": "results/exp04/eval/wav/f3_row_vocal_fry_a0.5.wav"
+   }
+  },
+  {
+   "id": "I34",
+   "type": "I",
+   "condition": "real",
+   "technique": "piano",
+   "singer": "female3",
+   "files": {
+    "base": "35691.wav",
+    "S": "76657.wav"
+   },
+   "sources": {
+    "base": "results/listening_main/work/real_female3_straight.wav",
+    "S": "results/listening_main/work/real_female3_slow_piano.wav"
+   }
+  },
+  {
+   "id": "E35",
+   "type": "E",
+   "condition": "catch",
+   "catch": true,
+   "technique": "belt",
+   "strength": 1.0,
+   "target": "f3",
+   "source": "dona",
+   "files": {
+    "base": "97023.wav",
+    "A": "67783.wav",
+    "B": "48939.wav"
+   },
+   "sources": {
+    "base": "results/exp04/eval/wav/f3_dona_base.wav",
+    "A": "results/exp04/eval/wav/f3_dona_belt_a1.wav",
+    "B": "results/exp04/eval/wav/f3_dona_belt_a1.wav"
+   }
+  },
+  {
+   "id": "I36",
+   "type": "I",
+   "condition": "adapter",
+   "technique": "belt",
+   "strength": 1.0,
+   "target": "f9",
+   "source": "dona",
+   "files": {
+    "base": "21586.wav",
+    "S": "55149.wav"
+   },
+   "sources": {
+    "base": "results/exp04/eval/wav/f9_dona_base.wav",
+    "S": "results/exp04/eval/wav/f9_dona_belt_a1.wav"
+   }
+  },
+  {
+   "id": "E37",
+   "type": "E",
+   "condition": "adapter",
+   "catch": false,
+   "technique": "vocal_fry",
+   "strength": 0.6,
+   "target": "f3",
+   "source": "row",
+   "files": {
+    "base": "17774.wav",
+    "A": "81028.wav",
+    "B": "16838.wav"
+   },
+   "sources": {
+    "base": "results/exp04/eval/wav/f3_row_base.wav",
+    "A": "results/exp05/sweep/wav/f3_row_vocal_fry_a0.6.wav",
+    "B": "results/listening_main/work/eqmatch_f3_row_vocal_fry_a0.6.wav"
+   }
+  },
+  {
+   "id": "E38",
+   "type": "E",
+   "condition": "adapter",
+   "catch": false,
+   "technique": "breathy",
+   "strength": 1.0,
+   "target": "f3",
+   "source": "dona",
+   "files": {
+    "base": "97023.wav",
+    "A": "49498.wav",
+    "B": "69985.wav"
+   },
+   "sources": {
+    "base": "results/exp04/eval/wav/f3_dona_base.wav",
+    "A": "results/exp04/eval/wav/f3_dona_breathy_a1.wav",
+    "B": "results/exp04/eval/wav/f3_dona_breathy_eqmatch_a1.wav"
+   }
+  },
+  {
+   "id": "I39",
+   "type": "I",
+   "condition": "adapter",
+   "technique": "breathy",
+   "strength": 0.8,
+   "target": "f3",
+   "source": "dona",
+   "files": {
+    "base": "97023.wav",
+    "S": "10403.wav"
+   },
+   "sources": {
+    "base": "results/exp04/eval/wav/f3_dona_base.wav",
+    "S": "results/exp05/sweep/wav/f3_dona_breathy_a0.8.wav"
+   }
+  },
+  {
+   "id": "I40",
+   "type": "I",
+   "condition": "adapter",
+   "technique": "forte",
+   "strength": 1.0,
+   "target": "f3",
+   "source": "dona",
+   "files": {
+    "base": "97023.wav",
+    "S": "94624.wav"
+   },
+   "sources": {
+    "base": "results/exp04/eval/wav/f3_dona_base.wav",
+    "S": "results/exp04/eval/wav/f3_dona_forte_a1.wav"
+   }
+  },
+  {
+   "id": "I41",
+   "type": "I",
+   "condition": "adapter",
+   "technique": "breathy",
+   "strength": 1.0,
+   "target": "f9",
+   "source": "dona",
+   "files": {
+    "base": "21586.wav",
+    "S": "64150.wav"
+   },
+   "sources": {
+    "base": "results/exp04/eval/wav/f9_dona_base.wav",
+    "S": "results/exp04/eval/wav/f9_dona_breathy_a1.wav"
+   }
+  },
+  {
+   "id": "E42",
+   "type": "E",
+   "condition": "adapter",
+   "catch": false,
+   "technique": "forte",
+   "strength": 1.0,
+   "target": "f9",
+   "source": "dona",
+   "files": {
+    "base": "21586.wav",
+    "A": "39852.wav",
+    "B": "49743.wav"
+   },
+   "sources": {
+    "base": "results/exp04/eval/wav/f9_dona_base.wav",
+    "A": "results/exp04/eval/wav/f9_dona_forte_a1.wav",
+    "B": "results/exp04/eval/wav/f9_dona_forte_eqmatch_a1.wav"
+   }
+  },
+  {
+   "id": "I43",
+   "type": "I",
+   "condition": "adapter",
+   "technique": "belt",
+   "strength": 1.0,
+   "target": "f3",
+   "source": "row",
+   "files": {
+    "base": "17774.wav",
+    "S": "79617.wav"
+   },
+   "sources": {
+    "base": "results/exp04/eval/wav/f3_row_base.wav",
+    "S": "results/exp04/eval/wav/f3_row_belt_a1.wav"
+   }
+  },
+  {
+   "id": "E44",
+   "type": "E",
+   "condition": "adapter",
+   "catch": false,
+   "technique": "piano",
+   "strength": 1.0,
+   "target": "f3",
+   "source": "row",
+   "files": {
+    "base": "17774.wav",
+    "A": "82965.wav",
+    "B": "21026.wav"
+   },
+   "sources": {
+    "base": "results/exp04/eval/wav/f3_row_base.wav",
+    "A": "results/exp04/eval/wav/f3_row_piano_a1.wav",
+    "B": "results/exp04/eval/wav/f3_row_piano_eqmatch_a1.wav"
+   }
+  },
+  {
+   "id": "I45",
+   "type": "I",
+   "condition": "real",
+   "technique": "forte",
+   "singer": "female3",
+   "files": {
+    "base": "35691.wav",
+    "S": "47186.wav"
+   },
+   "sources": {
+    "base": "results/listening_main/work/real_female3_straight.wav",
+    "S": "results/listening_main/work/real_female3_slow_forte.wav"
+   }
+  },
+  {
+   "id": "E46",
+   "type": "E",
+   "condition": "catch",
+   "catch": true,
+   "technique": "forte",
+   "strength": 1.0,
+   "target": "f9",
+   "source": "row",
+   "files": {
+    "base": "33788.wav",
+    "A": "91843.wav",
+    "B": "99939.wav"
+   },
+   "sources": {
+    "base": "results/exp04/eval/wav/f9_row_base.wav",
+    "A": "results/exp04/eval/wav/f9_row_forte_a1.wav",
+    "B": "results/exp04/eval/wav/f9_row_forte_a1.wav"
+   }
+  },
+  {
+   "id": "I47",
+   "type": "I",
+   "condition": "source",
+   "technique": "forte",
+   "singer": "female1",
+   "target": "f9",
+   "files": {
+    "base": "64180.wav",
+    "S": "31029.wav"
+   },
+   "sources": {
+    "base": "results/listening_main/work/converted_female1_straight_to_f9.wav",
+    "S": "results/listening_main/work/converted_female1_slow_forte_to_f9.wav"
+   }
+  },
+  {
+   "id": "E48",
+   "type": "E",
+   "condition": "adapter",
+   "catch": false,
+   "technique": "forte",
+   "strength": 1.0,
+   "target": "f3",
+   "source": "dona",
+   "files": {
+    "base": "97023.wav",
+    "A": "94624.wav",
+    "B": "91197.wav"
+   },
+   "sources": {
+    "base": "results/exp04/eval/wav/f3_dona_base.wav",
+    "A": "results/exp04/eval/wav/f3_dona_forte_a1.wav",
+    "B": "results/exp04/eval/wav/f3_dona_forte_eqmatch_a1.wav"
+   }
+  },
+  {
+   "id": "I49",
+   "type": "I",
+   "condition": "real",
+   "technique": "vocal_fry",
+   "singer": "male9",
+   "files": {
+    "base": "16363.wav",
+    "S": "50648.wav"
+   },
+   "sources": {
+    "base": "results/listening_main/work/real_male9_straight.wav",
+    "S": "results/listening_main/work/real_male9_vocal_fry.wav"
+   }
+  },
+  {
+   "id": "I50",
+   "type": "I",
+   "condition": "guidance",
+   "technique": "vocal_fry",
+   "strength": 4.0,
+   "target": "f9",
+   "source": "row",
+   "files": {
+    "base": "33788.wav",
+    "S": "40343.wav"
+   },
+   "sources": {
+    "base": "results/exp04/eval/wav/f9_row_base.wav",
+    "S": "results/exp03/wav/f9_row_fry_cgm_w4.wav"
+   }
+  },
+  {
+   "id": "I51",
+   "type": "I",
+   "condition": "adapter",
+   "technique": "breathy",
+   "strength": 0.8,
+   "target": "f9",
+   "source": "row",
+   "files": {
+    "base": "33788.wav",
+    "S": "61942.wav"
+   },
+   "sources": {
+    "base": "results/exp04/eval/wav/f9_row_base.wav",
+    "S": "results/exp05/sweep/wav/f9_row_breathy_a0.8.wav"
+   }
+  },
+  {
+   "id": "I52",
+   "type": "I",
+   "condition": "real",
+   "technique": "forte",
+   "singer": "male9",
+   "files": {
+    "base": "16363.wav",
+    "S": "18773.wav"
+   },
+   "sources": {
+    "base": "results/listening_main/work/real_male9_straight.wav",
+    "S": "results/listening_main/work/real_male9_slow_forte.wav"
+   }
+  },
+  {
+   "id": "I53",
+   "type": "I",
+   "condition": "adapter",
+   "technique": "piano",
+   "strength": 1.0,
+   "target": "f3",
+   "source": "row",
+   "files": {
+    "base": "17774.wav",
+    "S": "82965.wav"
+   },
+   "sources": {
+    "base": "results/exp04/eval/wav/f3_row_base.wav",
+    "S": "results/exp04/eval/wav/f3_row_piano_a1.wav"
+   }
+  }
+ ]
+}

@@ -1,0 +1,660 @@
+{
+  "status": "completed",
+  "config": {
+    "rank": 40,
+    "steps": 4000,
+    "batch": 8,
+    "lr": 0.0002,
+    "warmup": 200,
+    "min_lr_ratio": 0.1,
+    "grad_clip": 1.0,
+    "null_prob": 0.1,
+    "sigma_min": 1e-06,
+    "target_frames": [
+      215,
+      430
+    ],
+    "prompt_frames": [
+      172,
+      344
+    ],
+    "drop_worst_alignment": 0.1,
+    "val_every": 500,
+    "val_per_tech": 24,
+    "seed": 20261117
+  },
+  "techniques": [
+    "breathy",
+    "belt",
+    "vocal_fry",
+    "forte",
+    "piano"
+  ],
+  "held_out": [
+    "female1",
+    "female3",
+    "female9",
+    "male3",
+    "male9"
+  ],
+  "train_pairs": 949,
+  "val_pairs": 302,
+  "dropped": [
+    [
+      "data/vocalset_full/FULL/male7/arpeggios/breathy/m7_arpeggios_breathy_i.wav",
+      0.129
+    ],
+    [
+      "data/vocalset_full/FULL/male7/arpeggios/breathy/m7_arpeggios_breathy_a.wav",
+      0.13
+    ],
+    [
+      "data/vocalset_full/FULL/male7/scales/breathy/m7_scales_breathy_e.wav",
+      0.13
+    ],
+    [
+      "data/vocalset_full/FULL/male1/arpeggios/breathy/m1_arpeggios_breathy_o.wav",
+      0.133
+    ],
+    [
+      "data/vocalset_full/FULL/male7/arpeggios/breathy/m7_arpeggios_breathy_e.wav",
+      0.135
+    ],
+    [
+      "data/vocalset_full/FULL/male7/scales/breathy/m7_scales_breathy_i.wav",
+      0.141
+    ],
+    [
+      "data/vocalset_full/FULL/male7/arpeggios/breathy/m7_arpeggios_breathy_u.wav",
+      0.141
+    ],
+    [
+      "data/vocalset_full/FULL/male6/arpeggios/breathy/m6_arpeggios_breathy_i.wav",
+      0.144
+    ],
+    [
+      "data/vocalset_full/FULL/male7/scales/breathy/m7_scales_breathy_o.wav",
+      0.146
+    ],
+    [
+      "data/vocalset_full/FULL/male1/arpeggios/breathy/m1_arpeggios_breathy_u.wav",
+      0.148
+    ],
+    [
+      "data/vocalset_full/FULL/male1/scales/breathy/m1_scales_breathy_a.wav",
+      0.149
+    ],
+    [
+      "data/vocalset_full/FULL/female5/arpeggios/breathy/f5_arpeggios_breathy_a.wav",
+      0.153
+    ],
+    [
+      "data/vocalset_full/FULL/male7/arpeggios/breathy/m7_arpeggios_breathy_o.wav",
+      0.156
+    ],
+    [
+      "data/vocalset_full/FULL/male1/arpeggios/breathy/m1_arpeggios_breathy_e.wav",
+      0.159
+    ],
+    [
+      "data/vocalset_full/FULL/male1/arpeggios/breathy/m1_arpeggios_breathy_i.wav",
+      0.168
+    ],
+    [
+      "data/vocalset_full/FULL/male11/arpeggios/breathy/m11_arpeggios_breathy_u.wav",
+      0.173
+    ],
+    [
+      "data/vocalset_full/FULL/male7/scales/breathy/m7_scales_breathy_u.wav",
+      0.18
+    ],
+    [
+      "data/vocalset_full/FULL/male8/arpeggios/breathy/m8_arpeggios_breathy_a.wav",
+      0.205
+    ],
+    [
+      "data/vocalset_full/FULL/female5/scales/breathy/f5_scales_breathy_a.wav",
+      0.231
+    ],
+    [
+      "data/vocalset_full/FULL/male7/scales/breathy/m7_scales_breathy_a.wav",
+      0.265
+    ],
+    [
+      "data/vocalset_full/FULL/female3/scales/belt/f3_scales_belt_o.wav",
+      0.109
+    ],
+    [
+      "data/vocalset_full/FULL/male1/scales/belt/m1_scales_belt_a.wav",
+      0.109
+    ],
+    [
+      "data/vocalset_full/FULL/female3/scales/belt/f3_scales_belt_a.wav",
+      0.109
+    ],
+    [
+      "data/vocalset_full/FULL/male9/arpeggios/belt/m9_arpeggios_belt_e.wav",
+      0.112
+    ],
+    [
+      "data/vocalset_full/FULL/female7/scales/belt/f7_scales_belt_o.wav",
+      0.113
+    ],
+    [
+      "data/vocalset_full/FULL/male10/scales/belt/m10_scales_belt_i.wav",
+      0.117
+    ],
+    [
+      "data/vocalset_full/FULL/female3/scales/belt/f3_scales_belt_e.wav",
+      0.117
+    ],
+    [
+      "data/vocalset_full/FULL/male6/arpeggios/belt/m6_arpeggios_belt_i.wav",
+      0.118
+    ],
+    [
+      "data/vocalset_full/FULL/female3/arpeggios/belt/f3_arpeggios_belt_a.wav",
+      0.127
+    ],
+    [
+      "data/vocalset_full/FULL/female3/arpeggios/belt/f3_arpeggios_belt_u.wav",
+      0.127
+    ],
+    [
+      "data/vocalset_full/FULL/male10/arpeggios/belt/m10_arpeggios_belt_u.wav",
+      0.127
+    ],
+    [
+      "data/vocalset_full/FULL/female3/arpeggios/belt/f3_arpeggios_belt_i.wav",
+      0.128
+    ],
+    [
+      "data/vocalset_full/FULL/male6/scales/belt/m6_scales_belt_i.wav",
+      0.13
+    ],
+    [
+      "data/vocalset_full/FULL/male10/scales/belt/m10_scales_belt_o.wav",
+      0.131
+    ],
+    [
+      "data/vocalset_full/FULL/female3/arpeggios/belt/f3_arpeggios_belt_e.wav",
+      0.131
+    ],
+    [
+      "data/vocalset_full/FULL/male10/scales/belt/m10_scales_belt_u.wav",
+      0.135
+    ],
+    [
+      "data/vocalset_full/FULL/male10/arpeggios/belt/m10_arpeggios_belt_i.wav",
+      0.138
+    ],
+    [
+      "data/vocalset_full/FULL/male10/arpeggios/belt/m10_arpeggios_belt_o.wav",
+      0.139
+    ],
+    [
+      "data/vocalset_full/FULL/female3/arpeggios/belt/f3_arpeggios_belt_o.wav",
+      0.142
+    ],
+    [
+      "data/vocalset_full/FULL/male10/arpeggios/belt/m10_arpeggios_belt_e.wav",
+      0.15
+    ],
+    [
+      "data/vocalset_full/FULL/male10/arpeggios/belt/m10_arpeggios_belt_a.wav",
+      0.177
+    ],
+    [
+      "data/vocalset_full/FULL/female1/arpeggios/vocal_fry/f1_arpeggios_vocal_fry_o.wav",
+      0.202
+    ],
+    [
+      "data/vocalset_full/FULL/male4/arpeggios/vocal_fry/m4_arpeggios_vocal_fry_e.wav",
+      0.204
+    ],
+    [
+      "data/vocalset_full/FULL/female5/arpeggios/vocal_fry/f5_arpeggios_vocal_fry_u.wav",
+      0.207
+    ],
+    [
+      "data/vocalset_full/FULL/female9/arpeggios/vocal_fry/f9_arpeggios_vocal_fry_o.wav",
+      0.207
+    ],
+    [
+      "data/vocalset_full/FULL/female8/arpeggios/vocal_fry/f8_arpeggios_vocal_fry_o.wav",
+      0.208
+    ],
+    [
+      "data/vocalset_full/FULL/female4/scales/vocal_fry/f4_scales_vocal_fry_u.wav",
+      0.208
+    ],
+    [
+      "data/vocalset_full/FULL/female4/scales/vocal_fry/f4_scales_vocal_fry_a.wav",
+      0.213
+    ],
+    [
+      "data/vocalset_full/FULL/female8/arpeggios/vocal_fry/f8_arpeggios_vocal_fry_i.wav",
+      0.215
+    ],
+    [
+      "data/vocalset_full/FULL/female8/scales/vocal_fry/f8_scales_vocal_fry_a.wav",
+      0.215
+    ],
+    [
+      "data/vocalset_full/FULL/female5/arpeggios/vocal_fry/f5_arpeggios_vocal_fry_a.wav",
+      0.221
+    ],
+    [
+      "data/vocalset_full/FULL/female8/scales/vocal_fry/f8_scales_vocal_fry_o.wav",
+      0.228
+    ],
+    [
+      "data/vocalset_full/FULL/male6/arpeggios/vocal_fry/m6_arpeggios_vocal_fry_e.wav",
+      0.236
+    ],
+    [
+      "data/vocalset_full/FULL/female5/arpeggios/vocal_fry/f5_arpeggios_vocal_fry_i.wav",
+      0.237
+    ],
+    [
+      "data/vocalset_full/FULL/male6/arpeggios/vocal_fry/m6_arpeggios_vocal_fry_o.wav",
+      0.237
+    ],
+    [
+      "data/vocalset_full/FULL/male6/scales/vocal_fry/m6_scales_vocal_fry_i.wav",
+      0.26
+    ],
+    [
+      "data/vocalset_full/FULL/female1/arpeggios/vocal_fry/f1_arpeggios_vocal_fry_a.wav",
+      0.271
+    ],
+    [
+      "data/vocalset_full/FULL/female1/arpeggios/vocal_fry/f1_arpeggios_vocal_fry_u.wav",
+      0.289
+    ],
+    [
+      "data/vocalset_full/FULL/female4/scales/vocal_fry/f4_scales_vocal_fry_o.wav",
+      0.294
+    ],
+    [
+      "data/vocalset_full/FULL/male6/scales/vocal_fry/m6_scales_vocal_fry_a.wav",
+      0.307
+    ],
+    [
+      "data/vocalset_full/FULL/male6/arpeggios/vocal_fry/m6_arpeggios_vocal_fry_a.wav",
+      0.324
+    ],
+    [
+      "data/vocalset_full/FULL/female8/arpeggios/slow_forte/f8_arpeggios_f_slow_forte_a.wav",
+      0.162
+    ],
+    [
+      "data/vocalset_full/FULL/male4/scales/slow_forte/m4_scales_f_slow_forte_i.wav",
+      0.163
+    ],
+    [
+      "data/vocalset_full/FULL/male10/scales/slow_forte/m10_scales_f_slow_forte_u.wav",
+      0.163
+    ],
+    [
+      "data/vocalset_full/FULL/male10/scales/slow_forte/m10_scales_f_slow_forte_o.wav",
+      0.163
+    ],
+    [
+      "data/vocalset_full/FULL/female7/scales/slow_forte/f7_scales_c_slow_forte_a.wav",
+      0.163
+    ],
+    [
+      "data/vocalset_full/FULL/male3/scales/slow_forte/m3_scales_f_slow_forte_o.wav",
+      0.163
+    ],
+    [
+      "data/vocalset_full/FULL/male10/arpeggios/slow_forte/m10_arpeggios_c_slow_forte_e.wav",
+      0.163
+    ],
+    [
+      "data/vocalset_full/FULL/female8/arpeggios/slow_forte/f8_arpeggios_c_slow_forte_e.wav",
+      0.163
+    ],
+    [
+      "data/vocalset_full/FULL/male10/arpeggios/slow_forte/m10_arpeggios_f_slow_forte_u.wav",
+      0.164
+    ],
+    [
+      "data/vocalset_full/FULL/female1/scales/slow_forte/f1_scales_f_slow_forte_u.wav",
+      0.164
+    ],
+    [
+      "data/vocalset_full/FULL/female1/arpeggios/slow_forte/f1_arpeggios_f_slow_forte_e.wav",
+      0.164
+    ],
+    [
+      "data/vocalset_full/FULL/female9/scales/slow_forte/f9_scales_c_slow_forte_u.wav",
+      0.165
+    ],
+    [
+      "data/vocalset_full/FULL/female9/scales/slow_forte/f9_scales_c_slow_forte_o.wav",
+      0.168
+    ],
+    [
+      "data/vocalset_full/FULL/female9/arpeggios/slow_forte/f9_arpeggios_f_slow_forte_u.wav",
+      0.17
+    ],
+    [
+      "data/vocalset_full/FULL/female5/arpeggios/slow_forte/f5_arpeggios_c_slow_forte_o.wav",
+      0.17
+    ],
+    [
+      "data/vocalset_full/FULL/female3/scales/slow_forte/f3_scales_f_slow_forte_a.wav",
+      0.171
+    ],
+    [
+      "data/vocalset_full/FULL/female9/arpeggios/slow_forte/f9_arpeggios_f_slow_forte_o.wav",
+      0.172
+    ],
+    [
+      "data/vocalset_full/FULL/female1/scales/slow_forte/f1_scales_f_slow_forte_e.wav",
+      0.172
+    ],
+    [
+      "data/vocalset_full/FULL/female3/scales/slow_forte/f3_scales_f_slow_forte_o.wav",
+      0.178
+    ],
+    [
+      "data/vocalset_full/FULL/female2/arpeggios/slow_forte/f2_arpeggios_f_slow_forte_a.wav",
+      0.179
+    ],
+    [
+      "data/vocalset_full/FULL/male10/arpeggios/slow_forte/m10_arpeggios_f_slow_forte_i.wav",
+      0.181
+    ],
+    [
+      "data/vocalset_full/FULL/female6/arpeggios/slow_forte/f6_arpeggios_f_slow_forte_a.wav",
+      0.182
+    ],
+    [
+      "data/vocalset_full/FULL/male10/arpeggios/slow_forte/m10_arpeggios_f_slow_forte_o.wav",
+      0.183
+    ],
+    [
+      "data/vocalset_full/FULL/female4/arpeggios/slow_forte/f4_arpeggios_f_slow_forte_o.wav",
+      0.183
+    ],
+    [
+      "data/vocalset_full/FULL/male10/arpeggios/slow_forte/m10_arpeggios_f_slow_forte_e.wav",
+      0.183
+    ],
+    [
+      "data/vocalset_full/FULL/female8/scales/slow_forte/f8_scales_f_slow_forte_a.wav",
+      0.186
+    ],
+    [
+      "data/vocalset_full/FULL/female1/scales/slow_forte/f1_scales_f_slow_forte_a.wav",
+      0.187
+    ],
+    [
+      "data/vocalset_full/FULL/male10/arpeggios/slow_forte/m10_arpeggios_c_slow_forte_a.wav",
+      0.191
+    ],
+    [
+      "data/vocalset_full/FULL/female8/arpeggios/slow_forte/f8_arpeggios_c_slow_forte_a.wav",
+      0.191
+    ],
+    [
+      "data/vocalset_full/FULL/female8/arpeggios/slow_forte/f8_arpeggios_c_slow_forte_o.wav",
+      0.192
+    ],
+    [
+      "data/vocalset_full/FULL/female9/scales/slow_forte/f9_scales_f_slow_forte_a.wav",
+      0.196
+    ],
+    [
+      "data/vocalset_full/FULL/female9/scales/slow_forte/f9_scales_f_slow_forte_i.wav",
+      0.201
+    ],
+    [
+      "data/vocalset_full/FULL/female1/arpeggios/slow_forte/f1_arpeggios_f_slow_forte_u.wav",
+      0.201
+    ],
+    [
+      "data/vocalset_full/FULL/female9/scales/slow_forte/f9_scales_f_slow_forte_e.wav",
+      0.201
+    ],
+    [
+      "data/vocalset_full/FULL/female1/scales/slow_forte/f1_scales_f_slow_forte_o.wav",
+      0.206
+    ],
+    [
+      "data/vocalset_full/FULL/female1/arpeggios/slow_forte/f1_arpeggios_f_slow_forte_o.wav",
+      0.208
+    ],
+    [
+      "data/vocalset_full/FULL/female1/arpeggios/slow_forte/f1_arpeggios_f_slow_forte_a.wav",
+      0.208
+    ],
+    [
+      "data/vocalset_full/FULL/female9/scales/slow_forte/f9_scales_f_slow_forte_o.wav",
+      0.209
+    ],
+    [
+      "data/vocalset_full/FULL/female9/scales/slow_forte/f9_scales_f_slow_forte_u.wav",
+      0.227
+    ],
+    [
+      "data/vocalset_full/FULL/male10/arpeggios/slow_forte/m10_arpeggios_f_slow_forte_a.wav",
+      0.234
+    ],
+    [
+      "data/vocalset_full/FULL/female2/arpeggios/slow_piano/f2_arpeggios_f_slow_piano_i.wav",
+      0.148
+    ],
+    [
+      "data/vocalset_full/FULL/male1/scales/slow_piano/m1_scales_c_slow_piano_e.wav",
+      0.149
+    ],
+    [
+      "data/vocalset_full/FULL/female9/arpeggios/slow_piano/f9_arpeggios_f_slow_piano_i.wav",
+      0.151
+    ],
+    [
+      "data/vocalset_full/FULL/female1/arpeggios/slow_piano/f1_arpeggios_f_slow_piano_e.wav",
+      0.151
+    ],
+    [
+      "data/vocalset_full/FULL/male8/arpeggios/slow_piano/m8_arpeggios_c_slow_piano_u.wav",
+      0.152
+    ],
+    [
+      "data/vocalset_full/FULL/female9/arpeggios/slow_piano/f9_arpeggios_f_slow_piano_e.wav",
+      0.152
+    ],
+    [
+      "data/vocalset_full/FULL/female3/scales/slow_piano/f3_scales_f_slow_piano_a.wav",
+      0.153
+    ],
+    [
+      "data/vocalset_full/FULL/female2/arpeggios/slow_piano/f2_arpeggios_f_slow_piano_o.wav",
+      0.153
+    ],
+    [
+      "data/vocalset_full/FULL/male3/scales/slow_piano/m3_scales_f_slow_piano_e.wav",
+      0.154
+    ],
+    [
+      "data/vocalset_full/FULL/female2/arpeggios/slow_piano/f2_arpeggios_c_slow_piano_i.wav",
+      0.154
+    ],
+    [
+      "data/vocalset_full/FULL/male7/arpeggios/slow_piano/m7_arpeggios_f_slow_piano_u.wav",
+      0.154
+    ],
+    [
+      "data/vocalset_full/FULL/female7/arpeggios/slow_piano/f7_arpeggios_f_slow_piano_o.wav",
+      0.155
+    ],
+    [
+      "data/vocalset_full/FULL/male7/scales/slow_piano/m7_scales_f_slow_piano_u.wav",
+      0.156
+    ],
+    [
+      "data/vocalset_full/FULL/male7/scales/slow_piano/m7_scales_f_slow_piano_o.wav",
+      0.157
+    ],
+    [
+      "data/vocalset_full/FULL/male10/arpeggios/slow_piano/m10_arpeggios_f_slow_piano_a.wav",
+      0.157
+    ],
+    [
+      "data/vocalset_full/FULL/male7/arpeggios/slow_piano/m7_arpeggios_f_slow_piano_e.wav",
+      0.158
+    ],
+    [
+      "data/vocalset_full/FULL/male7/scales/slow_piano/m7_scales_f_slow_piano_a.wav",
+      0.158
+    ],
+    [
+      "data/vocalset_full/FULL/male10/arpeggios/slow_piano/m10_arpeggios_f_slow_piano_i.wav",
+      0.159
+    ],
+    [
+      "data/vocalset_full/FULL/female2/arpeggios/slow_piano/f2_arpeggios_c_slow_piano_u.wav",
+      0.159
+    ],
+    [
+      "data/vocalset_full/FULL/female2/arpeggios/slow_piano/f2_arpeggios_c_slow_piano_o.wav",
+      0.159
+    ],
+    [
+      "data/vocalset_full/FULL/female4/arpeggios/slow_piano/f4_arpeggios_f_slow_piano_u.wav",
+      0.162
+    ],
+    [
+      "data/vocalset_full/FULL/female9/scales/slow_piano/f9_scales_f_slow_piano_u.wav",
+      0.164
+    ],
+    [
+      "data/vocalset_full/FULL/female1/arpeggios/slow_piano/f1_arpeggios_f_slow_piano_u.wav",
+      0.165
+    ],
+    [
+      "data/vocalset_full/FULL/female1/arpeggios/slow_piano/f1_arpeggios_f_slow_piano_o.wav",
+      0.165
+    ],
+    [
+      "data/vocalset_full/FULL/female2/arpeggios/slow_piano/f2_arpeggios_f_slow_piano_e.wav",
+      0.165
+    ],
+    [
+      "data/vocalset_full/FULL/female2/arpeggios/slow_piano/f2_arpeggios_c_slow_piano_e.wav",
+      0.166
+    ],
+    [
+      "data/vocalset_full/FULL/male10/arpeggios/slow_piano/m10_arpeggios_f_slow_piano_e.wav",
+      0.167
+    ],
+    [
+      "data/vocalset_full/FULL/male6/arpeggios/slow_piano/m6_arpeggios_f_slow_piano_i.wav",
+      0.171
+    ],
+    [
+      "data/vocalset_full/FULL/female1/scales/slow_piano/f1_scales_f_slow_piano_a.wav",
+      0.171
+    ],
+    [
+      "data/vocalset_full/FULL/female9/scales/slow_piano/f9_scales_f_slow_piano_i.wav",
+      0.173
+    ],
+    [
+      "data/vocalset_full/FULL/male4/arpeggios/slow_piano/m4_arpeggios_f_slow_piano_i.wav",
+      0.174
+    ],
+    [
+      "data/vocalset_full/FULL/male10/arpeggios/slow_piano/m10_arpeggios_f_slow_piano_o.wav",
+      0.174
+    ],
+    [
+      "data/vocalset_full/FULL/female2/arpeggios/slow_piano/f2_arpeggios_f_slow_piano_a.wav",
+      0.177
+    ],
+    [
+      "data/vocalset_full/FULL/female9/scales/slow_piano/f9_scales_f_slow_piano_a.wav",
+      0.177
+    ],
+    [
+      "data/vocalset_full/FULL/female9/scales/slow_piano/f9_scales_f_slow_piano_e.wav",
+      0.184
+    ],
+    [
+      "data/vocalset_full/FULL/female1/scales/slow_piano/f1_scales_f_slow_piano_o.wav",
+      0.186
+    ],
+    [
+      "data/vocalset_full/FULL/female2/arpeggios/slow_piano/f2_arpeggios_c_slow_piano_a.wav",
+      0.188
+    ],
+    [
+      "data/vocalset_full/FULL/female1/arpeggios/slow_piano/f1_arpeggios_f_slow_piano_a.wav",
+      0.192
+    ],
+    [
+      "data/vocalset_full/FULL/female9/arpeggios/slow_piano/f9_arpeggios_f_slow_piano_u.wav",
+      0.195
+    ],
+    [
+      "data/vocalset_full/FULL/female4/arpeggios/slow_piano/f4_arpeggios_c_slow_piano_o.wav",
+      0.2
+    ]
+  ],
+  "best_step": 4000,
+  "best_val": 0.5079038778940836,
+  "confusion_best": {
+    "breathy": {
+      "true_label": 0.510899563630422,
+      "adapter_off": 0.5535076955954233,
+      "label_breathy": 0.510899563630422,
+      "label_belt": 0.5194523334503174,
+      "label_vocal_fry": 0.5204946498076121,
+      "label_forte": 0.5239527324835459,
+      "label_piano": 0.5152221620082855
+    },
+    "belt": {
+      "true_label": 0.5004031310478846,
+      "adapter_off": 0.5643129448095957,
+      "label_breathy": 0.515464519460996,
+      "label_belt": 0.5004031310478846,
+      "label_vocal_fry": 0.5109784205754598,
+      "label_forte": 0.5052199810743332,
+      "label_piano": 0.5066584547360738
+    },
+    "vocal_fry": {
+      "true_label": 0.4945460905631383,
+      "adapter_off": 0.6055283844470978,
+      "label_breathy": 0.5182324945926666,
+      "label_belt": 0.5136572519938151,
+      "label_vocal_fry": 0.4945460905631383,
+      "label_forte": 0.5089197556177775,
+      "label_piano": 0.5078341414531072
+    },
+    "forte": {
+      "true_label": 0.5084583858648936,
+      "adapter_off": 0.5950117508570353,
+      "label_breathy": 0.5261486570040385,
+      "label_belt": 0.5157822072505951,
+      "label_vocal_fry": 0.5206104616324106,
+      "label_forte": 0.5084583858648936,
+      "label_piano": 0.5092504421869913
+    },
+    "piano": {
+      "true_label": 0.5252122183640798,
+      "adapter_off": 0.6214808424313863,
+      "label_breathy": 0.5408110817273458,
+      "label_belt": 0.5383334855238596,
+      "label_vocal_fry": 0.5370262463887533,
+      "label_forte": 0.5271865725517273,
+      "label_piano": 0.5252122183640798
+    }
+  },
+  "minutes": 77.44091508833336,
+  "gpu_peak_gib": 6.379472732543945,
+  "dtype": "torch.bfloat16"
+}

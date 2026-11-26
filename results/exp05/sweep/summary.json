@@ -1,0 +1,29 @@
+{
+  "status": "completed",
+  "adapter": "results\\exp04\\train\\adapter_best.pt",
+  "techniques": [
+    "breathy",
+    "belt",
+    "vocal_fry",
+    "forte",
+    "piano"
+  ],
+  "runs": 84,
+  "base_matches_exp03": {
+    "f3_row": true,
+    "f3_dona": true,
+    "f9_row": true,
+    "f9_dona": true
+  },
+  "seed": 20261020,
+  "settings": {
+    "f0_condition": true,
+    "auto_f0_adjust": false,
+    "semi_tone_shift": 0,
+    "length_adjust": 1.0,
+    "diffusion_steps": 30,
+    "inference_cfg_rate": 0.7,
+    "fp16": true
+  },
+  "gpu_peak_allocated_gib": 2.3480162620544434
+}

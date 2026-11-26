@@ -1,0 +1,1154 @@
+{
+ "n_listeners": 20,
+ "n_included": 20,
+ "n_excluded": 0,
+ "key_sha256": "e085e8959c3671ed",
+ "groups": {
+  "both": 2,
+  "computing": 9,
+  "other": 1,
+  "creator": 8
+ },
+ "demographics": {
+  "age": {
+   "1": 18,
+   "2": 2
+  },
+  "grp": {
+   "3": 2,
+   "1": 9,
+   "4": 1,
+   "2": 8
+  },
+  "mus": {
+   "1": 11,
+   "3": 5,
+   "2": 4
+  },
+  "svs": {
+   "2": 8,
+   "1": 8,
+   "3": 4
+  },
+  "out": {
+   "1": 19,
+   "2": 1
+  }
+ },
+ "identification": {
+  "adapter|belt": {
+   "n": 80,
+   "listeners": 20,
+   "intended": "brighter/forceful",
+   "intended_rate": 0.55,
+   "most_frequent_alternative": "post-processing",
+   "alternative_rate": 0.2375,
+   "distribution": {
+    "no change": 0.0,
+    "post-processing": 0.2375,
+    "breathier": 0.0375,
+    "brighter/forceful": 0.55,
+    "rough/creaky": 0.0375,
+    "fuller/stronger": 0.0625,
+    "softer/lighter": 0.0,
+    "other technique": 0.0125,
+    "different singer": 0.0625
+   },
+   "any_technique_rate": 0.7,
+   "post_processing_rate": 0.2375,
+   "clear_distortion_rate": 0.0,
+   "same_singer_rate": 0.55,
+   "usable_rate": 0.65,
+   "p_intended_vs_alternative": 0.01087566799340762,
+   "glmm": {
+    "logit_mean": 1.0911656606317301,
+    "logit_lo": 0.47712471557237324,
+    "logit_hi": 1.705206605691087
+   },
+   "p_intended_vs_alternative_holm": 0.03997726786774985
+  },
+  "adapter|breathy": {
+   "n": 80,
+   "listeners": 20,
+   "intended": "breathier",
+   "intended_rate": 0.4875,
+   "most_frequent_alternative": "softer/lighter",
+   "alternative_rate": 0.2,
+   "distribution": {
+    "no change": 0.125,
+    "post-processing": 0.0875,
+    "breathier": 0.4875,
+    "brighter/forceful": 0.0,
+    "rough/creaky": 0.075,
+    "fuller/stronger": 0.0,
+    "softer/lighter": 0.2,
+    "other technique": 0.0125,
+    "different singer": 0.0125
+   },
+   "any_technique_rate": 0.775,
+   "post_processing_rate": 0.0875,
+   "clear_distortion_rate": 0.0125,
+   "same_singer_rate": 0.7375,
+   "usable_rate": 0.575,
+   "p_intended_vs_alternative": 0.009994316966937462,
+   "glmm": {
+    "logit_mean": 1.2855168152283518,
+    "logit_lo": 0.5679371063738803,
+    "logit_hi": 2.0030965240828236
+   },
+   "p_intended_vs_alternative_holm": 0.03997726786774985
+  },
+  "adapter|forte": {
+   "n": 80,
+   "listeners": 20,
+   "intended": "fuller/stronger",
+   "intended_rate": 0.675,
+   "most_frequent_alternative": "other technique",
+   "alternative_rate": 0.1,
+   "distribution": {
+    "no change": 0.0125,
+    "post-processing": 0.075,
+    "breathier": 0.0125,
+    "brighter/forceful": 0.0875,
+    "rough/creaky": 0.025,
+    "fuller/stronger": 0.675,
+    "softer/lighter": 0.0,
+    "other technique": 0.1,
+    "different singer": 0.0125
+   },
+   "any_technique_rate": 0.9,
+   "post_processing_rate": 0.075,
+   "clear_distortion_rate": 0.0,
+   "same_singer_rate": 0.6,
+   "usable_rate": 0.8125,
+   "p_intended_vs_alternative": 0.00017262335182503095,
+   "glmm": {
+    "logit_mean": 2.094367927260163,
+    "logit_lo": 1.3353208879567542,
+    "logit_hi": 2.8534149665635717
+   },
+   "p_intended_vs_alternative_holm": 0.0008631167591251547
+  },
+  "adapter|piano": {
+   "n": 80,
+   "listeners": 20,
+   "intended": "softer/lighter",
+   "intended_rate": 0.275,
+   "most_frequent_alternative": "no change",
+   "alternative_rate": 0.25,
+   "distribution": {
+    "no change": 0.25,
+    "post-processing": 0.0625,
+    "breathier": 0.0625,
+    "brighter/forceful": 0.0125,
+    "rough/creaky": 0.025,
+    "fuller/stronger": 0.1875,
+    "softer/lighter": 0.275,
+    "other technique": 0.1,
+    "different singer": 0.025
+   },
+   "any_technique_rate": 0.6625,
+   "post_processing_rate": 0.0625,
+   "clear_distortion_rate": 0.0,
+   "same_singer_rate": 0.8125,
+   "usable_rate": 0.5,
+   "p_intended_vs_alternative": 0.357882384558448,
+   "glmm": {
+    "logit_mean": 0.11351128544822485,
+    "logit_lo": -0.5507893010826623,
+    "logit_hi": 0.7778118719791121
+   },
+   "p_intended_vs_alternative_holm": 0.715764769116896
+  },
+  "adapter|vocal_fry": {
+   "n": 80,
+   "listeners": 20,
+   "intended": "rough/creaky",
+   "intended_rate": 0.4375,
+   "most_frequent_alternative": "no change",
+   "alternative_rate": 0.4125,
+   "distribution": {
+    "no change": 0.4125,
+    "post-processing": 0.05,
+    "breathier": 0.05,
+    "brighter/forceful": 0.0125,
+    "rough/creaky": 0.4375,
+    "fuller/stronger": 0.0125,
+    "softer/lighter": 0.0,
+    "other technique": 0.0125,
+    "different singer": 0.0125
+   },
+   "any_technique_rate": 0.525,
+   "post_processing_rate": 0.05,
+   "clear_distortion_rate": 0.0875,
+   "same_singer_rate": 0.8,
+   "usable_rate": 0.275,
+   "p_intended_vs_alternative": 0.43752677850643285,
+   "glmm": {
+    "logit_mean": 0.2121481945677426,
+    "logit_lo": -0.36944734254650347,
+    "logit_hi": 0.7937437316819886
+   },
+   "p_intended_vs_alternative_holm": 0.715764769116896
+  },
+  "guidance|belt": {
+   "n": 20,
+   "listeners": 20,
+   "intended": "brighter/forceful",
+   "intended_rate": 0.55,
+   "most_frequent_alternative": "post-processing",
+   "alternative_rate": 0.15,
+   "distribution": {
+    "no change": 0.0,
+    "post-processing": 0.15,
+    "breathier": 0.0,
+    "brighter/forceful": 0.55,
+    "rough/creaky": 0.05,
+    "fuller/stronger": 0.0,
+    "softer/lighter": 0.0,
+    "other technique": 0.15,
+    "different singer": 0.1
+   },
+   "any_technique_rate": 0.75,
+   "post_processing_rate": 0.15,
+   "clear_distortion_rate": 0.1,
+   "same_singer_rate": 0.3,
+   "usable_rate": 0.55,
+   "p_intended_vs_alternative": 0.016254722322859756,
+   "glmm": {
+    "logit_mean": 1.3931457216615357,
+    "logit_lo": 0.09722153357319341,
+    "logit_hi": 2.689069909749878
+   },
+   "p_intended_vs_alternative_holm": 0.06501888929143902
+  },
+  "guidance|breathy": {
+   "n": 20,
+   "listeners": 20,
+   "intended": "breathier",
+   "intended_rate": 0.5,
+   "most_frequent_alternative": "no change",
+   "alternative_rate": 0.15,
+   "distribution": {
+    "no change": 0.15,
+    "post-processing": 0.05,
+    "breathier": 0.5,
+    "brighter/forceful": 0.0,
+    "rough/creaky": 0.05,
+    "fuller/stronger": 0.0,
+    "softer/lighter": 0.15,
+    "other technique": 0.0,
+    "different singer": 0.1
+   },
+   "any_technique_rate": 0.7,
+   "post_processing_rate": 0.05,
+   "clear_distortion_rate": 0.0,
+   "same_singer_rate": 0.7,
+   "usable_rate": 0.8,
+   "p_intended_vs_alternative": 0.026101817670657335,
+   "glmm": {
+    "logit_mean": 1.2949773636582433,
+    "logit_lo": -0.023339343323032447,
+    "logit_hi": 2.613294070639519
+   },
+   "p_intended_vs_alternative_holm": 0.078305453011972
+  },
+  "guidance|forte": {
+   "n": 20,
+   "listeners": 20,
+   "intended": "fuller/stronger",
+   "intended_rate": 0.35,
+   "most_frequent_alternative": "post-processing",
+   "alternative_rate": 0.55,
+   "distribution": {
+    "no change": 0.0,
+    "post-processing": 0.55,
+    "breathier": 0.0,
+    "brighter/forceful": 0.1,
+    "rough/creaky": 0.0,
+    "fuller/stronger": 0.35,
+    "softer/lighter": 0.0,
+    "other technique": 0.0,
+    "different singer": 0.0
+   },
+   "any_technique_rate": 0.45,
+   "post_processing_rate": 0.55,
+   "clear_distortion_rate": 0.0,
+   "same_singer_rate": 0.85,
+   "usable_rate": 0.6,
+   "p_intended_vs_alternative": 0.8271107069244199,
+   "glmm": {
+    "logit_mean": -0.5245284706831471,
+    "logit_lo": -1.5584652668455918,
+    "logit_hi": 0.5094083254792977
+   },
+   "p_intended_vs_alternative_holm": 0.8271107069244199
+  },
+  "guidance|vocal_fry": {
+   "n": 20,
+   "listeners": 20,
+   "intended": "rough/creaky",
+   "intended_rate": 0.5,
+   "most_frequent_alternative": "post-processing",
+   "alternative_rate": 0.35,
+   "distribution": {
+    "no change": 0.0,
+    "post-processing": 0.35,
+    "breathier": 0.0,
+    "brighter/forceful": 0.15,
+    "rough/creaky": 0.5,
+    "fuller/stronger": 0.0,
+    "softer/lighter": 0.0,
+    "other technique": 0.0,
+    "different singer": 0.0
+   },
+   "any_technique_rate": 0.65,
+   "post_processing_rate": 0.35,
+   "clear_distortion_rate": 0.0,
+   "same_singer_rate": 0.5,
+   "usable_rate": 0.75,
+   "p_intended_vs_alternative": 0.23342713541136273,
+   "glmm": {
+    "logit_mean": 0.41849117724972523,
+    "logit_lo": -0.6384549293372999,
+    "logit_hi": 1.4754372838367504
+   },
+   "p_intended_vs_alternative_holm": 0.46685427082272546
+  },
+  "real|belt": {
+   "n": 40,
+   "listeners": 20,
+   "intended": "brighter/forceful",
+   "intended_rate": 0.325,
+   "most_frequent_alternative": "different singer",
+   "alternative_rate": 0.575,
+   "distribution": {
+    "no change": 0.0,
+    "post-processing": 0.025,
+    "breathier": 0.025,
+    "brighter/forceful": 0.325,
+    "rough/creaky": 0.0,
+    "fuller/stronger": 0.025,
+    "softer/lighter": 0.0,
+    "other technique": 0.025,
+    "different singer": 0.575
+   },
+   "any_technique_rate": 0.4,
+   "post_processing_rate": 0.025,
+   "clear_distortion_rate": 0.075,
+   "same_singer_rate": 0.1,
+   "usable_rate": 0.55,
+   "p_intended_vs_alternative": 0.9924069007214678,
+   "glmm": {
+    "logit_mean": -0.7853705513994518,
+    "logit_lo": -1.9436736217494415,
+    "logit_hi": 0.3729325189505379
+   },
+   "p_intended_vs_alternative_holm": 1.0
+  },
+  "real|breathy": {
+   "n": 40,
+   "listeners": 20,
+   "intended": "breathier",
+   "intended_rate": 0.6,
+   "most_frequent_alternative": "softer/lighter",
+   "alternative_rate": 0.275,
+   "distribution": {
+    "no change": 0.05,
+    "post-processing": 0.025,
+    "breathier": 0.6,
+    "brighter/forceful": 0.0,
+    "rough/creaky": 0.0,
+    "fuller/stronger": 0.0,
+    "softer/lighter": 0.275,
+    "other technique": 0.025,
+    "different singer": 0.025
+   },
+   "any_technique_rate": 0.9,
+   "post_processing_rate": 0.025,
+   "clear_distortion_rate": 0.0,
+   "same_singer_rate": 0.625,
+   "usable_rate": 0.8,
+   "p_intended_vs_alternative": 0.013413109539770735,
+   "glmm": {
+    "logit_mean": 0.8573137339931118,
+    "logit_lo": 0.08833949135672581,
+    "logit_hi": 1.6262879766294978
+   },
+   "p_intended_vs_alternative_holm": 0.06706554769885367
+  },
+  "real|forte": {
+   "n": 40,
+   "listeners": 20,
+   "intended": "fuller/stronger",
+   "intended_rate": 0.225,
+   "most_frequent_alternative": "other technique",
+   "alternative_rate": 0.4,
+   "distribution": {
+    "no change": 0.175,
+    "post-processing": 0.075,
+    "breathier": 0.075,
+    "brighter/forceful": 0.0,
+    "rough/creaky": 0.0,
+    "fuller/stronger": 0.225,
+    "softer/lighter": 0.05,
+    "other technique": 0.4,
+    "different singer": 0.0
+   },
+   "any_technique_rate": 0.75,
+   "post_processing_rate": 0.075,
+   "clear_distortion_rate": 0.0,
+   "same_singer_rate": 0.575,
+   "usable_rate": 0.25,
+   "p_intended_vs_alternative": 0.8415967989065363,
+   "glmm": {
+    "logit_mean": -0.939552666280288,
+    "logit_lo": -2.013899934415881,
+    "logit_hi": 0.13479460185530479
+   },
+   "p_intended_vs_alternative_holm": 1.0
+  },
+  "real|piano": {
+   "n": 40,
+   "listeners": 20,
+   "intended": "softer/lighter",
+   "intended_rate": 0.325,
+   "most_frequent_alternative": "other technique",
+   "alternative_rate": 0.375,
+   "distribution": {
+    "no change": 0.025,
+    "post-processing": 0.05,
+    "breathier": 0.1,
+    "brighter/forceful": 0.025,
+    "rough/creaky": 0.0,
+    "fuller/stronger": 0.075,
+    "softer/lighter": 0.325,
+    "other technique": 0.375,
+    "different singer": 0.025
+   },
+   "any_technique_rate": 0.9,
+   "post_processing_rate": 0.05,
+   "clear_distortion_rate": 0.025,
+   "same_singer_rate": 0.325,
+   "usable_rate": 0.575,
+   "p_intended_vs_alternative": 0.6746935180336232,
+   "glmm": {
+    "logit_mean": -0.06924756781524076,
+    "logit_lo": -0.9713186163362839,
+    "logit_hi": 0.8328234807058024
+   },
+   "p_intended_vs_alternative_holm": 1.0
+  },
+  "real|vocal_fry": {
+   "n": 40,
+   "listeners": 20,
+   "intended": "rough/creaky",
+   "intended_rate": 0.45,
+   "most_frequent_alternative": "different singer",
+   "alternative_rate": 0.55,
+   "distribution": {
+    "no change": 0.0,
+    "post-processing": 0.0,
+    "breathier": 0.0,
+    "brighter/forceful": 0.0,
+    "rough/creaky": 0.45,
+    "fuller/stronger": 0.0,
+    "softer/lighter": 0.0,
+    "other technique": 0.0,
+    "different singer": 0.55
+   },
+   "any_technique_rate": 0.45,
+   "post_processing_rate": 0.0,
+   "clear_distortion_rate": 0.5128205128205128,
+   "same_singer_rate": 0.025,
+   "usable_rate": 0.25,
+   "p_intended_vs_alternative": 0.9213503964748575,
+   "glmm": {
+    "logit_mean": -0.5580954745132293,
+    "logit_lo": -1.8349196817639082,
+    "logit_hi": 0.7187287327374495
+   },
+   "p_intended_vs_alternative_holm": 1.0
+  },
+  "source|belt": {
+   "n": 20,
+   "listeners": 20,
+   "intended": "brighter/forceful",
+   "intended_rate": 0.2,
+   "most_frequent_alternative": "no change",
+   "alternative_rate": 0.45,
+   "distribution": {
+    "no change": 0.45,
+    "post-processing": 0.05,
+    "breathier": 0.0,
+    "brighter/forceful": 0.2,
+    "rough/creaky": 0.0,
+    "fuller/stronger": 0.05,
+    "softer/lighter": 0.15,
+    "other technique": 0.1,
+    "different singer": 0.0
+   },
+   "any_technique_rate": 0.5,
+   "post_processing_rate": 0.05,
+   "clear_distortion_rate": 0.0,
+   "same_singer_rate": 0.85,
+   "usable_rate": 0.4,
+   "p_intended_vs_alternative": 0.9172410706512649,
+   "glmm": {
+    "logit_mean": -0.899108418884542,
+    "logit_lo": -2.1458742402615707,
+    "logit_hi": 0.34765740249248656
+   },
+   "p_intended_vs_alternative_holm": 1.0
+  },
+  "source|breathy": {
+   "n": 20,
+   "listeners": 20,
+   "intended": "breathier",
+   "intended_rate": 0.2,
+   "most_frequent_alternative": "no change",
+   "alternative_rate": 0.5,
+   "distribution": {
+    "no change": 0.5,
+    "post-processing": 0.0,
+    "breathier": 0.2,
+    "brighter/forceful": 0.0,
+    "rough/creaky": 0.0,
+    "fuller/stronger": 0.05,
+    "softer/lighter": 0.1,
+    "other technique": 0.15,
+    "different singer": 0.0
+   },
+   "any_technique_rate": 0.5,
+   "post_processing_rate": 0.0,
+   "clear_distortion_rate": 0.0,
+   "same_singer_rate": 0.9,
+   "usable_rate": 0.25,
+   "p_intended_vs_alternative": 0.9455952849797271,
+   "glmm": {
+    "logit_mean": -1.0133262643298446,
+    "logit_lo": -2.2342224055538678,
+    "logit_hi": 0.20756987689417827
+   },
+   "p_intended_vs_alternative_holm": 1.0
+  },
+  "source|forte": {
+   "n": 20,
+   "listeners": 20,
+   "intended": "fuller/stronger",
+   "intended_rate": 0.3,
+   "most_frequent_alternative": "other technique",
+   "alternative_rate": 0.35,
+   "distribution": {
+    "no change": 0.0,
+    "post-processing": 0.05,
+    "breathier": 0.2,
+    "brighter/forceful": 0.0,
+    "rough/creaky": 0.0,
+    "fuller/stronger": 0.3,
+    "softer/lighter": 0.1,
+    "other technique": 0.35,
+    "different singer": 0.0
+   },
+   "any_technique_rate": 0.95,
+   "post_processing_rate": 0.05,
+   "clear_distortion_rate": 0.15,
+   "same_singer_rate": 0.45,
+   "usable_rate": 0.2,
+   "p_intended_vs_alternative": 0.6092443525006433,
+   "glmm": {
+    "logit_mean": -0.17551336958496155,
+    "logit_lo": -1.3657399090319267,
+    "logit_hi": 1.0147131698620036
+   },
+   "p_intended_vs_alternative_holm": 1.0
+  },
+  "source|piano": {
+   "n": 20,
+   "listeners": 20,
+   "intended": "softer/lighter",
+   "intended_rate": 0.45,
+   "most_frequent_alternative": "other technique",
+   "alternative_rate": 0.4,
+   "distribution": {
+    "no change": 0.0,
+    "post-processing": 0.1,
+    "breathier": 0.05,
+    "brighter/forceful": 0.0,
+    "rough/creaky": 0.0,
+    "fuller/stronger": 0.0,
+    "softer/lighter": 0.45,
+    "other technique": 0.4,
+    "different singer": 0.0
+   },
+   "any_technique_rate": 0.9,
+   "post_processing_rate": 0.1,
+   "clear_distortion_rate": 0.05,
+   "same_singer_rate": 0.3,
+   "usable_rate": 0.5,
+   "p_intended_vs_alternative": 0.40418257795725515,
+   "glmm": {
+    "logit_mean": 0.14050208942003226,
+    "logit_lo": -0.9068219190293182,
+    "logit_hi": 1.1878260978693826
+   },
+   "p_intended_vs_alternative_holm": 1.0
+  },
+  "source|vocal_fry": {
+   "n": 20,
+   "listeners": 20,
+   "intended": "rough/creaky",
+   "intended_rate": 0.5,
+   "most_frequent_alternative": "breathier",
+   "alternative_rate": 0.35,
+   "distribution": {
+    "no change": 0.0,
+    "post-processing": 0.0,
+    "breathier": 0.35,
+    "brighter/forceful": 0.0,
+    "rough/creaky": 0.5,
+    "fuller/stronger": 0.0,
+    "softer/lighter": 0.05,
+    "other technique": 0.1,
+    "different singer": 0.0
+   },
+   "any_technique_rate": 1.0,
+   "post_processing_rate": 0.0,
+   "clear_distortion_rate": 0.9,
+   "same_singer_rate": 0.25,
+   "usable_rate": 0.0,
+   "p_intended_vs_alternative": 0.23342713541136273,
+   "glmm": {
+    "logit_mean": 0.4184906258316294,
+    "logit_lo": -0.6384562786803267,
+    "logit_hi": 1.4754375303435856
+   },
+   "p_intended_vs_alternative_holm": 1.0
+  }
+ },
+ "matched_eq": {
+  "adapter|belt": {
+   "n": 40,
+   "listeners": 20,
+   "neural_share_of_decided": 0.9285714285714286,
+   "distribution": {
+    "neural": 0.325,
+    "eq": 0.025,
+    "both": 0.175,
+    "neither": 0.35,
+    "cannot tell": 0.125
+   },
+   "no_difference_rate": 0.525,
+   "would_use": {
+    "neural": 0.175,
+    "eq": 0.0,
+    "either": 0.3,
+    "neither": 0.525
+   },
+   "clear_distortion_neural": 0.0,
+   "clear_distortion_eq": 0.0,
+   "p_neural_vs_eq": 0.007459848152910933,
+   "glmm": {
+    "logit_mean": 2.4368580579052272,
+    "logit_lo": 0.7946732878427585,
+    "logit_hi": 4.079042827967696
+   },
+   "p_neural_vs_eq_holm": 0.014919696305821866
+  },
+  "adapter|breathy": {
+   "n": 40,
+   "listeners": 20,
+   "neural_share_of_decided": 0.7931034482758621,
+   "distribution": {
+    "neural": 0.575,
+    "eq": 0.15,
+    "both": 0.025,
+    "neither": 0.025,
+    "cannot tell": 0.225
+   },
+   "no_difference_rate": 0.225,
+   "would_use": {
+    "neural": 0.35,
+    "eq": 0.15,
+    "either": 0.175,
+    "neither": 0.325
+   },
+   "clear_distortion_neural": 0.0,
+   "clear_distortion_eq": 0.0,
+   "p_neural_vs_eq": 0.010128158994740583,
+   "glmm": {
+    "logit_mean": 2.0868860224877044,
+    "logit_lo": 0.942762332100151,
+    "logit_hi": 3.2310097128752577
+   },
+   "p_neural_vs_eq_holm": 0.014919696305821866
+  },
+  "adapter|forte": {
+   "n": 40,
+   "listeners": 20,
+   "neural_share_of_decided": 0.9714285714285714,
+   "distribution": {
+    "neural": 0.85,
+    "eq": 0.025,
+    "both": 0.0,
+    "neither": 0.025,
+    "cannot tell": 0.1
+   },
+   "no_difference_rate": 0.075,
+   "would_use": {
+    "neural": 0.575,
+    "eq": 0.1,
+    "either": 0.15,
+    "neither": 0.175
+   },
+   "clear_distortion_neural": 0.0,
+   "clear_distortion_eq": 0.0,
+   "p_neural_vs_eq": 3.158894179435217e-05,
+   "glmm": {
+    "logit_mean": 3.2924732034269373,
+    "logit_lo": 1.8311469478537994,
+    "logit_hi": 4.753799459000075
+   },
+   "p_neural_vs_eq_holm": 0.00015794470897176086
+  },
+  "adapter|piano": {
+   "n": 40,
+   "listeners": 20,
+   "neural_share_of_decided": 0.9393939393939394,
+   "distribution": {
+    "neural": 0.775,
+    "eq": 0.05,
+    "both": 0.025,
+    "neither": 0.025,
+    "cannot tell": 0.125
+   },
+   "no_difference_rate": 0.1,
+   "would_use": {
+    "neural": 0.425,
+    "eq": 0.0,
+    "either": 0.2,
+    "neither": 0.375
+   },
+   "clear_distortion_neural": 0.0,
+   "clear_distortion_eq": 0.0,
+   "p_neural_vs_eq": 8.444916268683136e-05,
+   "glmm": {
+    "logit_mean": 2.781788968556785,
+    "logit_lo": 1.5243246854515469,
+    "logit_hi": 4.039253251662023
+   },
+   "p_neural_vs_eq_holm": 0.00033779665074732545
+  },
+  "adapter|vocal_fry": {
+   "n": 40,
+   "listeners": 20,
+   "neural_share_of_decided": 0.8235294117647058,
+   "distribution": {
+    "neural": 0.7,
+    "eq": 0.15,
+    "both": 0.0,
+    "neither": 0.025,
+    "cannot tell": 0.125
+   },
+   "no_difference_rate": 0.075,
+   "would_use": {
+    "neural": 0.325,
+    "eq": 0.2,
+    "either": 0.15,
+    "neither": 0.325
+   },
+   "clear_distortion_neural": 0.05,
+   "clear_distortion_eq": 0.0,
+   "p_neural_vs_eq": 0.0012419732338426054,
+   "glmm": {
+    "logit_mean": 2.1875747689102045,
+    "logit_lo": 1.0080763901075722,
+    "logit_hi": 3.367073147712837
+   },
+   "p_neural_vs_eq_holm": 0.003725919701527816
+  },
+  "guidance|breathy": {
+   "n": 20,
+   "listeners": 20,
+   "neural_share_of_decided": 0.9166666666666666,
+   "distribution": {
+    "neural": 0.55,
+    "eq": 0.05,
+    "both": 0.3,
+    "neither": 0.0,
+    "cannot tell": 0.1
+   },
+   "no_difference_rate": 0.15,
+   "would_use": {
+    "neural": 0.6,
+    "eq": 0.1,
+    "either": 0.25,
+    "neither": 0.05
+   },
+   "clear_distortion_neural": 0.0,
+   "clear_distortion_eq": 0.0,
+   "p_neural_vs_eq": 0.001946208561389314,
+   "glmm": {
+    "logit_mean": 2.2198552454359044,
+    "logit_lo": 0.5430313718075419,
+    "logit_hi": 3.8966791190642667
+   },
+   "p_neural_vs_eq_holm": 0.001946208561389314
+  },
+  "guidance|vocal_fry": {
+   "n": 19,
+   "listeners": 19,
+   "neural_share_of_decided": 0.9285714285714286,
+   "distribution": {
+    "neural": 0.6842105263157895,
+    "eq": 0.05263157894736842,
+    "both": 0.0,
+    "neither": 0.2631578947368421,
+    "cannot tell": 0.0
+   },
+   "no_difference_rate": 0.0,
+   "would_use": {
+    "neural": 0.5263157894736842,
+    "eq": 0.10526315789473684,
+    "either": 0.05263157894736842,
+    "neither": 0.3157894736842105
+   },
+   "clear_distortion_neural": 0.05263157894736842,
+   "clear_distortion_eq": 0.0,
+   "p_neural_vs_eq": 0.0006703205586147392,
+   "glmm": {
+    "logit_mean": 2.368283145300782,
+    "logit_lo": 0.7317076331086312,
+    "logit_hi": 4.004858657492933
+   },
+   "p_neural_vs_eq_holm": 0.0013406411172294783
+  }
+ },
+ "h3": {
+  "stimuli": [
+   {
+    "trial": "I03",
+    "condition": "source",
+    "technique": "vocal_fry",
+    "identification_rate": 0.5,
+    "d_cpp": -0.3064022831717814,
+    "d_hf": 0.5403075918508975
+   },
+   {
+    "trial": "I04",
+    "condition": "source",
+    "technique": "piano",
+    "identification_rate": 0.45,
+    "d_cpp": -0.31942052458974146,
+    "d_hf": 0.9826938463432207
+   },
+   {
+    "trial": "I05",
+    "condition": "guidance",
+    "technique": "forte",
+    "identification_rate": 0.35,
+    "d_cpp": 0.9949358715338263,
+    "d_hf": 9.028086867385234
+   },
+   {
+    "trial": "I06",
+    "condition": "adapter",
+    "technique": "breathy",
+    "identification_rate": 0.45,
+    "d_cpp": -2.558843220176861,
+    "d_hf": 0.08840622361901751
+   },
+   {
+    "trial": "I07",
+    "condition": "adapter",
+    "technique": "vocal_fry",
+    "identification_rate": 0.8,
+    "d_cpp": -2.6400970138983695,
+    "d_hf": -0.23339816562347693
+   },
+   {
+    "trial": "I09",
+    "condition": "real",
+    "technique": "piano",
+    "identification_rate": 0.45,
+    "d_cpp": -2.3492109589364425,
+    "d_hf": -2.6518006111706782
+   },
+   {
+    "trial": "I10",
+    "condition": "adapter",
+    "technique": "forte",
+    "identification_rate": 0.55,
+    "d_cpp": 0.4756680548808454,
+    "d_hf": 5.630950500054464
+   },
+   {
+    "trial": "I11",
+    "condition": "adapter",
+    "technique": "forte",
+    "identification_rate": 0.6,
+    "d_cpp": -0.2984077187796146,
+    "d_hf": 8.80016972193009
+   },
+   {
+    "trial": "I12",
+    "condition": "adapter",
+    "technique": "piano",
+    "identification_rate": 0.2,
+    "d_cpp": -0.8632739885420087,
+    "d_hf": -2.922187031549143
+   },
+   {
+    "trial": "I13",
+    "condition": "adapter",
+    "technique": "belt",
+    "identification_rate": 0.6,
+    "d_cpp": 0.9817810170516204,
+    "d_hf": 8.730063627386624
+   },
+   {
+    "trial": "I14",
+    "condition": "guidance",
+    "technique": "belt",
+    "identification_rate": 0.55,
+    "d_cpp": 0.9209789493153053,
+    "d_hf": 9.50189221846896
+   },
+   {
+    "trial": "I15",
+    "condition": "real",
+    "technique": "belt",
+    "identification_rate": 0.65,
+    "d_cpp": 0.9738836158336355,
+    "d_hf": 13.191312290358105
+   },
+   {
+    "trial": "I16",
+    "condition": "adapter",
+    "technique": "vocal_fry",
+    "identification_rate": 0.3,
+    "d_cpp": -0.7376651859673764,
+    "d_hf": 0.6559298789554191
+   },
+   {
+    "trial": "I17",
+    "condition": "source",
+    "technique": "belt",
+    "identification_rate": 0.2,
+    "d_cpp": 0.14559578038199206,
+    "d_hf": 0.35570725845811424
+   },
+   {
+    "trial": "I19",
+    "condition": "adapter",
+    "technique": "piano",
+    "identification_rate": 0.2,
+    "d_cpp": -0.48213665113873105,
+    "d_hf": -0.3674464118892331
+   },
+   {
+    "trial": "I20",
+    "condition": "real",
+    "technique": "vocal_fry",
+    "identification_rate": 0.9,
+    "d_cpp": -2.0768777402712786,
+    "d_hf": 11.798012947051408
+   },
+   {
+    "trial": "I22",
+    "condition": "real",
+    "technique": "breathy",
+    "identification_rate": 0.55,
+    "d_cpp": -1.9215541952389827,
+    "d_hf": -2.5276388146219873
+   },
+   {
+    "trial": "I23",
+    "condition": "guidance",
+    "technique": "breathy",
+    "identification_rate": 0.5,
+    "d_cpp": -2.0633899606081876,
+    "d_hf": -3.419898673483871
+   },
+   {
+    "trial": "I24",
+    "condition": "adapter",
+    "technique": "forte",
+    "identification_rate": 0.7,
+    "d_cpp": -0.3081857506703862,
+    "d_hf": 5.609960925489215
+   },
+   {
+    "trial": "I25",
+    "condition": "adapter",
+    "technique": "piano",
+    "identification_rate": 0.35,
+    "d_cpp": -1.4772070931641004,
+    "d_hf": -3.30915667095886
+   },
+   {
+    "trial": "I27",
+    "condition": "source",
+    "technique": "breathy",
+    "identification_rate": 0.2,
+    "d_cpp": -0.1376117548486988,
+    "d_hf": -0.773553615540088
+   },
+   {
+    "trial": "I28",
+    "condition": "real",
+    "technique": "belt",
+    "identification_rate": 0.0,
+    "d_cpp": 6.146928619951375,
+    "d_hf": 16.624181836399956
+   },
+   {
+    "trial": "I29",
+    "condition": "real",
+    "technique": "breathy",
+    "identification_rate": 0.65,
+    "d_cpp": -2.1823637868338537,
+    "d_hf": 0.2652179133459711
+   },
+   {
+    "trial": "I30",
+    "condition": "adapter",
+    "technique": "belt",
+    "identification_rate": 0.6,
+    "d_cpp": -0.06392416034352166,
+    "d_hf": 9.43685348839572
+   },
+   {
+    "trial": "I31",
+    "condition": "adapter",
+    "technique": "vocal_fry",
+    "identification_rate": 0.3,
+    "d_cpp": -0.8161178750074747,
+    "d_hf": -0.2956384868328428
+   },
+   {
+    "trial": "I33",
+    "condition": "adapter",
+    "technique": "vocal_fry",
+    "identification_rate": 0.35,
+    "d_cpp": -0.7402888462215813,
+    "d_hf": 2.346559089877772
+   },
+   {
+    "trial": "I34",
+    "condition": "real",
+    "technique": "piano",
+    "identification_rate": 0.2,
+    "d_cpp": 0.6880216270303983,
+    "d_hf": -0.993316129949001
+   },
+   {
+    "trial": "I36",
+    "condition": "adapter",
+    "technique": "belt",
+    "identification_rate": 0.45,
+    "d_cpp": 1.0862207902512822,
+    "d_hf": 10.49663997377575
+   },
+   {
+    "trial": "I39",
+    "condition": "adapter",
+    "technique": "breathy",
+    "identification_rate": 0.25,
+    "d_cpp": -1.206752732122677,
+    "d_hf": -1.7844595261413119
+   },
+   {
+    "trial": "I40",
+    "condition": "adapter",
+    "technique": "forte",
+    "identification_rate": 0.85,
+    "d_cpp": 0.3807190104113758,
+    "d_hf": 6.529573253521971
+   },
+   {
+    "trial": "I41",
+    "condition": "adapter",
+    "technique": "breathy",
+    "identification_rate": 0.6,
+    "d_cpp": -2.4683226203829136,
+    "d_hf": -4.555118725875893
+   },
+   {
+    "trial": "I43",
+    "condition": "adapter",
+    "technique": "belt",
+    "identification_rate": 0.55,
+    "d_cpp": 0.00315715598001276,
+    "d_hf": 12.07625350698336
+   },
+   {
+    "trial": "I45",
+    "condition": "real",
+    "technique": "forte",
+    "identification_rate": 0.2,
+    "d_cpp": 1.0949493769222407,
+    "d_hf": 6.618025277616912
+   },
+   {
+    "trial": "I47",
+    "condition": "source",
+    "technique": "forte",
+    "identification_rate": 0.3,
+    "d_cpp": -0.950222596401531,
+    "d_hf": 1.398225916637724
+   },
+   {
+    "trial": "I49",
+    "condition": "real",
+    "technique": "vocal_fry",
+    "identification_rate": 0.0,
+    "d_cpp": 5.171672815880505,
+    "d_hf": 17.8480923261814
+   },
+   {
+    "trial": "I50",
+    "condition": "guidance",
+    "technique": "vocal_fry",
+    "identification_rate": 0.5,
+    "d_cpp": 0.4058955656190797,
+    "d_hf": 11.293022269429983
+   },
+   {
+    "trial": "I51",
+    "condition": "adapter",
+    "technique": "breathy",
+    "identification_rate": 0.65,
+    "d_cpp": -3.3278648091263214,
+    "d_hf": -5.607422503971794
+   },
+   {
+    "trial": "I52",
+    "condition": "real",
+    "technique": "forte",
+    "identification_rate": 0.25,
+    "d_cpp": 0.603504080176215,
+    "d_hf": 2.0844952496010904
+   },
+   {
+    "trial": "I53",
+    "condition": "adapter",
+    "technique": "piano",
+    "identification_rate": 0.35,
+    "d_cpp": -0.8872183613867861,
+    "d_hf": 1.5110522463292213
+   }
+  ],
+  "spearman_abs_d_cpp": {
+   "rho": 0.0261301032475905,
+   "p": 0.8745355651109854,
+   "n": 39
+  },
+  "spearman_abs_d_hf": {
+   "rho": 0.21656466893917417,
+   "p": 0.1854292862044117,
+   "n": 39
+  }
+ },
+ "note": "Aggregated over all included listeners. Codes in 'demographics': age 1 = 18-22, 2 = 23-29; grp 1 = computing, 2 = creator, 3 = both, 4 = other; mus 1 = none, 2 = under 3 years, 3 = 3 to 10 years; svs 1 = never used singing synthesis or conversion tools, 2 = a few times, 3 = often; out 1 = headphones, 2 = loudspeakers. In 'matched_eq', 'neural' is the controlled output, 'eq' its matched equaliser, 'both' = both like a change of technique, 'neither' = both like post-processing. p values are one-sided Wilcoxon signed-rank tests across listeners, Holm-corrected within each condition; 'glmm' gives the posterior mean and 95% interval on the logit scale."
+}
