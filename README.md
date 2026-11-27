@@ -77,7 +77,17 @@ The preregistration (OSF Registries, osf.io/mky35) is copied in `preregistration
 
 ## Checksums
 
-`SHA256SUMS.txt` lists the SHA-256 of every file in this package.
+To verify the [v1.0.0 ZIP archived on Zenodo](https://doi.org/10.5281/zenodo.24556806), download the [SHA-256 checksum file for the archived release](https://github.com/ShadowbanUser/svc-technique-control/releases/download/v1.0.0/SHA256SUMS-zenodo-v1.0.0.txt). It covers the same 158 files listed in the original `SHA256SUMS.txt`.
+
+The original checksums were calculated from a Windows working copy. For 41 text files, the working copy used CRLF line endings and the archive uses LF. This accounts for all 41 mismatches. The trained adapter and listening-test audio match their original checksums.
+
+Extract the Zenodo ZIP and place the downloaded checksum file in the folder containing `README.md`. From that folder, run the following command in a terminal with `sha256sum` (for example, Git Bash on Windows):
+
+```sh
+sha256sum --check SHA256SUMS-zenodo-v1.0.0.txt
+```
+
+All 158 entries should report `OK`.
 
 ## Contact
 
